@@ -34,12 +34,12 @@ Not actively evaluating. Play a long game — stay visible, let them come to you
 
 ## Scenario A: They Use a Competitor, Haven't Heard of Us
 
-Reference `context/competitor-radar.md` for the relevant battlecard.
+Reference `accounts/<slug>/context/competitor-radar.md` for the relevant battlecard.
 
 **Outreach angle:** Lead with insight about what companies at their stage typically find limiting about [Competitor]. Don't name the competitor directly in the first touch.
 
 ```
-Read context/competitor-radar.md and skills/account-research/SKILL.md.
+Read accounts/<slug>/context/competitor-radar.md and skills/account-research/SKILL.md.
 Research [company.com]. They use [Competitor] based on technographic data.
 Build a first touch for [persona] that uses the competitive angle from the
 battlecard without naming the competitor directly. The hook should reference
@@ -59,7 +59,7 @@ Review the conversation history and any notes from the first call. What dimensio
 
 **Step 2: Pull the relevant battlecard**
 ```
-Read context/competitor-radar.md for the [Competitor] battlecard.
+Read accounts/<slug>/context/competitor-radar.md for the [Competitor] battlecard.
 What are the 2-3 most relevant differentiators for an account that cares
 most about [dimension from conversation]?
 ```
@@ -86,7 +86,7 @@ A prospect at [company] left a [2-3 star] review of [Competitor] mentioning
 2. Connects that pain to what we solve
 3. Keeps it short — this is a warm signal, not a cold pitch
 
-Reference context/competitor-radar.md for our angle vs. [Competitor].
+Reference accounts/<slug>/context/competitor-radar.md for our angle vs. [Competitor].
 ```
 
 ---
@@ -105,7 +105,7 @@ Approach:
 ```
 [Contact] is under contract with [Competitor] until approximately [date].
 Write a short note that provides genuine value around [relevant topic to their role]
-with no CTA beyond continuing the conversation. Reference context/profile.md
+with no CTA beyond continuing the conversation. Reference accounts/<slug>/context/profile.md
 for our positioning. No pitch. No meeting ask.
 ```
 
@@ -113,7 +113,7 @@ for our positioning. No pitch. No meeting ask.
 
 ## Competitive Intelligence — Keep the Battlecards Current
 
-After every competitive win or loss, update `context/competitor-radar.md`:
+After every competitive win or loss, update `accounts/<slug>/context/competitor-radar.md`:
 
 - **Win:** What was the deciding factor? What did the champion say closed it?
 - **Loss:** What did [Competitor] offer that we couldn't match? Was it price, features, relationships, or timing?

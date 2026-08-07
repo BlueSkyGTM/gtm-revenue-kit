@@ -165,16 +165,16 @@ the file it faults and the fix. The operator decides what ships.
 
 A buyer's positioning set is complete when all seven artifacts exist and cross-reference. Paths
 below are relative to `accounts/<slug>/`; a track writes items 1, 2, 4, 5, and 6 under
-`context/tracks/<track-slug>/` instead.
+`accounts/<slug>/context/tracks/<track-slug>/` instead.
 
 | # | Artifact | Home |
 |---|---|---|
-| 1 | Alternative map / battlecards | `context/competitor-radar.md` |
-| 2 | Beachhead + core statement | `context/positioning.md` |
-| 3 | Champion persona(s) | `context/personas/` |
-| 4 | Value pillars w/ proof or `[PROOF GAP]` | `context/positioning.md` |
-| 5 | Messaging house | `context/messaging-house.md` |
-| 6 | Per-channel projection | `context/messaging-house.md` → assets in `outputs/` |
+| 1 | Alternative map / battlecards | `accounts/<slug>/context/competitor-radar.md` |
+| 2 | Beachhead + core statement | `accounts/<slug>/context/positioning.md` |
+| 3 | Champion persona(s) | `accounts/<slug>/context/personas/` |
+| 4 | Value pillars w/ proof or `[PROOF GAP]` | `accounts/<slug>/context/positioning.md` |
+| 5 | Messaging house | `accounts/<slug>/context/messaging-house.md` |
+| 6 | Per-channel projection | `accounts/<slug>/context/messaging-house.md` → assets in `outputs/` |
 | 7 | A dated audit run | `outputs/audits/` |
 
 Anything less, and `workflows/campaign-build.md` fails the campaign back here before Phase 1.

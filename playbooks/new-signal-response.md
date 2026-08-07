@@ -15,9 +15,9 @@ A Tier 1 or Tier 2 signal fires on an account in your ICP.
 Before doing anything else, confirm the signal is real and the account is qualified.
 
 - [ ] Is the signal genuine? (Not a duplicate, not a data error)
-- [ ] Is the account ICP-qualified? (Check against `context/icp-definition.md`)
+- [ ] Is the account ICP-qualified? (Check against `accounts/<slug>/context/icp-definition.md`)
 - [ ] Is the account currently suppressed? (Existing customer, active opportunity, recent contact, unsubscribe)
-- [ ] Is the signal fresh? (Within the recency window defined in `context/signal-library.md`)
+- [ ] Is the signal fresh? (Within the recency window defined in `accounts/<slug>/context/signal-library.md`)
 
 If any check fails: log the signal, do not proceed.
 
@@ -25,7 +25,7 @@ If any check fails: log the signal, do not proceed.
 
 ## Step 2: Score the Account (10 min)
 
-Run ICP Scoring skill or calculate manually using `context/signal-library.md`.
+Run ICP Scoring skill or calculate manually using `accounts/<slug>/context/signal-library.md`.
 
 ```
 Read skills/icp-scoring/SKILL.md and score [company] given that the [signal name]
@@ -49,13 +49,13 @@ Record the score and tier in CRM.
 ```
 Read skills/account-research/SKILL.md and research [company.com].
 Signal context: [signal name] fired [X] days ago.
-Save output to outputs/[date]-[company]-research.md
+Save output to accounts/<slug>/outputs/[date]-[company]-research.md
 ```
 
 ### 2b. Identify the Right Contact
 
 From the research output, select the primary contact. Criteria:
-- Closest match to target persona (reference `context/personas/`)
+- Closest match to target persona (reference `accounts/<slug>/context/personas/`)
 - Verified email or LinkedIn reachable
 - No previous contact in last 45 days
 
@@ -64,8 +64,8 @@ From the research output, select the primary contact. Criteria:
 Don't use a template. This is Tier 1 — it should read like you wrote it specifically for them.
 
 ```
-Read the research at outputs/[date]-[company]-research.md and
-context/signal-library.md.
+Read the research at accounts/<slug>/outputs/[date]-[company]-research.md and
+accounts/<slug>/context/signal-library.md.
 
 Write a first touch email for [contact name] at [company].
 The signal is [signal name]. Use the message hook from the signal library
@@ -91,7 +91,7 @@ the message should contain an insight they don't already have.
 
 ### 2a. Find the matching campaign
 
-Check `outputs/campaigns/` for an existing campaign that matches this signal and persona. If one exists and is still active, add the contact to it.
+Check `accounts/<slug>/outputs/campaigns/` for an existing campaign that matches this signal and persona. If one exists and is still active, add the contact to it.
 
 If no matching campaign exists:
 ```

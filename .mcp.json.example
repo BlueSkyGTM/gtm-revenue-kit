@@ -1,0 +1,13 @@
+{
+  "_comment_1": "COPY THIS TO .mcp.json AND FILL IN YOUR OWN. .mcp.json is gitignored and must never be committed.",
+  "_comment_2": "The send tool is deliberately not wired in this repo. A committed wiring would hand every session an authenticated sender pointed at somebody's real account. See DIVERGENCE.md E2.",
+  "_comment_3": "Set the key in your environment, never in this file. Suppression runs before every batch: the account's optouts.md plus whatever sources its ACCOUNT.md declares.",
+  "mcpServers": {
+    "your-send-tool": {
+      "url": "https://mcp.example.com/mcp",
+      "headers": {
+        "Authorization": "${YOUR_SEND_TOOL_API_KEY}"
+      }
+    }
+  }
+}

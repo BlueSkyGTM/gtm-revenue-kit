@@ -26,3 +26,20 @@ outputs/raw/
 # Sync script live data outputs (contain metrics, not committed)
 outputs/campaigns/**/results-sync.json
 context/signal-performance-sync.json
+
+# --- Multi-account additions ---
+
+# Live MCP wiring: the send tool is never committed (DIVERGENCE.md E2)
+.mcp.json
+
+# Per-account sensitive outputs: raw contact data never enters git
+accounts/**/outputs/lists/
+accounts/**/outputs/raw/
+accounts/**/*.csv
+accounts/**/_*.json
+accounts/**/outputs/campaigns/**/results-sync.json
+accounts/**/context/signal-performance-sync.json
+
+# Python
+__pycache__/
+*.pyc
