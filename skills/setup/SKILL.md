@@ -2,17 +2,49 @@
 
 **Duration:** 15–30 minutes (including your review)
 **Run once:** When you first clone this repo
-**Output:** All context files pre-populated, CLAUDE.md ready to use
+**Output:** All context files pre-populated, ACCOUNT.md ready to use
+
+> **Runs against one named account.** Every `accounts/<slug>/` path below resolves inside
+> that account's folder. If the account was not named in the request, ask before reading
+> anything — loading one account's context under another's name produces confident answers
+> from the wrong buyer's facts, and nothing about the output looks wrong.
+>
+> **Read exactly what Inputs names, and nothing else.** Never bulk-load `context/` or
+> `outputs/` (`docs/loading.md`). Every number this skill needs lives in the account's
+> `context/scoring-model.md`, never in this file (`docs/isolation.md` §2).
 
 ---
 
 ## Quick Start
 
 ```
-Read skills/setup/SKILL.md and set up this repo for [your-domain.com]
+Read skills/setup/SKILL.md and set up an account for [domain.com] as [slug]
 ```
 
-That's it. Claude will research your company, pre-fill every context file with real data, ask you 5 targeted questions for what it couldn't find publicly, and write the full repo in one shot.
+That's it. Claude will create the account folder, research the company, pre-fill every
+context file with real data, ask you 5 targeted questions for what it could not find
+publicly, and write the whole account in one shot.
+
+---
+
+## Step 0: Create the account folder
+
+**Before any research.** This skill stands up a new tenant, so the folder has to exist and
+the slug has to be settled first.
+
+1. **Settle the slug.** Lowercase, hyphenated, stable — it appears in every path forever, so
+   pick the durable name, not the current campaign's name. Confirm it with the operator if
+   it was not given.
+2. **Check it is free.** If `accounts/<slug>/` already exists, stop and ask: re-running
+   setup over a configured account overwrites work. Configuring an existing account is a
+   `weekly-update` job, not a setup job.
+3. **Copy the scaffold:** `accounts/_template/` → `accounts/<slug>/`. Never work inside
+   `_template/` itself — it is the stamp, and editing it corrupts every future account.
+4. **Fill the identity block** at the top of `accounts/<slug>/ACCOUNT.md`: slug, tier
+   (`docs/tiers.md`), status `scaffolded`, operator, principal.
+
+Everything below writes inside `accounts/<slug>/`. Nothing this skill does touches core or
+another account (`docs/isolation.md`).
 
 ---
 
@@ -84,24 +116,24 @@ Do not write placeholder text — every field should have a real value or a clea
 
 Write files in this order:
 
-### 1. `context/profile.md`
+### 1. `accounts/<slug>/context/profile.md`
 Fill with: company overview from research, product description, deal profile inferred from customer base and pricing page (mark as `[inferred]`), reference customers from public case studies.
 
-### 2. `context/icp-definition.md`
+### 2. `accounts/<slug>/context/icp-definition.md`
 Fill with:
 - Tier 1: the highest-fit segment you can infer from their positioning and customer base
 - Tier 2: adjacent segments visible from their customer base
 - Anti-ICP: infer from their positioning — who do they explicitly not target? Mark as `[inferred]` if not confirmed
 - ICP evolution log: one entry dated today — "Initial definition from setup. Based on public positioning. Validate against first 90 days of scored accounts."
 
-### 3. `context/signal-library.md`
+### 3. `accounts/<slug>/context/signal-library.md`
 Fill with:
 - 3 Tier 1 signals: infer from hiring patterns, funding events, and job postings visible in research. Structure each with definition, detection method (Clay/LinkedIn/Crunchbase where applicable), point value, decay curve, and message hook. Mark as `[inferred]` — these will be replaced in the refinement pass if the user has better ones
 - 2 Tier 2 signals: infer from what you know about the company type — hiring signals, tech stack signals, or intent signals that typically apply to their category
 - Signal combinations: at least 1 combination using the signals above
 - Performance log: empty table with column headers, ready to fill
 
-### 4. `context/positioning.md`
+### 4. `accounts/<slug>/context/positioning.md`
 Fill with:
 - Core positioning statement: extracted from their homepage and pricing page
 - Value pillars: 2–3 based on what they emphasize publicly (use their own language as a starting point, note where proof points are needed)
@@ -109,21 +141,46 @@ Fill with:
 - What not to say: infer from their positioning — what category do they want to avoid being lumped into?
 - Reference customers: from public case studies
 
-### 5. `context/competitor-radar.md`
+### 5. `accounts/<slug>/context/competitor-radar.md`
 Fill with:
 - Top 3 competitors from research
 - For each: what you infer about when they win vs. lose (based on G2 reviews, positioning language, question 5 answer)
 - Note explicitly: "Win/loss patterns below are inferred from public data. Update after first 3 competitive deals."
 
-### 6. `context/personas/`
+### 6. `accounts/<slug>/context/personas/`
 Create one file per persona identified in research (2–3 personas). For each:
 - Title, seniority, decision role
 - What they measure themselves on (infer from job postings and G2 reviews)
 - What gets their attention (infer from the content they engage with publicly)
 - Outreach hooks: one hook per signal from the signal library
 
-### 7. `CLAUDE.md`
-Fill with all of the above — ICP summary, top 3 signals, persona table, positioning summary, current week's priorities from question 4.
+### 7. `accounts/<slug>/context/scoring-model.md`
+**Every number the engine will use for this account.** Core skills carry no values, so an
+account without this file cannot be scored (`docs/isolation.md` §2).
+
+Fill with:
+- §1 dimension weights — start from the defaults in `docs/standards.md` unless the research
+  gives a reason to differ, and say which you did
+- §2 per-attribute points, from the ICP dimensions you just wrote
+- §3 signal values, matching the signals in `signal-library.md` one for one
+- §4 tier bands · §6 decay (the standard curve unless there is a reason) · §7 reachability
+- §5 segments only if this buyer genuinely splits by motive — leave it empty otherwise
+  rather than inventing a split
+
+Mark every value `[inferred]`. These are a **reversible hypothesis** until reply data lands,
+and the calibration log (§8) is where that gets corrected. Say so to the operator plainly:
+the weights are a starting position, not a measurement.
+
+### 8. `accounts/<slug>/optouts.md`
+Fill only the standing-suppression rows — anything this account must never contact by rule
+(existing clients, a partner's roster, a conflicting track). The ledger itself starts empty.
+
+### 9. `ACCOUNT.md`
+Fill with all of the above — identity block, ICP summary, top 3 signals, persona table,
+positioning summary, sending and suppression sources, and current priorities from question 4.
+
+Leave `brand/` alone: the branding lab fills it, and hand-written placeholders there would
+be mistaken for real voice rules by the copy linter.
 
 ---
 
@@ -136,13 +193,13 @@ Setup complete for [Company].
 
 Here's what was written from public data:
 
-- CLAUDE.md — full context layer
-- context/profile.md — company overview, product, [N] reference customers
-- context/icp-definition.md — [N] tiers inferred from customer base and positioning
-- context/signal-library.md — [N] signals with detection methods
-- context/positioning.md — value pillars, messaging matrix, competitive summary
-- context/competitor-radar.md — [N] competitors with inferred win/loss patterns
-- context/personas/ — [N] personas: [titles]
+- ACCOUNT.md — full context layer
+- accounts/<slug>/context/profile.md — company overview, product, [N] reference customers
+- accounts/<slug>/context/icp-definition.md — [N] tiers inferred from customer base and positioning
+- accounts/<slug>/context/signal-library.md — [N] signals with detection methods
+- accounts/<slug>/context/positioning.md — value pillars, messaging matrix, competitive summary
+- accounts/<slug>/context/competitor-radar.md — [N] competitors with inferred win/loss patterns
+- accounts/<slug>/context/personas/ — [N] personas: [titles]
 
 Fields marked [inferred] are Claude's best guess from public data.
 They're good enough to run skills against — but may not reflect your actual win patterns.
@@ -188,14 +245,14 @@ Ask exactly these 5 questions in a single message. Do not split them across mult
    A competitor you're seeing in most deals, or an angle that's been working?
 ```
 
-After receiving the answers, update every relevant file — replace `[inferred]` fields with confirmed data, add anti-ICP to the ICP definition, update signal library with the signals they named, update CLAUDE.md priorities. Then confirm what changed:
+After receiving the answers, update every relevant file — replace `[inferred]` fields with confirmed data, add anti-ICP to the ICP definition, update signal library with the signals they named, update ACCOUNT.md priorities. Then confirm what changed:
 
 ```
 Updated with your answers:
 
-- context/icp-definition.md — anti-ICP added, Tier 1 criteria sharpened
-- context/signal-library.md — replaced inferred signals with your 3 named signals
-- CLAUDE.md — priorities updated
+- accounts/<slug>/context/icp-definition.md — anti-ICP added, Tier 1 criteria sharpened
+- accounts/<slug>/context/signal-library.md — replaced inferred signals with your 3 named signals
+- ACCOUNT.md — priorities updated
 - [any other files that changed]
 
 All [inferred] flags removed from updated fields.
@@ -211,7 +268,7 @@ Before presenting the summary, verify:
 - [ ] No file contains lorem ipsum, "TBD", or generic placeholder text
 - [ ] Every signal has a detection method (not just a description)
 - [ ] Every persona has at least one outreach hook
-- [ ] CLAUDE.md is scannable in under 2 minutes
+- [ ] ACCOUNT.md is scannable in under 2 minutes
 - [ ] The ICP definition is specific enough that two people would build the same list from it independently
 - [ ] Anti-ICP has at least 3 explicit exclusions
 

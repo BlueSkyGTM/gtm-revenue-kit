@@ -4,6 +4,15 @@
 **Cadence:** Weekly (Monday morning recommended)
 **Output:** Updated context files + a brief change log entry
 
+> **Runs against one named account.** Every `accounts/<slug>/` path below resolves inside
+> that account's folder. If the account was not named in the request, ask before reading
+> anything — loading one account's context under another's name produces confident answers
+> from the wrong buyer's facts, and nothing about the output looks wrong.
+>
+> **Read exactly what Inputs names, and nothing else.** Never bulk-load `context/` or
+> `outputs/` (`docs/loading.md`). Every number this skill needs lives in the account's
+> `context/scoring-model.md`, never in this file (`docs/isolation.md` §2).
+
 ---
 
 ## Quick Start
@@ -28,12 +37,12 @@ The output is a set of proposed edits, not final commits. You review, adjust, ap
 
 Before producing any output, Claude reads:
 
-1. `CLAUDE.md` — current priorities, active campaigns, team focus
-2. `context/signal-library.md` — signal performance log and last-updated date
-3. `context/icp-definition.md` — ICP evolution log and last-updated date
-4. `context/competitor-radar.md` — win/loss patterns and last-updated date
-5. All files in `outputs/campaigns/` — active campaigns and their results tables
-6. Any files in `outputs/` dated in the last 14 days
+1. `ACCOUNT.md` — current priorities, active campaigns, team focus
+2. `accounts/<slug>/context/signal-library.md` — signal performance log and last-updated date
+3. `accounts/<slug>/context/icp-definition.md` — ICP evolution log and last-updated date
+4. `accounts/<slug>/context/competitor-radar.md` — win/loss patterns and last-updated date
+5. All files in `accounts/<slug>/outputs/campaigns/` — active campaigns and their results tables
+6. Any files in `accounts/<slug>/outputs/` dated in the last 14 days
 
 ---
 
@@ -45,7 +54,7 @@ Flag any of the following:
 
 | File / Section | Stale if... |
 |---------------|-------------|
-| `CLAUDE.md` → Current priorities | Not updated in the last 7 days |
+| `ACCOUNT.md` → Current priorities | Not updated in the last 7 days |
 | Signal performance log | A campaign has been live for 14+ days with no results recorded |
 | Campaign results table | Campaign is live but results rows are empty or older than 7 days |
 | Competitor radar | Last updated more than 60 days ago |
@@ -76,11 +85,11 @@ QUESTIONS FOR YOU:
 
 Work through each stale section in order of impact:
 
-### 2a. CLAUDE.md — Current Priorities
+### 2a. ACCOUNT.md — Current Priorities
 
 Draft a new "Current priorities" block based on:
-- Which campaigns are currently live (from `outputs/campaigns/`)
-- What signals are active (from `context/signal-library.md`)
+- Which campaigns are currently live (from `accounts/<slug>/outputs/campaigns/`)
+- What signals are active (from `accounts/<slug>/context/signal-library.md`)
 - What was in last week's priorities (carry forward anything still relevant)
 
 Then ask:
@@ -100,7 +109,7 @@ Flag: if a signal has 30+ sends with no meetings booked, note it explicitly. Tha
 
 ### 2c. Active Campaign Results
 
-For each campaign in `outputs/campaigns/` with a live results table:
+For each campaign in `accounts/<slug>/outputs/campaigns/` with a live results table:
 - Identify the most recent row
 - Note if it hasn't been updated in 7+ days
 - Draft a placeholder row for this week with the date filled in and metrics as `[update]`
@@ -109,7 +118,7 @@ Ask: what are the current reply, meeting, and pipeline numbers for each live cam
 
 ### 2d. Competitor Radar (if stale)
 
-If `context/competitor-radar.md` hasn't been updated in 60+ days:
+If `accounts/<slug>/context/competitor-radar.md` hasn't been updated in 60+ days:
 - Flag it
 - Ask: any competitive deals won or lost since the last update? Any new objections you're hearing that aren't in the battlecard?
 
@@ -137,7 +146,7 @@ Do not apply changes until the user confirms. Do not invent performance data —
 
 ## Output
 
-No separate output file. Changes are applied directly to the relevant context files. Add a one-line entry to `outputs/weekly-log.md` (create it if it doesn't exist):
+No separate output file. Changes are applied directly to the relevant context files. Add a one-line entry to `accounts/<slug>/outputs/weekly-log.md` (create it if it doesn't exist):
 
 ```
 YYYY-MM-DD: Updated [list of files changed]. [One sentence on the most significant change.]

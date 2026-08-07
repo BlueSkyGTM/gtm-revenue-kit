@@ -1,7 +1,16 @@
 # Skill: ICP Scoring
 
 **Duration:** 15–30 minutes per account (or run in batch)
-**Output:** ICP score + tier assignment saved to CRM or `outputs/scoring/`
+**Output:** ICP score + tier assignment saved to CRM or `accounts/<slug>/outputs/scoring/`
+
+> **Runs against one named account.** Every `accounts/<slug>/` path below resolves inside
+> that account's folder. If the account was not named in the request, ask before reading
+> anything — loading one account's context under another's name produces confident answers
+> from the wrong buyer's facts, and nothing about the output looks wrong.
+>
+> **Read exactly what Inputs names, and nothing else.** Never bulk-load `context/` or
+> `outputs/` (`docs/loading.md`). Every number this skill needs lives in the account's
+> `context/scoring-model.md`, never in this file (`docs/isolation.md` §2).
 
 ---
 
@@ -14,7 +23,7 @@ Read skills/icp-scoring/SKILL.md and score [company.com] against our ICP
 
 Batch:
 ```
-Read skills/icp-scoring/SKILL.md and context/icp-definition.md.
+Read skills/icp-scoring/SKILL.md and accounts/<slug>/context/icp-definition.md.
 Score these companies and output a table sorted by score, Tier 1 flagged:
 [paste list of company names or domains]
 ```
@@ -53,60 +62,63 @@ After a quarterly re-score, pull the delta: which accounts moved tiers? Accounts
 ## Inputs
 
 - Account name, domain, and available firmographic/technographic data
-- `context/icp-definition.md` — scoring criteria and tier definitions
-- `context/signal-library.md` — signal scores to add on top of ICP fit
+- `accounts/<slug>/context/scoring-model.md` — **every number this skill uses**: dimension weights, per-attribute points, signal values, tier bands, decay, reachability
+- `accounts/<slug>/context/icp-definition.md` — what each criterion means for this buyer
+- `accounts/<slug>/context/signal-library.md` — signal definitions, detection, which signals are exempt from decay
 
 ---
 
 ## Scoring Model
 
-### Part 1: ICP Fit Score (0–70 points)
+**This section is mechanism. It contains no values on purpose** (`docs/isolation.md` §2).
+Read the account's `context/scoring-model.md` for every number, and score from that file —
+never from the defaults shown here, and never from memory of another account.
 
-Measure how well the account matches your ideal customer profile.
+Two accounts may score the same company differently and both be right. That is the design.
 
-#### Firmographic Fit (0–30 points)
+### Step 0: Reachability, before anything else
 
-| Criterion | Points | How to assess |
-|-----------|--------|---------------|
-| Employee count in range | 0–10 | [Your range from ICP definition] |
-| Industry match | 0–10 | Primary = 10, Secondary = 5, Other = 0 |
-| Funding stage match | 0–10 | Ideal stage = 10, Adjacent = 5, Outside = 0 |
+Read `scoring-model.md` §7. An account whose state is `dead` is not scored — it is excluded
+with the cause recorded. A brief on a dead account is worse than no brief: it is expensive,
+it looks authoritative, and it sends.
 
-#### Technographic Fit (0–20 points)
+### Step 1: Fit dimensions
 
-| Criterion | Points | How to assess |
-|-----------|--------|---------------|
-| Uses [key integration tool] | 0–10 | Confirms workflow match |
-| Uses [secondary tool] | 0–5 | Confirms sophistication level |
-| No [disqualifying tool] | 0–5 | Absence of competitive blocker |
+The composite is the sum of the fit dimensions plus the signal dimension. The account's
+`scoring-model.md` §1 defines which dimensions exist and each one's maximum contribution;
+§2 defines the per-attribute points inside them.
 
-#### Organizational Fit (0–20 points)
+*Typical shape, for orientation only — the account file governs:*
 
-| Criterion | Points | How to assess |
-|-----------|--------|---------------|
-| Has [key role/function] | 0–10 | Confirms decision-maker exists |
-| [Role] hired in last 12 months | 0–5 | New leader = change appetite |
-| Hiring for [relevant role] | 0–5 | Active investment in function |
+| Dimension | Common max | Measures |
+|---|---|---|
+| Firmographic | 30 | size, geography, industry, stage |
+| Technographic | 20 | what they run on, at what level |
+| Organizational | 20 | team shape, who owns the problem |
+| Signal / intent | 30 | dated events predicting readiness |
 
----
+For each attribute, award the points the account's map assigns to the observed value. Where
+a value is unknown, award nothing and mark the field unenriched — never estimate. An
+inferred point is indistinguishable from an observed one once it is in the total, and the
+whole list inherits the error.
 
-### Part 2: Signal Score (0–30 points)
+### Step 2: Signal score
 
-Add points for active signals from `context/signal-library.md`. Reference the point values defined there.
+Award the values in `scoring-model.md` §3 for each active signal, then apply the decay
+multiplier from §6 based on the signal's age. Signals the account marks as standing states
+rather than dated events do not decay — `signal-library.md` says which.
 
-**Note:** Signal scores decay over time. Apply the decay multipliers from `context/signal-library.md` — a signal at 91–180 days is worth 25% of its original value; at 180+ days it expires entirely.
+Apply combination bonuses from §3 only where the account defines them. Two signals firing
+is not automatically worth more than the sum.
 
----
+### Step 3: Tier
 
-### Total Score Interpretation
+Read the bands from `scoring-model.md` §4. A tier is a budget decision before it is a
+priority decision: it sets research depth and touch count (`docs/standards.md`).
 
-| Total | Tier | Action |
-|-------|------|--------|
-| 80–100 | Tier 1 | Immediate outreach, full research (run Account Research skill), assign to AE |
-| 60–79 | Tier 2 | Signal-triggered sequence within 48 hours |
-| 40–59 | Tier 3 | Add to automated sequence |
-| 20–39 | Tier 4 | Monitor, re-score in 90 days |
-| 0–19 | Exclude | Remove from active list |
+Then read §5. If the account defines motive segments, the segment sets the message frame
+and the rank never does — and a message class the account marks suppressed for that segment
+must not be used, whatever the score.
 
 ---
 
@@ -120,7 +132,7 @@ When scoring a large list (50+ accounts), structure the output as a table:
 
 Instruct Claude:
 ```
-Read skills/icp-scoring/SKILL.md and context/icp-definition.md.
+Read skills/icp-scoring/SKILL.md and accounts/<slug>/context/icp-definition.md.
 Score the accounts in [file or pasted list].
 Output a scored table sorted by total score descending.
 Flag any accounts scoring 80+ for immediate follow-up.

@@ -157,7 +157,7 @@ Use these to calibrate expectations and catch underperformance early.
 
 ## Campaign Archive
 
-Every completed campaign gets archived in `outputs/campaigns/` with:
+Every completed campaign gets archived in `accounts/<slug>/outputs/campaigns/` with:
 - Original brief
 - Final sequence copy
 - Performance results

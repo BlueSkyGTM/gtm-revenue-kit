@@ -1,7 +1,16 @@
 # Skill: Account Research
 
 **Duration:** 20–40 minutes per account
-**Output:** `outputs/[date]-[account]-research.md`
+**Output:** `accounts/<slug>/outputs/[date]-[account]-research.md`
+
+> **Runs against one named account.** Every `accounts/<slug>/` path below resolves inside
+> that account's folder. If the account was not named in the request, ask before reading
+> anything — loading one account's context under another's name produces confident answers
+> from the wrong buyer's facts, and nothing about the output looks wrong.
+>
+> **Read exactly what Inputs names, and nothing else.** Never bulk-load `context/` or
+> `outputs/` (`docs/loading.md`). Every number this skill needs lives in the account's
+> `context/scoring-model.md`, never in this file (`docs/isolation.md` §2).
 
 ---
 
@@ -33,10 +42,10 @@ Build a complete intelligence brief on a target account before any outreach. The
 ## Inputs
 
 - Account name and domain
-- `context/icp-definition.md` — to score fit
-- `context/signal-library.md` — to check for active signals
-- `context/competitor-radar.md` — to flag competitive context
-- `context/personas/` — to identify the right stakeholders
+- `accounts/<slug>/context/icp-definition.md` — to score fit
+- `accounts/<slug>/context/signal-library.md` — to check for active signals
+- `accounts/<slug>/context/competitor-radar.md` — to flag competitive context
+- `accounts/<slug>/context/personas/` — to identify the right stakeholders
 
 ---
 
@@ -58,7 +67,7 @@ Sources: LinkedIn, Crunchbase, BuiltWith, their own blog and changelog.
 
 ### Step 2: Stakeholder Map (10 min)
 
-Identify the 2–3 people to reach. Reference `context/personas/` for titles and roles to target.
+Identify the 2–3 people to reach. Reference `accounts/<slug>/context/personas/` for titles and roles to target.
 
 For each stakeholder:
 - Full name and current title
@@ -71,7 +80,7 @@ For each stakeholder:
 
 ### Step 3: Signal Check (5 min)
 
-Reference `context/signal-library.md`. For each Tier 1 and Tier 2 signal:
+Reference `accounts/<slug>/context/signal-library.md`. For each Tier 1 and Tier 2 signal:
 
 - Is this signal present for this account?
 - When did it fire?
@@ -84,7 +93,7 @@ If score < 40: note the gap and flag what would change the picture.
 
 ### Step 4: Competitive Context (5 min)
 
-Reference `context/competitor-radar.md`.
+Reference `accounts/<slug>/context/competitor-radar.md`.
 
 - Is there any evidence they use a competitor? (Job postings, tech stack, content)
 - If yes: which competitive angle applies?

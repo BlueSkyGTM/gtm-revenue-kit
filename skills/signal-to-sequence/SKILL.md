@@ -1,7 +1,16 @@
 # Skill: Signal to Sequence
 
 **Duration:** 2–4 hours per campaign
-**Output:** `outputs/campaigns/[date]-[campaign-name]/`
+**Output:** `accounts/<slug>/outputs/campaigns/[date]-[campaign-name]/`
+
+> **Runs against one named account.** Every `accounts/<slug>/` path below resolves inside
+> that account's folder. If the account was not named in the request, ask before reading
+> anything — loading one account's context under another's name produces confident answers
+> from the wrong buyer's facts, and nothing about the output looks wrong.
+>
+> **Read exactly what Inputs names, and nothing else.** Never bulk-load `context/` or
+> `outputs/` (`docs/loading.md`). Every number this skill needs lives in the account's
+> `context/scoring-model.md`, never in this file (`docs/isolation.md` §2).
 
 ---
 
@@ -37,11 +46,11 @@ The output of this skill is not a rough draft. It is a sequence ready to load in
 
 ## Inputs
 
-- Target signal(s) from `context/signal-library.md`
-- ICP tier for this campaign from `context/icp-definition.md`
-- Persona(s) being targeted from `context/personas/`
-- Competitive context from `context/competitor-radar.md` (if relevant)
-- Company profile from `context/profile.md`
+- Target signal(s) from `accounts/<slug>/context/signal-library.md`
+- ICP tier for this campaign from `accounts/<slug>/context/icp-definition.md`
+- Persona(s) being targeted from `accounts/<slug>/context/personas/`
+- Competitive context from `accounts/<slug>/context/competitor-radar.md` (if relevant)
+- Company profile from `accounts/<slug>/context/profile.md`
 
 ---
 
@@ -246,7 +255,7 @@ Define success before launch. Set targets by tier:
 ## Output Structure
 
 ```
-outputs/campaigns/[date]-[campaign-name]/
+accounts/<slug>/outputs/campaigns/[date]-[campaign-name]/
 ├── brief.md          ← Trigger logic, segments, objectives
 ├── sequences/
 │   ├── tier1.md      ← Full sequence copy, Tier 1
