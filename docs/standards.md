@@ -13,7 +13,7 @@ Mandatory for Tier 1 and Tier 2 first touches. The test is mechanical: delete th
 line, read what remains, and ask whether a stranger would be glad they read it.
 
 What fails the test, reliably:
-- A fact they already know, said back to them ("I see you use QuickBooks")
+- A fact they already know, said back to them ("I see you use [their obvious tool]")
 - A compliment as an opener
 - A question whose only purpose is to start a reply chain
 - Anything whose value is contingent on them booking a call

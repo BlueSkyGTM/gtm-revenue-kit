@@ -36,8 +36,7 @@ gtm-kit-pro/
 │  ── ACCOUNTS: the tenants. Each is one instance of the engine. ──
 └── accounts/
     ├── _template/    ← the tenant scaffold. Copy it; never work inside it.
-    ├── fenton/       ← account one
-    └── ...
+    └── <slug>/       ← one folder per account. `ls accounts/` is the live list.
 ```
 
 **An account is a kit instance.** `accounts/<slug>/` has the shape the upstream kit's root

@@ -46,5 +46,8 @@ destroy the one property that makes them worth keeping. The live `context/` file
 rewired; these were not.
 
 So when an older output points at `context/icp-definition-white-label.md`, read
-`context/tracks/white-label/icp-definition.md`. When it points at `books/` or another
-workspace, that path lives in the host repo and is not part of this account.
+`context/tracks/white-label/icp-definition.md`. When it points anywhere outside this account
+— `books/`, another workspace, `_archive/`, `tasks/` — that path belongs to the host repo,
+and some of those targets were already deleted there before this transfer. Treat such a
+reference as a citation to a document that existed on the date of the file, not as a live
+link. Do not go looking for it here.
