@@ -21,6 +21,10 @@ path means the named account's folder under `accounts/`.
 | Someone asked to be removed | `accounts/<slug>/optouts.md` | Append-only, permanent, legal. Never delete a row |
 | Check copy against the account's rules | `tools/lint_copy.py` | Reads the account's own rules; a gate, not a review |
 | How the team operates end to end | `workflows/` | Human process docs, not execution instructions |
+| Build a list from the market down (no signal yet) | `workflows/tam-campaign.md` | The market-led complement to signal-led `campaign-build.md` |
+| Enrichment and scraping technique patterns | `workflows/enrichment-techniques.md` | Extends `workflows/enrichment.md`; cost model, API patterns, four scraping patterns |
+| Pick a play for a signal or a buyer moment | `playbooks/plays/README.md` | The signal-play library — 15 recipes; a play activates for an account by adding its signal to that account's `signal-library.md` |
+| Choose or tune an outreach channel | `playbooks/channels/README.md` | Cold email · cold calls · LinkedIn ABM · micro-lists |
 | A specific situation (signal fired, competitor switch, positioning build) | `playbooks/` | `playbooks/dormant/` holds methods no active motion uses yet |
 | What may load with what | `docs/loading.md` | The two-rule-systems discipline |
 | Why core may not name a company | `docs/isolation.md` | The swap test and the account boundary |

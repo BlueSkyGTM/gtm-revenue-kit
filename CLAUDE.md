@@ -27,7 +27,9 @@ gtm-kit-pro/
 ├── skills/           ← what Claude executes: setup · account-research · icp-scoring
 │                       · signal-to-sequence · reply-handling · weekly-update
 ├── workflows/        ← how a team operates: enrichment · signal-routing · campaign-build
-├── playbooks/        ← situation guides; playbooks/dormant/ holds unactivated methods
+├── playbooks/        ← situation guides · plays/ (the 15-recipe signal-play library)
+│                       · channels/ (cold email, calls, LinkedIn ABM, micro-lists)
+│                       · dormant/ (methods awaiting a motion)
 ├── docs/             ← the rule shelf: isolation, loading, tiers, standards
 ├── tools/            ← the copy linter and other account-agnostic scripts
 ├── sync/             ← scripts pulling live campaign data into an account

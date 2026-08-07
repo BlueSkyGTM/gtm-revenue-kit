@@ -128,6 +128,17 @@ of a real bookkeeping practice's GTM engine — nine context files, two full cam
 contact data, zero credentials crossing, verified by sweep. Dated outputs were preserved
 as evidence (annotated, never rewritten) per the records-are-evidence discipline.
 
+**The playbook library — 21 method documents, built not imported.** Fifteen signal plays
+(`playbooks/plays/`: renewal-window targeting, champion job-change, news-led outbound,
+competitor-crisis response, inbound speed-to-lead, and eleven more), four channel playbooks
+(`playbooks/channels/`), the market-led TAM campaign workflow, and an enrichment-techniques
+reference — all method-abstracted from operator-curated source material into original,
+swap-test-clean core documents. Every play states its signal, its mechanism, its honest
+failure modes, and where the numbers live (the account's `scoring-model.md`, never core);
+plays that are infrastructure or channel rather than event-signal say so instead of
+dressing up. Verified by sweep: zero source-author traces, zero external links, zero
+hardcoded values.
+
 ## Room for growth
 
 The promise gap, ranked. Each item names what closes it.
@@ -138,11 +149,11 @@ The promise gap, ranked. Each item names what closes it.
    product: what a $147 context-pack competitor ships as static files, done as a live
    interview to kit standards. Closes with `skills/branding-lab/SKILL.md` plus a worked
    Relay example.
-2. **The playbook library expansion.** The upstream project is dead and its source assets
-   are gone — new wings are created, not imported. The next planned addition is the
-   operator's own playbook collection (browser extraction, landing as core playbooks after
-   the swap test). `playbooks/dormant/` is the shelf pattern ready to receive methods that
-   have no active motion yet.
+2. **Playbook library depth.** The library landed (see Achievements) — the remaining gap is
+   what the abstraction pass marked "needs operator input": the thin sections in
+   one-to-one ABM's messaging and measurement, the video-only technique demos, and the
+   per-ad-library scraping specifics. Each is flagged in place; closing them is operator
+   experience flowing back into the documents, not more importing.
 3. **Account two, configured.** `revenue-engineering` is scaffolded with the decision
    framework in its ACCOUNT.md (who the buyer is; one audience or two tracks). Closes by
    running `skills/setup` and its first campaign — which doubles as the product's first
