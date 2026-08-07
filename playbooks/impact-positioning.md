@@ -96,8 +96,8 @@ Build the messaging house: one value proposition sentence, three (or fewer) pill
 proof under each, known gaps recorded rather than papered over. Run the ladder-up check: every
 pillar must prove the value proposition, and no pillar is an orphan.
 
-**Fills:** `accounts/<slug>/context/messaging-house.md` (a track's equivalent is
-`context/tracks/<track-slug>/messaging.md`).
+**Fills:** `accounts/<slug>/context/messaging-house.md` — a track writes the same artifact as
+`accounts/<slug>/context/tracks/<track-slug>/messaging.md`.
 
 ### Step 6 — Translate execution
 
