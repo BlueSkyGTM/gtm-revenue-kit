@@ -1,116 +1,100 @@
-# CLAUDE.md
+# GTM Kit Pro
 
-This file is the persistent context layer for your GTM repository. Claude Code reads it automatically at the start of every session. Fill it in once — keep it updated when things change.
+A multi-account GTM console. One shared engine, many bounded accounts.
 
-The full context lives in `context/`. This file is the summary layer: enough for Claude to execute most tasks without reading anything else, with pointers to deeper files when needed.
+**This file is the map — it routes, it does not hold account facts.** In the upstream
+starter kit this file held one company's ICP, personas, and signals. Here it cannot: this
+repo serves several. Every company fact lives in exactly one place —
+`accounts/<slug>/` — and this file tells you which one to open.
 
----
+## The one rule
 
-## Company
+**Every session names its account first.** Before any skill runs, the account is decided:
+the operator says it, or you ask. A skill that runs without an account resolves nothing —
+`context/` is ambiguous, `outputs/` has no home, and suppression cannot be checked. If the
+account is not obvious from the request, ask before doing anything else.
 
-**[Your company name]** helps [specific customer type] [specific outcome] — without [the alternative they're currently using or the pain they're experiencing].
-
-Stage: [Series A / B / C / bootstrapped] — [X] employees, [Y] in GTM
-HQ: [City] | Website: [domain.com]
-
-GTM motion: [Sales-led / PLG + Sales / Community-led]
-ACV: [$X – $Y] | Sales cycle: [X days median]
-Primary channels: [Outbound / Inbound / Events — list in order of volume]
-
----
-
-## ICP
-
-Full definition: `context/icp-definition.md`
-
-**Who we sell to:** [One specific sentence. Employee range, industry, stage, what they have in place that makes them ready.]
-
-**Tier 1 (Top 150):** [The tightest filter — what makes an account a dream account]
-**Tier 2 (500–1,000):** [One step looser — still strong fit, signal-triggered]
-**Tier 3 (1,000–3,000):** [Minimum criteria — automated outreach only]
-
-**Never target:**
-- [Exclusion 1 + one-line reason]
-- [Exclusion 2 + one-line reason]
-- [Exclusion 3 + one-line reason]
-
----
-
-## Personas
-
-Full profiles: `context/personas/`
-
-| Role | Title(s) | Primary concern | Best channel |
-|------|----------|----------------|-------------|
-| Champion | [e.g., Head of RevOps] | [Specific pain they own] | [Email / LinkedIn] |
-| Economic buyer | [e.g., CRO] | [What they're measured on] | [Events / Email] |
-| Technical evaluator | [e.g., GTM Engineer] | [Integration / migration concern] | [Slack / LinkedIn] |
-
----
-
-## Positioning
-
-Full document: `context/positioning.md`
-
-**We win when:** [The specific condition where we're the obvious choice]
-**We lose when:** [Be honest — price, timing, a specific competitor]
-
-vs. [Competitor A]: [Our edge in one line]
-vs. [Competitor B]: [Our edge in one line]
-
-**Voice:** [e.g., Direct and technical. No fluff. We write like we're talking to a peer, not selling to a prospect.]
-
----
-
-## Signals
-
-Full library: `context/signal-library.md`
-
-**Act immediately (Tier 1):**
-1. [Signal name] — [What fired, where it comes from, why it matters]
-2. [Signal name] — [What fired, where it comes from, why it matters]
-3. [Signal name] — [What fired, where it comes from, why it matters]
-
-**Add to sequence (Tier 2):**
-1. [Signal name]
-2. [Signal name]
-
----
-
-## Stack
-
-CRM: [Salesforce / HubSpot] | Enrichment: [Clay / Apollo] | Signals: [Unify / Common Room / Trigify]
-Outbound: [Outreach / Smartlead] | Call intel: [Gong / Fathom] | Intent: [G2 / 6sense / None]
-
----
-
-## Team
-
-| Name | Role | Owns |
-|------|------|------|
-| [Name] | [Title] | [Clay, sequences, signals] |
-| [Name] | [Title] | [CRM, reporting, inbound] |
-
----
-
-## This Week
-
-- [ ] [Priority 1 — specific, actionable]
-- [ ] [Priority 2]
-- [ ] [Priority 3]
-
----
-
-## Quick Commands
+## Folder map
 
 ```
-# Research an account
-Read skills/account-research/SKILL.md and research [company.com]
-
-# Score a list
-Read skills/icp-scoring/SKILL.md and score these accounts: [paste list]
-
-# Build a campaign
-Read skills/signal-to-sequence/SKILL.md — build a Tier 2 campaign for
-accounts that triggered [signal name], targeting [persona title]
+gtm-kit-pro/
+├── CLAUDE.md         ← you are here (the map, always loaded)
+├── CONTEXT.md        ← the router: "what's your task? → go here"
+├── DIVERGENCE.md     ← what this repo changed from upstream, and why
+├── NOTICE.md         ← upstream attribution (MIT) and the two lineages
+│
+│  ── CORE: the engine. Account-agnostic, shared by every account. ──
+├── skills/           ← what Claude executes: setup · account-research · icp-scoring
+│                       · signal-to-sequence · reply-handling · weekly-update
+├── workflows/        ← how a team operates: enrichment · signal-routing · campaign-build
+├── playbooks/        ← situation guides; playbooks/dormant/ holds unactivated methods
+├── docs/             ← the rule shelf: isolation, loading, tiers, standards
+├── tools/            ← the copy linter and other account-agnostic scripts
+├── sync/             ← scripts pulling live campaign data into an account
+├── examples/         ← Relay, the upstream reference instance. Read-only.
+│
+│  ── ACCOUNTS: the tenants. Each is one instance of the engine. ──
+└── accounts/
+    ├── _template/    ← the tenant scaffold. Copy it; never work inside it.
+    ├── fenton/       ← account one
+    └── ...
 ```
+
+**An account is a kit instance.** `accounts/<slug>/` has the shape the upstream kit's root
+had — `ACCOUNT.md` where its `CLAUDE.md` was, the same `context/` files, its own
+`outputs/`. Nothing about the engine changed; it just stopped assuming there was only one
+of you.
+
+## Core vs. account — the line that must not blur
+
+| | Core | Account |
+|---|---|---|
+| Holds | mechanism, method, standards | facts, values, copy, results |
+| Names a company? | **never** (except Relay, in `examples/`) | always — that is its job |
+| Numbers? | none — no thresholds, no point values | all of them, in `context/scoring-model.md` |
+| Changed by | product work | operating work |
+
+**The swap test governs core.** Any core file must read correctly for a different account
+with nothing edited. If a sentence stops being true when you swap the account, it is
+account content in the wrong folder. Move it, do not soften it.
+
+**Accounts never read each other.** No file in one account may reference another account's
+path. Cross-account learning travels by promoting the *pattern* into core, never by
+pointing at a neighbor's facts.
+
+Full rules: `docs/isolation.md` · What to load and what never to co-load: `docs/loading.md`
+
+## Working in an account
+
+Every skill resolves its paths inside the named account:
+
+```
+accounts/<slug>/context/      ← the factory: configured once, read every run
+accounts/<slug>/outputs/      ← the product: new every run, dated
+accounts/<slug>/optouts.md    ← append-only suppression. Checked before every send.
+accounts/<slug>/brand/        ← voice, psychology, offers (the branding lab fills these)
+```
+
+Invocation carries the account:
+
+```
+Read skills/account-research/SKILL.md and research [company.com] for account [slug]
+```
+
+## Sending
+
+The send tool is **not wired in this repo**. `.mcp.json.example` shows the shape; each
+operator wires their own `.mcp.json`, which is gitignored and never committed. A product
+repo that ships a live send tool is a product repo that can mail from someone else's
+account by accident.
+
+**Suppression runs first, every batch** — the account's `optouts.md` plus any client
+roster that account declares in its `ACCOUNT.md`. This is a legal obligation, not a
+preference, and it is per-account: one account's opt-out never suppresses another's list,
+and one account's list is never checked against another's.
+
+## Tiers
+
+**Operator tier** — brand, case files, campaign views, playbooks. **Engineer tier** —
+scoring internals, signal mechanics, sequence architecture, linter config, dormant
+playbooks. Which surface a buyer gets: `docs/tiers.md`.
