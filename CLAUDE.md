@@ -35,8 +35,10 @@ gtm-kit-pro/
 │
 │  ── ACCOUNTS: the tenants. Each is one instance of the engine. ──
 └── accounts/
+    ├── _index.md     ← the catalog: one line per account, slug + tier + status.
+    │                   The declared source of truth for what accounts exist.
     ├── _template/    ← the tenant scaffold. Copy it; never work inside it.
-    └── <slug>/       ← one folder per account. `ls accounts/` is the live list.
+    └── <slug>/       ← one folder per account, each the same shape.
 ```
 
 **An account is a kit instance.** `accounts/<slug>/` has the shape the upstream kit's root

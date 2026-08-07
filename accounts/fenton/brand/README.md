@@ -1,4 +1,4 @@
-# brand/ — Fenton Bookkeeping
+# brand/ — Fenton Bookkeeping LLC
 
 The account's voice and belief layer: how it sounds, what it stands against, what it sells.
 These are the files an operator feels immediately, and the ones the copy linter enforces

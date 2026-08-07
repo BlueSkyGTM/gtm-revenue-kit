@@ -1,4 +1,4 @@
-# ACCOUNT.md — Fenton Bookkeeping
+# ACCOUNT.md — Fenton Bookkeeping LLC
 
 The summary layer for this account. Read when the account is named; deeper files are
 pointed at, not restated.
