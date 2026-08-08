@@ -27,6 +27,7 @@ path means the named account's folder under `accounts/`.
 | Choose or tune an outreach channel | `playbooks/channels/README.md` | Cold email · cold calls · LinkedIn ABM · micro-lists |
 | A specific situation (signal fired, competitor switch, positioning build) | `playbooks/` | `playbooks/dormant/` holds methods no active motion uses yet |
 | What may load with what | `docs/loading.md` | The two-rule-systems discipline |
+| Two methods disagree — which wins? | `docs/lineages.md` | Neither: lineages stay parallel, conflicts are recorded, accounts choose. Folder `CONTEXT.md` files carry the per-file tags |
 | Why core may not name a company | `docs/isolation.md` | The swap test and the account boundary |
 | Which surface a buyer sees | `docs/tiers.md` | Operator vs engineer |
 | The standards work is held to | `docs/standards.md` | PVP, tier bands, campaign gates, benchmarks |

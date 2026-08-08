@@ -9,6 +9,12 @@ Where a standard has a number attached, core carries the **default**; the accoun
 **Strip the CTA. If the message still teaches the prospect something about their own
 business, it passes. If it is pointless without the ask, it is a pitch.**
 
+> *Lineage note:* PVP is the kit-native copy doctrine. A **parallel** doctrine — the
+> fixed-slot value-prop-testing template — exists in the imported lineage
+> (`workflows/tam-campaign.md`), fails PVP's test on purpose, and is not wrong: it
+> optimizes a different regime. The conflict is recorded as C1 in `docs/lineages.md`;
+> accounts choose per track, and the two are never blended in one campaign.
+
 Mandatory for Tier 1 and Tier 2 first touches. The test is mechanical: delete the last
 line, read what remains, and ask whether a stranger would be glad they read it.
 

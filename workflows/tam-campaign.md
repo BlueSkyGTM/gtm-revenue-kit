@@ -161,11 +161,14 @@ nicer words is no longer possible, and that is the point.
 - Once yield is known, infrastructure sizing becomes arithmetic: replies needed → sends
   needed → mailboxes and domains needed (`playbooks/deliverability-and-warmup.md`).
 
-**Tier boundary.** This volume-template motion is for the broad market — Tier 3 and the wide
-end of Tier 2. Tier 1 and Tier 2 first touches remain governed by the PVP standard in
-`docs/standards.md`: strip the CTA and the message must still teach something. The template
-above optimizes for a different regime (yield discovery at volume), and the two should not be
-blended in one campaign.
+**Doctrine note (conflict C1, `docs/lineages.md`).** The fixed-slot template above and the
+kit's PVP standard (`docs/standards.md`) are **parallel copy doctrines from different
+lineages, and the conflict between them is recorded, not resolved.** By PVP's own test the
+template is a pitch — deliberately, because it optimizes a different regime: yield discovery
+at volume rather than per-message value delivery. A tier split (this template for the broad
+market, PVP for the researched head of the list) is one **proposed** reconciliation — an
+account may adopt it in its own files, but core has not settled it. What IS settled: the two
+doctrines are never blended inside one campaign.
 
 ---
 
