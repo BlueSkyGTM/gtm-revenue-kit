@@ -2,7 +2,7 @@
 
 **Machinery** — the multi-account go-to-market engine, running out of hand-readable
 markdown: one shared engine, many bounded accounts. In the four-point business-OS model
-(trade wing · funnel wing · ABM/Won wing · machinery), this repo is machinery for the
+(trade wing · GTM Motions wing · ABM/Won wing · machinery), this repo is machinery for the
 **GTM Motions** (Revenue & Growth) and **ABM/Won** (Clients & VIP) wings: the tools that enable trade, usable by whoever points
 them at their own prospects, and built to embed into an OS chassis's `machinery/` folder
 the way ledger servers embed into the bookkeeping OS.
