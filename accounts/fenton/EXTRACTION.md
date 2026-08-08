@@ -5,10 +5,20 @@ The mirror of the host repo's `REFERENCES.md`. That file documented how the GTM 
 *shift* to this account — and it is the runbook for the day the operator chooses to complete
 the separation. It is prep, not a pending action.
 
-**The standing rule, first: nothing is deleted in the host repo.** `workspaces/practice/`
-stays intact. Authority shifts by operation, not by excision — GTM work happens HERE from
-now on, and the host copy becomes historical over time. Any future cut is the operator's
-explicit decision, executed against the seam map below.
+> **MIGRATION COMPLETED 2026-08-08, on the operator's explicit order** ("complete the gtm
+> kit migration"). The cut was executed against the seam map in §4: the host repo's
+> `workspaces/practice/` was removed, the four non-GTM tenants were rehomed
+> (pipeline tracker → this folder; revenue, business-dev, pricing-strategy →
+> host `workspaces/clients/business-dev/`; the site → host `workspaces/clients/web/`),
+> the ~20 doc seams and one code seam were rewired, and the Instantly block was stripped
+> from the host's three `.mcp` variants, restoring its mechanical send guard. The
+> dual-append opt-out rule ended the same day — this account's `optouts.md` is the sole
+> ledger. Sections below are kept as the record of the operation's design; §1–2's
+> "host copy" language is historical as of the completion date.
+
+**The rule that governed until completion: nothing deleted in the host repo without the
+operator's explicit decision.** That decision arrived 2026-08-08 and this file was its
+runbook.
 
 ---
 

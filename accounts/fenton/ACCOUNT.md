@@ -130,16 +130,20 @@ accepting new clients" language. Both decay fast — act inside the posting wind
 kind of act than sending one email; it is the same act at scale.
 
 **Suppression, before every batch:**
-1. `optouts.md` in this folder — append-only, permanent, legal
-2. The client roster in the host repo — **names and domains only**, never figures, so a
-   paying client never receives a cold campaign
+1. `optouts.md` in this folder — append-only, permanent, legal, **the sole ledger**
+2. The client roster in the host repo (`workspaces/clients/clients/*/`) — **names and
+   domains only**, never figures, so a paying client never receives a cold campaign
 3. The other track's live audience (channel conflict, above)
 
-> **Opt-out authority, while both copies exist.** The host repo's ledger remains the live
-> one until its migration completes. This file is the transferred copy. Append to **both**
-> until the host repo's GTM workspace is retired, then delete the host copy and record the
-> date here. Two ledgers that silently disagree is the one failure mode this note exists to
-> prevent. (`DIVERGENCE.md` G3.)
+**Pipeline:** `pipeline-tracker.md` + workbook, in this folder (moved from the host repo at
+migration completion). `reply-handling` writes rows here; a **Won** row triggers the
+cross-repo handoff (`EXTRACTION.md` §3).
+
+> **Opt-out authority: THIS ledger, solely, as of 2026-08-08.** The host repo's GTM
+> workspace was retired that day (migration complete — see `EXTRACTION.md`); its ledger
+> copy is archived host-side at `workspaces/clients/business-dev/optouts.md` with a header
+> pointing here, and is never appended again. The dual-append rule is over. (`DIVERGENCE.md`
+> G3, closed.)
 
 ---
 
