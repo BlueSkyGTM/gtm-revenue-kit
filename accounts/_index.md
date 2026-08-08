@@ -1,5 +1,10 @@
 # Account index
 
+> **OPERATING DEPLOYMENT NOTICE (2026-08-08):** accounts operate LIVE in the private
+> `albatross-engineering-os` deployment (`machinery/gtm-kit/accounts/`). This upstream
+> repo is authoritative for CORE only (skills, playbooks, docs, tools — the re-vendor
+> loop); account content below is frozen at the vendor date and is historical here.
+
 The catalog: one line per account, the declared source of truth for what accounts exist,
 their tier, and where each stands. Lifecycle: `scaffolded → configured → live → paused`.
 
