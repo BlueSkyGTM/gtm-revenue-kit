@@ -1,3 +1,9 @@
+---
+type: workflow
+lineage: imported
+maturity: standard
+---
+
 # Enrichment Techniques
 
 *A technique reference extending `workflows/enrichment.md`. That file says what to enrich and

@@ -1,3 +1,9 @@
+---
+type: play
+lineage: imported
+maturity: thin-sections
+---
+
 # Play: One-to-One ABM
 
 The highest-touch motion in the library: a single named individual — a founder-level target,

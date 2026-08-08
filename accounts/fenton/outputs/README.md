@@ -1,4 +1,4 @@
-# practice/outputs/ — the product layer
+# outputs/ — Fenton Bookkeeping LLC (the product layer)
 
 **New every run.** Everything here is a run artifact: what a session emitted, dated, kept as
 the record. The factory it read from is `../context/`, and **nothing here writes back into

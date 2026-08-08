@@ -1,103 +1,58 @@
 # GTM Kit Pro
 
-A multi-account GTM console. One shared engine, many bounded accounts.
+A multi-account GTM console: one shared engine, many bounded accounts. Form: **Umbrella**
+(root routes; shared factory) composed with a **Record library** (`accounts/`).
 
-**This file is the map — it routes, it does not hold account facts.** In the upstream
-starter kit this file held one company's ICP, personas, and signals. Here it cannot: this
-repo serves several. Every company fact lives in exactly one place —
-`accounts/<slug>/` — and this file tells you which one to open.
+**This file routes; it holds no content.** Every fact lives in exactly one home below.
 
 ## The one rule
 
-**Every session names its account first.** Before any skill runs, the account is decided:
-the operator says it, or you ask. A skill that runs without an account resolves nothing —
-`context/` is ambiguous, `outputs/` has no home, and suppression cannot be checked. If the
-account is not obvious from the request, ask before doing anything else.
+**Every session names its account first.** Nothing loads until it is known — a skill run
+without an account resolves nothing, and context loaded under the wrong account produces
+confident answers from the wrong buyer's facts. If unclear, ask before anything else.
 
 ## Folder map
 
 ```
 gtm-kit-pro/
-├── CLAUDE.md         ← you are here (the map, always loaded)
-├── CONTEXT.md        ← the router: "what's your task? → go here"
-├── DIVERGENCE.md     ← what this repo changed from upstream, and why
-├── NOTICE.md         ← upstream attribution (MIT) and the two lineages
+├── CLAUDE.md · CONTEXT.md      ← this map · the task router
+├── README.md · START-HERE.md   ← design document · buyer front door
+├── DIVERGENCE.md · NOTICE.md   ← product spec vs upstream · attribution
 │
-│  ── CORE: the engine. Account-agnostic, shared by every account. ──
-├── skills/           ← what Claude executes: setup · account-research · icp-scoring
-│                       · signal-to-sequence · reply-handling · weekly-update
-├── workflows/        ← how a team operates: enrichment · signal-routing · campaign-build
-├── playbooks/        ← situation guides · plays/ (the 15-recipe signal-play library)
-│                       · channels/ (cold email, calls, LinkedIn ABM, micro-lists)
-│                       · dormant/ (methods awaiting a motion)
-├── docs/             ← the rule shelf: isolation, loading, tiers, standards
-├── tools/            ← the copy linter and other account-agnostic scripts
-├── sync/             ← scripts pulling live campaign data into an account
-├── examples/         ← Relay, the upstream reference instance. Read-only.
+│  ── CORE: the shared engine. Account-agnostic. Contracts in each folder. ──
+├── skills/       what Claude executes (6 skills)        → skills/CONTEXT.md
+├── workflows/    how a team operates (5 docs)           → workflows/CONTEXT.md
+├── playbooks/    the method shelf: guides · plays/ ·    → playbooks/CONTEXT.md
+│                 channels/ · dormant/ · REFERENCES.md (selection)
+├── docs/         the rule shelf (6 rules, one home each)→ docs/CONTEXT.md
+├── tools/        the copy linter                        → tools/CONTEXT.md
+├── sync/         result-pull scripts                    → sync/CONTEXT.md
+├── examples/     Relay, the read-only reference instance→ examples/CONTEXT.md
+├── _archive/     superseded material, never load
 │
-│  ── ACCOUNTS: the tenants. Each is one instance of the engine. ──
-└── accounts/
-    ├── _index.md     ← the catalog: one line per account, slug + tier + status.
-    │                   The declared source of truth for what accounts exist.
-    ├── _template/    ← the tenant scaffold. Copy it; never work inside it.
-    └── <slug>/       ← one folder per account, each the same shape.
+│  ── RECORDS: the tenants. One folder per account, same shape. ──
+└── accounts/                                            → accounts/CONTEXT.md
+    ├── _index.md     the catalog — what accounts exist, tier, status
+    ├── _template/    the stamp — a new account is a copy, never a blank page
+    └── <slug>/       ACCOUNT.md + context/ + outputs/ + brand/ + optouts.md
 ```
 
-**An account is a kit instance.** `accounts/<slug>/` has the shape the upstream kit's root
-had — `ACCOUNT.md` where its `CLAUDE.md` was, the same `context/` files, its own
-`outputs/`. Nothing about the engine changed; it just stopped assuming there was only one
-of you.
+## Routing
 
-## Core vs. account — the line that must not blur
+| You need | Read |
+|---|---|
+| "What's my task? → which file?" | `CONTEXT.md` |
+| Which playbook fits this situation | `playbooks/REFERENCES.md` |
+| The core/account boundary, the swap test | `docs/isolation.md` |
+| What may load with what | `docs/loading.md` |
+| Two methods disagree | `docs/lineages.md` — parallel, recorded, account chooses |
+| Standards (PVP, gates, benchmarks) | `docs/standards.md` |
+| Sending and the send-tool wall | `DIVERGENCE.md` E2 · the account's `ACCOUNT.md` §Sending |
+| Operator vs engineer surface | `docs/tiers.md` |
 
-| | Core | Account |
-|---|---|---|
-| Holds | mechanism, method, standards | facts, values, copy, results |
-| Names a company? | **never** (except Relay, in `examples/`) | always — that is its job |
-| Numbers? | none — no thresholds, no point values | all of them, in `context/scoring-model.md` |
-| Changed by | product work | operating work |
+## Hard lines (full text where cited)
 
-**The swap test governs core.** Any core file must read correctly for a different account
-with nothing edited. If a sentence stops being true when you swap the account, it is
-account content in the wrong folder. Move it, do not soften it.
-
-**Accounts never read each other.** No file in one account may reference another account's
-path. Cross-account learning travels by promoting the *pattern* into core, never by
-pointing at a neighbor's facts.
-
-Full rules: `docs/isolation.md` · What to load and what never to co-load: `docs/loading.md`
-
-## Working in an account
-
-Every skill resolves its paths inside the named account:
-
-```
-accounts/<slug>/context/      ← the factory: configured once, read every run
-accounts/<slug>/outputs/      ← the product: new every run, dated
-accounts/<slug>/optouts.md    ← append-only suppression. Checked before every send.
-accounts/<slug>/brand/        ← voice, psychology, offers (the branding lab fills these)
-```
-
-Invocation carries the account:
-
-```
-Read skills/account-research/SKILL.md and research [company.com] for account [slug]
-```
-
-## Sending
-
-The send tool is **not wired in this repo**. `.mcp.json.example` shows the shape; each
-operator wires their own `.mcp.json`, which is gitignored and never committed. A product
-repo that ships a live send tool is a product repo that can mail from someone else's
-account by accident.
-
-**Suppression runs first, every batch** — the account's `optouts.md` plus any client
-roster that account declares in its `ACCOUNT.md`. This is a legal obligation, not a
-preference, and it is per-account: one account's opt-out never suppresses another's list,
-and one account's list is never checked against another's.
-
-## Tiers
-
-**Operator tier** — brand, case files, campaign views, playbooks. **Engineer tier** —
-scoring internals, signal mechanics, sequence architecture, linter config, dormant
-playbooks. Which surface a buyer gets: `docs/tiers.md`.
+- Core never names an account — the swap test decides (`docs/isolation.md`).
+- Every number lives in the account's `context/scoring-model.md`, never core.
+- No live `.mcp.json` in this repo, ever (`DIVERGENCE.md` E2).
+- Suppression before every send, per account (`accounts/<slug>/optouts.md`).

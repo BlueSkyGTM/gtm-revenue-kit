@@ -1,3 +1,9 @@
+---
+type: channel
+lineage: imported
+maturity: standard
+---
+
 # Playbook: Micro-Lists & 1:1 Outreach (Channel Strategy)
 
 *The high-touch end of outbound: very small, sharply segmented lists worked with deep

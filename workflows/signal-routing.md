@@ -1,3 +1,9 @@
+---
+type: workflow
+lineage: upstream
+maturity: standard
+---
+
 # Workflow: Signal Routing
 
 *How signals get detected, scored, and routed to the right action. The connective tissue between your data layer and your outreach.*

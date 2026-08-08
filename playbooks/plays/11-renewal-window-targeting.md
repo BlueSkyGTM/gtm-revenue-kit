@@ -1,3 +1,9 @@
+---
+type: play
+lineage: imported
+maturity: standard
+---
+
 # Play: Renewal Window Targeting
 
 Most competitive outbound fails on timing: the prospect renewed their incumbent contract

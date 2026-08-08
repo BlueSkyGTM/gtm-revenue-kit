@@ -1,3 +1,9 @@
+---
+type: play
+lineage: imported
+maturity: channel-play
+---
+
 # Play: Executive Channel Outreach
 
 A channel play more than a signal play, stated honestly: the same outreach converts at a

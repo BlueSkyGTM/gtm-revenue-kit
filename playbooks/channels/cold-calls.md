@@ -1,3 +1,9 @@
+---
+type: channel
+lineage: imported
+maturity: standard
+---
+
 # Playbook: Cold Calls (Channel Strategy)
 
 *When calling pays, the three numbers that run the channel, how to choose dialing

@@ -1,3 +1,9 @@
+---
+type: channel
+lineage: imported
+maturity: standard
+---
+
 # Playbook: LinkedIn & ABM (Channel Strategy)
 
 *How to use LinkedIn as a precision channel — when to automate, who to target, and two

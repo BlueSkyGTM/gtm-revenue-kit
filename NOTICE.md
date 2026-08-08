@@ -30,3 +30,6 @@ extension history is documented in `DIVERGENCE.md`.
 
 Both paths trace to the same MIT-licensed origin. Account content is the operator's own
 work product and carries no upstream claim.
+
+> The upstream launch article (marketing for the original kit) is preserved at
+> `_archive/upstream/ARTICLE.md` — provenance material, not part of the product.

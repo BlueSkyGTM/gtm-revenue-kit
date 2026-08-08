@@ -1,3 +1,9 @@
+---
+type: guide
+lineage: upstream
+maturity: standard
+---
+
 # Playbook: Competitor Switch
 
 *How to handle accounts that are currently using a competitor — whether they're evaluating alternatives or locked in.*

@@ -1,3 +1,9 @@
+---
+type: play
+lineage: imported
+maturity: standard
+---
+
 # Play: Recruiting Outbound
 
 The engine pointed at a different market: candidates instead of customers. Recruiting is

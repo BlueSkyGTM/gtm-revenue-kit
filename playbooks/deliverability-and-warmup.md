@@ -1,3 +1,9 @@
+---
+type: guide
+lineage: operator
+maturity: standard
+---
+
 # Playbook: Deliverability & Warmup
 
 *How to stand up sending infrastructure that lands in the inbox without risking the account's

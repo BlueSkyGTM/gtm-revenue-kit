@@ -1,3 +1,9 @@
+---
+type: play
+lineage: imported
+maturity: standard
+---
+
 # Play: ABM Content Engine
 
 A generation pipeline that turns a stakeholder map into persona-specific sales enablement

@@ -1,6 +1,20 @@
-# sync/
+# sync/ — result-pull contract
 
-Scripts that pull live data from your outbound tool and CRM into the repo. Run these before the weekly-update skill to give Claude fresh numbers without manual data entry.
+Scripts that pull live campaign results from an outbound tool or CRM into an account. Run
+before `skills/weekly-update` so the context refresh works from fresh numbers instead of
+manual entry.
+
+- **Reads:** the operator's API credentials from the environment (never committed) and the
+  named account's campaign identifiers.
+- **Writes:** sync JSON **inside the named account** (`accounts/<slug>/outputs/campaigns/
+  <campaign>/results-sync.json`, `accounts/<slug>/context/signal-performance-sync.json`) —
+  gitignored by pattern; the durable summary is written into the campaign's `results.md`
+  by the weekly-update pass, as an edit surface, not by these scripts.
+- **Human check:** synced numbers feed the calibration log only after the operator has seen
+  them in the weekly update — a script never edits `scoring-model.md`.
+- **Status (`upstream` lineage):** restored from the original kit; not yet proven against a
+  live tool (`README.md` → Room for Growth). Treat output paths as the contract; the
+  script internals may need updating on first real use.
 
 ---
 

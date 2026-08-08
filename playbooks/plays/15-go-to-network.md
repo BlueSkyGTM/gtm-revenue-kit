@@ -1,3 +1,9 @@
+---
+type: play
+lineage: imported
+maturity: standard
+---
+
 # Play: Go-To-Network
 
 A systematized referral motion: recruit well-connected partners, analyze their networks

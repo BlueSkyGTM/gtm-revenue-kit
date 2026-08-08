@@ -1,3 +1,9 @@
+---
+type: play
+lineage: imported
+maturity: standard
+---
+
 # Play: News-Led Outbound
 
 Public news coverage announces buying moments before buyers ever enter a vendor's funnel — a

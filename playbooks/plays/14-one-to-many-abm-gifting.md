@@ -1,3 +1,9 @@
+---
+type: play
+lineage: imported
+maturity: standard
+---
+
 # Play: One-to-Many ABM Gifting
 
 Gifting at segment scale, done the opposite of the branded-mug way: a genuinely desirable

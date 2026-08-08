@@ -1,3 +1,9 @@
+---
+type: play
+lineage: imported
+maturity: standard
+---
+
 # Play: Inbound Speed-to-Lead
 
 Inbound is a signal the prospect fires at you — and most teams waste it twice, first with a
