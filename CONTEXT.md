@@ -23,6 +23,7 @@ path means the named account's folder under `accounts/`.
 | How the team operates end to end | `workflows/` | Human process docs, not execution instructions |
 | Build a list from the market down (no signal yet) | `workflows/tam-campaign.md` | The market-led complement to signal-led `campaign-build.md` |
 | Enrichment and scraping technique patterns | `workflows/enrichment-techniques.md` | Extends `workflows/enrichment.md`; cost model, API patterns, four scraping patterns |
+| Which playbook fits this situation? | `playbooks/REFERENCES.md` | Selection-first reference for the whole shelf — guides, plays, channels, dormant |
 | Pick a play for a signal or a buyer moment | `playbooks/plays/README.md` | The signal-play library — 15 recipes; a play activates for an account by adding its signal to that account's `signal-library.md` |
 | Choose or tune an outreach channel | `playbooks/channels/README.md` | Cold email · cold calls · LinkedIn ABM · micro-lists |
 | A specific situation (signal fired, competitor switch, positioning build) | `playbooks/` | `playbooks/dormant/` holds methods no active motion uses yet |
