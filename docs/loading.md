@@ -46,6 +46,23 @@ session.** The whole point of a track is that its ICP, positioning, radar, and m
 disagree with the other track's — that is why they are separate. Loaded together they
 average into copy that fits neither buyer.
 
+## When this kit is embedded in a chassis
+
+This repo is machinery. When a business-OS chassis vendors it under `machinery/`, the
+chassis's own ICM routing **pulls from the kit at file granularity, on demand — never the
+kit wholesale.** The contract:
+
+- The chassis router carries task rows that point at ONE kit file each ("research an
+  account → `machinery/gtm-kit/skills/account-research/SKILL.md`"), the same way it points
+  at a ledger server's job, not at its source tree.
+- A session entering the kit reads, in order: the kit's entry file (the interface), the one
+  contract the task names, that contract's declared inputs — and stops. The healthy budget
+  (~2–8k tokens per step) applies across the repo boundary exactly as it applies inside.
+- Loading the kit's whole shelf "for context" is the same failure as bulk-loading an
+  account's `outputs/` — the session fills with method it will not run and crowds out the
+  file that held the answer. `playbooks/REFERENCES.md` exists precisely so selection costs
+  one read instead of twenty-eight.
+
 ## What never enters the repo
 
 - Contact data, send lists, enrichment exports — gitignored by pattern, and the pattern is

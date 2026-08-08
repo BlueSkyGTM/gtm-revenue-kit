@@ -1,7 +1,11 @@
 # GTM Kit Pro
 
-A multi-account GTM console: one shared engine, many bounded accounts. Form: **Umbrella**
-(root routes; shared factory) composed with a **Record library** (`accounts/`).
+**Machinery**: the multi-account GTM engine — one shared engine, many bounded accounts —
+built to embed into a business-OS chassis's `machinery/` the way ledger servers do
+(standalone repo upstream, vendored downstream). It powers a chassis's **funnel wing**
+(prospects and initiatives) and feeds its **ABM/Won wing** (case files that become client
+records). Form: **Umbrella** (root routes; shared factory) composed with a **Record
+library** (`accounts/`).
 
 **This file routes; it holds no content.** Every fact lives in exactly one home below.
 

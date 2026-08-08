@@ -1,7 +1,11 @@
 # GTM Kit Pro
 
-A multi-account go-to-market engine that runs out of hand-readable markdown. One shared
-engine, many bounded accounts.
+**Machinery** — the multi-account go-to-market engine, running out of hand-readable
+markdown: one shared engine, many bounded accounts. In the four-point business-OS model
+(trade wing · funnel wing · ABM/Won wing · machinery), this repo is machinery for the
+**funnel** and **ABM/Won** wings: the tools that enable trade, usable by whoever points
+them at their own prospects, and built to embed into an OS chassis's `machinery/` folder
+the way ledger servers embed into the bookkeeping OS.
 
 This README is the repo's **design document**: the full promise of what the codebase offers,
 what is already proven (with evidence), and the honest gap between the two. The gap section
@@ -173,10 +177,12 @@ The promise gap, ranked. Each item names what closes it.
 7. **Tier enforcement beyond labels.** Operator/engineer tiers are documentation and
    routing today. If the kit is sold tiered, enforcement is packaging (what ships per SKU),
    not code — but the split needs a build script that can emit an operator-tier subset.
-8. **The OS chassis slot-in.** This repo is designed to be vendored into a business OS as
-   machinery, the way ledger servers are vendored into the bookkeeping OS. The chassis does
-   not exist yet; `accounts/fenton/EXTRACTION.md` records the cross-repo contracts (Won
-   handoff, suppression reads) that the slot-in will formalize.
+8. **The chassis embed.** This machinery's destination is a business-OS chassis's
+   `machinery/` folder — the qb-server pattern: this repo stays the upstream, the chassis
+   vendors it with a documented re-vendor loop. The operator's own OS chassis does not
+   exist yet; `accounts/fenton/EXTRACTION.md` records the cross-repo contracts (Won
+   handoff, suppression reads) the embed will formalize. Sibling machinery still to
+   arrive in the estate: the operator's funnel tools and virtual-assistant tools.
 
 ## Conventions
 
