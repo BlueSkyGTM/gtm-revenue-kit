@@ -25,7 +25,7 @@ gtm-kit-pro/
 │
 │  ── CORE: the shared engine. Account-agnostic. Contracts in each folder. ──
 ├── skills/       what Claude executes (6 skills)        → skills/CONTEXT.md
-├── workflows/    how a team operates (5 docs)           → workflows/CONTEXT.md
+├── workflows/    how a team operates (6 docs)           → workflows/CONTEXT.md
 ├── playbooks/    the method shelf: guides · plays/ ·    → playbooks/CONTEXT.md
 │                 channels/ · dormant/ · REFERENCES.md (selection)
 ├── docs/         the rule shelf (6 rules, one home each)→ docs/CONTEXT.md

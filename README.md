@@ -191,12 +191,13 @@ The promise gap, ranked. Each item names what closes it.
 7. **Tier enforcement beyond labels.** Operator/engineer tiers are documentation and
    routing today. If the kit is sold tiered, enforcement is packaging (what ships per SKU),
    not code — but the split needs a build script that can emit an operator-tier subset.
-8. **The chassis embed.** This machinery's destination is a business-OS chassis's
-   `machinery/` folder — the qb-server pattern: this repo stays the upstream, the chassis
-   vendors it with a documented re-vendor loop. The operator's own OS chassis does not
-   exist yet; `accounts/fenton/EXTRACTION.md` records the cross-repo contracts (Won
-   handoff, suppression reads) the embed will formalize. Sibling machinery still to
-   arrive in the estate: the operator's funnel tools and virtual-assistant tools.
+8. **The chassis embed — DONE, twice.** This machinery's destination was a business-OS
+   chassis's `machinery/` folder — the qb-server pattern: this repo stays the upstream,
+   the chassis vendors it with a documented re-vendor loop. Two deployments now vendor
+   this core (albatross-engineering-os and fenton-bookkeeping-os, since 2026-08-10); each
+   holds its own accounts, and the former cross-repo contracts are internal seams in the
+   deployments. Sibling machinery still to arrive in the estate: the operator's funnel
+   tools and virtual-assistant tools.
 
 ## Conventions
 
@@ -223,5 +224,5 @@ upstream project ended roughly five months before this repo was created and its 
 assets are gone; this is a fork-and-diverge with no upstream to track, and everything after
 the baseline tag is original work. The second lineage — the same kit vendored into a live
 bookkeeping practice, operated for weeks, and transferred here as account one — is
-documented in `NOTICE.md` §2 and `accounts/fenton/EXTRACTION.md`. Every divergence from
+documented in `NOTICE.md` §2 and the fenton deployment's `machinery/gtm-kit/accounts/fenton/EXTRACTION.md`. Every divergence from
 upstream, with reasoning: `DIVERGENCE.md`.
