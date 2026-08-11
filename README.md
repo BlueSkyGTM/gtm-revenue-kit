@@ -79,6 +79,13 @@ Three rules carry the design (full text in `docs/isolation.md`):
 
 What is built and proven, with the evidence.
 
+**Core-only upstream, proven by two live deployments (2026-08-10).** The factory/product
+split completed its last step: every operating account moved into the business OS that
+runs it (each OS vendors this kit and holds its own accounts and targets), and this repo
+holds only the shared engine plus the `_template/` stamp. Two deployments consume it —
+a bookkeeping practice's OS and the product company's own — which is the multi-account
+architecture's claim demonstrated across repos, not just folders.
+
 **The multi-account restructure, with history preserved.** The single-tenant upstream was
 converted by moving the tenant surface (`CLAUDE.md`, `context/`, `outputs/`) into
 `accounts/_template/` via `git mv` — the kit's file history survives intact under the new
@@ -147,6 +154,13 @@ hardcoded values.
 
 The promise gap, ranked. Each item names what closes it.
 
+0. **Segment-agnostic, pain-based signal support.** The doctrine landed
+   (`workflows/pain-based-segmentation.md`, conflict C4 recorded): segments defined by an
+   Existential Data Point, the signal dimension fed pain-based signals, firmographics
+   demoted to messaging context. What remains is the tooling catching up — EDP-keyed
+   signal templates in the `_template/` stamp and a worked pain-map example — so an
+   account can adopt the doctrine by copying, not by authoring.
+
 1. **The branding lab.** The slots and contract exist (`accounts/<slug>/brand/` — voice,
    brand psychology, offer map — with the linter already reading the voice file); the
    interview skill that fills them does not. This is the layman-facing layer of the
@@ -158,10 +172,10 @@ The promise gap, ranked. Each item names what closes it.
    one-to-one ABM's messaging and measurement, the video-only technique demos, and the
    per-ad-library scraping specifics. Each is flagged in place; closing them is operator
    experience flowing back into the documents, not more importing.
-3. **Account two, configured.** `revenue-engineering` is scaffolded with the decision
-   framework in its ACCOUNT.md (who the buyer is; one audience or two tracks). Closes by
-   running `skills/setup` and its first campaign — which doubles as the product's first
-   self-referential case study, since this account sells the engine it runs in.
+3. **The revenue-engineering deployment, configured.** The account is scaffolded in its
+   own OS (see the accounts index — no operating account lives upstream anymore). Closes
+   by running `skills/setup` there and its first campaign — which doubles as the product's
+   first self-referential case study, since that account runs inside the engine it pushes.
 4. **Sync scripts proven against live data.** `sync/` was restored from upstream but has
    never run against a real outbound tool's results. Closes with the first live campaign:
    results flow back into the account's signal-performance log and the scoring calibration

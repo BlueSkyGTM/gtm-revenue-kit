@@ -15,6 +15,7 @@ Lineage model: `docs/lineages.md`. Tags: `upstream` · `operator` · `imported`.
 | `enrichment.md` | `upstream` | The data waterfall: free sources → orchestrator → proprietary | Extended by `enrichment-techniques.md`; carries core's sanctioned defaults |
 | `enrichment-techniques.md` | `imported` | Technique patterns: action cost model, own-API-key, webhooks, four scraping patterns | Points at `enrichment.md` for defaults rather than restating |
 | `signal-routing.md` | `upstream` | Signal fires → what happens next (the decision tree) | Routes into `playbooks/plays/` since the library landed |
+| `pain-based-segmentation.md` | `imported` (2026-08-10) | The **segment-agnostic** targeting doctrine: segments defined by a shared Existential Data Point, not firmographics — the fundamental question moves from "who can we service" to "what pain can we resolve" | Carries conflict **C4** (pain map vs firmographic map) — keeps the four-dimension scoring mechanism, changes what feeds it |
 
 ## Loading
 
@@ -22,6 +23,9 @@ Load ONE campaign workflow per session — signal-led or market-led, decided by 
 condition (have a signal → `campaign-build.md`; have only a market definition →
 `tam-campaign.md`). Loading both invites blending doctrines the lineage rules keep apart.
 The enrichment pair loads together by design (reference + techniques).
+`pain-based-segmentation.md` loads at segmentation time: with `tam-campaign.md` it
+REPLACES the market-mapping step (C4 — pick one segment definition and say which); with
+`campaign-build.md` it defines what counts as a signal.
 
 ## Revision rule
 

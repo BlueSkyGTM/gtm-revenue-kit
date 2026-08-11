@@ -20,7 +20,7 @@ recorded decision — never as a side effect of importing or editing.
 |---|---|---|
 | `upstream` | The original open-source kit (preserved at tag `baseline-gtm-starter-kit`) | The six skills' skeletons, the six context files, `workflows/campaign-build.md`, `enrichment.md`, `signal-routing.md`, `playbooks/new-signal-response.md`, `competitor-switch.md`, the **PVP copy standard** in `docs/standards.md` |
 | `operator` | Built or proven in live operation of the engine (the vendored era and this repo's own work) | The multi-account architecture, values/mechanism split, `reply-handling`, `impact-positioning`, `deliverability-and-warmup`, the dormant shelf, the linter, the rule shelf itself |
-| `imported` | Operator-curated external method material, abstracted into original core docs (arrival 2026-08-08) | `playbooks/plays/` (all 15), `playbooks/channels/` (all 4), `workflows/tam-campaign.md`, `workflows/enrichment-techniques.md` |
+| `imported` | Operator-curated external method material, abstracted into original core docs (arrivals 2026-08-08, 2026-08-10) | `playbooks/plays/` (all 15), `playbooks/channels/` (all 4), `workflows/tam-campaign.md`, `workflows/enrichment-techniques.md`, `workflows/pain-based-segmentation.md` (Cannonball GTM / Doug Bell, 2026-08-10) |
 
 Tags live in each folder's `CONTEXT.md`, per file. A new import gets a new tag and a new
 arrival date; nothing about this table is closed.
@@ -52,6 +52,23 @@ written against the PVP standard during abstraction, while their source traditio
 fixed-slot. The *mechanisms* (signals, builds, measurement) are faithful; the frames carry
 an upstream accent. Recorded so a future revision knows the frames are the import pass's
 rendering, not the source tradition's own voice.
+
+**C4 — Segment definition: pain map vs firmographic map.**
+- `imported` 2026-08-08 (`tam-campaign.md`) and the scoring template's default dimension
+  ordering: the market is mapped from corporate structure down — firmographics define who
+  is in the segment; signals rank them within it.
+- `imported` 2026-08-10 (`pain-based-segmentation.md`, Cannonball GTM / Doug Bell): a
+  segment is defined by a shared Existential Data Point — a measurable pain at an
+  existential threshold — and firmographics demote to messaging context. The fundamental
+  question moves from "who can we service, given our TAM" to "what pain can we resolve."
+  Motivation on record: firmographic signals are going generic, and signal freshness
+  cannot keep up with CRM decay; pain endures where structure decays.
+- **Status: parallel, with a recorded operator direction (2026-08-10): the operator's own
+  deployments are moving toward pain-based signals and segmentation.** The four-dimension
+  scoring mechanism is untouched either way — the conflict is about what defines a segment
+  and what feeds the signal dimension, and each account adopts per track in its own
+  context files. What is settled: never blend the two segment definitions inside one
+  campaign — the audience is drawn from a firmographic map or a pain map, and says which.
 
 ## Rules
 
