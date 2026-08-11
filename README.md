@@ -28,7 +28,7 @@ and own outright.
 And it is **multi-tenant by architecture, not by copy-paste**: one engine, many accounts,
 where an account is a client business, each bounded so strictly that one account's facts
 cannot reach another's campaign. The operator who runs GTM for several businesses — the
-agency case, the revenue-engineering case — works every account from one console without
+agency case, the in-house revenue team case — works every account from one console without
 the engine forking underneath them.
 
 ## Architecture
@@ -55,11 +55,14 @@ gtm-kit-pro/
 ├── examples/        Relay — the reference instance, read-only
 │
 └── accounts/        the record library
-    ├── _index.md                the catalog — the source of truth for what exists
+    ├── _index.md                the catalog — which accounts exist, and where each runs
     ├── _template/               the stamp; a new account is a copy, never a blank page
-    ├── fenton/                  account one — live (see its EXTRACTION.md for lineage)
-    └── revenue-engineering/     account two — scaffolded
+    └── <slug>/                  populated in a deployment — upstream holds no account
 ```
+
+Everything above `accounts/` is core and is vendored intact into every deployment. The
+`<slug>/` folders exist only in the business OS that operates them; upstream keeps the
+stamp and the catalog. Which copy holds what: `docs/deployments.md`.
 
 **An account is a kit instance.** `accounts/<slug>/` has the shape the upstream kit's root
 had: `ACCOUNT.md` where its CLAUDE.md was, the same six context files, its own outputs,
@@ -84,7 +87,9 @@ split completed its last step: every operating account moved into the business O
 runs it (each OS vendors this kit and holds its own accounts and targets), and this repo
 holds only the shared engine plus the `_template/` stamp. Two deployments consume it —
 a bookkeeping practice's OS and the product company's own — which is the multi-account
-architecture's claim demonstrated across repos, not just folders.
+architecture's claim demonstrated across repos, not just folders. The engine therefore
+exists in three synced copies and every account in exactly one; the map of which copy
+holds what, and the rule behind it, is `docs/deployments.md`.
 
 **The multi-account restructure, with history preserved.** The single-tenant upstream was
 converted by moving the tenant surface (`CLAUDE.md`, `context/`, `outputs/`) into

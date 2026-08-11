@@ -36,10 +36,16 @@ gtm-kit-pro/
 │
 │  ── RECORDS: the tenants. One folder per account, same shape. ──
 └── accounts/                                            → accounts/CONTEXT.md
-    ├── _index.md     the catalog — what accounts exist, tier, status
+    ├── _index.md     the catalog — which accounts exist and which deployment runs each
     ├── _template/    the stamp — a new account is a copy, never a blank page
     └── <slug>/       ACCOUNT.md + context/ + outputs/ + brand/ + optouts.md
+                      — in a DEPLOYMENT, not here: upstream is core-only
 ```
+
+**Upstream is core-only.** Everything above the `accounts/` block travels to every
+deployment; `<slug>/` folders exist only in the business OS that runs them
+(`docs/deployments.md`). Looking for a method — any copy has it. Looking for campaigns,
+research, or an opt-out ledger — exactly one deployment does.
 
 ## Routing
 
@@ -53,10 +59,12 @@ gtm-kit-pro/
 | Standards (PVP, gates, benchmarks) | `docs/standards.md` |
 | Sending and the send-tool wall | `DIVERGENCE.md` E2 · the account's `ACCOUNT.md` §Sending |
 | Operator vs engineer surface | `docs/tiers.md` |
+| Which copy holds what — upstream vs the vendored deployments | `docs/deployments.md` — core travels everywhere, an account lives in exactly one |
 
 ## Hard lines (full text where cited)
 
 - Core never names an account — the swap test decides (`docs/isolation.md`).
+- Core travels to every deployment; an account lives in exactly one (`docs/deployments.md`).
 - Every number lives in the account's `context/scoring-model.md`, never core.
 - No live `.mcp.json` in this repo, ever (`DIVERGENCE.md` E2).
 - Suppression before every send, per account (`accounts/<slug>/optouts.md`).

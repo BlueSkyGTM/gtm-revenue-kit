@@ -15,8 +15,10 @@ folder — move it to `accounts/<slug>/`, do not generalize it into vagueness.
 Two exceptions, both narrow:
 - `examples/` holds Relay, the upstream reference instance. It names a fictional company
   on purpose, and it is read-only.
-- `DIVERGENCE.md` and `NOTICE.md` name real repos and accounts because provenance is
-  their subject.
+- Provenance and topology files — `DIVERGENCE.md`, `NOTICE.md`, `docs/deployments.md`,
+  `accounts/_index.md`, and `README.md`'s provenance sections — name real repos and
+  accounts because *which copy holds what* is their subject. Permitted there and nowhere
+  else; never as an example inside a method (`docs/deployments.md` §6).
 
 ## 2. Numbers live in the account, mechanism lives in core
 
@@ -59,17 +61,29 @@ finds the disagreement cannot tell which copy is stale.
 When a fact must be visible in two places, the second place gets a pointer with the path,
 never a copy of the value.
 
+## 6. The same line, one repo up
+
+This file governs the boundary inside a copy of the kit. `docs/deployments.md` governs it
+across copies: core travels to every deployment, an account travels to none, and upstream
+decides when copies disagree. Read it when a fact seems to live in more than one repo.
+
 ## Checking compliance
 
 Before committing core changes:
 
 ```bash
-# Core must not name accounts. Add each real account slug to the pattern.
-grep -riE "fenton|miriam|<other-account-slugs>" skills/ workflows/ playbooks/ docs/ tools/ *.md \
-  | grep -v DIVERGENCE.md | grep -v NOTICE.md
+# Core must not name accounts or deployments. Add each real slug to the pattern.
+# The §1 exceptions are excluded by name, not by leaving folders unscanned.
+grep -riE "fenton|albatross|revenue-engineering|<other-account-slugs>" \
+    skills/ workflows/ playbooks/ tools/ sync/ examples/ docs/ accounts/_template/ *.md \
+  | grep -vE "^(docs/deployments\.md|DIVERGENCE\.md|NOTICE\.md|README\.md):" \
+  | grep -v '<other-account-slugs>'   # drops this command quoting itself
 
 # No path may escape the repo, and no account may reference another.
 grep -rn "\.\./\.\./\.\." . --include="*.md" | grep -v '^./.git'
 ```
 
-Both should return nothing.
+Both should return nothing. When a new slug becomes real, add it to the pattern — and
+resist the easier fix of dropping a folder from the scan, which turns the check green
+without making it true. The excluded files are reviewed by eye
+(`docs/deployments.md` §Checking compliance).

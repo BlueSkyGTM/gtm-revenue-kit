@@ -31,6 +31,7 @@ path means the named account's folder under `accounts/`.
 | Two methods disagree — which wins? | `docs/lineages.md` | Neither: lineages stay parallel, conflicts are recorded, accounts choose. Folder `CONTEXT.md` files carry the per-file tags |
 | Why core may not name a company | `docs/isolation.md` | The swap test and the account boundary |
 | Which surface a buyer sees | `docs/tiers.md` | Operator vs engineer |
+| "I can't find the campaigns / the playbooks" | `docs/deployments.md` | Methods are in all three kit copies; an account's facts are in exactly one deployment |
 | The standards work is held to | `docs/standards.md` | PVP, tier bands, campaign gates, benchmarks |
 | What changed from upstream | `DIVERGENCE.md` | Also the product spec |
 

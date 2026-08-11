@@ -22,7 +22,10 @@ record has the same internal shape.
    status over `scaffolded → configured → live → paused`. It never describes an account's
    internals — it links down and stops.
 3. **Accounts never read each other** (`docs/isolation.md` §3). Cross-account learning
-   promotes a pattern into core, stripped of its facts.
+   promotes a pattern into core, stripped of its facts — and the promoted pattern then
+   reaches every deployment, while the facts stay put (`docs/deployments.md`).
+   Upstream this folder holds the stamp and the catalog only; populated `<slug>/` folders
+   live in the business OS that operates them.
 4. **Records can recurse:** an account holds tracks (`context/tracks/`), campaigns
    (`outputs/campaigns/`), and its own factory/product split. Uniform shape across accounts
    is what keeps the library navigable.

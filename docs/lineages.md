@@ -25,6 +25,11 @@ recorded decision — never as a side effect of importing or editing.
 Tags live in each folder's `CONTEXT.md`, per file. A new import gets a new tag and a new
 arrival date; nothing about this table is closed.
 
+**All three lineages are core, so all three travel.** An imported method reaches every
+deployment identically — the business whose operation prompted an import holds no special
+claim on the result, because what was imported is method with the facts stripped out
+(`docs/deployments.md` §4). The facts it was abstracted away from stayed in one account.
+
 ## Known doctrinal conflicts (recorded, unresolved)
 
 **C1 — First-touch copy doctrine: PVP vs the fixed-slot template.**

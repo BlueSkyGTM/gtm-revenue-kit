@@ -11,8 +11,9 @@ and every run — and they outrank any skill, playbook, or workflow that disagre
 | `isolation.md` | The core/account boundary: the swap test, values-in-the-account, accounts never read each other, per-account suppression, one home per fact | Editing core, moving facts, or any cross-account question |
 | `loading.md` | What loads with what: the account gate, factory vs product, never co-load two tracks or two campaign workflows | Session start confusion, or before bulk-reading anything |
 | `standards.md` | The bar: PVP, tier effort, campaign gates, benchmarks, sequences, datable why-now, output naming | Building or judging outbound work |
-| `lineages.md` | Parallel method traditions: the three tags, the conflict register (C1–C3), resolution protocol | Two methods disagree, or any import lands |
+| `lineages.md` | Parallel method traditions: the three tags, the conflict register (C1–C4), resolution protocol | Two methods disagree, or any import lands |
 | `tiers.md` | Operator vs engineer surfaces — views, never forks | Packaging or buyer-surface questions |
+| `deployments.md` | The boundary across repos: core travels to every deployment, an account to none; the lookup map; upstream-decides | Something cannot be found, or a vendored copy is about to be edited |
 | `CONTEXT.md` | This contract | — |
 
 ## Rules about the rules

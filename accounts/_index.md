@@ -5,7 +5,9 @@
 > re-vendor loop. **No operating account lives here anymore.** Each account lives inside
 > the business OS that runs it (vendored kit, `machinery/gtm-kit/accounts/<slug>/`);
 > the rows below are deployment pointers, and the account folders were removed 2026-08-10
-> (full content preserved in this repo's git history).
+> (full content preserved in this repo's git history — provenance, not a copy: never read
+> a removed account folder out of history to answer a live question). The rule this note
+> applies, and the full which-copy-holds-what map, is `docs/deployments.md`.
 
 The catalog: one line per account, the declared source of truth for what accounts exist,
 their tier, and where each stands. Lifecycle: `scaffolded → configured → live → paused`.
