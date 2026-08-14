@@ -8,7 +8,33 @@ the problems is the content being wrong — they are authority and framing probl
 
 ---
 
-## F1 — The laws rest on a self-published generalist. **Applied: authority downgraded.**
+## F1 — **RETRACTED in its reasoning, 2026-08-14.** Credential was the wrong test.
+
+> **The operator's counter, which is correct.** Revenue engineering is **domain-agnostic
+> by nature** — it spans RevOps, growth, and GTM engineering, and neither a tool swap nor
+> a product swap exits it. A domain-agnostic frame therefore *requires* a domain-agnostic
+> source. Whitley writing across unrelated industries is evidence he works at the
+> structural level the frame needs; a B2B-SaaS GTM authority would have produced
+> SaaS-shaped functions (PQLs, product-led loops, expansion motions) that could not travel
+> to a bookkeeping practice. **I used credential as a proxy for fitness. Wrong proxy, and
+> it is the same class of error as the one in F2** — reaching for a surface marker instead
+> of testing the thing.
+>
+> **What the finding should have been:** does the source's *scope* match the claim's
+> scope? On that test the eight pass, and the whole finding dissolves.
+
+**What survives, much smaller:** "fails one → fails as a revenue system" is too strong for
+*learn* and *retain* specifically — businesses that never learn from results still make
+money for years. Identify · offer · reach · capture · move are genuinely necessary. One
+sentence of precision, not a tier change.
+
+**And the scope of the corroboration, stated precisely** (08-14 briefing): the three
+role-definition sources corroborate **the definition** — revenue engineering owns the
+system, GTM engineering executes inside it. **They say nothing about the eight
+functions.** Those remain Whitley's alone, adopted on fitness. Two separate claims, two
+separate evidence bases; do not let one borrow the other's support.
+
+## F1-original — The laws rest on a self-published generalist. *(Superseded — kept as the record of what was withdrawn.)*
 
 `revenue-engineering.md` quotes PRSC Whitley's eight verbs and `chain-of-operations.md`
 makes them **rung 1 — "laws, not principles… violated only at the cost of failure."** That
@@ -111,6 +137,27 @@ because it is a recorded ruling; the operator changes it.
   campaigns from a two-person operation is a useful internal result, not a contribution to
   a field. The *evidence audit* in that file is excellent and stands; the framing around it
   is inflated. **Flagged.**
+
+## F7 — Source concentration: one substack is load-bearing twice. **Flagged.**
+
+Cannonball GTM (Doug Bell) is now a source for **two independent things** in the kit:
+
+1. **Pain-based segmentation** — the sole source of the doctrine and one of the two
+   instruments in `experiments/002`.
+2. **The revenue-engineer role shift** — one of the three sources corroborating the
+   definition.
+
+Neither is wrong, and the definition's corroboration does not rest on him alone
+(McDonagh 2024 and Bivens 2026 carry it independently). But "three independent sources"
+overstates the independence of the *estate's* evidence base when one author appears in two
+of the kit's foundations. Add the operator's own caution from the briefing: **two of the
+three role sources are agencies selling the role**, and Cannonball is one of them.
+
+**Practical consequence, not a doctrine change:** when `experiments/002` runs, its verdict
+is evidence about *that instrument*, not a referendum on the author — and a second
+pain-based practitioner publishing results would strengthen the estate more than another
+Cannonball piece would. Recorded so the concentration is visible rather than accumulating
+unnoticed.
 
 ## F6 — The structural criticism the files invite against themselves
 

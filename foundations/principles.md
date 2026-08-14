@@ -21,6 +21,13 @@ edge of the test: a method entering core **names which waste it prevents**
 **Arrival rule:** an import that contradicts standing method spawns an experiment
 (`experiments/`) or an explicit operator decision — never a silent blend.
 
+**Judge a source on scope fitness, not credential.** Does the source's scope match the
+claim's scope? A domain-agnostic claim needs a domain-agnostic source; a channel-specific
+claim needs channel-specific evidence. Credentials, publisher, and format are surface
+markers — and reaching for them instead of testing the fit is a recorded error here
+(`decisions/2026-08-14-foundations-audit.md` F1). Also weigh **incentive**: a source
+selling the thing it describes is not disqualified, but its confidence is not evidence.
+
 ## 2. The swap test — and the account boundary
 
 Core never names an account. Read any core sentence as if a different account were using

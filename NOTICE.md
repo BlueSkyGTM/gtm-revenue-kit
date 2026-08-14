@@ -48,7 +48,16 @@ rule of this reconstruction.
 GTM / Doug Bell** (arrival 2026-08-10). It is one instrument of the open test in
 `experiments/002-segment-definition.md`.
 
-## The laws (revenue engineering)
+## The role definition
+
+`foundations/revenue-engineering.md`'s definition tracks **Jake Bivens, "Rise of the
+Revenue Engineer (vs. GTM Engineer)"** (QC Growth, 13 Jan 2026) item for item; Bivens in
+turn credits Benjamin Reed (RevyOps). Compared against **Matt McDonagh** (Mastering
+Revenue Operations, 18 Apr 2024, partially paywalled) and **Doug Bell** (Cannonball GTM,
+31 Jan 2026) in `foundations/revenue-engineering-SOURCES.md` — an operator-synthesized
+comparative briefing, since the originals are unreachable from this session.
+
+## The eight functions (revenue engineering)
 
 The eight-verb definition quoted verbatim in `foundations/revenue-engineering.md` is
 from **PRSC Whitley, "A Rough Start Guide to Building a Go-To-Market System"** —

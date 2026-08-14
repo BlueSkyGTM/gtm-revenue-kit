@@ -32,12 +32,16 @@ runs. Nothing in core belongs at rungs 1–3 except the files stating them.
 canonically, with their source, in `revenue-engineering.md`. No tool appears in any of
 them, which is why swapping the stack never exits the discipline.
 
-> **Status, checked 2026-08-14.** These are the **operator's chosen frame**, adopted
-> because the decomposition is sound and useful — *not* a law established by evidence or
-> by field consensus. The source is one self-published generalist author
-> (`decisions/2026-08-14-foundations-audit.md` F1). Treat the eight as a coherent
-> checklist that has earned its place by working, and hold them to the same evidence
-> standard as any instrument: a better decomposition replaces them.
+> **Status, checked 2026-08-14.** The **operator's chosen frame**, and the source is fit
+> for it: a domain-agnostic discipline needs a domain-agnostic source, and a
+> B2B-SaaS-specific authority would have produced SaaS-shaped functions that could not
+> travel to a bookkeeping practice. Two precisions. **(1)** "Fails one → fails as a
+> revenue system" holds for identify · offer · reach · capture · move; it is too strong
+> for *retain* and *learn*, which businesses neglect for years while still making money —
+> those two are what separates a system that compounds from one that repeats.
+> **(2)** The three sources corroborating the *definition*
+> (`revenue-engineering-SOURCES.md`) say nothing about these eight; the frame stands on
+> fitness and on working, not on their support.
 
 What lives *here* is the rule for using them: **every skill, play, workflow, and stage
 names which function it serves.** What cannot name one is either mis-filed or evidence of

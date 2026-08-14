@@ -17,7 +17,8 @@ tunable number.
 
 | File | Owns | Load when |
 |---|---|---|
-| `revenue-engineering.md` | The discipline: definition, the eight laws with their source, the waste taxonomy | Asking what this work *is*, or naming a method's waste |
+| `revenue-engineering.md` | The discipline: definition, the eight functions with their source, the waste taxonomy | Asking what this work *is*, or naming a method's waste |
+| `revenue-engineering-SOURCES.md` | The three role-definition accounts compared, what they agree on, and the four falsifiers | Checking how well-founded the definition actually is, before leaning on it |
 | `chain-of-operations.md` | The ladder: six rungs, both flows, the construction law, the subsystem derivation, frame-and-filling, model status | **Before any structural decision** |
 | `principles.md` | The six rules + load discipline | Editing core, moving facts, any boundary question |
 | `failure-modes.md` | How work goes wrong here, the tell for each, and the six-step self-check | **Before drafting for core, and again before committing** |

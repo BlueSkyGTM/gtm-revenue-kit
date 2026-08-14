@@ -83,6 +83,12 @@ fail. Awaiting the operator's amendment; recorded here rather than silently chan
 
 **2026-08-13 — Revenue engineering subsumes this kit; the kit keeps its name.** "GTM"
 correctly names the execution layer this machinery serves. No rename, no re-scope.
+*Corroborated 2026-08-14* by three independent role-definition sources
+(`revenue-engineering-SOURCES.md`), with the definition itself traced to Jake Bivens
+rather than originating here. *Standing limit:* all three describe **capability, not
+authority** — none evidences a company that moved compensation or forecast accountability
+to the role, and two of three sell the role they describe. Four falsifiers are named in
+the sources file; the claim upgrades when one is observed.
 
 **2026-08-14 — The TAM improvement: the ignored gaps are part of the map.** The basic
 system answers "who can I find that would buy and is worth enriching." The improvement
@@ -110,11 +116,12 @@ not upgraded.
 
 **2026-08-14 — Distilled doctrine is questioned, not inherited.** Material arriving as
 foundations carries its source's status with it; a file is not authoritative because it
-arrived shaped like doctrine. *Origin:* the eight functions were made rung 1 on a
-self-published generalist source that no one audited, while the same pass rigorously
-audited an instrument's evidence. *Consequence:* provenance markers on doctrine name the
-source's standing, not just its name — and the audit record
-(`decisions/2026-08-14-foundations-audit.md`) is the shape that check takes.
+arrived shaped like doctrine. *Origin:* the eight functions were made rung 1 without
+anyone checking the source, while the same pass rigorously audited an instrument's
+evidence. *Amended the same day:* the audit that made this point then judged the source
+on **credential** and got it backwards — a domain-agnostic frame needs a domain-agnostic
+source (F1, retracted). **The test is scope fitness, not standing** (`principles.md` §1),
+and the audit record is where both the check and its retraction live.
 
 **2026-08-14 — The second brain is retired from the construction loop.** Evaluation,
 research, and triage judgments move to the construction session; the operator remains the

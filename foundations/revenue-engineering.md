@@ -10,13 +10,30 @@ output).*
 
 ---
 
-## The definition **[operator, 08-11]**
+## The definition **[operator, 08-11 — corroborated 08-14]**
 
 **Revenue engineering is ownership of the system that produces revenue** — signal
 identification, prioritization logic, messaging strategy, channel selection, and the
 feedback loops across the whole lifecycle. **GTM engineering is the execution layer
 inside it** — campaigns, lists, enrichment, tool wiring. Containment, not synonymy: a
 real role, not an error, and this kit's name is correct for what it holds.
+
+> **Provenance, corrected 08-14.** This definition is not original to the operator or to
+> this kit: it tracks **Jake Bivens (QC Growth, 13 Jan 2026)** item for item — *"the
+> revenue engineer owns no single channel or tool, but the system — signals,
+> prioritization, messaging, channels, feedback, and the automation underneath all of
+> it."* Recorded as `[operator]` since 08-11; the honest label is **operator-adopted from
+> a published source**, and Bivens himself credits Benjamin Reed (RevyOps) rather than
+> claiming the term.
+>
+> **Corroboration and its limit** — full comparison in `revenue-engineering-SOURCES.md`:
+> three writers two years apart converge on the same directional claim without borrowing
+> vocabulary, which is real evidence of a shift rather than a naming fashion. But **all
+> three describe capability, not authority** — none shows an organization where
+> compensation, headcount, or forecast accountability actually sits with the role, and
+> **two of the three are agencies selling the role they are describing.** The definition
+> is a directional claim the operator has adopted, with four named falsifiers that would
+> upgrade or sink it. Adopt it; do not call it settled.
 
 The discipline is **product-agnostic** and **stack-agnostic**: swapping tools or
 products never exits it. The operation's scope statement **[operator, 08-13]**: every
