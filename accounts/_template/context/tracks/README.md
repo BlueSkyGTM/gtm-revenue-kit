@@ -35,7 +35,7 @@ what differs, and states at the top of each file what it is overriding.
 
 ## The hard rule
 
-**Never load two tracks in one session** (`docs/loading.md`). Their positioning disagrees
+**Never load two tracks in one session** (`foundations/principles.md`). Their positioning disagrees
 on purpose. Loaded together, they average into copy that fits neither buyer, and the
 failure is invisible in the output — it just quietly underperforms.
 

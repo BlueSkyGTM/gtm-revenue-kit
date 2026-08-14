@@ -19,7 +19,7 @@ they must contain either way.
 ## The contract with `context/`
 
 **The brand layer feeds the context files; it never duplicates them.** One home per fact
-(`docs/isolation.md` §5):
+(`foundations/principles.md` §5):
 
 - `brand/offer-map.md` holds the offer's *promise and shape*. Prices, if this account keeps
   them in the repo at all, live in one file and are pointed at, not restated.
@@ -33,6 +33,6 @@ expression.
 
 ## The standard these outputs are held to
 
-Copy built from this layer still passes the kit's own bar (`docs/standards.md`): a first
+Copy built from this layer still passes the kit's own bar (`foundations/pvp.md`): a first
 touch teaches the prospect something about their own business with the ask removed. A voice
 file that produces charming copy with nothing in it has failed, not succeeded.

@@ -25,7 +25,7 @@ outputs/
 - **A durable fact does not belong here.** If a research pass turns up something true about
   the *buyer type* rather than one company, it belongs in `context/` — the output records
   what happened; the context records what is now known.
-- **Never bulk-load this folder** (`docs/loading.md`). Read the dated file the task names.
+- **Never bulk-load this folder** (`foundations/principles.md`). Read the dated file the task names.
 - **Raw contact data never enters git.** `lists/` and `*.csv` are gitignored by pattern;
   the pattern is a backstop, not permission to try.
 - **Outputs are evidence.** When one turns out to be wrong, annotate it in place with the

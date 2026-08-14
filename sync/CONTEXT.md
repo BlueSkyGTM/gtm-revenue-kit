@@ -1,7 +1,7 @@
 # sync/ — result-pull contract
 
 Scripts that pull live campaign results from an outbound tool or CRM into an account. Run
-before `skills/weekly-update` so the context refresh works from fresh numbers instead of
+before `motions/skills/weekly-update` so the context refresh works from fresh numbers instead of
 manual entry.
 
 - **Reads:** the operator's API credentials from the environment (never committed) and the

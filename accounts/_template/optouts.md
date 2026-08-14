@@ -4,7 +4,7 @@
 be contacted and then was.
 
 Checked before every send batch for this account, alongside any client roster declared in
-`ACCOUNT.md`. Scoped to this account only — see `docs/isolation.md` §4.
+`ACCOUNT.md`. Scoped to this account only — see `foundations/principles.md` §4.
 
 ## How a row gets here
 

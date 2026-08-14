@@ -4,9 +4,14 @@
 weights, point values, band boundaries, decay multipliers, eligibility gates. Core skills
 hold the mechanism and read their values from this file.
 
-Why the split: `docs/isolation.md` §2. Short version — mechanism is the same for every
-account, values never are. Two accounts may score the same company differently and both be
-right.
+Why the split: `foundations/principles.md` §3. Short version — mechanism is the same for
+every account, values never are. Two accounts may score the same company differently and
+both be right.
+
+**Defaults in this template** are the upstream kit's original working rubric
+(`baseline-gtm-starter-kit`), restored so a new account starts from a runnable model
+instead of a blank form. They are unverified against your market — treat every one as a
+day-one hypothesis and recalibrate through §8.
 
 Last updated: [YYYY-MM-DD]
 
@@ -18,21 +23,31 @@ The composite score is 0–100. Dimensions and their maximum contributions:
 
 | Dimension | Max points | What it measures | Source |
 |---|---|---|---|
-| Firmographic | [30] | size, geography, industry, stage | [where this is read from] |
-| Technographic | [20] | what they run on, at what level | [ ] |
-| Organizational | [20] | team shape, who owns the problem | [ ] |
-| Signal / intent | [30] | dated events predicting readiness | `signal-library.md` |
+| Firmographic | 30 | size, geography, industry, stage | [where this is read from] |
+| Technographic | 20 | what they run on, at what level | [ ] |
+| Organizational | 20 | team shape, who owns the problem | [ ] |
+| Signal / intent | 30 | dated events predicting readiness | `signal-library.md` |
 
 *Weights are a reversible hypothesis until reply data lands. Re-tune from results, and log
 the change below.*
 
 ## 2. Per-attribute point map
 
-*The values behind dimension 1–3. One row per attribute the scorer can observe.*
+*The values behind dimension 1–3. One row per attribute the scorer can observe. The rows
+below are the upstream defaults — replace the bracketed placeholders with this account's
+specifics and re-tune the points from results.*
 
 | Attribute | Value | Points |
 |---|---|---|
-| [attribute] | [observed value] | [+N] |
+| Employee count in range | [your ICP range] | 0–10 |
+| Industry match | primary / secondary / other | 10 / 5 / 0 |
+| Funding stage match | ideal / adjacent / outside | 10 / 5 / 0 |
+| Uses [key integration tool] | confirms workflow match | 0–10 |
+| Uses [secondary tool] | confirms sophistication level | 0–5 |
+| No [disqualifying tool] | absence of competitive blocker | 0–5 |
+| Has [key role/function] | decision-maker exists | 0–10 |
+| [Role] hired in last 12 months | new leader = change appetite | 0–5 |
+| Hiring for [relevant role] | active investment in the function | 0–5 |
 
 **Normalization:** [how raw values map onto the bands — rounding, caps, what happens to
 missing data]
@@ -54,12 +69,15 @@ missing data]
 
 ## 4. Tier bands
 
+*Upstream defaults; the actions column is the upstream rubric's, worth keeping.*
+
 | Score | Tier | What it buys |
 |---|---|---|
-| [80]–100 | 1 | bespoke research, personalized touch |
-| [60]–[79] | 2 | sequenced, signal-keyed copy |
-| [40]–[59] | 3 | light touch, general framing |
-| below [40] | — | monitor only, no send |
+| 80–100 | 1 | bespoke research (full research skill), personalized touch, immediate |
+| 60–79 | 2 | sequenced, signal-keyed copy within 48 hours of the trigger |
+| 40–59 | 3 | light touch, general framing, automated sequence |
+| 20–39 | — | monitor only, re-score in 90 days, no send |
+| 0–19 | — | excluded from active lists |
 
 **Research cap:** the top [N] of Tier 1 get a bespoke brief. The 20–40 minute research pass
 is the scarce resource, not the sequence.
@@ -104,7 +122,21 @@ brief — it is expensive, it looks authoritative, and it sends.
 | unverified | not yet checked | no send |
 | dead | [dead domain / rebranded out of scope / wrong stage of life] | excluded, with cause recorded |
 
-## 8. Calibration log
+## 8. Campaign gates and benchmarks
+
+*Launch and kill criteria, set deliberately before the first send. The former core
+defaults (audience ≥ 50 · enrichment ≥ 80% · pause under 1% reply after 50 sends) were
+retired as unverifiable provenance — if you adopt them, you adopt them as your own
+hypothesis and log it below. Micro-list motions (`motions/channels/micro-lists.md`)
+exempt themselves from volume gates by design.*
+
+| Gate | Threshold | Action when failed |
+|---|---|---|
+| Minimum audience before launch | [N] | build on, don't send |
+| Enrichment coverage before launch | [N%] | return to enrichment |
+| Pause trigger | [reply rate over first N sends] | pause, diagnose list vs. copy |
+
+## 9. Calibration log
 
 *Every change to a number, with the evidence. This log is worth more than the current
 values after a year.*

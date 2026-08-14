@@ -101,9 +101,9 @@ Full library: `context/signal-library.md`
 
 ## Workflows
 
-- `workflows/enrichment.md` — Clay waterfall for account + contact enrichment
-- `workflows/signal-routing.md` — How signals route to Outreach or SDR queue
-- `workflows/campaign-build.md` — Campaign launch process
+- `motions/workflows/enrichment.md` — Clay waterfall for account + contact enrichment
+- `motions/workflows/signal-routing.md` — How signals route to Outreach or SDR queue
+- `motions/workflows/campaign-build.md` — Campaign launch process
 
 ---
 
@@ -130,18 +130,18 @@ Full library: `context/signal-library.md`
 
 **Research an account:**
 ```
-Read skills/account-research/SKILL.md and research [company.com]
+Read motions/skills/account-research/SKILL.md and research [company.com]
 ```
 
 **Score a list:**
 ```
-Read skills/icp-scoring/SKILL.md and score the companies in [paste list].
+Read motions/skills/icp-scoring/SKILL.md and score the companies in [paste list].
 Output a table sorted by score. Flag anything ≥ 60.
 ```
 
 **Build a campaign:**
 ```
-Read skills/signal-to-sequence/SKILL.md. Build a campaign for accounts
+Read motions/skills/signal-to-sequence/SKILL.md. Build a campaign for accounts
 that triggered the "Series B in last 60 days" signal. Target the Head of RevOps
 persona. Tier 2 intensity.
 ```

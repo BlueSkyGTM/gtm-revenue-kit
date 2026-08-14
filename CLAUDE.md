@@ -1,70 +1,57 @@
-# GTM Kit Pro
+# GTM Kit
 
-**Machinery**: the multi-account GTM engine — one shared engine, many bounded accounts —
-built to embed into a business-OS chassis's `machinery/` the way ledger servers do
-(standalone repo upstream, vendored downstream). It powers a chassis's **GTM Motions wing**
-(Revenue & Growth, in the digestible register; the funnel is one view of it) and feeds its **ABM/Won wing** (case files that become client
-records). Form: **Umbrella** (root routes; shared factory) composed with a **Record
-library** (`accounts/`).
+Machinery for **revenue engineering**: the connective layer that turns signals into won
+work without waste. One shared engine, vendored into each business OS that runs it; every
+operating account lives in its deployment, never here (`estate.md`). Form: an umbrella of
+four wings over the account stamp.
 
-**This file routes; it holds no content.** Every fact lives in exactly one home below.
+**This file is the map — it routes, it holds no content.**
+
+> **UNDER RECONSTRUCTION** on this branch: the operating layer is being rebuilt from the
+> operator's improved TAM framework (second-brain brief pending; Cowork evaluates).
+> `motions/tam/CONTEXT.md` states what is real vs. arriving.
 
 ## The one rule
 
-**Every session names its account first.** Nothing loads until it is known — a skill run
-without an account resolves nothing, and context loaded under the wrong account produces
-confident answers from the wrong buyer's facts. If unclear, ask before anything else.
+**Name the account first.** Nothing loads until it is known; context loaded under the
+wrong account produces confident answers from the wrong buyer's facts. If unclear, ask.
 
 ## Folder map
 
 ```
-gtm-kit-pro/
-├── CLAUDE.md · CONTEXT.md      ← this map · the task router
-├── README.md · START-HERE.md   ← design document · buyer front door
-├── DIVERGENCE.md · NOTICE.md   ← product spec vs upstream · attribution
+gtm-kit/
+├── CLAUDE.md · CONTEXT.md   ← this map · the task router
+├── README.md · NOTICE.md    ← build state · attribution
+├── estate.md                ← what the kit owns vs reads; the deployments map
 │
-│  ── CORE: the shared engine. Account-agnostic. Contracts in each folder. ──
-├── skills/       what Claude executes (6 skills)        → skills/CONTEXT.md
-├── workflows/    how a team operates (6 docs)           → workflows/CONTEXT.md
-├── playbooks/    the method shelf: guides · plays/ ·    → playbooks/CONTEXT.md
-│                 channels/ · dormant/ · REFERENCES.md (selection)
-├── docs/         the rule shelf (6 rules, one home each)→ docs/CONTEXT.md
-├── tools/        the copy linter                        → tools/CONTEXT.md
-├── sync/         result-pull scripts                    → sync/CONTEXT.md
-├── examples/     Relay, the read-only reference instance→ examples/CONTEXT.md
-├── _archive/     superseded material, never load
+├── foundations/   the why-layer: principles · pvp · task-craft   → its CONTEXT.md
+├── motions/       the operating layer: skills · plays (15, Michael's) ·
+│                  channels · tam/ (pipeline, under construction) ·
+│                  workflows · playbooks · dormant                → its CONTEXT.md
+├── signals/       the signal library: schema + admitted records  → its CONTEXT.md
+├── experiments/   open instrument tests, queued and closed       → its CONTEXT.md
 │
-│  ── RECORDS: the tenants. One folder per account, same shape. ──
-└── accounts/                                            → accounts/CONTEXT.md
-    ├── _index.md     the catalog — which accounts exist and which deployment runs each
-    ├── _template/    the stamp — a new account is a copy, never a blank page
-    └── <slug>/       ACCOUNT.md + context/ + outputs/ + brand/ + optouts.md
-                      — in a DEPLOYMENT, not here: upstream is core-only
+├── accounts/      the stamp (_template/) + catalog (_index.md) — operating
+│                  accounts live in deployments, never here       → its CONTEXT.md
+├── tools/ · sync/ · examples/   linter · result-pull · Relay (read-only)
+└── _archive/      superseded material, never load
 ```
-
-**Upstream is core-only.** Everything above the `accounts/` block travels to every
-deployment; `<slug>/` folders exist only in the business OS that runs them
-(`docs/deployments.md`). Looking for a method — any copy has it. Looking for campaigns,
-research, or an opt-out ledger — exactly one deployment does.
 
 ## Routing
 
 | You need | Read |
 |---|---|
 | "What's my task? → which file?" | `CONTEXT.md` |
-| Which playbook fits this situation | `playbooks/REFERENCES.md` |
-| The core/account boundary, the swap test | `docs/isolation.md` |
-| What may load with what | `docs/loading.md` |
-| Two methods disagree | `docs/lineages.md` — parallel, recorded, account chooses |
-| Standards (PVP, gates, benchmarks) | `docs/standards.md` |
-| Sending and the send-tool wall | `DIVERGENCE.md` E2 · the account's `ACCOUNT.md` §Sending |
-| Operator vs engineer surface | `docs/tiers.md` |
-| Which copy holds what — upstream vs the vendored deployments | `docs/deployments.md` — core travels everywhere, an account lives in exactly one |
+| The rules (admission, swap test, values, one-home, suppression, travel) | `foundations/principles.md` |
+| First-touch copy doctrine | `foundations/pvp.md` — both instruments, `experiments/001` |
+| How to write a skill/play/stage | `foundations/task-craft.md` |
+| What a signal must carry to exist | `signals/schema.md` |
+| Two methods disagree | `experiments/` — queued tests, not curated doctrine |
+| Which copy of the kit holds what | `estate.md` |
 
-## Hard lines (full text where cited)
+## Hard lines
 
-- Core never names an account — the swap test decides (`docs/isolation.md`).
-- Core travels to every deployment; an account lives in exactly one (`docs/deployments.md`).
-- Every number lives in the account's `context/scoring-model.md`, never core.
-- No live `.mcp.json` in this repo, ever (`DIVERGENCE.md` E2).
-- Suppression before every send, per account (`accounts/<slug>/optouts.md`).
+- Core never names an account — the swap test (`foundations/principles.md` §2).
+- Every number lives in the account's `context/scoring-model.md` (§3).
+- Suppression before every send, per account, append-only (§5).
+- No live `.mcp.json` in this repo; no send tool in core, ever.
