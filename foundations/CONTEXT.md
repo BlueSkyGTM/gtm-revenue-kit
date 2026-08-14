@@ -22,6 +22,7 @@ tunable number.
 | `chain-of-operations.md` | The ladder: six rungs, both flows, the construction law, the subsystem derivation, frame-and-filling, model status | **Before any structural decision** |
 | `principles.md` | The six rules + load discipline | Editing core, moving facts, any boundary question |
 | `failure-modes.md` | How work goes wrong here, the tell for each, and the six-step self-check | **Before drafting for core, and again before committing** |
+| `conceptual-framework.md` | The eight pillars as tools: the judgment protocol, per-pillar quality criteria, the seam test | The method files are silent on your case, or you must judge an output rather than check it |
 | `lexicon.md` | Terms that mean something specific | A term in the request could go two ways |
 | `rulings.md` | Append-only record of the operator's kit-scoped decisions | A draft would assume something the operator may have settled |
 | `task-craft.md` | How an executable document is written — six rules | Writing or revising a skill, play, or stage |

@@ -133,6 +133,25 @@ core skill genuinely needs a local name for something.*
 
 ---
 
+## Pillar coverage
+
+*Every account has all eight problems at once — the pillars are standing branches, not a
+sequence (`foundations/conceptual-framework.md`). Declare what serves each. "Unserved"
+is a declared state, not an omission — say why, in one line.*
+
+| Pillar | Served by, in this account |
+|---|---|
+| Identify | [motion / instrument — or: unserved, because...] |
+| Offer | [ ] |
+| Reach | [ ] |
+| Capture | [ ] |
+| Move | [ ] |
+| Retain (data) | [ ] |
+| Follow up | [ ] |
+| Learn | [ ] |
+
+---
+
 ## Current priorities
 
 - [ ] [Specific and actionable]

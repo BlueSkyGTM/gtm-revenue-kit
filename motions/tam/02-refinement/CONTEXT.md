@@ -99,4 +99,6 @@ carried. Stage 3 works the map top-down and never re-derives who is in it.
 The operator reads the catch counts before Stage 3 spends money: which rules bound,
 which caught nothing, whether the suppression rate says the sourcing is off. This is the
 gate where the anti-ICP stops being prose — a map whose exclusions all fired plausibly
-is hardened; one whose exclusions never fired goes back a stage.
+is hardened; one whose exclusions never fired goes back a stage. The output is also
+*judged*, not only checked: identify's criteria,
+`foundations/conceptual-framework.md` §1.

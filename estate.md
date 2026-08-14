@@ -48,7 +48,9 @@ Core is copied identically into every deployment; an account lives in exactly on
 
 **Plan of record (operator ruling, 08-13):** the active front is the albatross
 deployment's **own motion** — its `revenue-engineering` account, where experiments 001
-and 002 run when its first campaigns launch. **The Fenton engagement is dropped for
+and 002 run when its first campaigns launch. **Client 0 is the operation itself
+[operator, 08-14]** — GTM motions are both a service and a business function, and that
+account is where the machinery is proven before any client sees it. **The Fenton engagement is dropped for
 now**: Albatross sells products, not GTM services (the recorded 08-10 pivot); the
 fenton-as-first-client dry run is not built toward, and the service-model question stays
 parked with it. Fenton runs its own GTM in its own OS, on its own resume schedule.
