@@ -2,15 +2,19 @@
 
 **Cost:** fast when the market lives on the professional-network graph (a filter
 exercise); genuine research when it needs a bespoke source — budget the research, not the
-pull.
+pull. *Step budgets land after the first operated run (`operator-proven`); the
+qualitative split above is the honest pre-operation contract — inventing minutes now
+would be fabricated specificity.*
 **Output:** the TAM artifact, v0 — one broad table with its rules and suppression
 columns, saved to `accounts/<slug>/outputs/YYYY-MM-DD-tam-map/` (dated; the map is
 product, refreshed by re-running this stage, never edited in place).
 
 *Provenance: mechanics from Michael's series (`../skeleton.md` §Stage 1,
 `michael-course`); the anti-ICP output from the operator's improvement (`../BRIEF.md` §1);
-drafted by the construction session under the brief's stage-1 authorization — Cowork
-evaluates before stage 2 is built.*
+drafted by the construction session under the brief's stage-1 authorization.
+**Evaluated 2026-08-14: AMEND, applied** — clean on fabricated-specificity, anti-ICP
+rendering, and law; both amendments (map declaration first; the budget slot declared)
+are in this text. The record: `EVALUATION-2026-08-14.md`.*
 
 ---
 
@@ -45,12 +49,23 @@ waste, both killed *at the map*, before any downstream stage spends a dollar.
   suppression on the map in Step 5
 - `motions/workflows/enrichment-techniques.md` — the scraping patterns, when Step 1 lands
   on a bespoke source
-- `experiments/002-segment-definition.md` — the open segment-definition test Step 2
+- `experiments/002-segment-definition.md` — the open segment-definition test Step 1
   declares under
 
-## Step 1: Pick the enumeration source
+## Step 1: Declare which map draws the audience
 
-The entire step reduces to one question, answered before any tool is opened:
+Firmographic map or pain map — state it in the run's brief before anything else
+(`experiments/002` is open; the two are never blended in one campaign). This declaration
+comes first because it governs everything after it: it decides what "these businesses"
+*means*. Under a pain map, the addressable market is defined by the shared pain
+condition rather than corporate structure — and the enumeration source can change with
+it, because a professional graph enumerates by structure while a pain condition may need
+a different source entirely.
+
+## Step 2: Pick the enumeration source
+
+The entire step reduces to one question, answered before any tool is opened — with
+"these businesses" meaning whatever Step 1 declared:
 
 > **What is the best place on the internet to find the complete list of these
 > businesses?**
@@ -68,13 +83,6 @@ in places it benefits from being listed:
 Roughly half of markets come straight from the professional graph (mapping is fast); the
 other half each need a bespoke source, and finding it is genuine research — read the
 scraping patterns before concluding a market can't be mapped.
-
-## Step 2: Declare which map draws the audience
-
-Firmographic map or pain map — state it in the run's brief before pulling
-(`experiments/002` is open; the two are never blended in one campaign). Under a pain map,
-"the addressable market" is defined by the shared pain condition rather than corporate
-structure; the mechanics of this stage otherwise hold.
 
 ## Step 3: Pull broad
 

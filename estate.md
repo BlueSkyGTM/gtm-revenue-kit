@@ -51,7 +51,13 @@ now**: Albatross sells products, not GTM services (the recorded 08-10 pivot); th
 fenton-as-first-client dry run is not built toward, and the service-model question stays
 parked with it. Fenton runs its own GTM in its own OS, on its own resume schedule.
 
-## Runtime direction — confirmed, spec pending **[operator, 08-13]**
+## Runtime direction — confirmed; spec drafted, under review **[operator, 08-13/14]**
+
+> **The spec exists:** `runtime-spec.md` (v0, 08-14) — the ICM structure as the runtime
+> program, execution blocks in the stage contracts, the laws translated, TAM stages 1–3
+> as the first executable motion. Awaiting Cowork's E5 review and the operator's inputs
+> (keys, database locations, the send-approval scope). The section below is the standing
+> doctrine the spec implements.
 
 **The kit will exist as a runtime** — not markdown instructing a session which
 individually-wired tool to call, but a running system executing motions against the live

@@ -13,9 +13,12 @@ becomes `market-led/` is the operator's call and blocks nothing.
   first-class output) and the stage-list verdict. **The six stages are confirmed.**
 - `skeleton.md` — the mechanism map of Michael's six-part series: faithful mechanics,
   stripped voice. The map of what the pipeline covers, not the pipeline.
-- `01-mapping/` — **drafted under the brief's authorization** (thesis + verdict landed →
-  stage 1 may be built; Cowork evaluates it before stage 2 is drafted).
-- Stages 2–6 — folders are created as their content is briefed, never before. Michael's
+- `01-mapping/` — **evaluated 2026-08-14: AMEND, both amendments applied**
+  (`01-mapping/EVALUATION-2026-08-14.md` is the record). Stage 2 unblocked by the
+  verdict.
+- `02-refinement/` — drafted under that unblocking, from `skeleton.md` §Stage 2 + the
+  brief's exclusion-hardening delta; awaits Cowork's evaluation per the standing gate.
+- Stages 3–6 — folders are created as their content is briefed, never before. Michael's
   per-stage mechanics, the operator's further deltas, and numbers are still owed
   (`BRIEF.md` footer).
 

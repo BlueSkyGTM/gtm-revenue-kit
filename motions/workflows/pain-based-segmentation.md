@@ -6,6 +6,13 @@ Pain-Based Segmentation" — Cannonball GTM / Doug Bell
 original core doc; one instrument of the open test `experiments/002-segment-definition.md`
 at the bottom before applying this anywhere a firmographic-first model already operates.
 
+> **Series note (research, 08-14):** the recorded source sits inside a moving Cannonball
+> series, and the current formulation is **dual-path** — Pain-Derived Segments (this
+> doc's EDP method, trailing indicators) plus Demand-Qualified Segments (leading
+> indicators, "load pulling away from capacity," years ahead of the RFP). DQS is a
+> *third* map type, not a variant of this one. Evidence state, corpus map, and the
+> DISCO worked case: `pain-based-segmentation-RESEARCH.md`.
+
 ---
 
 ## The doctrine in one move

@@ -1,117 +1,88 @@
-# Formal request — second edition, 2026-08-14
+# Formal request — third edition, 2026-08-14
 
 **From:** the construction session (branch `claude/course-extraction-account-split-lm15br`)
 **To:** the Cowork second brain (E-items) and the operator (R-items)
-**Standing:** transient — deleted when the queue empties. First edition's closed items:
-R2 (definition — landed, derivations operator-endorsed 08-14), R4 (F/I/R/T — adopted,
-confirmed), R6 (build evaluation — all verdicts applied), R9 (benchmark-free —
-confirmed). This edition is everything still needed, each with what "fulfilled" looks
-like.
+**Standing:** transient — deleted when the queue empties.
 
-**How to respond:** commit to this repo — rough notes are fine, provenance stated per
-item. Anything not committed here does not exist for the construction session.
-
----
-
-## To Cowork — evaluation and research
-
-### E1 — Evaluate stage 1 of the TAM pipeline ⟵ **the gate everything waits on**
-
-`motions/tam/01-mapping/CONTEXT.md` is drafted under the brief's authorization; the
-brief's own rule is that **you evaluate each landed stage before the next is built**.
-Stage 2 (refinement — the exclusion-hardening stage) has its content basis ready
-(`skeleton.md` §Stage 2 + the brief's stated delta) and is drafted the moment E1 closes.
-
-Evaluate against, in order of risk:
-
-1. **Fabricated specificity** (the documented failure mode): does anything in the draft
-   go beyond what `skeleton.md` §Stage 1 and `BRIEF.md` §1 actually state? Every
-   mechanic should trace to one of the two.
-2. **The anti-ICP rendering**: does the draft carry the thesis correctly — exclusions as
-   positively-stated rules with reasons, tested for whether they can bind, on the same
-   artifact — or did it drift back toward hygiene?
-3. **Law compliance**: zero numbers in core; waste named (identification, reach); the
-   experiments/002 declare-your-map step placed correctly; suppression reads the ledger
-   without becoming it.
-4. **Task-craft**: the six rules (`foundations/task-craft.md`) — honest cost contract,
-   anti-goal stated, inputs with reasons.
-
-**Verdict format:** *stands* / *amend* (with line-level notes) / *rebuild* — committed as
-a note or direct edits. *Fulfilled when:* the verdict is in the repo. **Unblocks: stage 2.**
-
-### E2 — Calibration check on the two fenton operations (standing offer)
-
-The client-system conversion and the migration-kit facelift are merged to fenton `main`
-(`207e0cd`). Last time you audited my work you caught two real contradictions (FLAG 1/2).
-Same check invited here: does anything in either operation contradict a recorded ruling —
-in particular the shelving terms, the send-wall translation, and the claim discipline
-("the kit never converts")? *Fulfilled when:* a clean bill or flags, either committed.
-
-### E3 — R8, pain-based segmentation research (already queued with you)
-
-Standing: evidence beyond the one Cannonball/Doug Bell piece; the strongest current EDP
-formulation; whether the overwrite-prediction has data yet. Feeds `experiments/002`
-before it runs. *Fulfilled when:* notes land beside
-`motions/workflows/pain-based-segmentation.md`.
+**Closed since the second edition:** E1 (stage 1 — AMEND, both amendments applied, the
+record at `motions/tam/01-mapping/EVALUATION-2026-08-14.md`; stage 2 drafted under the
+unblocking) · E2 (fenton operations — clean bill; the one flag ruled by the operator
+08-14: *"Fenton is a separate project. Period."* — the cross-deployment pass removed, no
+exception enters law) · E3/R8 (pain-based research landed at
+`motions/workflows/pain-based-segmentation-RESEARCH.md`; experiment 002 upgraded with
+the evidence state and the DQS third-map note). Earlier closures: R2, R4, R6, R9.
 
 ---
 
-## To Ray — content and rulings
+## To Cowork
 
-### R1 (continuation) — stage briefs 2–6, stage 2 first
+### E4 — Investigate the Deepline public skills set ⟵ **new, operator-ordered**
 
-Per stage, in your own order: what you changed from Michael's mechanics and why, plus
-any numbers (labeled: proven / taught / guess — they land in the account template, never
-core). **Stage 2 is the priority** — it completes the map artifact (tiering, exclusion
-hardening, the below-threshold tier) that stages 3–6 consume. *Fulfilled per stage
-when:* your notes are committed (any form); I shape, you and Cowork check the shaped
-result.
+Target: [`getaero-io/gtm-eng-skills`](https://github.com/getaero-io/gtm-eng-skills) —
+ten MIT-licensed Claude Code skills driving the Deepline CLI (waterfall email
+enrichment, TAM building, signal discovery, job-change detection, outbound automation,
+and the rest). Read the pack skill by skill and **triage each against `runtime-spec.md`
+and our method**, three verdicts:
 
-### R3 — Michael's signal set, with the why per signal
+- **Absorb** — command patterns and mechanics worth taking into our execution blocks,
+  with MIT attribution (`NOTICE.md` row on absorption).
+- **Replace** — where our method is deeper and theirs would dilute it: their TAM
+  building vs. our anti-ICP pipeline (`motions/tam/`); their signal discovery and
+  job-change detection vs. our schema's why-it-matters gate and play 10; their outbound
+  automation vs. our gated send wall.
+- **Safely disregard** — anything that conflicts with law: numbers in core, pushes
+  without a suppression gate, provider choices hardcoded where account config belongs,
+  anything bypassing one-account-per-run binding.
 
-The shelf stays empty until these arrive. Trigger · what fires · **why it matters** ·
-how to track · decay class, per signal — even three signals with real backstory beats a
-full list without it. *Fulfilled when:* records pass the schema gate.
+*Fulfilled when:* a verdict-per-skill document is committed. **Nothing from the pack
+enters a contract before this lands** (`runtime-spec.md` §7).
 
-### R5 — the fixed-slot template, verbatim
+### E5 — Review `runtime-spec.md` ⟵ **new**
 
-Experiment 001 cannot run fairly against my abstraction. **Licensing check first** (the
-second brain's caution): confirm the course license permits committing the template text
-to a private repo before you paste it. *Fulfilled when:* the template is in-repo with
-attribution, or you rule it stays out and 001 tests against your own rendering of it.
-
-### R6 — one small naming call (blocks nothing)
-
-`motions/tam/` keeps its name or becomes `motions/market-led/` — your call whenever;
-one line.
-
-### R7 — where Michael's course physically lives
-
-Still unanswered and still the only copy of the source. One sentence ("it's on X") plus,
-ideally, a durable copy somewhere — even outside git. *Fulfilled when:* the location is
-on the record.
-
-### R8 — the runtime spec, when ready
-
-Deepline direction is confirmed; the rule on the record is **no scaffolding ahead of
-your material**. Whenever the spec exists — what the runtime executes first, what gates
-look like mechanically — commit it and construction resumes there. No pressure date.
-
-### R9 — the standing fenton reminder
-
-Delete (or archive) the standalone `migration-kit` GitHub repo — its content and history
-live in fenton's `machinery/migration-kit/`; nothing references the standalone. Recorded
-in fenton's HANDOFF; repeated here so it isn't lost.
-
-### R10 — the estate inventory (parked until you say)
-
-Funnel builder, branding tools, copywriting, SKUs — plus whether ClickFunnels is the
-funnel machine of record. Unpacks on your schedule.
+The runtime spec (v0) is drafted for your review — same format as E1: *stands / amend
+with lines / rebuild*. The axes that matter most, in risk order: does any part of it
+scaffold ahead of the operator's material; do the law translations (§3) hold to the
+letter now that the 08-14 ruling hardened principle 2; is the
+execution-blocks-in-contracts decision (§2) right or does it need the separate wing.
+*Fulfilled when:* the verdict is committed. **Unblocks: execution blocks for stages 1–3
+once the operator's inputs (below) also land.**
 
 ---
 
-## Sequencing, stated plainly
+## To Ray
 
-**E1 is the only thing blocking construction today.** Everything else enriches or waits.
-The construction session holds: drafting stage 2 on E1's close, shaping whatever
-arrives, walk tests, and the provenance diff against `baseline-gtm-starter-kit`.
+### R1 (continuation) — stage briefs: 2 is drafted, your deltas still shape it
+
+`motions/tam/02-refinement/CONTEXT.md` is drafted from the skeleton + your
+exclusion-hardening delta and awaits Cowork's gate. Your per-stage deltas for 3–6 (and
+anything stage 2's draft missed) land whenever ready — numbers labeled proven / taught /
+guess.
+
+### R2 — the runtime inputs (from `runtime-spec.md` §6)
+
+1. Deepline account + which providers get BYOK keys.
+2. Where each deployment's SQL database lives (becomes an `estate.md` row).
+3. The active deployment's **send-approval scope, named in writing** — who says yes to a
+   batch.
+
+### R3 — Michael's signal set, with the why per signal *(standing)*
+
+### R5 — the fixed-slot template, verbatim — licensing check first *(standing)*
+
+### R6 — the `tam/` vs `market-led/` naming one-liner *(standing, blocks nothing)*
+
+### R7 — where Michael's course physically lives *(standing — still the only unanswered
+question from the first edition)*
+
+### R9 — delete/archive the standalone `migration-kit` repo *(standing reminder)*
+
+### R10 — the estate inventory, on your schedule *(parked)*
+
+---
+
+## Sequencing
+
+**E4 and E5 are the gates on the runtime**; stage 2's evaluation is the gate on the
+pipeline. The construction session holds: applying verdicts, drafting stage 3 when its
+brief content exists, execution blocks once E4+E5+R2 land, and the provenance diff
+against `baseline-gtm-starter-kit`.
