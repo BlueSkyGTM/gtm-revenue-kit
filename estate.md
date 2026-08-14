@@ -44,7 +44,7 @@ Core is copied identically into every deployment; an account lives in exactly on
 |---|---|---|---|
 | `gtm-kit-pro` (this repo, upstream) | **authoritative** | `_template/` only | under reconstruction (this branch) |
 | `fenton-bookkeeping-os/machinery/gtm-kit/` | vendored | `fenton` | **shelved 2026-08-13** — re-vendors core on resume |
-| `albatross-engineering-os/machinery/gtm-kit/` | vendored | `revenue-engineering` | active front |
+| `albatross-engineering-os/machinery/gtm-kit/` | vendored — re-vendored 2026-08-14 from `main` @ `ece884f` | `revenue-engineering` | active front; first operated run on record |
 
 **Plan of record (operator ruling, 08-13):** the active front is the albatross
 deployment's **own motion** — its `revenue-engineering` account, where experiments 001

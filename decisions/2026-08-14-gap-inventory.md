@@ -58,6 +58,16 @@ the reconstruction's call to keep mechanisms and move every number into the acco
 *upstream-verified* under principle 1 — the reasoning is now known; the operator's
 endorsement is the remaining step. No doctrine was edited on this finding.
 
+**Handling applied 2026-08-14 (operator engaged the finding):** provenance attached at
+the mechanisms' homes — the signal-library template (decay + combinations) and
+`foundations/pvp.md` (the authors' stated rationale; PVP was already
+upstream-verified). A correction to this record's own framing: the reasoning was never
+thrown out — the template carried it inline all along; what was unknown until today
+was *whose* reasoning it is. The retired numbers stay retired: the article does not
+justify them either, which supports values-in-account. Formal status upgrade of decay,
+combinations, and the evolution log to upstream-verified: the operator's one-line
+endorsement, whenever he gives it.
+
 ### Revenue Decision Systems **[R]**
 
 The upstream authors now describe their client work as building **"Revenue Decision
