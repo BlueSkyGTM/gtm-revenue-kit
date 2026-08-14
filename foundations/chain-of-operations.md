@@ -1,0 +1,129 @@
+# The chain of operations — where this kit sits
+
+*Provenance: the operation's framework, researched against Winning by Design's published
+structure, the classical engineering hierarchy, and this kit's own operating shape —
+three independent stacks, one form. Operator-proven (principle 1). Swap-test clean.*
+
+**Read before any structural decision.** It answers two questions the method files cannot:
+*what layer am I working at*, and *which direction does authority flow*.
+
+---
+
+## The six rungs
+
+Composition runs down — each rung is made of the one below. Construction runs up.
+
+| Rung | Layer | What lives there |
+|---|---|---|
+| 1 | **Laws** | What any revenue system must do. Not chosen; violated only at the cost of failure |
+| 2 | **Principles** | The operating principles that guide design (`principles.md`) |
+| 3 | **Architecture** | The design layer. Models are its vocabulary |
+| 4 | **Systems** | The built backbone — one per business, its subsystems named by the laws |
+| 5 | **Instruments** | What subsystems are made of: skills, plays, workflows, scripts, connectors |
+| 6 | **Operations** | Motions running, campaigns executing. Output: pipeline, then revenue |
+
+**This kit is rung 5, organized to serve rung 4, executed at rung 6.** Its method files
+are instruments; its account template is a system's shape; its motions are what rung 6
+runs. Nothing in core belongs at rungs 1–3 except the files stating them.
+
+## The laws (rung 1) — and the check they generate
+
+The eight are stated canonically, with their source, in
+`revenue-engineering.md` §The laws: **identify · offer · reach · capture · move ·
+retain · follow up · learn.** No tool appears in any of them, which is why swapping the
+stack never exits the discipline.
+
+What lives *here* is the rule for using them: **every skill, play, workflow, and stage
+names which law it serves.** What cannot name one is either mis-filed or evidence of a
+gap in the laws — both are findings, and neither is fixed by forcing a mapping.
+
+## The subsystem map (rung 4)
+
+The laws name the subsystems. A backbone is derived, not designed:
+
+| Law | Subsystem | Owns |
+|---|---|---|
+| Identify | **Targeting** | The TAM artifact, the scoring model, the signal library |
+| Offer | **Offer** | Positioning, pricing, the messaging house |
+| Reach | **Channel** | Channel playbooks, deliverability, warmup |
+| Capture | **Intake** | Forms, reply handling, speed-to-lead |
+| Move | **Sales process** | Tiers-as-treatment, sequences, meetings |
+| Retain | **Records** | The account record, dated outputs, one-home-per-fact |
+| Follow up | **Follow-up** | Sequence timing, suppression-checked touches |
+| Learn | **Feedback** | Result sync, the refresh pass, the calibration log |
+| — spans all | **Governance** | Constraints: consent, capacity, authority, deliverability, isolation |
+
+**Governance spans the eight rather than being one of them**, and that placement is a
+finding: the laws describe *capability*, and none names consent, capacity, approval
+authority, or deliverability. A system can execute all eight perfectly while sending to
+opt-outs, booking past what delivery can absorb, burning its sending domain, or shipping
+without its approver's yes.
+
+**Constraints attach where a system reaches outward or spends a finite resource.**
+Identify spends research; offer commits price and scope; reach touches a person; move
+commits delivery; retain holds personal data. Capture and learn are unbounded — one is
+someone arriving on their own initiative, the other is internal. That asymmetry generates
+the constraint set; it is not a list to memorize.
+
+## The two flows
+
+**Composition, downward:** laws specify systems; principles guide their design;
+architecture describes their shape; systems are made of instruments; operations run on
+systems.
+
+**Construction, upward — the load-bearing one: systems predate architecture.**
+Instruments cohere into systems, running systems reveal an architecture, architecture
+distills into principles, principles approach laws. The published definitions of this
+discipline were written by describing what working systems already did, not by designing
+them first.
+
+Two consequences that govern work here:
+
+- **Transcribe from operation; never author ahead of it.** A stage drafted before its
+  method is known produces plausible structure nobody can debug. When content is owed,
+  the folder waits — an empty shelf is visible, an invented one is not.
+- **Learning is the up-flow made structural.** The eighth law is how operations rewrite
+  the system, the architecture, and eventually the principles. A kit without a working
+  feedback path has no way to be corrected by reality.
+
+**The one exception:** constraints are authored ahead of operation, because their subject
+is what must never happen.
+
+## Frame and filling — why the laws travel
+
+Running orthogonal to the ladder, at every rung: **the frame is invariant, the filling is
+swappable, and the filling is declared per account.**
+
+| Frame | Filling |
+|---|---|
+| The TAM artifact | The segmentation doctrine that draws it |
+| Signals as a law-level requirement | The signal framework used |
+| The architecture layer | The model reasoned with |
+| The scoring mechanism, in core | Weights, bands, thresholds, in the account |
+
+**Refusing to fix the filling is what lets the laws connect businesses that share
+nothing.** A method that hard-coded its implementation at any rung would serve only the
+businesses already running that implementation. Same rule as values-in-account
+(`principles.md` §3), one level up.
+
+The practical form: **every slot is declared, never implicit.** An account that has not
+stated which segmentation doctrine and which signal framework it runs has an undeclared
+filling — and undeclared fillings are where confident wrong answers come from.
+
+## Rung 3 — models, and their status
+
+Models are the architecture layer's vocabulary. Selecting one is a filling decision,
+declared per account.
+
+**The flywheel — adopted.** Output re-enters as input; each turn cheapens the next. It
+earns its place by being the eighth law made structural rather than an import bolted
+beside the laws. Its machinery is the feedback subsystem: results sync → context refresh
+→ calibration → a better map.
+
+**The bowtie — held, not adopted.** It describes post-close structure: onboarding,
+adoption, expansion. Held because adopting it would violate the construction law — there
+is no post-close subsystem in operation for it to describe. **Adoption condition: a
+post-close subsystem exists and runs.**
+
+That distinction is the construction law enforced on the architecture layer itself: a
+model earns its place by describing something that runs.

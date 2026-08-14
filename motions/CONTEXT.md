@@ -12,7 +12,7 @@ to `foundations/principles.md`.
 | `motions/skills/` | executable tasks | the six account-gated skills a session runs from a one-line prompt | upstream craft, account gate added |
 | `plays/` | record library, 15 | Michael's signal plays — one buyer moment each, composing the skills | course-reasoned (`NOTICE.md`) |
 | `channels/` | record library, 4 | how each outreach medium works as a system | course-reasoned |
-| `tam/` | **pipeline, under construction** | the market-led campaign pipeline — Michael's skeleton, being rebuilt from the operator's improved framework | course skeleton + operator's second brain |
+| `tam/` | **pipeline, under construction** | the market-led campaign pipeline — Michael's skeleton, rebuilt stage by stage from the operator's improved framework | course skeleton + operator's briefs |
 | `motions/workflows/` | process docs | signal-led campaign build, signal routing, enrichment pair, pain-based segmentation | mixed, marked per file |
 | `motions/playbooks/` | situation guides, 4 | new-signal response, competitor switch, impact positioning, deliverability & warmup | upstream ×2, operator ×2 |
 | `dormant/` | shelved methods | methods no active motion uses yet — found, not rebuilt, when needed | operator |

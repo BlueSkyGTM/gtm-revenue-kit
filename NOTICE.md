@@ -55,6 +55,14 @@ from **PRSC Whitley, "A Rough Start Guide to Building a Go-To-Market System"** �
 operator-designated as the source of the laws. Quotation with attribution; the
 surrounding derivation is the operator's and the second brain's.
 
+## Runtime patterns
+
+Patterns absorbed from **[getaero-io/gtm-eng-skills](https://github.com/getaero-io/gtm-eng-skills)**
+(Deepline, MIT License) into `runtime-spec.md`: the pilot→preview→approve→scale cost
+gate, the companies-before-people discovery order, and the level-3 provider-playbook
+pattern. Patterns and structure only — no code or text is carried. What was declined, and
+why, is recorded in `decisions/2026-08-14-deepline-skills-triage.md`.
+
 ## Signal schema skeleton
 
 The four-dimension signal decomposition and per-signal field anatomy in

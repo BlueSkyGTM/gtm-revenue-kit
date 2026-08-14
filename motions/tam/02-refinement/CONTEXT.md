@@ -4,15 +4,18 @@
 the cost logic lives in `../../workflows/enrichment-techniques.md`. *Step budgets land
 after the first operated run (`operator-proven`); the qualitative contract — cheap
 passes, never bespoke research — is the honest pre-operation statement.*
-**Output:** the TAM artifact **v1 — the finished map**: every company in exactly one
-tier including the below-threshold tier nobody works, one auditable verdict column, the
-exclusion rules tested and their catches recorded. Saved to
-`accounts/<slug>/outputs/YYYY-MM-DD-tam-map/` beside the v0 it refines.
+**Output:** the refined TAM artifact — every company in exactly one tier including the
+below-threshold tier nobody works, one auditable verdict column, the exclusion rules
+tested and their catches recorded. Saved to
+`accounts/<slug>/outputs/YYYY-MM-DD-tam-map/` beside the broad map it refines. *(The
+artifact is finished for this cycle's purposes, not permanently: stages 3–6 consume it
+and the refresh pass re-runs both stages.)*
 
 *Provenance: mechanics from Michael's series (`../skeleton.md` §Stage 2,
 `michael-course`); the exclusion-hardening delta from the operator's improvement
 (`../BRIEF.md` §1 — "Stage 2 gains exclusion hardening"); drafted by the construction
-session under E1's unblocking. Awaits Cowork's evaluation per the standing gate.*
+session, then self-evaluated against `foundations/failure-modes.md` §The self-check —
+verdict AMEND, three items applied (`EVALUATION-2026-08-14.md`).*
 
 ---
 
@@ -81,8 +84,9 @@ mechanics: **per exclusion rule, count what it caught.**
 ## Step 4: Carry suppression forward
 
 The suppression columns from Stage 1 survive refinement untouched — a suppressed row
-keeps its mark whatever tier it lands in, and the count of suppressed rows per segment
-is recorded (a suppression rate that jumps is information about the sourcing).
+keeps its mark whatever tier it lands in, and the suppressed count is recorded alongside
+the exclusion catch counts (a suppression pass that kills a large share of a sourced list
+is information about the sourcing — `../BRIEF.md` §1).
 
 ## Output contract → Stage 3
 

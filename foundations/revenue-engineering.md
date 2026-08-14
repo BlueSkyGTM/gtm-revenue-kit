@@ -37,16 +37,13 @@ labeled it by its narrowest input (recorded as conflict S2 in the second brain).
 
 ## The chain of operations **[operator + second-brain, researched 08-11]**
 
-Laws (the eight) → Principles (Revenue Architecture: frame invariant / filling swappable,
-values-in-account, systems-predate-architecture, every-gate-names-its-scope) →
-Architecture (models: flywheel adopted; bowtie held until a post-close subsystem exists)
-→ **Systems** (one backbone per business; subsystems named by the laws) → Instruments
-(this kit's contents) → **Operations** (motions running; output: pipeline → revenue).
+Six rungs — Laws → Principles → Architecture → Systems → Instruments → Operations — with
+composition running down and **construction running up**: systems predate architecture;
+transcribe from operating history, never author ahead of it, constraints excepted.
 
-**Construction runs upward** **[operator, 08-11]**: systems predate architecture;
-transcribe from operating history, never author ahead of it. One exception: constraints,
-because their subject is what must never happen. (This is why the empty signal shelf and
-the brief-gated pipeline are correct.)
+**The full ladder, the subsystem derivation, frame-and-filling, and model status live in
+`chain-of-operations.md`** — read it before any structural decision. This kit is rung 5
+(instruments), organized to serve rung 4, executed at rung 6.
 
 ## The waste taxonomy **[second-brain derivation — operator-endorsed 08-14]**
 

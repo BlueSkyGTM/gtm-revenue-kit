@@ -22,7 +22,11 @@ named account's folder inside its deployment (`estate.md` says which deployment)
 | Define segments by pain, not structure | `motions/workflows/pain-based-segmentation.md` | Competing instrument — declare which map drew the audience (`experiments/002`) |
 | First-touch copy question | `foundations/pvp.md` | Two instruments, account's choice, never blended (`experiments/001`) |
 | Two methods disagree | `experiments/` | Queue a test or cite the open one — doctrine is not curated here |
-| Write or revise a skill/play/stage | `foundations/task-craft.md` | The six rules |
+| Write or revise a skill/play/stage | `foundations/task-craft.md` | The six rules; the self-check is the last gate |
+| About to draft or commit anything to core | `foundations/failure-modes.md` | The tells, and the six-step self-check |
+| A structural or design decision | `foundations/chain-of-operations.md` | Which rung, and which way authority flows |
+| A term could mean two things | `foundations/lexicon.md` | Ask rather than pick |
+| "Has this already been decided?" | `foundations/rulings.md` | Append-only; a ruling outranks an inference |
 | Someone asked to be removed | `accounts/<slug>/optouts.md` | Append-only, permanent, legal |
 | Check copy against account rules | `tools/lint_copy.py` | A gate, not a review |
 | Where does X live — this repo or a deployment? | `estate.md` | Core travels; an account lives in exactly one |

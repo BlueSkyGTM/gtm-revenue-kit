@@ -1,11 +1,11 @@
-# Runtime spec — the kit as the GTM motion runtime, v0 (for Cowork review)
+# Runtime spec — the kit as the GTM motion runtime, v0
 
 *Status: SPEC ONLY — nothing is wired, no keys exist in any repo, no scaffolding until
-this is reviewed (E5) and the operator supplies the runtime inputs. Provenance: the
+the operator supplies the runtime inputs (§6). Provenance: the
 operator's direction (08-13 disclosure, 08-14 conversation — "instead of a string of API
 integrations, use Deepline to turn the kit into the GTM motion runtime; multiple calls
-in one prompt"); Deepline's surface verified against its public docs; design by the
-construction session. Cowork reviews in the E1 format: stands / amend / rebuild.*
+in one prompt"); Deepline's surface verified against its public docs 08-13/14; design by
+the construction session. The operator is the gate on it.*
 
 ---
 
@@ -29,10 +29,10 @@ contract, runs the block, and the human gates stay exactly where the contracts p
 Same work, same tools, different execution: the pattern already proven on the
 migration kit.
 
-## 2. The design decision under review
+## 2. The design decision, and its reversal condition
 
-**Execution blocks live inside the stage/skill contracts** (recommended), not in a
-separate `runtime/` wing. Grounds: one home per fact — a stage's method and its
+**Execution blocks live inside the stage/skill contracts**, not in a separate `runtime/`
+wing. Grounds: one home per fact — a stage's method and its
 execution are the same fact at two altitudes, and a parallel runtime tree would drift
 from the contracts the way every parallel structure drifts. The alternative (a
 `runtime/` wing holding motion scripts that cite the contracts) is cleaner only if
@@ -46,6 +46,7 @@ execution blocks grow beyond what a contract can carry — revisit then, not bef
 | Values live in the account (principle 3) | BYOK provider keys, the SQL database DSN, caps, and provider choices are **account/deployment config** — env or config outside git, never core, never the repo |
 | Raw contact data never in git | **The people live in the owned SQL database** (Deepline's write-through). Git keeps method, config shape, and state summaries — never rows |
 | The send wall (estate doctrine) | **A mechanical gate in front of every sequencer push**: the suppression check runs as a query against the account's ledger + declared rosters *in the runtime*, caps enforced *in the runtime*, and a **named approval scope** — who says yes to a batch, recorded per account — checked before send. A push path without these checks is not wired; it is torn open |
+| Spending a finite resource (`chain-of-operations.md` §constraints) | **A second, separate gate on cost:** pilot one row → show the preview and expected spend → explicit approval → full run. Absorbed from the public skills pack, which proves it works in a Claude-driven session (`decisions/2026-08-14-deepline-skills-triage.md`). It is *not* the consent gate and never substitutes for it — the pack ships this one and no consent layer at all |
 | Suppression per-account, append-only (principle 5) | The ledger stays the account's file, append-only; the runtime *reads* it into the gate query, never merges ledgers, never writes one |
 | Accounts never read each other (principle 2, operator-affirmed 08-14) | One account per run binding makes cross-account reads structurally impossible, not just forbidden |
 | Known-why admission + waste naming | An execution block enters a contract only with the method it executes — no orphan automation. The block inherits the contract's waste claim |
@@ -79,14 +80,28 @@ ledger. The two warming addresses lose nothing by this wait.
 2. Where each deployment's SQL database lives (becomes an `estate.md` row).
 3. The active deployment's **send-approval scope, named in writing** — who says yes to
    a batch.
-4. E5's verdict on this spec, and E4's triage of the public skills set (absorb /
-   replace / disregard) — absorbed patterns land in execution blocks with attribution.
+4. *(Closed 08-14: the public-pack triage is done — §7. Nothing else gates the spec but
+   items 1–3.)*
 
-## 7. Relationship to the public skills set
+## 7. Relationship to the public skills set — triaged 2026-08-14
 
-A public MIT skills pack ([getaero-io/gtm-eng-skills](https://github.com/getaero-io/gtm-eng-skills))
-already drives Deepline from Claude Code — waterfall enrichment, TAM building, signal
-discovery, job-change detection, outbound automation. It is prior art for *command
-patterns*, and competition for *method* — our plays, schema, and anti-ICP pipeline are
-deeper. E4 (the triage request) decides skill-by-skill what is absorbed, replaced, or
-disregarded; nothing from the pack enters a contract before that verdict.
+The MIT skills pack ([getaero-io/gtm-eng-skills](https://github.com/getaero-io/gtm-eng-skills))
+was read and triaged; the record with the evidence is
+`decisions/2026-08-14-deepline-skills-triage.md`. The short form:
+
+- **Absorbed:** the pilot→preview→approve→scale cost gate (now §3's second gate);
+  companies-before-people discovery order; provider playbooks as level-3 docs an
+  execution block cites rather than carries; their documentation hierarchy and no-loss
+  rule, which are one-home-per-fact arrived at independently.
+- **Replaced by our method:** their TAM building (a provider pull, no map declaration, no
+  anti-ICP, no tiering), their outreach sequence default (it would silently settle
+  `experiments/001`), and their meta-skill's claim to govern the session (our contracts
+  route; Deepline is a tool surface).
+- **Absorbed with a condition:** their won/lost lift analysis is a genuine *discovery*
+  instrument, never an admission path — a lift score is not a buying mechanism, and
+  `signals/schema.md` still requires one.
+- **Disregarded:** their approval gate as a *send* gate. The pack has no suppression,
+  opt-out, or consent concept anywhere; adopting its gate model would leave the send wall
+  demolished while the session felt governed.
+
+Absorbed patterns travel with MIT attribution (`NOTICE.md`).

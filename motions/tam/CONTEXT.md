@@ -14,16 +14,19 @@ becomes `market-led/` is the operator's call and blocks nothing.
 - `skeleton.md` — the mechanism map of Michael's six-part series: faithful mechanics,
   stripped voice. The map of what the pipeline covers, not the pipeline.
 - `01-mapping/` — **evaluated 2026-08-14: AMEND, both amendments applied**
-  (`01-mapping/EVALUATION-2026-08-14.md` is the record). Stage 2 unblocked by the
-  verdict.
-- `02-refinement/` — drafted under that unblocking, from `skeleton.md` §Stage 2 + the
-  brief's exclusion-hardening delta; awaits Cowork's evaluation per the standing gate.
+  (`01-mapping/EVALUATION-2026-08-14.md`).
+- `02-refinement/` — drafted from `skeleton.md` §Stage 2 + the brief's exclusion-hardening
+  delta, then **self-evaluated 2026-08-14: AMEND, three items applied**
+  (`02-refinement/EVALUATION-2026-08-14.md`). The evaluator is now the construction
+  session running `foundations/failure-modes.md` §The self-check; the record names that
+  weakness rather than hiding it.
 - Stages 3–6 — folders are created as their content is briefed, never before. Michael's
   per-stage mechanics, the operator's further deltas, and numbers are still owed
   (`BRIEF.md` footer).
 
-The improved framework's content **arrives from the operator's briefs** — the second
-brain holds laws, rulings, and calibration, not stage-level method (its own flag, 08-13).
+The improved framework's content **arrives from the operator's briefs.** No other source
+holds it — a session that finds itself inferring stage method has left the construction
+law (`foundations/chain-of-operations.md`).
 
 ## The six stages
 
@@ -48,5 +51,7 @@ Stages 3–6 inherit the negative space produced by 1–2; they never re-derive 
 
 ## Human gate
 
-The operator's brief gates construction: each landed stage is evaluated by Cowork before
-the next is built. Nothing in `skeleton.md` is rewritten ahead of its stage's brief.
+The operator's brief gates construction: each landed stage is evaluated before the next is
+built, and **stage 3 waits on its brief** — the construction law
+(`foundations/chain-of-operations.md`), not a scheduling gap. Nothing in `skeleton.md` is
+rewritten ahead of its stage's brief.

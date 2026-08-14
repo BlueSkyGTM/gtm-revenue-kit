@@ -44,6 +44,13 @@ budget contract is why a task can't quietly grow a seventh step nobody priced.
 directs, one clause at a time, in place. Reasoning banished to a separate rationale file
 is reasoning nobody reads mid-task.
 
+## The last gate
+
+Form is not honesty. Before committing a task file — or anything else — to core, run
+**`failure-modes.md` §The self-check**: six questions, ordered by how often each catches
+something. The first (*does every claim trace to a stated source?*) is the one that
+catches the most.
+
 ## What this replaces
 
 Structure lives in the ICM conventions (folders, contracts, the router) — not in the

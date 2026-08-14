@@ -66,6 +66,8 @@ The account is named before anything loads. `context/` is factory — configured
 one file at a time; `outputs/` is product — new every run, dated, never rewritten to mean
 something else. Load the one file the task names; bulk-loading a folder is how a session
 runs out of room and starts inventing. One campaign workflow per session — signal-led or
-market-led, never both. And **never co-load copy discipline with scoring discipline**:
-copy rules in a scoring pass make the model argue for what sounds good; scoring values in
-a copy pass produce emails that read like a rubric.
+market-led, never both. **Never co-load rival rule systems**: copy discipline and scoring
+discipline in one session produce nonsense in both directions, and the same holds for any
+two rule sets that judge each other's outputs. **A host system's delivery rules never
+load into a motion session.** What each of these failures looks like from inside:
+`failure-modes.md` §5.

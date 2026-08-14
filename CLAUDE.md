@@ -8,7 +8,7 @@ four wings over the account stamp.
 **This file is the map — it routes, it holds no content.**
 
 > **UNDER RECONSTRUCTION** on this branch: the operating layer is being rebuilt from the
-> operator's improved TAM framework (second-brain brief pending; Cowork evaluates).
+> operator's improved TAM framework, briefed in stage by stage.
 > `motions/tam/CONTEXT.md` states what is real vs. arriving.
 
 ## The one rule
@@ -24,8 +24,9 @@ gtm-kit/
 ├── README.md · NOTICE.md    ← build state · attribution
 ├── estate.md                ← what the kit owns vs reads; the deployments map
 │
-├── foundations/   the why-layer: revenue-engineering (the discipline) ·
-│                  principles · pvp · task-craft                  → its CONTEXT.md
+├── foundations/   the why-layer: revenue-engineering · chain-of-operations ·
+│                  principles · failure-modes · lexicon · rulings ·
+│                  task-craft · pvp                               → its CONTEXT.md
 ├── motions/       the operating layer: skills · plays (15, Michael's) ·
 │                  channels · tam/ (pipeline, under construction) ·
 │                  workflows · playbooks · dormant                → its CONTEXT.md
@@ -45,6 +46,10 @@ gtm-kit/
 | "What's my task? → which file?" | `CONTEXT.md` |
 | What revenue engineering IS — the definition, laws, waste taxonomy | `foundations/revenue-engineering.md` |
 | The rules (admission, swap test, values, one-home, suppression, travel) | `foundations/principles.md` |
+| Before any structural decision — what layer am I at | `foundations/chain-of-operations.md` |
+| Before drafting for core, and before committing it | `foundations/failure-modes.md` — the tells and the self-check |
+| A term could go two ways | `foundations/lexicon.md` |
+| Has the operator already settled this? | `foundations/rulings.md` — a ruling outranks an inference |
 | First-touch copy doctrine | `foundations/pvp.md` — both instruments, `experiments/001` |
 | How to write a skill/play/stage | `foundations/task-craft.md` |
 | What a signal must carry to exist | `signals/schema.md` |

@@ -51,12 +51,14 @@ now**: Albatross sells products, not GTM services (the recorded 08-10 pivot); th
 fenton-as-first-client dry run is not built toward, and the service-model question stays
 parked with it. Fenton runs its own GTM in its own OS, on its own resume schedule.
 
-## Runtime direction — confirmed; spec drafted, under review **[operator, 08-13/14]**
+## Runtime direction — confirmed; spec drafted **[operator, 08-13/14]**
 
 > **The spec exists:** `runtime-spec.md` (v0, 08-14) — the ICM structure as the runtime
-> program, execution blocks in the stage contracts, the laws translated, TAM stages 1–3
-> as the first executable motion. Awaiting Cowork's E5 review and the operator's inputs
-> (keys, database locations, the send-approval scope). The section below is the standing
+> program, execution blocks in the stage contracts, the laws translated into two
+> mechanical gates (consent and cost), TAM stages 1–3 as the first executable motion. The
+> public skills pack is triaged (`decisions/2026-08-14-deepline-skills-triage.md`).
+> **Wiring waits only on the operator's inputs** — the API account and providers, the
+> datastore per deployment, the send-approval scope. The section below is the standing
 > doctrine the spec implements.
 
 **The kit will exist as a runtime** — not markdown instructing a session which
@@ -75,14 +77,17 @@ What this changes, and what it must not:
   send wall torn down, not upgraded.
 - **Values still live in the account** (principle 3) and **suppression stays per-account,
   append-only** (principle 5) — runtime requirements now, not just file conventions.
-- **Do not scaffold Deepline wiring ahead of the operator's material.** Direction
-  confirmed, spec pending; much is not yet uploaded.
+- **Do not scaffold wiring ahead of the operator's material.** The spec is written; the
+  inputs are not in hand, and a spec is not a reason to start wiring.
 
-## The second brain
+## The second brain — retired from the loop, 2026-08-14
 
-A Claude Cowork workspace, pointed at this repo, is the operation's second brain: it
-holds **the laws, the chain of operations, the operator's dated rulings, and the
-calibration record** — not the improved TAM framework's stage content, which exists only
-as the operator briefs it in (`motions/tam/BRIEF.md` is part 1). It evaluates what is
-built here; the operator briefs the changes. Its content reaches this repo through
-commits — anything not committed here does not exist here.
+A Claude Cowork workspace held the operation's calibration record: the laws, the chain of
+operations, the operator's rulings, the failure log. **Its distillate now lives in
+`foundations/`** — chain-of-operations, failure-modes, lexicon, and rulings, stripped of
+the operator's business facts (which never travel: core travels to every deployment, an
+account travels to none).
+
+Evaluation, research, and triage moved to the construction session; the operator remains
+the gate (`foundations/rulings.md` §Authority). `rulings.md` is the standing channel: it
+is appended to as rulings land, and it outranks any inference a session makes.

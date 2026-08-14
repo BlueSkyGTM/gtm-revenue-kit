@@ -22,30 +22,31 @@ Provenance of every part: `NOTICE.md`. The pristine upstream is tagged
 
 | | Piece | State |
 |---|---|---|
-| 🟢 | **Foundations** — revenue-engineering, principles, PVP, task-craft | The discipline landed 08-13 (definition, eight laws, waste taxonomy — R2); principles restored the two rules the compression lost |
+| 🟢 | **Foundations** (8 files) | The discipline (08-13) plus the operation's judgment layer (08-14): the six-rung ladder, the failure modes with their tells and the six-step self-check, the lexicon, and `rulings.md` — append-only, the standing channel for what the operator has settled |
 | 🟢 | **Skills** (6) — account-gated, upstream craft | Carried over working; icp-scoring's upstream defaults restored; sequence-shape mechanism restored to signal-to-sequence |
 | 🟢 | **Plays** (15, Michael's) — the operating play library | Mechanisms faithful; backstory returns incrementally as plays are exercised |
 | 🟢 | **Channels** (4, Michael's) | Carried over |
-| 🟡 | **TAM pipeline** — the centerpiece | Stage 1 **evaluated (AMEND) and applied** 08-14 (`01-mapping/EVALUATION-2026-08-14.md`); **stage 2 drafted** (`02-refinement/` — exclusion hardening) awaiting its evaluation. Stage briefs 3–6 owed |
+| 🟡 | **TAM pipeline** — the centerpiece | Stages 1 and 2 drafted and evaluated (AMEND both, applied; records beside each stage). Stage 3 waits on its brief — the construction law, not a scheduling gap. Stage briefs 3–6 owed |
 | 🟡 | **Signal library** | Schema written; F/I/R/T **adopted, operator-confirmed 08-14**; shelf deliberately empty until records earn their why |
 | 🟡 | **Experiments** — 001 first-touch formula, 002 segment definition | Queued; both run in the albatross deployment's own `revenue-engineering` account. 002 upgraded 08-14: the overwrite-prediction is argued-not-evidenced (research on file) — 002 would generate some of the field's first real evidence; DQS recorded as a distinct third map type |
 | 🟢 | **Account stamp** (`accounts/_template/`) | Upstream scoring defaults restored; benchmark-free stance recorded (own campaign data seeds §8, `operator-proven`) |
-| 🟡 | **Runtime** — the kit as the GTM motion runtime over Deepline | **Spec drafted 08-14** (`runtime-spec.md`, v0): ICM-as-program, execution blocks in contracts, laws translated, TAM 1–3 first. Under Cowork review (E5) beside the public-skills triage (E4); wiring waits on both + the operator's inputs |
+| 🟡 | **Runtime** — the kit as the GTM motion runtime over Deepline | **Spec v0 + the public-pack triage, both 08-14** (`runtime-spec.md`, `decisions/2026-08-14-deepline-skills-triage.md`): ICM-as-program, execution blocks in contracts, two mechanical gates (consent and cost). Wiring waits on the operator's runtime inputs — nothing else |
 | ⚪ | **Estate siblings** — offers/SKUs, funnel, brand voice, copywriting | Not built; their material squats here, declared in `estate.md` |
 
 🟢 real · 🟡 under construction, honestly labeled · ⚪ future machinery
 
 ## What happens next, in order
 
-1. **Cowork: E4 (public-skills triage) + E5 (runtime-spec review)** — the runtime's
-   gates — and **stage 2's evaluation** — the pipeline's gate.
-2. **The operator's runtime inputs** — keys, database locations, the send-approval
-   scope (`runtime-spec.md` §6).
-3. **Stage briefs 3–6, and the rest of Ray's queue** — R3 signals, R5 template (licensing
-   note first), R7 source location, R10 estate inventory
-   (`COWORK-BRIEF-REQUEST.md` tracks).
+Everything below waits on the operator; nothing waits on construction.
+`foundations/rulings.md` §Open is the live queue.
+
+1. **The runtime inputs** — the API account and providers, the datastore per deployment,
+   the send-approval scope named in writing (`runtime-spec.md` §6). These unblock
+   execution blocks for TAM stages 1–3.
+2. **Stage briefs 3–6** — per-stage mechanics and deltas. Folders wait; empty is visible.
+3. **The signal set, the verbatim template (licensing first), the course's location.**
 4. **Albatross runs it** — the first campaigns execute experiments 001 and 002 in its own
-   `revenue-engineering` account (two addresses warming through the pause **[R]**).
+   `revenue-engineering` account (two addresses warming through the pause).
 5. **Re-vendor** — deployments pull the rebuilt core when it stabilizes.
 
 ## Deployments
@@ -60,3 +61,4 @@ travels to both; each account lives in exactly one. The map and the plan of reco
 - Writing a skill, play, or stage: `foundations/task-craft.md`.
 - Core compliance check: the swap test grep in `foundations/principles.md` §2 — core
   outside `NOTICE.md`/`estate.md`/`examples/` names no account and holds no tuned number.
+- Before committing anything here: `foundations/failure-modes.md` §The self-check.

@@ -62,7 +62,7 @@ confirmed as the pipeline's shape; whether the folder keeps the name `tam/` or b
 
 **Per this folder's own gate:** with the thesis and stage-list verdict landed, the
 construction session may draft **stage 1 (mapping)** against the skeleton, incorporating
-the anti-ICP output — Cowork evaluates the landed stage before stage 2 is built. Stage
+the anti-ICP output — each landed stage is evaluated before the next is built. Stage
 method content beyond what this brief states (Michael's mechanics per stage, the
 operator's further deltas, numbers) is still owed and arrives with later parts.
 
