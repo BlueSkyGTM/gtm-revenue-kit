@@ -2,6 +2,11 @@
 
 *Signals are observable events that predict pipeline conversion 30–90 days in advance. This library is the source of truth for all signal-based outreach. Every campaign in this repo traces back to at least one signal here.*
 
+*Provenance, recovered 2026-08-14: the decay and combination mechanisms below — with
+their stated reasons — are the upstream authors' own published doctrine
+(`_archive/upstream/ARTICLE.md`). The mechanisms travel with reasoning known; every
+multiplier and bonus value is a starting default the account re-earns (principle 3).*
+
 Last updated: [YYYY-MM-DD]
 
 *See example: `examples/sample-company/context/signal-library.md`*
