@@ -15,6 +15,20 @@ definitions silently.
 
 ---
 
+## The discipline and the roles — never conflated
+
+Full definitions: `revenue-engineering.md` (the definition, the thesis) and
+`chain-of-operations.md` (the ladder). These rows only disambiguate.
+
+| Term | Here it means | Read it this way and something breaks |
+|---|---|---|
+| **Revenue engineering** | Ownership of the whole revenue system — signals, prioritization, messaging, channels, feedback. Domain-agnostic; contains GTM engineering | As a synonym for GTM engineering. That reads the whole as its execution layer and silently drops ownership of targeting, offer, and learning |
+| **GTM engineering** | The execution layer inside it: campaigns, lists, enrichment, tool wiring | As the whole discipline. (The narrow reading itself is not an error — see the usage rules above) |
+| **RevOps** | Runs the existing engine: routing, hygiene, measurement, admin. The player, not the builder | As fused with GTM engineering. The roles borrow revenue-architect responsibilities from each other; neither overtakes the other (the 08-14 ruling) |
+| **Revenue architecture** | Rung 2 of the ladder — the principles layer that guides design; van der Kooij's discipline | As rung 3, or as the *role* "revenue architect." A layer is not a job title |
+| **Systems architecture** | Rung 3 — the design layer; models are its vocabulary | As bare "architecture." The ladder names two, on purpose |
+| **The merged seat** | The practitioner holding revenue-architect responsibilities *and* GTM execution. Revenue architects are GTM engineers now; not the reverse | As every GTM engineer. The seat is the smaller circle, and tooling serves the bigger one |
+
 ## Terms
 
 | Term | Here it means | Read it this way and something breaks |
@@ -29,7 +43,7 @@ definitions silently.
 | **Channel map / funnel poster** | A taxonomy of traffic sources, capture assets, and conversion steps. A menu | A system. Audited against the eight laws, a typical one covers reach, capture, move-through, and follow-up — and is silent on targeting, offer, data retention, and learning. Those four decide whether any of the channels pay |
 | **Tier** | A **budget** decision before a priority decision — how much research and how many touches an account is worth | A ranking alone. The research pass is the scarce resource; the tier is what rations it |
 | **Instrument** | A tool subordinate to a revenue process, correctly discarded when the process changes | A product to be polished. High standards, yes — but optimizing the instrument at the expense of the process it serves is the recurring conflation |
-| **Waste** | Leakage at a seam between two of the eight laws | Generic inefficiency. Naming the seam is what makes the waste checkable, and naming it is the admission test |
+| **Waste** | Leakage at a seam between two of the eight laws | Generic inefficiency. Naming the seam is what makes the waste checkable and tells you which subsystem owns the fix — placement, not admission; principle 1 is the admission test |
 
 ## Standing disambiguation rules
 
