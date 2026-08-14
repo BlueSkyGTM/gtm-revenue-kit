@@ -44,7 +44,11 @@ waste, both killed *at the map*, before any downstream stage spends a dollar.
 ## Inputs
 
 - `accounts/<slug>/context/icp-definition.md` — the raw material for the rules in Step 4
-  (who we sell to, and the exclusion list that becomes anti-ICP rules)
+  (who we sell to, and the exclusion list that becomes anti-ICP rules). **Under a pain
+  map (Step 1), the raw material is the segment definitions from
+  `motions/workflows/pain-based-segmentation.md` instead** — pains at thresholds, not
+  firmographic brackets. *(Found on the first operated run, 2026-08-14: the line above
+  assumed the firmographic case.)*
 - `accounts/<slug>/optouts.md` + the account's declared rosters (`ACCOUNT.md`) — to mark
   suppression on the map in Step 5
 - `motions/workflows/enrichment-techniques.md` — the scraping patterns, when Step 1 lands
