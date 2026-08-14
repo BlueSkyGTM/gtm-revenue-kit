@@ -14,7 +14,12 @@ decision; nothing here is inherited governance. Contracts cite these; they never
 
 Material that fails all three is reference, not law — it may sit in `_archive/` or in an
 account, and it may not be cited as a standard. A signal with no backstory does not enter
-the signal library (`signals/schema.md` enforces this as a required field).
+the signal library (`signals/schema.md` enforces this as a required field). The sharp
+edge of the test: a method entering core **names which waste it prevents**
+(`foundations/revenue-engineering.md` §taxonomy).
+
+**Arrival rule:** an import that contradicts standing method spawns an experiment
+(`experiments/`) or an explicit operator decision — never a silent blend.
 
 ## 2. The swap test — and the account boundary
 
@@ -61,4 +66,6 @@ The account is named before anything loads. `context/` is factory — configured
 one file at a time; `outputs/` is product — new every run, dated, never rewritten to mean
 something else. Load the one file the task names; bulk-loading a folder is how a session
 runs out of room and starts inventing. One campaign workflow per session — signal-led or
-market-led, never both.
+market-led, never both. And **never co-load copy discipline with scoring discipline**:
+copy rules in a scoring pass make the model argue for what sounds good; scoring values in
+a copy pass produce emails that read like a rubric.

@@ -48,6 +48,13 @@ rule of this reconstruction.
 GTM / Doug Bell** (arrival 2026-08-10). It is one instrument of the open test in
 `experiments/002-segment-definition.md`.
 
+## The laws (revenue engineering)
+
+The eight-verb definition quoted verbatim in `foundations/revenue-engineering.md` is
+from **PRSC Whitley, "A Rough Start Guide to Building a Go-To-Market System"** —
+operator-designated as the source of the laws. Quotation with attribution; the
+surrounding derivation is the operator's and the second brain's.
+
 ## Signal schema skeleton
 
 The four-dimension signal decomposition and per-signal field anatomy in

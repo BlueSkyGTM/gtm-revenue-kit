@@ -20,7 +20,7 @@ operator can decide them, and the ones that need data are now **tests**, not doc
 | `lineages.md` | conflicts C1/C4 → `experiments/001`, `002`. The tag taxonomy → a one-line provenance header per file |
 | `loading.md` | → `foundations/principles.md` §Load discipline |
 | `deployments.md` | the travel rule → principle 6; the map → `estate.md` |
-| `tiers.md` | retired without successor — the kit is internal machinery; there are no kit SKUs |
+| `tiers.md` | retired without successor — the kit is internal machinery; there are no kit SKUs. **Named reversal condition (08-13):** if the kit ever ships inside a SKU to buyers, tiers-as-views (never forks) comes back from this shelf |
 | `DIVERGENCE.md` | provenance summary → `NOTICE.md`; the change record → git history (`baseline-gtm-starter-kit` tag) |
 | `START-HERE.md` | retired without successor — there is no buyer front door |
 | `REFERENCES.md` | selection → the router (`CONTEXT.md`) |

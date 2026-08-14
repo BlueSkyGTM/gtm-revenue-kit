@@ -16,6 +16,7 @@ or a tunable number.
 
 | File | Owns | Cited by |
 |---|---|---|
+| `revenue-engineering.md` | The discipline: definition, the eight laws, the chain of operations, the waste taxonomy (the admission rubric's sharp edge) | `estate.md`, principle 1, every new method's waste claim |
 | `principles.md` | The six surviving rules + load discipline | every contract in the kit |
 | `pvp.md` | The PVP test, and its relation to the fixed-slot instrument | plays' message frames, `experiments/001` |
 | `task-craft.md` | How an executable document is written | anyone writing or revising a skill, play, or stage |

@@ -10,8 +10,9 @@
   where structure decays. The prediction on record in the field: pain-based overwrites
   the original frameworks because pain is universal, not industry-dependent. Direction
   noted; still a hypothesis until a campaign proves it.
-- **Runs in:** the albatross deployment — one audience drawn each way against the same
-  offer, each campaign stating which map drew it (never blended in one campaign).
+- **Runs in:** the albatross deployment's own account (`revenue-engineering`) — one
+  audience drawn each way against the same offer, each campaign stating which map drew it
+  (never blended in one campaign).
 - **Decision gate:** which audience produces qualified replies (not raw replies) per
   hundred sends, and how each list decays over a quarter.
 - **Status:** queued — the pain-based instrument is itself a work in progress; it firms

@@ -22,28 +22,32 @@ Provenance of every part: `NOTICE.md`. The pristine upstream is tagged
 
 | | Piece | State |
 |---|---|---|
-| 🟢 | **Foundations** — principles, PVP, task-craft | Written; the distilled survivors of the retired shelf |
-| 🟢 | **Skills** (6) — account-gated, upstream craft | Carried over working; icp-scoring's upstream defaults restored to the template |
+| 🟢 | **Foundations** — revenue-engineering, principles, PVP, task-craft | The discipline landed 08-13 (definition, eight laws, waste taxonomy — R2); principles restored the two rules the compression lost |
+| 🟢 | **Skills** (6) — account-gated, upstream craft | Carried over working; icp-scoring's upstream defaults restored; sequence-shape mechanism restored to signal-to-sequence |
 | 🟢 | **Plays** (15, Michael's) — the operating play library | Mechanisms faithful; backstory returns incrementally as plays are exercised |
 | 🟢 | **Channels** (4, Michael's) | Carried over |
-| 🟡 | **TAM pipeline** — the centerpiece | Skeleton only (`motions/tam/skeleton.md`). The operator's improved framework arrives from the second brain; stages are built as briefed, Cowork evaluating each |
-| 🟡 | **Signal library** | Schema written (four dimensions, "why it matters" required); shelf deliberately empty — records enter from plays, the brief, and live proof |
-| 🟡 | **Experiments** — 001 first-touch formula, 002 segment definition | Queued; both run in albatross's first campaigns |
-| 🟢 | **Account stamp** (`accounts/_template/`) | Scoring model carries upstream defaults marked for recalibration |
+| 🟡 | **TAM pipeline** — the centerpiece | Brief part 1 landed (`motions/tam/BRIEF.md`): six stages confirmed, anti-ICP as first-class output. **Stage 1 drafted** (`01-mapping/`), awaiting Cowork's evaluation before stage 2. Stage briefs 2–6 owed |
+| 🟡 | **Signal library** | Schema written; F/I/R/T **adopted** (draft verdict 08-13, operator line pending); shelf deliberately empty until records earn their why |
+| 🟡 | **Experiments** — 001 first-touch formula, 002 segment definition | Queued; both run in the albatross deployment's own `revenue-engineering` account (Fenton dry run dropped, operator ruling 08-13) |
+| 🟢 | **Account stamp** (`accounts/_template/`) | Upstream scoring defaults restored; benchmark-free stance recorded (own campaign data seeds §8, `operator-proven`) |
+| 🟡 | **Runtime** — the kit as a running system over Deepline | Direction confirmed 08-13, spec pending (`estate.md` §Runtime); the send wall translates to mechanical gates, never retires |
 | ⚪ | **Estate siblings** — offers/SKUs, funnel, brand voice, copywriting | Not built; their material squats here, declared in `estate.md` |
 
 🟢 real · 🟡 under construction, honestly labeled · ⚪ future machinery
 
 ## What happens next, in order
 
-1. **The second-brain brief** — the operator's improved TAM framework lands
-   (`motions/tam/`), stage by stage, Cowork evaluating each.
-2. **The revenue-engineering definition** — the operator's rubric arrives and becomes the
-   measure for everything admitted after it.
-3. **Albatross runs it** — the first campaigns execute experiments 001 and 002, with
-   fenton as client account #1 (the service-model dry run; `estate.md` §deployments).
-4. **Re-vendor** — deployments pull the rebuilt core when it stabilizes (fenton on
-   resume from its shelf; albatross when its first campaign brief is written).
+1. **Cowork evaluates stage 1** (`motions/tam/01-mapping/`) — the pipeline's gate; stage
+   2 is drafted only after the verdict.
+2. **The operator's one-liners** — confirm/veto: R4 (adopt F/I/R/T), R9 (benchmark-free),
+   and endorsement of the waste taxonomy + subsume derivations in
+   `foundations/revenue-engineering.md`.
+3. **Stage briefs 2–6, and the rest of Ray's queue** — R3 signals, R5 template (licensing
+   note first), R7 source location, R10 estate inventory
+   (`COWORK-BRIEF-REQUEST.md` tracks).
+4. **Albatross runs it** — the first campaigns execute experiments 001 and 002 in its own
+   `revenue-engineering` account (two addresses warming through the pause **[R]**).
+5. **Re-vendor** — deployments pull the rebuilt core when it stabilizes.
 
 ## Deployments
 

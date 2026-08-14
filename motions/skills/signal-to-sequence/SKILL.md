@@ -107,6 +107,12 @@ Build the sequence structure before writing copy. Define:
 - Tier 2: 5–7 touches, email + LinkedIn, semi-automated
 - Tier 3: 4–5 touches, email-first, templated with signal variable
 
+**The sequence shape** *(course-reasoned mechanism, restored 2026-08-13)*: a campaign is
+a **series**, never a one-off — an email-only sequence lands around days 1/3/4/6, and
+most replies arrive on touches 3–4, after familiarity compounds. A lone first touch is an
+unfinished campaign: judging copy on touch 1's silence throws away the touches where
+replies actually happen.
+
 ---
 
 ## Step 4: Write the Copy (60–90 min)

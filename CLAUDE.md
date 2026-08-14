@@ -24,7 +24,8 @@ gtm-kit/
 ├── README.md · NOTICE.md    ← build state · attribution
 ├── estate.md                ← what the kit owns vs reads; the deployments map
 │
-├── foundations/   the why-layer: principles · pvp · task-craft   → its CONTEXT.md
+├── foundations/   the why-layer: revenue-engineering (the discipline) ·
+│                  principles · pvp · task-craft                  → its CONTEXT.md
 ├── motions/       the operating layer: skills · plays (15, Michael's) ·
 │                  channels · tam/ (pipeline, under construction) ·
 │                  workflows · playbooks · dormant                → its CONTEXT.md
@@ -42,6 +43,7 @@ gtm-kit/
 | You need | Read |
 |---|---|
 | "What's my task? → which file?" | `CONTEXT.md` |
+| What revenue engineering IS — the definition, laws, waste taxonomy | `foundations/revenue-engineering.md` |
 | The rules (admission, swap test, values, one-home, suppression, travel) | `foundations/principles.md` |
 | First-touch copy doctrine | `foundations/pvp.md` — both instruments, `experiments/001` |
 | How to write a skill/play/stage | `foundations/task-craft.md` |

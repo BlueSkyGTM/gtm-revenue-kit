@@ -1,39 +1,49 @@
 # motions/tam/ — the market-led campaign pipeline (under construction)
 
-The centerpiece of the operating layer: map the market → refine → find people → write →
-personalize → send. Form: **pipeline** — numbered stages, each a gate a human reads
-before the next stage runs.
+Form: **pipeline** — numbered stages, each a gate a human reads before the next runs.
+One distinction this folder must never blur (operator ruling 08-11, `BRIEF.md`): **TAM is
+the artifact** — the map of the addressable universe, owned by targeting, carrying its
+negative space as first-class output. **This folder is the pipeline** that builds the map
+(stages 1–2) and consumes it (stages 3–6). Whether the folder keeps the name `tam/` or
+becomes `market-led/` is the operator's call and blocks nothing.
 
-## Construction state, honestly
+## Construction state
 
-- `skeleton.md` is the mechanism map of Michael's six-part TAM series — a ~270-line
-  abstraction that preserved the stages and mechanics but stripped his text, examples,
-  and reasoning. It is the map of what the pipeline covers, **not** the pipeline.
-- The operator has improved on Michael's framework; the improved version lives in the
-  operator's second-brain workspace and lands here as the operator briefs it in.
-- **Stage folders are created when their content arrives, not before.** When the brief
-  lands, each stage becomes `NN-<stage>/` with a contract per the ICM stage template,
-  written to `foundations/task-craft.md`.
+- `BRIEF.md` — the operator's brief, part 1: the improvement thesis (the anti-ICP as
+  first-class output) and the stage-list verdict. **The six stages are confirmed.**
+- `skeleton.md` — the mechanism map of Michael's six-part series: faithful mechanics,
+  stripped voice. The map of what the pipeline covers, not the pipeline.
+- `01-mapping/` — **drafted under the brief's authorization** (thesis + verdict landed →
+  stage 1 may be built; Cowork evaluates it before stage 2 is drafted).
+- Stages 2–6 — folders are created as their content is briefed, never before. Michael's
+  per-stage mechanics, the operator's further deltas, and numbers are still owed
+  (`BRIEF.md` footer).
 
-## The six stages (names fixed by the skeleton; content arriving)
+The improved framework's content **arrives from the operator's briefs** — the second
+brain holds laws, rulings, and calibration, not stage-level method (its own flag, 08-13).
 
-1. TAM mapping — *the segment-definition question routes through `experiments/002`*
-2. TAM refinement
+## The six stages
+
+1. **Mapping** (`01-mapping/`) — the map, ICP **and anti-ICP** as stated rules — *segment
+   definition routes through `experiments/002`*
+2. Refinement — exclusion hardening: below-threshold tier drawn, suppression marked,
+   exclusion rules tested against the sourced list
 3. Find people & enrich — *pairs with `../workflows/enrichment.md` + `-techniques.md`*
 4. Copywriting & testing — *instrument choice routes through `experiments/001`*
 5. AI personalization
 6. Deliverability & send setup — *pairs with `../playbooks/deliverability-and-warmup.md`*
 
+Stages 3–6 inherit the negative space produced by 1–2; they never re-derive it.
+
 ## Reads / does / writes
 
-- **Reads:** `skeleton.md`; the account's `context/` files each stage names; the two
-  experiment records where an instrument choice exists.
-- **Does:** turns a market definition into a launched, measured campaign.
-- **Writes:** everything into `accounts/<slug>/outputs/campaigns/<slug>/` — the pipeline
-  itself stores nothing between runs.
+- **Reads:** `BRIEF.md`, then the active stage's folder; the account's `context/` files
+  each stage names; the experiment records where an instrument choice exists.
+- **Does:** builds the TAM artifact, then turns it into a launched, measured campaign.
+- **Writes:** the artifact and all campaign output into
+  `accounts/<slug>/outputs/` — the pipeline itself stores nothing between runs.
 
 ## Human gate
 
-The operator's brief is the gate on this folder's own construction: nothing in
-`skeleton.md` is rewritten ahead of it, and Cowork evaluates each landed stage before the
-next is built.
+The operator's brief gates construction: each landed stage is evaluated by Cowork before
+the next is built. Nothing in `skeleton.md` is rewritten ahead of its stage's brief.
