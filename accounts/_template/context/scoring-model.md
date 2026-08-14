@@ -136,7 +136,7 @@ exempt themselves from volume gates by design.*
 | Enrichment coverage before launch | [N%] | return to enrichment |
 | Pause trigger | [reply rate over first N sends] | pause, diagnose list vs. copy |
 
-**Benchmark stance (ruling 08-13, operator confirmation pending):** the kit runs
+**Benchmark stance (ruled 08-13, operator-confirmed 08-14):** the kit runs
 **benchmark-free until its own campaign data lands** — the first campaigns' results seed
 this section with provenance `operator-proven`, the only provenance that closes it. The
 diagnostic *shapes* are mechanism and apply without numbers:

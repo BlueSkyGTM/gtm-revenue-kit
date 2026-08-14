@@ -48,7 +48,7 @@ transcribe from operating history, never author ahead of it. One exception: cons
 because their subject is what must never happen. (This is why the empty signal shelf and
 the brief-gated pipeline are correct.)
 
-## The waste taxonomy **[second-brain derivation — operator to endorse]**
+## The waste taxonomy **[second-brain derivation — operator-endorsed 08-14]**
 
 Grounded in tenet 3 **[whitley]**: small companies fail because effort scatters across
 disconnected activities — the work is real, the structure is missing. **Waste is leakage
@@ -70,7 +70,7 @@ at the seams between the eight functions.** Naming the seam names the waste:
 prevents. A method that cannot name its waste is reference, not law — exactly principle
 1's admission test, made mechanical.
 
-## Subsume or sit beside **[second-brain, from operator rulings — endorse]**
+## Subsume or sit beside **[second-brain, from operator rulings — operator-endorsed 08-14]**
 
 **Revenue engineering subsumes the kit.** The kit is machinery at the instrument and
 motion layer — the execution engine within the discipline. It keeps its name and scope:

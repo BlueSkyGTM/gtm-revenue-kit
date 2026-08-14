@@ -4,8 +4,8 @@ The anatomy every signal in this system carries. The four-dimension split and th
 per-signal field set are adapted from the MIT-licensed `icp-intelligence-mcp` skeleton
 (attribution: `NOTICE.md`); the admission gate is this kit's own (principle 1).
 
-**Adoption status:** second-brain verdict 08-13 — *adopt* (operator's confirming line
-pending). Two notes travel with the adoption. Provenance caution: the source repo ships
+**Adoption status: ADOPTED** — second-brain verdict 08-13, **operator-confirmed 08-14**.
+Two notes travel with the adoption. Provenance caution: the source repo ships
 no tests or eval harness, so its weights (fit 40 · intent 30 · relationship 15 ·
 timing 15) are reported, not verified — starting values at most, and values live in the
 account regardless. And what the split fixes on the record: the old model had

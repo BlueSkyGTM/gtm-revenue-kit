@@ -27,7 +27,7 @@ Provenance of every part: `NOTICE.md`. The pristine upstream is tagged
 | 🟢 | **Plays** (15, Michael's) — the operating play library | Mechanisms faithful; backstory returns incrementally as plays are exercised |
 | 🟢 | **Channels** (4, Michael's) | Carried over |
 | 🟡 | **TAM pipeline** — the centerpiece | Brief part 1 landed (`motions/tam/BRIEF.md`): six stages confirmed, anti-ICP as first-class output. **Stage 1 drafted** (`01-mapping/`), awaiting Cowork's evaluation before stage 2. Stage briefs 2–6 owed |
-| 🟡 | **Signal library** | Schema written; F/I/R/T **adopted** (draft verdict 08-13, operator line pending); shelf deliberately empty until records earn their why |
+| 🟡 | **Signal library** | Schema written; F/I/R/T **adopted, operator-confirmed 08-14**; shelf deliberately empty until records earn their why |
 | 🟡 | **Experiments** — 001 first-touch formula, 002 segment definition | Queued; both run in the albatross deployment's own `revenue-engineering` account (Fenton dry run dropped, operator ruling 08-13) |
 | 🟢 | **Account stamp** (`accounts/_template/`) | Upstream scoring defaults restored; benchmark-free stance recorded (own campaign data seeds §8, `operator-proven`) |
 | 🟡 | **Runtime** — the kit as a running system over Deepline | Direction confirmed 08-13, spec pending (`estate.md` §Runtime); the send wall translates to mechanical gates, never retires |
@@ -39,9 +39,8 @@ Provenance of every part: `NOTICE.md`. The pristine upstream is tagged
 
 1. **Cowork evaluates stage 1** (`motions/tam/01-mapping/`) — the pipeline's gate; stage
    2 is drafted only after the verdict.
-2. **The operator's one-liners** — confirm/veto: R4 (adopt F/I/R/T), R9 (benchmark-free),
-   and endorsement of the waste taxonomy + subsume derivations in
-   `foundations/revenue-engineering.md`.
+2. ~~The operator's one-liners~~ — **all three confirmed 08-14**: F/I/R/T adopted,
+   benchmark-free stands, the waste taxonomy and subsume verdict are full law.
 3. **Stage briefs 2–6, and the rest of Ray's queue** — R3 signals, R5 template (licensing
    note first), R7 source location, R10 estate inventory
    (`COWORK-BRIEF-REQUEST.md` tracks).
