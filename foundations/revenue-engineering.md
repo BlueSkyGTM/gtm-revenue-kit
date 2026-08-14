@@ -1,6 +1,7 @@
 # Revenue engineering — definition and admission rubric
 
-*Response to R2, landed 2026-08-13 from the second brain. Provenance is marked per
+*Landed 2026-08-13 from the second brain, in answer to the construction session's
+request for the discipline's definition. Provenance is marked per
 section: **[whitley]** verbatim from PRSC Whitley, "A Rough Start Guide to Building a
 Go-To-Market System" (operator-designated source of the laws; attribution: `NOTICE.md`);
 **[operator]** Ray's dated rulings, recorded in the second brain; **[second-brain]**
@@ -73,6 +74,15 @@ capability and authority are already the same person.** The falsifiers in
 `revenue-engineering-SOURCES.md` are enterprise questions; this operation is a case
 where the merger is already fact.
 
+**The plain version [operator, 08-14].** Guitarists play guitars; guitar makers build
+them. That is RevOps and GTM engineering in a nutshell — one runs the revenue system,
+the other builds it. This operation sits deliberately between the two, because AI
+collapsed the cost of doing both, and that middle seat is a rare early position worth
+holding. Stated as containment: **revenue architects are GTM engineers now — the
+upstream authors themselves prove the direction — but not all GTM engineers are
+revenue architects.** The seat that holds both is the smaller circle, and every
+mainstream tool serves the bigger one.
+
 ## The laws **[whitley, verbatim]**
 
 > "the phrase go-to-market system will mean the practical commercial structure that
@@ -88,8 +98,8 @@ of design choices.
 > author, not a GTM practitioner or researcher; the "Rough Start Guide" series spans
 > unrelated subjects. The decomposition is sound and nothing built on it needs undoing —
 > but it is **operator-chosen doctrine, not discovered law**, and it is held to the same
-> evidence standard as any instrument here (`decisions/2026-08-14-foundations-audit.md`
-> F1).
+> evidence standard as any instrument here (the credential mistake,
+> `decisions/2026-08-14-foundations-audit.md`).
 
 Read "GTM system" above as *revenue system*: the source labels the whole by its narrowest
 input, which is the conflation `lexicon.md` exists to prevent.
@@ -133,9 +143,9 @@ mis-filed.
 It is **not** the admission test it was called on 08-13. Every GTM method prevents *some*
 waste and these nine span the whole funnel, so the test admits everything — a rule that
 cannot fail proves nothing (`failure-modes.md` §4). The admission test that can fail is
-principle 1's: *can we say why this is here, and from whom.* Flagged in
-`decisions/2026-08-14-foundations-audit.md` F4; the 08-13 ruling is the operator's to
-amend.
+principle 1's: *can we say why this is here, and from whom.* Flagged in the foundations
+audit as the test that can't fail (`decisions/2026-08-14-foundations-audit.md`); the
+08-13 ruling is the operator's to amend.
 
 ## Subsume or sit beside **[second-brain, from operator rulings — operator-endorsed 08-14]**
 

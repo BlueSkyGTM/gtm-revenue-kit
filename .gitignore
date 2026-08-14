@@ -29,7 +29,7 @@ context/signal-performance-sync.json
 
 # --- Multi-account additions ---
 
-# Live MCP wiring: the send tool is never committed (DIVERGENCE.md E2)
+# Live MCP wiring: the send tool is never committed (the send wall — CLAUDE.md hard lines)
 .mcp.json
 
 # Per-account sensitive outputs: raw contact data never enters git

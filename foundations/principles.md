@@ -24,8 +24,8 @@ edge of the test: a method entering core **names which waste it prevents**
 **Judge a source on scope fitness, not credential.** Does the source's scope match the
 claim's scope? A domain-agnostic claim needs a domain-agnostic source; a channel-specific
 claim needs channel-specific evidence. Credentials, publisher, and format are surface
-markers — and reaching for them instead of testing the fit is a recorded error here
-(`decisions/2026-08-14-foundations-audit.md` F1). Also weigh **incentive**: a source
+markers — and reaching for them instead of testing the fit is a recorded error here —
+the credential mistake (`decisions/2026-08-14-foundations-audit.md`). Also weigh **incentive**: a source
 selling the thing it describes is not disqualified, but its confidence is not evidence.
 
 ## 2. The swap test — and the account boundary
@@ -69,9 +69,9 @@ transfer to another — sound where the senders are genuinely different parties.
 deployments are owned by the same operator and reach overlapping networks, "different
 sender" is thinner than the rule assumes, and a person who says stop probably means both.
 The cross-deployment check was removed on 08-14 for doctrinal consistency
-(`rulings.md`); `decisions/2026-08-14-foundations-audit.md` F3 argues that removal may
-have been wrong on the merits. **Open for the operator; the ledgers stay separate until
-he rules.**
+(`rulings.md`); the foundations audit argues that removal may have been wrong on the
+merits (`decisions/2026-08-14-foundations-audit.md`). **Open for the operator; the
+ledgers stay separate until he rules.**
 
 ## 6. Core travels; an account does not
 

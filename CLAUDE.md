@@ -2,14 +2,14 @@
 
 Machinery for **revenue engineering**: the connective layer that turns signals into won
 work without waste. One shared engine, vendored into each business OS that runs it; every
-operating account lives in its deployment, never here (`estate.md`). Form: an umbrella of
-four wings over the account stamp.
+operating account lives in its deployment, never here (`estate.md`). Form: four method
+wings — foundations · motions · signals · experiments — over the account template.
 
 **This file is the map — it routes, it holds no content.**
 
-> **UNDER RECONSTRUCTION** on this branch: the operating layer is being rebuilt from the
-> operator's improved TAM framework, briefed in stage by stage.
-> `motions/tam/CONTEXT.md` states what is real vs. arriving.
+> **Stages arriving:** the TAM pipeline runs six stages; 1–2 are drafted and evaluated,
+> 3–6 land as the operator briefs them. `motions/tam/CONTEXT.md` states what is real
+> vs. arriving.
 
 ## The one rule
 

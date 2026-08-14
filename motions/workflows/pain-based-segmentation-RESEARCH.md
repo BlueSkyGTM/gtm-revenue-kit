@@ -1,4 +1,4 @@
-# R8 — pain-based segmentation: the evidence, the current formulation, the corpus
+# Pain-based segmentation — the evidence, the current formulation, the corpus
 
 *Committable beside `motions/workflows/pain-based-segmentation.md` (e.g. as
 `pain-based-segmentation-RESEARCH.md`). Researched by the second brain, 2026-08-14, from
@@ -84,9 +84,9 @@ real evidence the field has.** Two practical consequences:
 
 One caution for the EDP threshold pattern: DISCO's "below 1.2×" is the shape an EDP
 should take — a metric with an existential threshold — but it is a modeled example, not
-a validated cutoff. When the albatross account defines its own EDPs, thresholds are
+a validated cutoff. When the operating account defines its own EDPs, thresholds are
 account values with provenance "guess" until a campaign proves them (principle 3; the
-labeling rule from R1).
+labeling rule from the operator brief, `../tam/BRIEF.md`).
 
 ---
 

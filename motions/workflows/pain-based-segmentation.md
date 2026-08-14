@@ -76,7 +76,7 @@ the weight sits**:
 An account adopting this doctrine records the adoption in its own context files, per
 track. The weights are the account's; this doc holds no numbers (swap test).
 
-## Doctrine note — conflict C4 (read before adopting)
+## Doctrine note — the segment-definition conflict (read before adopting)
 
 This doctrine directly contradicts the firmographic-first assumptions carried by the
 `imported` market-led workflow (`tam-campaign.md` — map the market from structure down)

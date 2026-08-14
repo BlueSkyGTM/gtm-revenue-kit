@@ -8,15 +8,15 @@ the problems is the content being wrong — they are authority and framing probl
 
 ## The verdicts, at a glance *(closed 2026-08-14 with the wrap-up)*
 
-| # | Finding | Verdict |
-|---|---|---|
-| F1 | The laws' source | **Retracted** — credential was the wrong test; scope fitness is (`principles.md` §1). One sentence of precision on *retain*/*learn* survives |
-| F2 | The Deepline consent finding | **Corrected** — narrowed to the operator-owned-ledger gap; the triage record carries it |
-| F3 | Suppression inflated to architecture | **Applied** ("legal floor, not architecture") + one open item: the cross-deployment re-ruling awaits the operator |
-| F4 | The waste taxonomy cannot fail | **Flagged for the operator** — placement aid, not admission test; the 08-13 ruling is his to amend |
-| F5 | Smaller findings | Capture-unbounded **applied**; the rest flagged |
-| F6 | Doctrine ahead of operation | **Ratio reported** — the correction is to run the pipeline, not to write less |
-| F7 | Source concentration (one substack, twice load-bearing) | **Flagged** — visible, not yet actionable |
+| Finding | Verdict |
+|---|---|
+| **The credential mistake** (the laws' source) | **Retracted** — credential was the wrong test; scope fitness is (`principles.md` §1). One sentence of precision on *retain*/*learn* survives |
+| **The consent overstatement** (the Deepline pack) | **Corrected** — narrowed to the operator-owned-ledger gap; the triage record carries it |
+| **Suppression right-sized** | **Applied** ("legal floor, not architecture") + one open item: the cross-deployment re-ruling awaits the operator |
+| **The test that can't fail** (the waste taxonomy) | **Flagged for the operator** — placement aid, not admission test; the 08-13 ruling is his to amend |
+| **Smaller corrections** | Capture-unbounded **applied**; the rest flagged |
+| **Doctrine ahead of operation** | **Ratio reported** — the correction is to run the pipeline, not to write less |
+| **One substack, load-bearing twice** | **Flagged** — visible, not yet actionable |
 
 A separate `doctrine-audit.md` standard file was **declined** at wrap-up: the tests
 already live in `principles.md` §1 (scope fitness, incentive) and `failure-modes.md`
@@ -25,7 +25,7 @@ against.
 
 ---
 
-## F1 — **RETRACTED in its reasoning, 2026-08-14.** Credential was the wrong test.
+## The credential mistake — **RETRACTED in its reasoning, 2026-08-14**
 
 > **The operator's counter, which is correct.** Revenue engineering is **domain-agnostic
 > by nature** — it spans RevOps, growth, and GTM engineering, and neither a tool swap nor
@@ -34,8 +34,8 @@ against.
 > structural level the frame needs; a B2B-SaaS GTM authority would have produced
 > SaaS-shaped functions (PQLs, product-led loops, expansion motions) that could not travel
 > to a bookkeeping practice. **I used credential as a proxy for fitness. Wrong proxy, and
-> it is the same class of error as the one in F2** — reaching for a surface marker instead
-> of testing the thing.
+> it is the same class of error as the consent overstatement below** — reaching for a
+> surface marker instead of testing the thing.
 >
 > **What the finding should have been:** does the source's *scope* match the claim's
 > scope? On that test the eight pass, and the whole finding dissolves.
@@ -51,7 +51,7 @@ system, GTM engineering executes inside it. **They say nothing about the eight
 functions.** Those remain Whitley's alone, adopted on fitness. Two separate claims, two
 separate evidence bases; do not let one borrow the other's support.
 
-## F1-original — The laws rest on a self-published generalist. *(Superseded — kept as the record of what was withdrawn.)*
+## The withdrawn version — the laws rest on a self-published generalist *(superseded; kept as the record of what was withdrawn)*
 
 `revenue-engineering.md` quotes PRSC Whitley's eight verbs and `chain-of-operations.md`
 makes them **rung 1 — "laws, not principles… violated only at the cost of failure."** That
@@ -78,7 +78,7 @@ and not to the frame doing the testing.**
 the operator's chosen frame. The derivation check still runs — it is useful — but as a
 coherence test, not an appeal to necessity.
 
-## F2 — I overstated the consent finding on the Deepline pack. **Applied: corrected.**
+## The consent overstatement — I overstated the finding on the Deepline pack. **Applied: corrected.**
 
 The triage concluded the pack "has no suppression, opt-out, or consent concept anywhere"
 and that adopting its gate model "would leave the send wall demolished."
@@ -97,7 +97,7 @@ ledger. It is not a reason to call their design demolished.
 
 *Applied:* the triage's disregard row is rewritten to the narrower, defensible claim.
 
-## F3 — Suppression is inflated from legal floor to architecture. **Partly applied; one item needs the operator.**
+## Suppression right-sized — it was inflated from legal floor to architecture. **Partly applied; one item needs the operator.**
 
 Suppression appears as a principle, a hard line, a runtime gate, a stage-4 step, and a
 recurring justification. Measured against what it is — a legal requirement (CAN-SPAM,
@@ -119,7 +119,7 @@ sender" claim is a technicality. The removal was doctrinally clean and may be pr
 and ethically worse. **The framing that produced the ruling was mine; the ruling deserves a
 second look on better framing.**
 
-## F4 — The waste taxonomy cannot fail. **Flagged, not applied.**
+## The test that can't fail — the waste taxonomy admits everything. **Flagged, not applied.**
 
 `rulings.md` calls it "the admission rubric's sharp edge": a method enters core by naming
 which waste it prevents. But every GTM method prevents *some* waste, and the nine
@@ -131,7 +131,7 @@ It is still useful as a *placement* aid — naming the seam tells you which subs
 method. Recommend keeping it for that and dropping the "sharp edge" claim. Not applied
 because it is a recorded ruling; the operator changes it.
 
-## F5 — Smaller things
+## Smaller corrections
 
 - **"Capture and learn are unbounded."** (`chain-of-operations.md`) Capture is not
   unbounded — inbound qualification consumes the scarcest resource in the system, and
@@ -149,13 +149,13 @@ because it is a recorded ruling; the operator changes it.
   previous turn, by ICM's don't-build-speculative-folders rule. Kept only because this
   audit made it a second real record; if a third does not arrive, fold both into
   `foundations/` and delete the folder.
-- **Grandiosity in the R8 research.** It calls experiment 002's results "publishable-grade"
+- **Grandiosity in the pain-based research.** It calls experiment 002's results "publishable-grade"
   and says 002 "would be generating some of the first real evidence the field has." Two
   campaigns from a two-person operation is a useful internal result, not a contribution to
   a field. The *evidence audit* in that file is excellent and stands; the framing around it
   is inflated. **Flagged.**
 
-## F7 — Source concentration: one substack is load-bearing twice. **Flagged.**
+## One substack, load-bearing twice. **Flagged.**
 
 Cannonball GTM (Doug Bell) is now a source for **two independent things** in the kit:
 
@@ -176,7 +176,7 @@ pain-based practitioner publishing results would strengthen the estate more than
 Cannonball piece would. Recorded so the concentration is visible rather than accumulating
 unnoticed.
 
-## F6 — The structural criticism the files invite against themselves
+## Doctrine ahead of operation — the criticism the files invite against themselves
 
 `chain-of-operations.md` states the construction law: **transcribe from operation, never
 author ahead of it.** The foundations layer is 773 lines of doctrine governing a system
