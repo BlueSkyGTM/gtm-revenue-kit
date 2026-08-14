@@ -29,6 +29,8 @@ named account's folder inside its deployment (`estate.md` says which deployment)
 | "Has this already been decided?" | `foundations/rulings.md` | Append-only; a ruling outranks an inference |
 | Someone asked to be removed | `accounts/<slug>/optouts.md` | Append-only, permanent, legal |
 | Check copy against account rules | `tools/lint_copy.py` | A gate, not a review |
+| Which tool or provider for a step | `runtime-spec.md` §8 Tool selection | Four criteria, in order; both gates before spend or send |
+| Why was X absorbed, replaced, or disregarded? | `decisions/` | Construction-level calls with their evidence; audits live here |
 | Where does X live — this repo or a deployment? | `estate.md` | Core travels; an account lives in exactly one |
 
 ## By artifact

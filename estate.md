@@ -14,7 +14,9 @@ The kit owns the motions; the things the motions connect live in their own machi
 This rendering is grounded, not asserted: `foundations/revenue-engineering.md` holds the
 definition (revenue engineering owns the system; GTM engineering is its execution layer —
 this kit), the eight laws, and the waste taxonomy the tissue metaphor names. The kit
-keeps its name and scope on that file's subsume verdict.
+keeps its name and scope on that file's subsume verdict. Why one repo holds both the
+architecture layer and the execution layer — the seat no mainstream system serves — is
+that file's §The thesis, sharpened.
 
 ## Owns / reads
 

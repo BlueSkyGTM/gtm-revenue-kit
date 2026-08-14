@@ -22,7 +22,7 @@ Provenance of every part: `NOTICE.md`. The pristine upstream is tagged
 
 | | Piece | State |
 |---|---|---|
-| 🟢 | **Foundations** (8 files) | The discipline (08-13) plus the operation's judgment layer (08-14): the six-rung ladder, the failure modes with their tells and the six-step self-check, the lexicon, and `rulings.md` — append-only, the standing channel for what the operator has settled |
+| 🟢 | **Foundations** (9 files) | The discipline (08-13) plus the operation's judgment layer (08-14): the six-rung ladder, the failure modes with their tells and the six-step self-check, the lexicon, and `rulings.md` — append-only, the standing channel for what the operator has settled. Audited 08-14 with retractions on the record (`decisions/2026-08-14-foundations-audit.md`); **frozen until operation catches up — no new doctrine files until campaigns run** |
 | 🟢 | **Skills** (6) — account-gated, upstream craft | Carried over working; icp-scoring's upstream defaults restored; sequence-shape mechanism restored to signal-to-sequence |
 | 🟢 | **Plays** (15, Michael's) — the operating play library | Mechanisms faithful; backstory returns incrementally as plays are exercised |
 | 🟢 | **Channels** (4, Michael's) | Carried over |
@@ -37,17 +37,23 @@ Provenance of every part: `NOTICE.md`. The pristine upstream is tagged
 
 ## What happens next, in order
 
-Everything below waits on the operator; nothing waits on construction.
+The order leads with operating — the audit's one standing correction is that the fix
+for doctrine written ahead of operation is to run the pipeline, not to write more
+(`decisions/2026-08-14-foundations-audit.md` F6). Items 2–4 wait on the operator;
 `foundations/rulings.md` §Open is the live queue.
 
-1. **The runtime inputs** — the API account and providers, the datastore per deployment,
+1. **Operate — run TAM stages 1–2 for the active deployment's own account** (`estate.md`
+   names it), manually if the runtime inputs are not yet in hand. The map is the first
+   real artifact; benchmarks, signal whys, and stage evaluation in anger all feed from
+   it.
+2. **The runtime inputs** — the API account and providers, the datastore per deployment,
    the send-approval scope named in writing (`runtime-spec.md` §6). These unblock
    execution blocks for TAM stages 1–3.
-2. **Stage briefs 3–6** — per-stage mechanics and deltas. Folders wait; empty is visible.
-3. **The signal set, the verbatim template (licensing first), the course's location.**
-4. **Albatross runs it** — the first campaigns execute experiments 001 and 002 in its own
+3. **Stage briefs 3–6** — per-stage mechanics and deltas. Folders wait; empty is visible.
+4. **The signal set, the verbatim template (licensing first), the course's location.**
+5. **Albatross runs it** — the first campaigns execute experiments 001 and 002 in its own
    `revenue-engineering` account (two addresses warming through the pause).
-5. **Re-vendor** — deployments pull the rebuilt core when it stabilizes.
+6. **Re-vendor** — deployments pull the rebuilt core when it stabilizes.
 
 ## Deployments
 

@@ -32,6 +32,8 @@ gtm-kit/
 │                  workflows · playbooks · dormant                → its CONTEXT.md
 ├── signals/       the signal library: schema + admitted records  → its CONTEXT.md
 ├── experiments/   open instrument tests, queued and closed       → its CONTEXT.md
+├── decisions/     construction-level calls with their evidence
+│                  (triage + audit records)                       → its CONTEXT.md
 │
 ├── accounts/      the stamp (_template/) + catalog (_index.md) — operating
 │                  accounts live in deployments, never here       → its CONTEXT.md
@@ -54,6 +56,7 @@ gtm-kit/
 | How to write a skill/play/stage | `foundations/task-craft.md` |
 | What a signal must carry to exist | `signals/schema.md` |
 | Two methods disagree | `experiments/` — queued tests, not curated doctrine |
+| A construction-level call and its evidence (absorb/replace/disregard, audits) | `decisions/` |
 | Which copy of the kit holds what | `estate.md` |
 
 ## Authority — what outranks what

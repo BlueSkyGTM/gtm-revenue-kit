@@ -40,6 +40,39 @@ products never exits it. The operation's scope statement **[operator, 08-13]**: 
 endeavor is measured against the laws; deviations named; corrections sent back to where
 the work lives ("revenue calibration").
 
+## The thesis, sharpened **[operator, 08-14]**
+
+Before, GTM engineers obeyed revenue architects: the architecture layer designed, and
+the execution layer built what it was handed. What is changing is **not** RevOps and
+GTM engineering fusing into one role — the operator's synthesis killed that theory; the
+data shows each performing more of the other's work without either overtaking it
+(`revenue-engineering-SOURCES.md`). **What both are borrowing is revenue-architect
+responsibilities.** The design layer has moved into the practitioner's seat, and
+whether the practitioner can build the architecture directly or manage it long term is
+irrelevant — the responsibilities moved.
+
+Twice on this repo's own record:
+
+1. **The upstream kit's authors named themselves The Revenue Architects** — an
+   architecture-titled firm shipping an execution-layer starter kit (`NOTICE.md`
+   §Upstream; in the provenance chain since day one). The borrowing, observed in the
+   wild.
+2. **The Deepline skills triage** found execution depth and zero architecture layer
+   (`decisions/2026-08-14-deepline-skills-triage.md`) — tooling built for half the
+   seat.
+
+**The gap:** no mainstream system acknowledges the seat that holds borrowed
+architecture responsibilities. Tooling serves the architect (frameworks, RevOps
+platforms) or the executor (enrichment runtimes, sequencers) — never both at once.
+**This kit is the system for that seat**: foundations are its architecture layer,
+motions its execution layer — one repo, one operator, one runtime.
+
+One consequence for the corroboration limit above: the three sources cannot show
+*authority* moving to the role inside enterprises — but for a **founder-operator,
+capability and authority are already the same person.** The falsifiers in
+`revenue-engineering-SOURCES.md` are enterprise questions; this operation is a case
+where the merger is already fact.
+
 ## The laws **[whitley, verbatim]**
 
 > "the phrase go-to-market system will mean the practical commercial structure that
@@ -63,9 +96,12 @@ input, which is the conflation `lexicon.md` exists to prevent.
 
 ## The chain of operations **[operator + second-brain, researched 08-11]**
 
-Six rungs — Laws → Principles → Architecture → Systems → Instruments → Operations — with
-composition running down and **construction running up**: systems predate architecture;
-transcribe from operating history, never author ahead of it, constraints excepted.
+Six rungs — Laws → Revenue architecture → Systems architecture → Systems → Instruments →
+Operations — with composition running down and **construction running up**: systems
+predate architecture; transcribe from operating history, never author ahead of it,
+constraints excepted. *Revenue architecture* (rung 2, the principles layer) carries the
+name of Jacco van der Kooij's discipline (Winning by Design — attribution: `NOTICE.md`);
+*systems architecture* (rung 3) is the design layer where models live.
 
 **The full ladder, the subsystem derivation, frame-and-filling, and model status live in
 `chain-of-operations.md`** — read it before any structural decision. This kit is rung 5

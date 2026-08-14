@@ -6,6 +6,23 @@ applied, it says so; where it needs the operator, it says that instead. The rati
 per the files' own rule: **four files landed, three carry a material problem, and none of
 the problems is the content being wrong — they are authority and framing problems.***
 
+## The verdicts, at a glance *(closed 2026-08-14 with the wrap-up)*
+
+| # | Finding | Verdict |
+|---|---|---|
+| F1 | The laws' source | **Retracted** — credential was the wrong test; scope fitness is (`principles.md` §1). One sentence of precision on *retain*/*learn* survives |
+| F2 | The Deepline consent finding | **Corrected** — narrowed to the operator-owned-ledger gap; the triage record carries it |
+| F3 | Suppression inflated to architecture | **Applied** ("legal floor, not architecture") + one open item: the cross-deployment re-ruling awaits the operator |
+| F4 | The waste taxonomy cannot fail | **Flagged for the operator** — placement aid, not admission test; the 08-13 ruling is his to amend |
+| F5 | Smaller findings | Capture-unbounded **applied**; the rest flagged |
+| F6 | Doctrine ahead of operation | **Ratio reported** — the correction is to run the pipeline, not to write less |
+| F7 | Source concentration (one substack, twice load-bearing) | **Flagged** — visible, not yet actionable |
+
+A separate `doctrine-audit.md` standard file was **declined** at wrap-up: the tests
+already live in `principles.md` §1 (scope fitness, incentive) and `failure-modes.md`
+§The self-check, and a third judgment file would be the sprawl the operator warned
+against.
+
 ---
 
 ## F1 — **RETRACTED in its reasoning, 2026-08-14.** Credential was the wrong test.

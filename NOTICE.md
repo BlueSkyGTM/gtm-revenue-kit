@@ -64,6 +64,17 @@ from **PRSC Whitley, "A Rough Start Guide to Building a Go-To-Market System"** �
 operator-designated as the source of the laws. Quotation with attribution; the
 surrounding derivation is the operator's and the second brain's.
 
+## Revenue Architecture — the chain's research background
+
+The chain of operations (`foundations/chain-of-operations.md`) was researched against
+**Winning by Design's published Revenue Architecture, the work of Jacco van der Kooij**,
+alongside the classical engineering hierarchy and this kit's own operating shape. The
+**bowtie** model is Winning by Design's — held in the kit rather than adopted, and
+attributed regardless of adoption status. The **flywheel**'s general form traces to Jim
+Collins' popularization; the kit adopts its revenue-specific rendering. The ladder's
+rung-2 name, **revenue architecture**, acknowledges the same lineage. Framework names
+and structure with attribution; no text is reproduced.
+
 ## Runtime patterns
 
 Patterns absorbed from **[getaero-io/gtm-eng-skills](https://github.com/getaero-io/gtm-eng-skills)**

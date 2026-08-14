@@ -107,3 +107,26 @@ was read and triaged; the record with the evidence is
   day; the triage record carries the correction.)
 
 Absorbed patterns travel with MIT attribution (`NOTICE.md`).
+
+## 8. Tool selection — the four criteria
+
+When an execution block (or a session running without one) chooses a tool, provider, or
+path, four criteria decide, in order. Each already lives somewhere; this section is the
+index an execution block cites, not a restatement (one home per fact).
+
+1. **Cheapest tool that can answer.** Free/formatting → cheap classification → paid
+   lookup, in that order; a paid call needs a reason the cheaper rung could not supply
+   the answer. Owner: the stage-2 rule (`motions/tam/02-refinement/CONTEXT.md`).
+2. **The waterfall, not alternatives.** Providers run in sequence — free → orchestrator
+   → proprietary — with failover, never as parallel options to shop between. Owner:
+   `motions/workflows/enrichment.md`; the cost model:
+   `motions/workflows/enrichment-techniques.md`.
+3. **Provider fitness is account config.** Which providers hold keys (BYOK) and which
+   provider playbook a block cites are the account/deployment's declared filling —
+   level-3 docs, never core doctrine (§7).
+4. **Both gates before spend or send.** The cost gate (pilot → preview → approve →
+   scale) in front of paid rows; the consent gate in front of every sequencer push
+   (§3). Neither substitutes for the other.
+
+A block that cannot say which criterion picked its tool has an undeclared filling
+(`chain-of-operations.md` §Frame and filling).

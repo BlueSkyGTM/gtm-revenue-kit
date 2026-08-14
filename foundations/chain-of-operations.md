@@ -1,8 +1,9 @@
 # The chain of operations — where this kit sits
 
 *Provenance: the operation's framework, researched against Winning by Design's published
-structure, the classical engineering hierarchy, and this kit's own operating shape —
-three independent stacks, one form. Operator-proven (principle 1). Swap-test clean.*
+Revenue Architecture (Jacco van der Kooij — attribution: `NOTICE.md`), the classical
+engineering hierarchy, and this kit's own operating shape — three independent stacks,
+one form. Operator-proven (principle 1). Swap-test clean.*
 
 **Read before any structural decision.** It answers two questions the method files cannot:
 *what layer am I working at*, and *which direction does authority flow*.
@@ -16,8 +17,8 @@ Composition runs down — each rung is made of the one below. Construction runs 
 | Rung | Layer | What lives there |
 |---|---|---|
 | 1 | **The eight functions** | What a revenue system must do. Operator-chosen frame (see below), not discovered law |
-| 2 | **Principles** | The operating principles that guide design (`principles.md`) |
-| 3 | **Architecture** | The design layer. Models are its vocabulary |
+| 2 | **Revenue architecture** | The operating principles that guide design (`principles.md`). The rung name is van der Kooij's discipline (`NOTICE.md`) |
+| 3 | **Systems architecture** | The design layer. Models are its vocabulary |
 | 4 | **Systems** | The built backbone — one per business, its subsystems named by the laws |
 | 5 | **Instruments** | What subsystems are made of: skills, plays, workflows, scripts, connectors |
 | 6 | **Operations** | Motions running, campaigns executing. Output: pipeline, then revenue |
@@ -110,7 +111,7 @@ swappable, and the filling is declared per account.**
 |---|---|
 | The TAM artifact | The segmentation doctrine that draws it |
 | Signals as a law-level requirement | The signal framework used |
-| The architecture layer | The model reasoned with |
+| The systems-architecture layer | The model reasoned with |
 | The scoring mechanism, in core | Weights, bands, thresholds, in the account |
 
 **Refusing to fix the filling is what lets the laws connect businesses that share
@@ -122,20 +123,20 @@ The practical form: **every slot is declared, never implicit.** An account that 
 stated which segmentation doctrine and which signal framework it runs has an undeclared
 filling — and undeclared fillings are where confident wrong answers come from.
 
-## Rung 3 — models, and their status
+## Rung 3 — systems architecture: models, and their status
 
-Models are the architecture layer's vocabulary. Selecting one is a filling decision,
-declared per account.
+Models are the systems-architecture layer's vocabulary. Selecting one is a filling
+decision, declared per account.
 
 **The flywheel — adopted.** Output re-enters as input; each turn cheapens the next. It
 earns its place by being the eighth law made structural rather than an import bolted
 beside the laws. Its machinery is the feedback subsystem: results sync → context refresh
 → calibration → a better map.
 
-**The bowtie — held, not adopted.** It describes post-close structure: onboarding,
-adoption, expansion. Held because adopting it would violate the construction law — there
-is no post-close subsystem in operation for it to describe. **Adoption condition: a
-post-close subsystem exists and runs.**
+**The bowtie (Winning by Design's model) — held, not adopted.** It describes post-close
+structure: onboarding, adoption, expansion. Held because adopting it would violate the
+construction law — there is no post-close subsystem in operation for it to describe.
+**Adoption condition: a post-close subsystem exists and runs.**
 
-That distinction is the construction law enforced on the architecture layer itself: a
-model earns its place by describing something that runs.
+That distinction is the construction law enforced on the systems-architecture layer
+itself: a model earns its place by describing something that runs.

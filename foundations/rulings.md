@@ -54,6 +54,12 @@ inference-as-fact instance.
 hard-codes its implementation; every slot an account runs is declared explicitly, never
 left implicit.
 
+**2026-08-14 — The ladder names two architectures.** Rung 2 is **revenue architecture**
+— the principles layer, carrying the name of van der Kooij's discipline; rung 3 is
+**systems architecture** — the design layer, where models live. Neither is called bare
+"architecture" again. *Origin:* the ladder briefly named both "revenue architecture" and
+"architecture"; the fusion name resolves the redundancy.
+
 **2026-08-14 — Isolation admits no exception.** Accounts and deployments never read each
 other, including audience-collision checks between deployments the same operator owns.
 *Origin:* a cross-deployment suppression pass, proposed for a real failure, removed rather
@@ -134,6 +140,16 @@ weakness visible. *Reversal:* an independent evaluator returns to the loop.
 foundations are checks to run, not a lens to narrate through; over-application is the
 ceremony corruption they warn about. *Consequence:* a draft that reads as compliance
 narration has failed the file it is citing.
+
+**2026-08-14 — Roles are borrowing, not fusing.** Modern GTM engineering and RevOps each
+absorb revenue-architect responsibilities without overtaking each other; whether the
+seat can build the architecture directly or manage it long term is irrelevant to the
+claim. *Evidence on the record:* the upstream authors' own name (The Revenue Architects,
+`NOTICE.md` §Upstream) and the triage's execution-without-architecture finding
+(`decisions/2026-08-14-deepline-skills-triage.md`). *Consequence:* this kit is the
+system for the seat holding both layers (`revenue-engineering.md` §The thesis,
+sharpened); a session does not reason its way back to a fusion or a pure-execution
+framing.
 
 ---
 

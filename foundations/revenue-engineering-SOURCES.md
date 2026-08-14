@@ -106,6 +106,10 @@ Whether that becomes *ownership* depends on something none of these articles evi
 whether companies restructure accountability to match, or simply expect more output from
 the same seat.
 
+**One case where the question is already closed [operator-derived, 08-14]:** for a
+founder-operator, capability and authority are the same person — the falsifiers below
+are enterprise questions, and this operation is a case where the merger is already fact.
+
 ## What would settle it — the falsifiers
 
 - Job postings attaching quota, pipeline, or NRR targets to the title rather than activity
