@@ -30,10 +30,19 @@ the work lives ("revenue calibration").
 > market through suitable channels, capture and qualify interest, move prospects through
 > a sales process, retain useful data, follow up properly and learn from the results."
 
-Eight verbs, his words. These are **laws, not principles** **[operator, 08-11]** — a
-system that fails one fails as a revenue system regardless of design choices. Read
-"GTM system" as *revenue system*: Whitley named the RevOps/GTM-execution convergence and
-labeled it by its narrowest input (recorded as conflict S2 in the second brain).
+Eight verbs, his words. The operator adopted them as the frame everything else derives
+from **[operator, 08-11]** — a system that fails one fails as a revenue system regardless
+of design choices.
+
+> **Source status, checked 2026-08-14 [V]:** Whitley is a self-published generalist
+> author, not a GTM practitioner or researcher; the "Rough Start Guide" series spans
+> unrelated subjects. The decomposition is sound and nothing built on it needs undoing —
+> but it is **operator-chosen doctrine, not discovered law**, and it is held to the same
+> evidence standard as any instrument here (`decisions/2026-08-14-foundations-audit.md`
+> F1).
+
+Read "GTM system" above as *revenue system*: the source labels the whole by its narrowest
+input, which is the conflation `lexicon.md` exists to prevent.
 
 ## The chain of operations **[operator + second-brain, researched 08-11]**
 
@@ -63,9 +72,17 @@ at the seams between the eight functions.** Naming the seam names the waste:
 | 8 | **Learning waste** — results produced, model never updated; the same campaign run twice | 7 → 8 | sync → weekly update → calibration |
 | 9 | **Capacity waste** — winning work delivery cannot absorb | spans all | governance: capacity as a declared constraint |
 
-**The admission rubric's sharp edge:** a method enters core by naming which waste it
-prevents. A method that cannot name its waste is reference, not law — exactly principle
-1's admission test, made mechanical.
+**How to use it — and its honest limit.** A method entering core names which waste, at
+which seam, it prevents. That is genuinely useful for *placement*: the seam tells you
+which subsystem owns the method, and a method whose seam nobody can name is usually
+mis-filed.
+
+It is **not** the admission test it was called on 08-13. Every GTM method prevents *some*
+waste and these nine span the whole funnel, so the test admits everything — a rule that
+cannot fail proves nothing (`failure-modes.md` §4). The admission test that can fail is
+principle 1's: *can we say why this is here, and from whom.* Flagged in
+`decisions/2026-08-14-foundations-audit.md` F4; the 08-13 ruling is the operator's to
+amend.
 
 ## Subsume or sit beside **[second-brain, from operator rulings — operator-endorsed 08-14]**
 

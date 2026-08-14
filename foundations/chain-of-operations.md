@@ -15,7 +15,7 @@ Composition runs down — each rung is made of the one below. Construction runs 
 
 | Rung | Layer | What lives there |
 |---|---|---|
-| 1 | **Laws** | What any revenue system must do. Not chosen; violated only at the cost of failure |
+| 1 | **The eight functions** | What a revenue system must do. Operator-chosen frame (see below), not discovered law |
 | 2 | **Principles** | The operating principles that guide design (`principles.md`) |
 | 3 | **Architecture** | The design layer. Models are its vocabulary |
 | 4 | **Systems** | The built backbone — one per business, its subsystems named by the laws |
@@ -26,16 +26,22 @@ Composition runs down — each rung is made of the one below. Construction runs 
 are instruments; its account template is a system's shape; its motions are what rung 6
 runs. Nothing in core belongs at rungs 1–3 except the files stating them.
 
-## The laws (rung 1) — and the check they generate
+## The eight functions (rung 1) — and the check they generate
 
-The eight are stated canonically, with their source, in
-`revenue-engineering.md` §The laws: **identify · offer · reach · capture · move ·
-retain · follow up · learn.** No tool appears in any of them, which is why swapping the
-stack never exits the discipline.
+**identify · offer · reach · capture · move · retain · follow up · learn.** Stated
+canonically, with their source, in `revenue-engineering.md`. No tool appears in any of
+them, which is why swapping the stack never exits the discipline.
+
+> **Status, checked 2026-08-14.** These are the **operator's chosen frame**, adopted
+> because the decomposition is sound and useful — *not* a law established by evidence or
+> by field consensus. The source is one self-published generalist author
+> (`decisions/2026-08-14-foundations-audit.md` F1). Treat the eight as a coherent
+> checklist that has earned its place by working, and hold them to the same evidence
+> standard as any instrument: a better decomposition replaces them.
 
 What lives *here* is the rule for using them: **every skill, play, workflow, and stage
-names which law it serves.** What cannot name one is either mis-filed or evidence of a
-gap in the laws — both are findings, and neither is fixed by forcing a mapping.
+names which function it serves.** What cannot name one is either mis-filed or evidence of
+a gap in the frame — both are findings, and neither is fixed by forcing a mapping.
 
 ## The subsystem map (rung 4)
 
@@ -61,9 +67,11 @@ without its approver's yes.
 
 **Constraints attach where a system reaches outward or spends a finite resource.**
 Identify spends research; offer commits price and scope; reach touches a person; move
-commits delivery; retain holds personal data. Capture and learn are unbounded — one is
-someone arriving on their own initiative, the other is internal. That asymmetry generates
-the constraint set; it is not a list to memorize.
+commits delivery; retain holds personal data; **capture spends the scarcest resource
+there is — qualification time, under a speed-to-lead clock**. Learn is the one genuinely
+unbounded function: it is internal, and thinking about results costs nothing anyone else
+pays for. *(Corrected 2026-08-14: the source file called capture unbounded. Inbound that
+arrives faster than it can be qualified is a capacity failure like any other.)*
 
 ## The two flows
 

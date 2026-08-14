@@ -49,9 +49,22 @@ tell which copy is stale.
 
 ## 5. Suppression is per-account, append-only
 
-Each account's `optouts.md` governs that account's sends and nothing else — never merged,
-never checked against another account's campaign. Consent withdrawn toward one sender does
-not transfer. Append-only, forever.
+Each account's `optouts.md` governs that account's sends. Append-only, forever.
+
+**Right-sized, 2026-08-14.** This is the **legal floor** — CAN-SPAM, GDPR, CASL — and
+every sequencer implements it as a checkbox. It is cheap, required, and not an
+achievement; the reason to keep our own ledger is that a platform's copy is not auditable
+and does not survive changing platforms. Honor it and move on to the problems that are
+actually hard.
+
+**The per-account rule and its open edge.** Consent withdrawn toward one sender does not
+transfer to another — sound where the senders are genuinely different parties. Where two
+deployments are owned by the same operator and reach overlapping networks, "different
+sender" is thinner than the rule assumes, and a person who says stop probably means both.
+The cross-deployment check was removed on 08-14 for doctrinal consistency
+(`rulings.md`); `decisions/2026-08-14-foundations-audit.md` F3 argues that removal may
+have been wrong on the merits. **Open for the operator; the ledgers stay separate until
+he rules.**
 
 ## 6. Core travels; an account does not
 

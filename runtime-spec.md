@@ -100,8 +100,10 @@ was read and triaged; the record with the evidence is
 - **Absorbed with a condition:** their won/lost lift analysis is a genuine *discovery*
   instrument, never an admission path — a lift score is not a buying mechanism, and
   `signals/schema.md` still requires one.
-- **Disregarded:** their approval gate as a *send* gate. The pack has no suppression,
-  opt-out, or consent concept anywhere; adopting its gate model would leave the send wall
-  demolished while the session felt governed.
+- **Disregarded:** their approval gate as a substitute for an operator-owned ledger.
+  Their skills carry no consent discipline, though the sequencers they push into handle
+  unsubscribes natively — so the real gap is the *auditable, platform-independent record*,
+  not compliance as such. (This row was overstated on first writing and corrected the same
+  day; the triage record carries the correction.)
 
 Absorbed patterns travel with MIT attribution (`NOTICE.md`).

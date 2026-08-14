@@ -7,18 +7,26 @@ playbooks, and worked examples. Verdicts are per capability, not per file.*
 
 ---
 
-## The finding that decides most of it
+## The finding that decides most of it — *corrected 2026-08-14*
 
-**The pack has no consent layer.** Grepped for suppression, opt-out, unsubscribe,
-do-not-contact: the only hits are provider playbooks describing *vendor* suppression
-features (Smartlead, Lemlist), never a discipline the skills enforce. Its approval gate
-(`deepline-gtm` §4, "Credit and approval gate") is a **cost** gate — pilot on one row,
-show the CSV preview and expected spend, get approval, then scale.
+**The pack's skills carry no consent discipline of their own**, and its approval gate
+(`deepline-gtm` §4) is a **cost** gate: pilot one row, show the preview and expected
+spend, get approval, then scale. That gate is good and worth having.
 
-That gate is good and worth having. It is not our send wall. Adopting their gate model
-wholesale would leave a session feeling well-governed while sending to opt-outs, which
-is the failure the wall exists to prevent. **Cost approval and consent approval are two
-gates; the pack ships one.**
+> **Correction.** This section first concluded the pack "has no consent concept anywhere"
+> and that adopting its model "would leave the send wall demolished." That overstated it.
+> The pack pushes into Instantly, Smartlead, and Lemlist, and those platforms ship
+> unsubscribe handling and suppression natively — a pack routing into them inherits
+> platform-level compliance. Reporting absence-of-word as absence-of-thing is the
+> word-search failure (`foundations/failure-modes.md` §3), committed here.
+>
+> **The narrower claim, which holds:** the pack has no **operator-owned, account-scoped
+> ledger independent of the platform**. Suppression lives wherever the sequencer keeps it,
+> so changing platforms loses the record and no single file can be audited. That is a real
+> reason to keep our own ledger — and a much smaller claim than the one first made.
+
+**Cost approval and consent approval are two different gates.** Keep both; do not let
+either stand in for the other.
 
 ## Absorb
 
@@ -53,7 +61,8 @@ score for a mechanism.
 
 ## Disregard
 
-- **Their approval gate as a send gate** (the finding above).
+- **Their approval gate as a substitute for our ledger** (the finding above, as
+  corrected — a narrower objection than first stated, and still a real one).
 - **Provider defaults as doctrine.** The pack names preferred providers per task; those
   are account/deployment config here, never core (principle 3).
 - **The install/auth boilerplate** repeated at the head of every skill. Runtime setup

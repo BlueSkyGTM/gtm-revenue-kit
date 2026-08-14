@@ -56,9 +56,27 @@ gtm-kit/
 | Two methods disagree | `experiments/` — queued tests, not curated doctrine |
 | Which copy of the kit holds what | `estate.md` |
 
+## Authority — what outranks what
+
+1. **The operator's ruling**, live in the session, outranks everything below it.
+2. **`foundations/rulings.md`** — the dated record of past rulings. Outranks any inference
+   a session makes. Append-only; a contradiction with core is a finding to surface, not to
+   blend away.
+3. **`foundations/` doctrine** — principles, chain-of-operations, failure-modes, lexicon.
+   Authoritative over method files, and each carries its provenance.
+4. **Method** (`motions/`, `signals/`, `accounts/_template/`) — cites doctrine, never
+   restates it.
+5. **A session's own reasoning** — lowest. Where it conflicts with anything above, the
+   above wins; where it fills a gap none of them cover, it is marked as the drafter's
+   rendering.
+
+Doctrine is *checked against*, not narrated through. A draft that keeps announcing which
+rule it is obeying has produced the ceremony corruption `failure-modes.md` §3 describes.
+
 ## Hard lines
 
 - Core never names an account — the swap test (`foundations/principles.md` §2).
 - Every number lives in the account's `context/scoring-model.md` (§3).
-- Suppression before every send, per account, append-only (§5).
+- Suppression before every send, per account, append-only (§5) — legal floor, not
+  architecture.
 - No live `.mcp.json` in this repo; no send tool in core, ever.

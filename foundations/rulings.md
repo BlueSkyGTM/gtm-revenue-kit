@@ -57,8 +57,11 @@ left implicit.
 **2026-08-14 — Isolation admits no exception.** Accounts and deployments never read each
 other, including audience-collision checks between deployments the same operator owns.
 *Origin:* a cross-deployment suppression pass, proposed for a real failure, removed rather
-than ratified. *Consequence:* a good reason is not a reason to hold an unrecorded
-exception to a recorded law.
+than ratified. *Consequence:* a good reason is not a reason to hold an unrecorded exception
+to a recorded law. *Challenged the same day (audit F3): the "different sender" premise is
+thin for two businesses one person owns reaching overlapping networks, and the framing that
+produced this ruling came from the construction session, not from the operator's own
+reading. **Worth re-ruling on better framing.** Ledgers stay separate meanwhile.*
 
 ## Method and doctrine
 
@@ -74,7 +77,9 @@ model with provenance "operator-proven."
 
 **2026-08-13 — The waste taxonomy is the admission rubric's sharp edge.** A method enters
 core by naming which waste, at which seam, it prevents. What cannot name one is reference,
-not law.
+not law. *Challenged 2026-08-14 (audit F4): the test cannot fail — every method prevents
+some waste — so it works for placement, not admission. Principle 1 is the test that can
+fail. Awaiting the operator's amendment; recorded here rather than silently changed.*
 
 **2026-08-13 — Revenue engineering subsumes this kit; the kit keeps its name.** "GTM"
 correctly names the execution layer this machinery serves. No rename, no re-scope.
@@ -102,6 +107,14 @@ scopes enforced per account. A runtime without mechanical gates is the wall demo
 not upgraded.
 
 ## Authority
+
+**2026-08-14 — Distilled doctrine is questioned, not inherited.** Material arriving as
+foundations carries its source's status with it; a file is not authoritative because it
+arrived shaped like doctrine. *Origin:* the eight functions were made rung 1 on a
+self-published generalist source that no one audited, while the same pass rigorously
+audited an instrument's evidence. *Consequence:* provenance markers on doctrine name the
+source's standing, not just its name — and the audit record
+(`decisions/2026-08-14-foundations-audit.md`) is the shape that check takes.
 
 **2026-08-14 — The second brain is retired from the construction loop.** Evaluation,
 research, and triage judgments move to the construction session; the operator remains the
