@@ -24,6 +24,8 @@ named account's folder inside its deployment (`estate.md` says which deployment)
 | Two methods disagree | `experiments/` | Queue a test or cite the open one — doctrine is not curated here |
 | Write or revise a skill/play/stage | `foundations/task-craft.md` | The six rules; the self-check is the last gate |
 | About to draft or commit anything to core | `foundations/failure-modes.md` | The tells, and the six-step self-check |
+| The method files don't cover your case | `foundations/conceptual-framework.md` | Derive the treatment: pillar → demand → guardrails → recorded rendering |
+| Judge whether an output is good, not just rule-clean | `foundations/conceptual-framework.md` | Its pillar's criteria, then the seam test |
 | A structural or design decision | `foundations/chain-of-operations.md` | Which rung, and which way authority flows |
 | A term could mean two things | `foundations/lexicon.md` | Ask rather than pick |
 | "Has this already been decided?" | `foundations/rulings.md` | Append-only; a ruling outranks an inference |

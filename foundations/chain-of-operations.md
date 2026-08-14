@@ -48,6 +48,9 @@ What lives *here* is the rule for using them: **every skill, play, workflow, and
 names which function it serves.** What cannot name one is either mis-filed or evidence of
 a gap in the frame — both are findings, and neither is fixed by forcing a mapping.
 
+Their tool form — the pillars as judgment instruments for grey areas and for what *good*
+looks like — is `conceptual-framework.md`.
+
 ## The subsystem map (rung 4)
 
 The laws name the subsystems. A backbone is derived, not designed:

@@ -51,6 +51,10 @@ Form is not honesty. Before committing a task file — or anything else — to c
 something. The first (*does every claim trace to a stated source?*) is the one that
 catches the most.
 
+That gate catches what is broken. Whether the thing is *good* has its own home: judge it
+against its pillar's criteria in `conceptual-framework.md` — every task serves a named
+pillar, and the pillar says what a good output looks like.
+
 ## What this replaces
 
 Structure lives in the ICM conventions (folders, contracts, the router) — not in the

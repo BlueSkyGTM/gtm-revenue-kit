@@ -146,3 +146,6 @@ Before committing anything to core, in order of how often each catches something
 4. **Is the ratio reported?** Not just the miss.
 5. **Does it name what waste it prevents?** If not, it is reference, not law.
 6. **Would it survive the swap test?** Read it as if a different account owned it.
+
+The six catch what is wrong. Whether the thing is *good* is a different question with a
+different home — its pillar's criteria in `conceptual-framework.md`. Run both.

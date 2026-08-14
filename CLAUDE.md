@@ -25,8 +25,8 @@ gtm-kit/
 ├── estate.md                ← what the kit owns vs reads; the deployments map
 │
 ├── foundations/   the why-layer: revenue-engineering · chain-of-operations ·
-│                  principles · failure-modes · lexicon · rulings ·
-│                  task-craft · pvp                               → its CONTEXT.md
+│                  principles · failure-modes · conceptual-framework ·
+│                  lexicon · rulings · task-craft · pvp           → its CONTEXT.md
 ├── motions/       the operating layer: skills · plays (15, Michael's) ·
 │                  channels · tam/ (pipeline, under construction) ·
 │                  workflows · playbooks · dormant                → its CONTEXT.md
@@ -50,6 +50,7 @@ gtm-kit/
 | The rules (admission, swap test, values, one-home, suppression, travel) | `foundations/principles.md` |
 | Before any structural decision — what layer am I at | `foundations/chain-of-operations.md` |
 | Before drafting for core, and before committing it | `foundations/failure-modes.md` — the tells and the self-check |
+| Method is silent on your case — or: is this output *good*? | `foundations/conceptual-framework.md` — the pillars as tools |
 | A term could go two ways | `foundations/lexicon.md` |
 | Has the operator already settled this? | `foundations/rulings.md` — a ruling outranks an inference |
 | First-touch copy doctrine | `foundations/pvp.md` — both instruments, `experiments/001` |

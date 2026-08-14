@@ -60,6 +60,13 @@ left implicit.
 "architecture" again. *Origin:* the ladder briefly named both "revenue architecture" and
 "architecture"; the fusion name resolves the redundancy.
 
+**2026-08-14 — The operation is client 0; every account has eight standing problems.**
+GTM motions are both a service and a business function, and the operation's own account
+is where the machinery is proven before any client sees it. A client is never one
+problem: the eight pillars are per-account branches by design. *Consequence:* an account
+declares its pillar coverage (`accounts/_template/ACCOUNT.md` §Pillar coverage);
+unserved is a declared state, not an omission.
+
 **2026-08-14 — Isolation admits no exception.** Accounts and deployments never read each
 other, including audience-collision checks between deployments the same operator owns.
 *Origin:* a cross-deployment suppression pass, proposed for a real failure, removed rather
@@ -96,6 +103,16 @@ rather than originating here. *Standing limit:* all three describe **capability,
 authority** — none evidences a company that moved compensation or forecast accountability
 to the role, and two of three sell the role they describe. Four falsifiers are named in
 the sources file; the claim upgrades when one is observed.
+
+**2026-08-14 — The eight pillars are the kit's conceptual framework.** When method does
+not cover a case, or an output's quality is in question, judgment routes to the
+pillars-as-tools (`foundations/conceptual-framework.md`): name the pillar and its
+subsystem, derive the demand, check the guardrails, record the derivation. Guardrails
+constrain; the framework decides within them. The pillars sit in the GTM-engineering
+lineage — interchangeable with revenue engineering at the frame level per the
+definition's containment. *Origin:* the upstream kit and the ICM pattern both held
+reasoning as documentation no task ever routed to, and guardrails alone cannot say what
+good is; the FASB conceptual-framework pattern is the operator's fix.
 
 **2026-08-14 — The TAM improvement: the ignored gaps are part of the map.** The basic
 system answers "who can I find that would buy and is worth enriching." The improvement

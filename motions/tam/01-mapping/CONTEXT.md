@@ -127,4 +127,6 @@ The operator reads the anti-ICP rules before Stage 2 runs. The check: could each
 plausibly reject a real company this account would otherwise have pursued? Rules that
 can't bind are decoration; rules that would bind on half the map are information about
 the sourcing. Numeric thresholds, if any emerged, moved to
-`accounts/<slug>/context/scoring-model.md` — this file holds none.
+`accounts/<slug>/context/scoring-model.md` — this file holds none. The output is also
+*judged*, not only checked: identify's criteria,
+`foundations/conceptual-framework.md` §1.
