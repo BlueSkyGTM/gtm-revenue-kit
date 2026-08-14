@@ -5,14 +5,14 @@ execute most tasks without opening anything else, with pointers to the deeper fi
 
 **Fill this in once. Keep it updated when things change.** Everything here is a fact about
 *this* account. Nothing here is a rule about how the engine works — those live in core
-(`docs/`), and they are the same for every account.
+(`foundations/`), and they are the same for every account.
 
 ---
 
 ## Identity
 
 **Slug:** `[folder-name]` — must match this folder's name exactly
-**Tier:** [operator / engineer] — see `docs/tiers.md`
+**Tier:** [operator / engineer] — which surface this account's principal works from
 **Status:** [scaffolded / configured / live / paused]
 **Operator:** [who runs this account day to day]
 **Principal:** [who approves a send, if not the operator]

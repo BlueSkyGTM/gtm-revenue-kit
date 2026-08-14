@@ -9,7 +9,7 @@ a full campaign with sequences and results, and a weekly log.
 - **The picture of "done."** When filling an account's context files, Relay shows what a
   mature, data-backed version looks like — especially its signal library, which carries
   detection methods, decay logic, and performance tracking.
-- **The one company core may name.** The swap test (`docs/isolation.md`) bans real names
+- **The one company core may name.** The swap test (`foundations/principles.md`) bans real names
   from core; Relay is the deliberate, fictional exception every example can lean on.
 - **A smoke-test fixture.** New or changed core skills can be exercised against Relay
   without touching a real account.

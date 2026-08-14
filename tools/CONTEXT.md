@@ -12,7 +12,7 @@ needs an install step is a gate someone skips.
 
 # lint_copy.py
 
-The mechanical half of the copy standard. `docs/standards.md` holds the judgment half — the
+The mechanical half of the copy standard. `foundations/pvp.md` holds the judgment half — the
 PVP test, whether a first touch teaches the reader anything — and no script can check that.
 This checks the part that is decidable: banned vocabulary, the characters that mark
 machine-written prose, emoji, and whatever else the account has decided it never says.
@@ -140,7 +140,7 @@ vocabulary list of tells that read as machine-written regardless of who is writi
 stylistic — semicolons, dollars over percentages, attribution — ships **off**, because those
 are voice decisions and core does not have a voice. An account turns them on.
 
-This is the isolation rule doing its job (`docs/isolation.md`): the mechanism for "some claims
+This is the isolation rule doing its job (`foundations/principles.md`): the mechanism for "some claims
 must be attributed" is core and identical everywhere; *which* claims, and what counts as
 attribution, is a fact about one account and lives in that account's `brand/voice.md`. Two
 accounts can hold opposite rules and both be correctly linted.
@@ -165,5 +165,5 @@ exit ${fail:-0}
 ```
 
 A clean run is not a claim that the copy is good. It is a claim that the copy does not break
-the rules this account wrote down. The bar in `docs/standards.md` is a separate pass, done by
+the rules this account wrote down. The bar in `foundations/pvp.md` is a separate pass, done by
 a person or a model reading the message with the ask removed.
