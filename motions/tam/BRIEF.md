@@ -1,6 +1,7 @@
 # Operator brief, part 1 — the TAM improvement
 
-*Landed 2026-08-13 from the second-brain response (R1, part 1). Provenance:
+*Landed 2026-08-13 from the second-brain response (part 1 of the operator's brief).
+Provenance:
 **[operator]** = Ray's words, 08-13, relayed by the second brain; **[V]** = verified by
 the second brain against a primary source, date given; **[R]** = reported, not yet
 verifiable. Stage-level method content beyond this brief arrives as the operator uploads
@@ -9,7 +10,7 @@ The runtime disclosure that accompanied this brief was applied to `estate.md` §
 
 ---
 
-## 1. R1 — the improvement over Michael's framework **[operator]**
+## 1. The improvement over Michael's framework **[operator]**
 
 **Michael's TAM is a basic system. It answers: "who can I find that would buy, and is
 worthwhile to enrich?"** The obtainable market, found, enriched, ranked. That system
@@ -74,7 +75,9 @@ re-pointing is in each record's `Runs in`; the warming note rides on `experiment
 
 ---
 
-*Still owed after this part: stage methods 2–6 and the per-stage deltas (R1), Michael's
-signal set (R3), the fixed-slot template verbatim (R5 — note licensing before committing
-verbatim course text), the course's physical location (R7), the estate inventory (R10).
-The second brain holds R8 as queued research.*
+*Still owed after this part: stage methods 2–6 and the per-stage deltas, Michael's
+signal set with each signal's buying mechanism, the fixed-slot template verbatim
+(licensing before committing verbatim course text), the course's physical location, and
+the estate inventory. The pain-based segmentation research has since been delivered
+(`../workflows/pain-based-segmentation-RESEARCH.md`). The live queue:
+`foundations/rulings.md` §Open.*

@@ -64,7 +64,8 @@ left implicit.
 other, including audience-collision checks between deployments the same operator owns.
 *Origin:* a cross-deployment suppression pass, proposed for a real failure, removed rather
 than ratified. *Consequence:* a good reason is not a reason to hold an unrecorded exception
-to a recorded law. *Challenged the same day (audit F3): the "different sender" premise is
+to a recorded law. *Challenged the same day (the foundations audit's suppression
+finding): the "different sender" premise is
 thin for two businesses one person owns reaching overlapping networks, and the framing that
 produced this ruling came from the construction session, not from the operator's own
 reading. **Worth re-ruling on better framing.** Ledgers stay separate meanwhile.*
@@ -83,7 +84,7 @@ model with provenance "operator-proven."
 
 **2026-08-13 — The waste taxonomy is the admission rubric's sharp edge.** A method enters
 core by naming which waste, at which seam, it prevents. What cannot name one is reference,
-not law. *Challenged 2026-08-14 (audit F4): the test cannot fail — every method prevents
+not law. *Challenged 2026-08-14 (the foundations audit): the test cannot fail — every method prevents
 some waste — so it works for placement, not admission. Principle 1 is the test that can
 fail. Awaiting the operator's amendment; recorded here rather than silently changed.*
 
@@ -126,7 +127,7 @@ arrived shaped like doctrine. *Origin:* the eight functions were made rung 1 wit
 anyone checking the source, while the same pass rigorously audited an instrument's
 evidence. *Amended the same day:* the audit that made this point then judged the source
 on **credential** and got it backwards — a domain-agnostic frame needs a domain-agnostic
-source (F1, retracted). **The test is scope fitness, not standing** (`principles.md` §1),
+source (the credential mistake, retracted). **The test is scope fitness, not standing** (`principles.md` §1),
 and the audit record is where both the check and its retraction live.
 
 **2026-08-14 — The second brain is retired from the construction loop.** Evaluation,

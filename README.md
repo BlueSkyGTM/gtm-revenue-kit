@@ -39,7 +39,7 @@ Provenance of every part: `NOTICE.md`. The pristine upstream is tagged
 
 The order leads with operating — the audit's one standing correction is that the fix
 for doctrine written ahead of operation is to run the pipeline, not to write more
-(`decisions/2026-08-14-foundations-audit.md` F6). Items 2–4 wait on the operator;
+(`decisions/2026-08-14-foundations-audit.md`). Items 2–4 wait on the operator;
 `foundations/rulings.md` §Open is the live queue.
 
 1. **Operate — run TAM stages 1–2 for the active deployment's own account** (`estate.md`

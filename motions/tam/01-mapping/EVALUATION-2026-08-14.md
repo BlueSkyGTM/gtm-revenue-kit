@@ -1,4 +1,4 @@
-# Second-brain verdicts — E1 (stage 1) and E2 (fenton operations)
+# Second-brain verdicts — stage 1, and the shelved deployment's operations
 
 *Committable as `motions/tam/01-mapping/EVALUATION-2026-08-14.md` or applied as edits —
 construction's choice. Evaluator: the second brain, against `skeleton.md` §Stage 1,
@@ -7,7 +7,7 @@ the instrument's findings; the operator's ruling supersedes anywhere he disagree
 
 ---
 
-## E1 — Stage 1 (`motions/tam/01-mapping/CONTEXT.md`)
+## Verdict one — stage 1 (`motions/tam/01-mapping/CONTEXT.md`)
 
 ### VERDICT: **AMEND** — two line-level notes; everything else stands. Stage 2 is unblocked on their application.
 
@@ -43,15 +43,16 @@ and 3). Suppression reads the ledger, never becomes it; per-account and append-o
 cited. Provenance header present and three-way (`michael-course` / operator / drafted-by,
 with the evaluation gate stated). Swap test passes — no account facts anywhere.
 
-### Axis 4 — task-craft: **5 of 6**, and the miss motivates amendment A2
+### Axis 4 — task-craft: **5 of 6**, and the miss motivates the declared-slot amendment
 
-Cost/output contract present (qualitative — see A2), Quick Start above Purpose,
+Cost/output contract present (qualitative — see the declared-slot amendment below),
+Quick Start above Purpose,
 anti-goal stated, inputs all carry reasons, reasoning rides inline. Rule 5 (time-boxed
 steps summing to the header) is unmet.
 
 ### The two amendments
 
-**A1 — the map declaration belongs before source selection.** Step 1's question is "the
+**Declaration first — the map declaration belongs before source selection.** Step 1's question is "the
 best place to find the complete list of *these businesses*" — but *which businesses* is
 what step 2's declaration decides. Under a pain map, the addressable market is defined
 by the shared condition (`experiments/002`'s own definition), and the enumeration source
@@ -62,7 +63,7 @@ one line to step 1 — *"the declared map (step 2) governs this question; under 
 map, 'these businesses' means 'businesses in this condition.'"* Construction's choice of
 form.
 
-**A2 — declare the unbudgeted slot instead of leaving it silent.** Task-craft rule 5
+**The declared slot — declare the unbudgeted slot instead of leaving it silent.** Task-craft rule 5
 wants per-step budgets summing to the header. The draft has none — and inventing them
 pre-operation would be fabricated specificity, so the omission is *correct* but
 *undeclared*, and the operation's rule is that every slot is declared. One line in the
@@ -76,7 +77,7 @@ contract.
 
 ---
 
-## E2 — the two fenton operations (`main` @ `207e0cd`)
+## Verdict two — the two operations in the shelved deployment (`main` @ `207e0cd`)
 
 ### The three named checks: **clean bill on all three.**
 
@@ -117,6 +118,7 @@ law, which is exactly the shape every prior drift incident took.
 
 ---
 
-*Queue state after this document: E1 delivered (stage 2 unblocked on amendments), E2
-delivered (one ruling needed), E3/R8 research remains queued with the second brain.
-Commit path: construction, per the role hierarchy.*
+*Queue state after this document: the stage-1 verdict delivered (stage 2 unblocked on
+amendments), the deployment verdict delivered (one ruling needed), the pain-based
+research remained queued with the second brain (since delivered). Commit path:
+construction, per the role hierarchy.*

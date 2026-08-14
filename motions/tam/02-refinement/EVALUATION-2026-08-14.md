@@ -22,30 +22,34 @@ needed marking rather than removal, one an unsourced specific that was removed.
 
 ## The findings
 
-**F1 — "a rule that caught nothing: flag it."** A faithful unpacking of the brief's
-*"an anti-ICP rule that never rejects anyone is decoration,"* applied at the count. It is
-the drafter's rendering, not the brief's words. **Kept, marked as rendering here.**
+**"A rule that caught nothing: flag it" — the drafter's rendering.** A faithful
+unpacking of the brief's *"an anti-ICP rule that never rejects anyone is decoration,"*
+applied at the count. It is the drafter's rendering, not the brief's words.
+**Kept, marked as rendering here.**
 
-**F2 — "a rule that caught a large share of the map is information about the sourcing."**
-The brief states this of a *suppression* pass; the draft generalized it to *exclusion*
-rules. The generalization holds — both are boundaries, and the brief's own principle is
-that a boundary produces signal when it binds — but it is an extension.
+**The suppression insight, generalized to exclusion rules.** The brief states "a rule
+that caught a large share of the map is information about the sourcing" of a
+*suppression* pass; the draft generalized it to *exclusion* rules. The generalization
+holds — both are boundaries, and the brief's own principle is that a boundary produces
+signal when it binds — but it is an extension.
 **Kept, marked, and the suppression sentence now cites the brief directly.**
 
-**F3 — "the count of suppressed rows per segment."** *Per segment* appears in neither
-source. Small, plausible, and exactly the shape of fabricated specificity. **Removed** —
-the draft now records the suppressed count against the catch counts, which is what the
-sources support.
+**"Per segment" — fabricated specificity, removed.** "The count of suppressed rows per
+segment": *per segment* appears in neither source. Small, plausible, and exactly the
+shape of fabricated specificity. **Removed** — the draft now records the suppressed
+count against the catch counts, which is what the sources support.
 
-**F4 (check 2) — "the TAM artifact v1, the finished map."** The version framing is the
-drafter's, and "finished" could be read as permanent when the refresh pass re-runs both
-stages. **Softened** to "the refined artifact," with the cycle note stated.
+**"The finished map" — softened (check 2).** "The TAM artifact v1, the finished map":
+the version framing is the drafter's, and "finished" could be read as permanent when
+the refresh pass re-runs both stages. **Softened** to "the refined artifact," with the
+cycle note stated.
 
 ## What was not found
 
 No numbers entered core. No account facts. No claim that the pipeline has been operated —
 the stage is drafted, never run, and its step budgets are declared as pending the first
-operated run rather than invented (the pattern stage 1's A2 amendment established).
+operated run rather than invented (the pattern stage 1's declared-slot amendment
+established).
 
 ## Standing weakness
 
