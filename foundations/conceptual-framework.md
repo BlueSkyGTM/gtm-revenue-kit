@@ -107,3 +107,8 @@ this same test's negative image — one names the flow, the other names the leak
 The eight are standing, not sequential: every account has all eight problems at once,
 and declares what serves each (`accounts/_template/ACCOUNT.md` §Pillar coverage).
 Judging any output starts with which of the eight it claims to serve.
+
+**Diagnose in eight; treat in bundles [operator, 08-14].** The functions are how gaps
+are found and named — treatments are not one-per-function. A good instrument lights
+several pillars at once and declares all of them; a build order maps gap clusters to
+bundles, never gaps to eight separate engagements.

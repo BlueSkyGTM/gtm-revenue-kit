@@ -45,8 +45,11 @@ them, which is why swapping the stack never exits the discipline.
 > fitness and on working, not on their support.
 
 What lives *here* is the rule for using them: **every skill, play, workflow, and stage
-names which function it serves.** What cannot name one is either mis-filed or evidence of
-a gap in the frame — both are findings, and neither is fixed by forcing a mapping.
+names which function it serves — and most real instruments serve several; name them
+all.** A funnel lights offer, reach, capture, and follow-up at once; a bundle that
+serves three functions is one instrument, not three. What cannot name any function is
+either mis-filed or evidence of a gap in the frame — both are findings, and neither is
+fixed by forcing a mapping.
 
 Their tool form — the pillars as judgment instruments for grey areas and for what *good*
 looks like — is `conceptual-framework.md`.
