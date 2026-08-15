@@ -113,8 +113,8 @@ input, which is the conflation `lexicon.md` exists to prevent.
 
 Six rungs — Laws → Revenue architecture → Systems architecture → Systems → Instruments →
 Operations — with composition running down and **construction running up**: systems
-predate architecture; transcribe from operating history, never author ahead of it,
-constraints excepted. *Revenue architecture* (rung 2, the principles layer) carries the
+predate architecture, in the sense that running systems are what reveal an
+architecture worth writing down. *Revenue architecture* (rung 2, the principles layer) carries the
 name of Jacco van der Kooij's discipline (Winning by Design — attribution: `NOTICE.md`);
 *systems architecture* (rung 3) is the design layer where models live.
 

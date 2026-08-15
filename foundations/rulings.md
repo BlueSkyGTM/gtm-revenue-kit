@@ -40,7 +40,9 @@ derived, not designed.
 **2026-08-11 — Systems predate architecture.** Transcribe from operating history; never
 author ahead of it. *Exception, permanent:* constraints, because their subject is what
 must never happen. *Consequence:* folders wait for content; empty is visible, invented is
-not.
+not. — **RETIRED 2026-08-15** (see §Authority): it was the second brain's accountability
+device, its protective job is done by principle 1, and it mislabelled context-building
+as a violation. The descriptive half survives; the prohibition does not.
 
 **2026-08-11 — Models are held until they describe something that runs.** A model enters
 the architecture layer by describing a system in operation. *Reversal per model:* named
@@ -176,6 +178,21 @@ narration has failed the file it is citing.
 operation catches up, foundations get a clean-eyes restart that purges stale material
 and assumptions — nothing grandfathered. *Consequence:* doctrine still enters through
 principle 1; the purge removes the blanket ban, not the admission test.
+
+**2026-08-15 — The construction law is RETIRED.** "Transcribe from operation; never
+author ahead of it" — with its folder-waits corollary and its failure-mode entry — is
+withdrawn. *Origin:* it was the second brain's accountability device, not the
+operator's law, and it was doing three jobs badly. **(1)** Its protective job is
+already done by rules that can actually fail: principle 1 (known-why admission) and
+`failure-modes.md` §1 (fabricated specificity, with a tell). **(2)** It mislabels the
+work that makes this operation possible — **the foundations exist because a session
+does not arrive knowing this discipline**; context built for the agent is a
+prerequisite to operating, not a violation of it. **(3)** It mislabels cataloguing what
+the operation already owns. *What survives:* the descriptive observation that
+disciplines are usually written by describing what worked (`chain-of-operations.md`
+§The two flows) — an observation, never a prohibition. *Consequence:* no session
+invokes "the construction law" to argue against building. Sequencing is the operator's
+call.
 
 **2026-08-15 — Attributions carry their verification status.** An inherited reference
 is not a source until someone checks it. *Origin:* "Winning by Design" sat in the

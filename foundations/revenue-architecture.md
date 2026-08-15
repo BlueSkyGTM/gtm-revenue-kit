@@ -43,8 +43,8 @@ measuring a funnel, not a revenue system.
 
 Kit status unchanged: the bowtie is **held, not adopted**
 (`chain-of-operations.md` §Rung 3) — there is no post-close subsystem in operation
-for it to describe. This rung explains *why the model matters*; the construction law
-still decides *when it enters*.
+for it to describe. This rung explains *why the model matters*; whether it has anything
+here to describe decides when it enters.
 
 ## Revenue is math [R]
 

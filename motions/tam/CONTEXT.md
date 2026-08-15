@@ -52,6 +52,6 @@ Stages 3–6 inherit the negative space produced by 1–2; they never re-derive 
 ## Human gate
 
 The operator's brief gates construction: each landed stage is evaluated before the next is
-built, and **stage 3 waits on its brief** — the construction law
+built, and **stage 3 waits on its brief** — an owed input, not a rule
 (`foundations/chain-of-operations.md`), not a scheduling gap. Nothing in `skeleton.md` is
 rewritten ahead of its stage's brief.
