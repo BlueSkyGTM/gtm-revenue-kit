@@ -178,6 +178,12 @@ unnoticed.
 
 ## Doctrine ahead of operation — the criticism the files invite against themselves
 
+> **Superseded 2026-08-15.** The law this finding rests on is retired
+> (`foundations/rulings.md`). The operator's correction: the foundations exist because
+> **a session does not arrive knowing this discipline** — they are the context that
+> makes the work possible, not doctrine written ahead of it. The ratio below is left
+> as the record of what was argued; it is no longer a standing criticism.
+
 `chain-of-operations.md` states the construction law: **transcribe from operation, never
 author ahead of it.** The foundations layer is 773 lines of doctrine governing a system
 with **zero campaigns run, zero signals admitted, and two of six pipeline stages drafted

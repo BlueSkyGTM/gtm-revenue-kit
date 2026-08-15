@@ -4,6 +4,14 @@ The why-layer: what grounds a session before it executes anything. Read for
 understanding; nothing here is executed, and nothing here holds an account fact or a
 tunable number.
 
+**Why this shelf exists at all [operator, 08-15].** A session does not arrive knowing
+this discipline. Revenue engineering is not something a model holds reliably — it will
+produce confident, plausible, conventional GTM advice that misses the point of the
+work. **These files are the context that makes a session competent**, which is why the
+build led with them. They are not a doctrine museum, and their line count is not a
+score to be measured against campaigns run. A session that finds this shelf large has
+misread its job: the shelf is the reason the session can do the job at all.
+
 ## Reads / does / writes
 
 - **Reads:** nothing — this is a shelf other things read.
@@ -19,7 +27,7 @@ tunable number.
 |---|---|---|
 | `revenue-engineering.md` | The discipline: definition, the eight functions with their source, the waste taxonomy | Asking what this work *is*, or naming a method's waste |
 | `revenue-engineering-SOURCES.md` | The three role-definition accounts compared, what they agree on, and the four falsifiers | Checking how well-founded the definition actually is, before leaning on it |
-| `chain-of-operations.md` | The ladder: six rungs, both flows, the construction law, the subsystem derivation, frame-and-filling, model status | **Before any structural decision** |
+| `chain-of-operations.md` | The ladder: six rungs, both flows, the subsystem derivation, frame-and-filling, model status | **Before any structural decision** |
 | `revenue-architecture.md` | Rung 2's design doctrine: recurring impact, the bowtie's why, revenue-as-math, motions-per-segment — plus the operator's dissection ledger | Designing a revenue system, an offer's impact question, or reading van der Kooij in |
 | `sales-method.md` | The six-stage customer journey and its markers, the growth loop, why slice-shaped methods (solution selling) come apart, the superstar-pile figure | Working a sales motion, naming where a buyer is, or answering "why isn't a point fix enough" |
 | `principles.md` | The six rules + load discipline | Editing core, moving facts, any boundary question |

@@ -91,23 +91,22 @@ arrives faster than it can be qualified is a capacity failure like any other.)*
 architecture describes their shape; systems are made of instruments; operations run on
 systems.
 
-**Construction, upward — the load-bearing one: systems predate architecture.**
-Instruments cohere into systems, running systems reveal an architecture, architecture
-distills into principles, principles approach laws. The published definitions of this
-discipline were written by describing what working systems already did, not by designing
-them first.
+**Construction, upward — how disciplines actually get written.** Instruments cohere
+into systems, running systems reveal an architecture, architecture distills into
+principles, principles approach laws. The published definitions of this discipline were
+written by describing what working systems already did, not by designing them first.
 
-Two consequences that govern work here:
+**This is an observation, not a prohibition** *(retired 2026-08-15 — `rulings.md`)*.
+It describes how method tends to mature; it is not a rule against building. Two things
+that are legitimately authored before anything runs: **constraints**, whose subject is
+what must never happen, and **the context a session needs to be competent at all** —
+this shelf exists because a session does not arrive knowing the discipline. What
+protects against invented method is principle 1 (can we say why this is here, and from
+whom) and `failure-modes.md` §1 — rules that can fail.
 
-- **Transcribe from operation; never author ahead of it.** A stage drafted before its
-  method is known produces plausible structure nobody can debug. When content is owed,
-  the folder waits — an empty shelf is visible, an invented one is not.
-- **Learning is the up-flow made structural.** The eighth law is how operations rewrite
-  the system, the architecture, and eventually the principles. A kit without a working
-  feedback path has no way to be corrected by reality.
-
-**The one exception:** constraints are authored ahead of operation, because their subject
-is what must never happen.
+**Learning is the up-flow made structural.** The eighth function is how operations
+rewrite the system, the architecture, and eventually the principles. A kit without a
+working feedback path has no way to be corrected by reality.
 
 ## Frame and filling — why the laws travel
 
@@ -144,9 +143,9 @@ beside the laws. Its machinery is the feedback subsystem: results sync → conte
 adoption, expansion. **Sourced 2026-08-15** to the six-stage model in *The SaaS Sales
 Method* (`sales-method.md`), which the operator holds — awareness · education ·
 selection | onboard · impact · grow, with the growth loop returning from the last.
-Before that it sat here unsourced. Held because adopting it would violate the
-construction law — there is no post-close subsystem in operation for it to describe.
-**Adoption condition: a post-close subsystem exists and runs.**
+Before that it sat here unsourced. Held for the plain reason that **there is no
+post-close subsystem here for it to describe** — the model would be decoration, not
+vocabulary. **Adoption condition: a post-close subsystem exists and runs.**
 
-That distinction is the construction law enforced on the systems-architecture layer
-itself: a model earns its place by describing something that runs.
+The distinction is simply that a model earns its place at this rung by describing
+something real; holding one costs nothing and adopting an empty one costs clarity.

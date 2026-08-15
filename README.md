@@ -26,7 +26,7 @@ Provenance of every part: `NOTICE.md`. The pristine upstream is tagged
 | 🟢 | **Skills** (6) — account-gated, upstream craft | Carried over working; icp-scoring's upstream defaults restored; sequence-shape mechanism restored to signal-to-sequence |
 | 🟢 | **Plays** (15, Michael's) — the operating play library | Mechanisms faithful; backstory returns incrementally as plays are exercised |
 | 🟢 | **Channels** (4, Michael's) | Carried over |
-| 🟡 | **TAM pipeline** — the centerpiece | Stages 1 and 2 drafted and evaluated (AMEND both, applied; records beside each stage). Stage 3 waits on its brief — the construction law, not a scheduling gap. Stage briefs 3–6 owed |
+| 🟡 | **TAM pipeline** — the centerpiece | Stages 1 and 2 drafted and evaluated (AMEND both, applied; records beside each stage). Stage 3 waits on its brief — an owed input. Stage briefs 3–6 owed |
 | 🟡 | **Signal library** | Schema written; F/I/R/T **adopted, operator-confirmed 08-14**; shelf deliberately empty until records earn their why |
 | 🟡 | **Experiments** — 001 first-touch formula, 002 segment definition | Queued; both run in the albatross deployment's own `revenue-engineering` account. 002 upgraded 08-14: the overwrite-prediction is argued-not-evidenced (research on file) — 002 would generate some of the field's first real evidence; DQS recorded as a distinct third map type |
 | 🟢 | **Account stamp** (`accounts/_template/`) | Upstream scoring defaults restored; benchmark-free stance recorded (own campaign data seeds §8, `operator-proven`) |
@@ -37,9 +37,9 @@ Provenance of every part: `NOTICE.md`. The pristine upstream is tagged
 
 ## What happens next, in order
 
-The order leads with operating — the audit's one standing correction is that the fix
-for doctrine written ahead of operation is to run the pipeline, not to write more
-(`decisions/2026-08-14-foundations-audit.md`). Items 2–4 wait on the operator;
+The order leads with operating because that is where revenue is, not because building
+was ever a violation — the construction law that said so is retired
+(`foundations/rulings.md`, 08-15). Items 2–4 wait on the operator;
 `foundations/rulings.md` §Open is the live queue.
 
 1. **Operate — run TAM stages 1–2 for the active deployment's own account** (`estate.md`

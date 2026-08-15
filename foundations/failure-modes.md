@@ -118,19 +118,6 @@ a session that filled up.
 a write gate starts asking permission to send an email; one that loads copy rules starts
 editing records for tone.
 
-## 6. The construction failure — building ahead of operation
-
-**Systems predate architecture** (`chain-of-operations.md` §The two flows). Authoring the
-upper layers first produces plausible structure nobody can debug, and it is
-indistinguishable from good work until something has to run.
-
-*Tell:* a framework arrives complete, elegant, and with no operating history behind it.
-
-**The one legitimate exception: constraints.** A suppression rule cannot be discovered by
-violating consent; a capacity ceiling cannot be discovered by overselling into collapse.
-Boundaries are authored ahead of operation precisely because their subject is what must
-never happen. Everything else is transcribed from operation.
-
 ---
 
 ## The self-check, in order
