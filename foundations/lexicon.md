@@ -22,7 +22,7 @@ Full definitions: `revenue-engineering.md` (the definition, the thesis) and
 
 | Term | Here it means | Read it this way and something breaks |
 |---|---|---|
-| **Revenue engineering** | Ownership of the whole revenue system — signals, prioritization, messaging, channels, feedback. Domain-agnostic; contains GTM engineering | As a synonym for GTM engineering. That reads the whole as its execution layer and silently drops ownership of targeting, offer, and learning |
+| **Revenue engineering** | **Revenue architecture + GTM engineering.** Ownership of the whole revenue system — signals, prioritization, messaging, channels, feedback — held as the capability to *deliver* any subsystem, not the obligation to operate every motion. Domain-agnostic; contains GTM engineering | As a synonym for GTM engineering. That reads the whole as its execution layer and silently drops ownership of targeting, offer, and learning |
 | **GTM engineering** | The execution layer inside it: campaigns, lists, enrichment, tool wiring | As the whole discipline. (The narrow reading itself is not an error — see the usage rules above) |
 | **RevOps** | Runs the existing engine: routing, hygiene, measurement, admin. The player, not the builder | As fused with GTM engineering. The roles borrow revenue-architect responsibilities from each other; neither overtakes the other (the 08-14 ruling) |
 | **Revenue architecture** | Rung 2 of the ladder — the design layer's doctrine (`revenue-architecture.md`); van der Kooij's discipline | As rung 3, or as the *role* "revenue architect." A layer is not a job title. (A competitor also uses the phrase for funnel plumbing — one subsystem, not a rung; the account's offer research holds that trap) |
