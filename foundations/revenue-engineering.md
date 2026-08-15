@@ -83,6 +83,11 @@ upstream authors themselves prove the direction — but not all GTM engineers ar
 revenue architects.** The seat that holds both is the smaller circle, and every
 mainstream tool serves the bigger one.
 
+**The equation [operator, 08-14]:** **revenue architecture + GTM engineering =
+revenue engineering.** And owning the entire revenue stack means the *capability to
+deliver any subsystem as a working system* — never the obligation to operate every
+motion family. Delivering ad systems, not running ads.
+
 ## The laws **[whitley, verbatim]**
 
 > "the phrase go-to-market system will mean the practical commercial structure that

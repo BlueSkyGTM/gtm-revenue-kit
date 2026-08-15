@@ -104,6 +104,13 @@ authority** — none evidences a company that moved compensation or forecast acc
 to the role, and two of three sell the role they describe. Four falsifiers are named in
 the sources file; the claim upgrades when one is observed.
 
+**2026-08-14 — Revenue architecture + GTM engineering = revenue engineering; the stack
+is owned as delivery capability.** Owning the whole revenue stack means being able to
+deliver any subsystem as a working system — delivering ad systems, never "running ads"
+as the craft. And the eight-function frame is settled: playbooks are not motions, and
+a competitor's asset frame is not a rival to the eight. *Origin:* the competitor
+comparison closed the frame question rather than opening it.
+
 **2026-08-14 — Diagnose in eight, treat in bundles.** The functions find and name the
 gaps; treatments are never one-per-function — a real instrument lights several pillars
 at once and names all of them, and a build order maps gap clusters to bundles.
