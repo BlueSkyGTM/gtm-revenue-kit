@@ -21,6 +21,7 @@ tunable number.
 | `revenue-engineering-SOURCES.md` | The three role-definition accounts compared, what they agree on, and the four falsifiers | Checking how well-founded the definition actually is, before leaning on it |
 | `chain-of-operations.md` | The ladder: six rungs, both flows, the construction law, the subsystem derivation, frame-and-filling, model status | **Before any structural decision** |
 | `revenue-architecture.md` | Rung 2's design doctrine: recurring impact, the bowtie's why, revenue-as-math, motions-per-segment — plus the operator's dissection ledger | Designing a revenue system, an offer's impact question, or reading van der Kooij in |
+| `sales-method.md` | The six-stage customer journey and its markers, the growth loop, why slice-shaped methods (solution selling) come apart, the superstar-pile figure | Working a sales motion, naming where a buyer is, or answering "why isn't a point fix enough" |
 | `principles.md` | The six rules + load discipline | Editing core, moving facts, any boundary question |
 | `failure-modes.md` | How work goes wrong here, the tell for each, and the six-step self-check | **Before drafting for core, and again before committing** |
 | `conceptual-framework.md` | The eight pillars as tools: the judgment protocol, per-pillar quality criteria, the seam test | The method files are silent on your case, or you must judge an output rather than check it |

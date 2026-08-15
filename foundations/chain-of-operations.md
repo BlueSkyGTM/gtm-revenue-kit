@@ -1,9 +1,10 @@
 # The chain of operations — where this kit sits
 
-*Provenance: the operation's framework, researched against Winning by Design's published
-Revenue Architecture (Jacco van der Kooij — attribution: `NOTICE.md`), the classical
-engineering hierarchy, and this kit's own operating shape — three independent stacks,
-one form. Operator-proven (principle 1). Swap-test clean.*
+*Provenance: the operation's framework, researched against van der Kooij's **Revenue
+Architecture** (attribution and verification: `NOTICE.md` — the source was inherited
+unchecked by an earlier session and was verified 2026-08-15), the classical engineering
+hierarchy, and this kit's own operating shape — three independent stacks, one form.
+Operator-proven (principle 1). Swap-test clean.*
 
 **Read before any structural decision.** It answers two questions the method files cannot:
 *what layer am I working at*, and *which direction does authority flow*.
@@ -139,8 +140,11 @@ earns its place by being the eighth law made structural rather than an import bo
 beside the laws. Its machinery is the feedback subsystem: results sync → context refresh
 → calibration → a better map.
 
-**The bowtie (Winning by Design's model) — held, not adopted.** It describes post-close
-structure: onboarding, adoption, expansion. Held because adopting it would violate the
+**The bowtie — held, not adopted.** It describes post-close structure: onboarding,
+adoption, expansion. **Sourced 2026-08-15** to the six-stage model in *The SaaS Sales
+Method* (`sales-method.md`), which the operator holds — awareness · education ·
+selection | onboard · impact · grow, with the growth loop returning from the last.
+Before that it sat here unsourced. Held because adopting it would violate the
 construction law — there is no post-close subsystem in operation for it to describe.
 **Adoption condition: a post-close subsystem exists and runs.**
 

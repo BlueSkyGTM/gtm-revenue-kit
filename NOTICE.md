@@ -64,19 +64,27 @@ from **PRSC Whitley, "A Rough Start Guide to Building a Go-To-Market System"** �
 operator-designated as the source of the laws. Quotation with attribution; the
 surrounding derivation is the operator's and the second brain's.
 
-## Revenue Architecture — the chain's research background
+## The van der Kooij / Winning by Design books
 
-The chain of operations (`foundations/chain-of-operations.md`) was researched against
-**Winning by Design's published Revenue Architecture, the work of Jacco van der Kooij**,
-alongside the classical engineering hierarchy and this kit's own operating shape. The
-**bowtie** model is Winning by Design's — held in the kit rather than adopted, and
-attributed regardless of adoption status. The **flywheel**'s general form traces to Jim
-Collins' popularization; the kit adopts its revenue-specific rendering. The ladder's
-rung-2 name, **revenue architecture**, acknowledges the same lineage, and
-`foundations/revenue-architecture.md` renders the published framework's structure —
-marked as the session's rendering throughout, superseded by the operator's own reading
-of the book as he dissects it in. Framework names and structure with attribution; no
-text is reproduced.
+Two books the operator holds and is reading, both credited to **Jacco van der Kooij
+with Winning by Design** (the firm is a co-credited author on the covers —
+**verified 2026-08-15 from publisher cover credits**, after the reference was found in
+this repo inherited and unchecked):
+
+- **"Revenue Architecture"** — the discipline the ladder's rung 2 is named for.
+  `foundations/revenue-architecture.md` holds the construction session's rendering of
+  its published framework, marked `[R]` throughout, superseded line by line by the
+  operator's own reading.
+- **"The SaaS Sales Method: Sales as a Science"** (Sales Blueprints book 1, with
+  Fernando Pizarro, Dominique Levin, and Dan Smith) — `foundations/sales-method.md`,
+  abstracted from the two pages the operator supplied. The **bowtie** carried in
+  `foundations/chain-of-operations.md` is this book's six-stage model — held in the
+  kit rather than adopted, and attributed regardless of adoption status.
+
+The **flywheel**'s general form traces to Jim Collins' popularization; the kit adopts
+its revenue-specific rendering. Framework names and structure with attribution; **no
+text from either book is reproduced** — the method is abstracted, the stages are
+named, quoted fragments are short and attributed.
 
 ## Runtime patterns
 
