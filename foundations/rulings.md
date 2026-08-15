@@ -104,6 +104,12 @@ authority** — none evidences a company that moved compensation or forecast acc
 to the role, and two of three sell the role they describe. Four falsifiers are named in
 the sources file; the claim upgrades when one is observed.
 
+**2026-08-14 — Diagnose in eight, treat in bundles.** The functions find and name the
+gaps; treatments are never one-per-function — a real instrument lights several pillars
+at once and names all of them, and a build order maps gap clusters to bundles.
+*Origin:* the one-server-per-pillar reading was the kit's own rendering error,
+surfaced by comparing a competitor's asset-bundle model against the coverage table.
+
 **2026-08-14 — The eight pillars are the kit's conceptual framework.** When method does
 not cover a case, or an output's quality is in question, judgment routes to the
 pillars-as-tools (`foundations/conceptual-framework.md`): name the pillar and its
