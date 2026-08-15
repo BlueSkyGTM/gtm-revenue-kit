@@ -61,4 +61,10 @@ discipline exactly; one that says it constantly may describe only the execution 
 **Activity is not outcome.** Sends and touches are activity. Pipeline, win rate, and
 expansion are outcomes.
 
+**Three registers, one discipline.** Buyers hear *revenue solutions* — never a
+discipline name. The market and peers hear *GTM engineers* — the market's word, not
+fought; the differentiation rides on the remedy being holistic, not on a new noun. The
+house thinks in *revenue engineering* — the internal name for the full stack, used
+where the containment matters. The house word never leads in public copy.
+
 **When a term could go either way, ask rather than pick.**
