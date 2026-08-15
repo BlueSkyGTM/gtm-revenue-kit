@@ -177,6 +177,22 @@ operation catches up, foundations get a clean-eyes restart that purges stale mat
 and assumptions — nothing grandfathered. *Consequence:* doctrine still enters through
 principle 1; the purge removes the blanket ban, not the admission test.
 
+**2026-08-15 — Attributions carry their verification status.** An inherited reference
+is not a source until someone checks it. *Origin:* "Winning by Design" sat in the
+chain's provenance line from the pre-reconstruction era; a construction session
+amplified it into a NOTICE section and a rung-2 file instead of questioning it, and
+the operator caught it as knowledge drift. Checked 2026-08-15: it is the firm
+co-credited on the covers of both books he holds — the reference was right and the
+process was wrong. *Consequence:* every source line states **what was checked and
+when**; an unverified inheritance is marked as such until someone reads the source.
+
+**2026-08-15 — The SaaS Sales Method joins foundations.** Van der Kooij et al., *Sales
+as a Science* (`sales-method.md`), operator-held: the six-stage customer journey, the
+growth loop, and the critique of slice-shaped methods that named a real weakness in
+this operation's own proposal. *Scope:* one volume covers the sales portion — the
+role-specific siblings are noted, not adopted. *Consequence:* the bowtie is re-sourced
+to this book's six-stage model and stays **held** until a post-close subsystem runs.
+
 **2026-08-14 — Rung 2 is dressed with van der Kooij's Revenue Architecture.**
 Operator-designated ("solid; the bird's-eye view that complements Whitley's eight —
 architecture and execution coming together"). `revenue-architecture.md` holds the

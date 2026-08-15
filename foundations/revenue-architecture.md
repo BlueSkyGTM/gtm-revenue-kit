@@ -1,10 +1,12 @@
 # Revenue architecture — rung 2, dressed
 
-*Provenance: Jacco van der Kooij / Winning by Design's **Revenue Architecture**,
-operator-designated 2026-08-14 — "solid; the perfect bird's-eye view that complements
-Whitley's eight. That's our architecture and execution layers coming together."
-Attribution: `NOTICE.md`. **Status: every doctrinal element below is marked [R] — the
-construction session's rendering of the published framework, not the book's text.**
+*Provenance: **"Revenue Architecture"**, by Jacco van der Kooij with Winning by Design
+— operator-designated 2026-08-14 ("solid; the perfect bird's-eye view that complements
+Whitley's eight. That's our architecture and execution layers coming together"), and
+operator-held. Authorship **verified 2026-08-15** from publisher cover credits, after
+the reference was found inherited and unchecked in this repo (`NOTICE.md`).
+**Status: every doctrinal element below is marked [R] — the construction session's
+rendering of the published framework, not the book's text.**
 The operator is reading the book and dissecting it in; his dissection lands in the
 ledger at the bottom and supersedes the matching [R] rendering, line by line. No text
 is reproduced from the book.*
@@ -64,10 +66,16 @@ discipline), and frame-and-filling declared per account. The rung-2 statement is
 general form: **a motion that cannot name its segment was never designed — it was
 just launched.**
 
-## SPICED — noted, not adopted [R]
+## SPICED — noted, not adopted, and **not yet sourced**
 
-Winning by Design's diagnostic taxonomy (Situation · Pain · Impact · Critical Event
-· Decision) — a conversation-and-qualification frame. Points of contact with standing
+> **Flagged 2026-08-15.** This entry is the construction session's recollection, not
+> something the operator supplied, and it does not appear in either of the two books
+> he holds so far as this session can verify. **It waits for the reading ledger.** If
+> his reading does not produce it, it comes out — an unsourced frame is reference at
+> best, and this file is not the place for reference.
+
+The diagnostic taxonomy as recalled (Situation · Pain · Impact · Critical Event ·
+Decision) — a conversation-and-qualification frame. Points of contact with standing
 method: pain-centrality agrees with the pain-based segmentation instrument
 (`motions/workflows/pain-based-segmentation.md`), and the *critical event* is the
 datable why-now (`pvp.md`) wearing its architecture-layer name. **Not adopted as an
