@@ -159,6 +159,11 @@ foundations are checks to run, not a lens to narrate through; over-application i
 ceremony corruption they warn about. *Consequence:* a draft that reads as compliance
 narration has failed the file it is citing.
 
+**2026-08-14 — The freeze is purged.** No standing no-new-doctrine order; instead, when
+operation catches up, foundations get a clean-eyes restart that purges stale material
+and assumptions — nothing grandfathered. *Consequence:* doctrine still enters through
+principle 1; the purge removes the blanket ban, not the admission test.
+
 **2026-08-14 — Roles are borrowing, not fusing.** Modern GTM engineering and RevOps each
 absorb revenue-architect responsibilities without overtaking each other; whether the
 seat can build the architecture directly or manage it long term is irrelevant to the
@@ -185,3 +190,7 @@ Items the operator has not ruled on. A session that needs one asks; it does not 
   writing. Spec: `runtime-spec.md` §6.
 - **The estate inventory** — the sibling machines (offer, funnel, brand, copy) whose
   material currently squats in this kit (`estate.md`).
+- **The health-check motion** — the eight-pillar diagnostic as a pre-sale instrument.
+  Mechanics seeded (questionnaire → pillar-criteria rubric → waste-ranked gaps → build
+  order; the active account's offer research holds the pattern); the operator still
+  owes the name and the go before core carries a motion file.

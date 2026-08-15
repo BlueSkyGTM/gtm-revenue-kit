@@ -6,8 +6,7 @@ never restates them). The tool form is the operator's design (08-14), on the FAS
 pattern: when the codification fails to recognize a case, the practitioner derives the
 treatment from the conceptual framework — the principles made into tools. The pillars
 sit in the GTM-engineering lineage, which revenue engineering contains — interchangeable
-at the frame level per the definition; no contradiction. Operator-ordered: the one
-exception to the doctrine freeze.*
+at the frame level per the definition; no contradiction. Operator-ordered.*
 
 **Load this file when** the method files are silent on your case, or when you must judge
 whether an output is *good* — not merely whether it breaks a rule. The guardrails
