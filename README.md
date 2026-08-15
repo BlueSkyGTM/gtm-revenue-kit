@@ -22,7 +22,7 @@ Provenance of every part: `NOTICE.md`. The pristine upstream is tagged
 
 | | Piece | State |
 |---|---|---|
-| 🟢 | **Foundations** (10 files) | The discipline (08-13) plus the operation's judgment layer (08-14): the six-rung ladder, the failure modes with their tells and the six-step self-check, the lexicon, and `rulings.md` — append-only, the standing channel for what the operator has settled. Audited 08-14 with retractions on the record (`decisions/2026-08-14-foundations-audit.md`). **When operation catches up, foundations get a clean-eyes review that purges stale material and assumptions — nothing grandfathered [operator, 08-14]** |
+| 🟢 | **Foundations** (11 files) | The discipline (08-13) plus the operation's judgment layer (08-14): the six-rung ladder, the failure modes with their tells and the six-step self-check, the lexicon, and `rulings.md` — append-only, the standing channel for what the operator has settled. Audited 08-14 with retractions on the record (`decisions/2026-08-14-foundations-audit.md`). **When operation catches up, foundations get a clean-eyes review that purges stale material and assumptions — nothing grandfathered [operator, 08-14]** |
 | 🟢 | **Skills** (6) — account-gated, upstream craft | Carried over working; icp-scoring's upstream defaults restored; sequence-shape mechanism restored to signal-to-sequence |
 | 🟢 | **Plays** (15, Michael's) — the operating play library | Mechanisms faithful; backstory returns incrementally as plays are exercised |
 | 🟢 | **Channels** (4, Michael's) | Carried over |

@@ -170,6 +170,13 @@ operation catches up, foundations get a clean-eyes restart that purges stale mat
 and assumptions — nothing grandfathered. *Consequence:* doctrine still enters through
 principle 1; the purge removes the blanket ban, not the admission test.
 
+**2026-08-14 — Rung 2 is dressed with van der Kooij's Revenue Architecture.**
+Operator-designated ("solid; the bird's-eye view that complements Whitley's eight —
+architecture and execution coming together"). `revenue-architecture.md` holds the
+session's rendering of the published framework, every element marked [R]; the
+operator is reading the book, and his dissection ledger supersedes the renderings
+line by line — the book outranks the session's memory of it.
+
 **2026-08-14 — Roles are borrowing, not fusing.** Modern GTM engineering and RevOps each
 absorb revenue-architect responsibilities without overtaking each other; whether the
 seat can build the architecture directly or manage it long term is irrelevant to the

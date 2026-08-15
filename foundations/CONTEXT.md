@@ -20,6 +20,7 @@ tunable number.
 | `revenue-engineering.md` | The discipline: definition, the eight functions with their source, the waste taxonomy | Asking what this work *is*, or naming a method's waste |
 | `revenue-engineering-SOURCES.md` | The three role-definition accounts compared, what they agree on, and the four falsifiers | Checking how well-founded the definition actually is, before leaning on it |
 | `chain-of-operations.md` | The ladder: six rungs, both flows, the construction law, the subsystem derivation, frame-and-filling, model status | **Before any structural decision** |
+| `revenue-architecture.md` | Rung 2's design doctrine: recurring impact, the bowtie's why, revenue-as-math, motions-per-segment — plus the operator's dissection ledger | Designing a revenue system, an offer's impact question, or reading van der Kooij in |
 | `principles.md` | The six rules + load discipline | Editing core, moving facts, any boundary question |
 | `failure-modes.md` | How work goes wrong here, the tell for each, and the six-step self-check | **Before drafting for core, and again before committing** |
 | `conceptual-framework.md` | The eight pillars as tools: the judgment protocol, per-pillar quality criteria, the seam test | The method files are silent on your case, or you must judge an output rather than check it |
