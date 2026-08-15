@@ -17,7 +17,7 @@ Composition runs down — each rung is made of the one below. Construction runs 
 | Rung | Layer | What lives there |
 |---|---|---|
 | 1 | **The eight functions** | What a revenue system must do. Operator-chosen frame (see below), not discovered law |
-| 2 | **Revenue architecture** | The operating principles that guide design (`principles.md`). The rung name is van der Kooij's discipline (`NOTICE.md`) |
+| 2 | **Revenue architecture** | The revenue-design doctrine (`revenue-architecture.md` — van der Kooij's discipline, operator-designated) plus the kit's own operating rules (`principles.md`) |
 | 3 | **Systems architecture** | The design layer. Models are its vocabulary |
 | 4 | **Systems** | The built backbone — one per business, its subsystems named by the laws |
 | 5 | **Instruments** | What subsystems are made of: skills, plays, workflows, scripts, connectors |

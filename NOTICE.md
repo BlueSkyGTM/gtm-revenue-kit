@@ -72,8 +72,11 @@ alongside the classical engineering hierarchy and this kit's own operating shape
 **bowtie** model is Winning by Design's — held in the kit rather than adopted, and
 attributed regardless of adoption status. The **flywheel**'s general form traces to Jim
 Collins' popularization; the kit adopts its revenue-specific rendering. The ladder's
-rung-2 name, **revenue architecture**, acknowledges the same lineage. Framework names
-and structure with attribution; no text is reproduced.
+rung-2 name, **revenue architecture**, acknowledges the same lineage, and
+`foundations/revenue-architecture.md` renders the published framework's structure —
+marked as the session's rendering throughout, superseded by the operator's own reading
+of the book as he dissects it in. Framework names and structure with attribution; no
+text is reproduced.
 
 ## Runtime patterns
 

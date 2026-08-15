@@ -24,9 +24,10 @@ gtm-kit/
 ├── README.md · NOTICE.md    ← build state · attribution
 ├── estate.md                ← what the kit owns vs reads; the deployments map
 │
-├── foundations/   the why-layer: revenue-engineering · chain-of-operations ·
-│                  principles · failure-modes · conceptual-framework ·
-│                  lexicon · rulings · task-craft · pvp           → its CONTEXT.md
+├── foundations/   the why-layer: revenue-engineering · revenue-architecture ·
+│                  chain-of-operations · principles · failure-modes ·
+│                  conceptual-framework · lexicon · rulings ·
+│                  task-craft · pvp                               → its CONTEXT.md
 ├── motions/       the operating layer: skills · plays (15, Michael's) ·
 │                  channels · tam/ (pipeline, under construction) ·
 │                  workflows · playbooks · dormant                → its CONTEXT.md
@@ -49,6 +50,7 @@ gtm-kit/
 | What revenue engineering IS — the definition, laws, waste taxonomy | `foundations/revenue-engineering.md` |
 | The rules (admission, swap test, values, one-home, suppression, travel) | `foundations/principles.md` |
 | Before any structural decision — what layer am I at | `foundations/chain-of-operations.md` |
+| How a revenue system is designed — the architecture layer | `foundations/revenue-architecture.md` |
 | Before drafting for core, and before committing it | `foundations/failure-modes.md` — the tells and the self-check |
 | Method is silent on your case — or: is this output *good*? | `foundations/conceptual-framework.md` — the pillars as tools |
 | A term could go two ways | `foundations/lexicon.md` |
