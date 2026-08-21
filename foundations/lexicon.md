@@ -29,6 +29,7 @@ Full definitions: `revenue-engineering.md` (the definition, the thesis) and
 | **Systems architecture** | Rung 3 — the design layer; models are its vocabulary | As bare "architecture." The ladder names two, on purpose |
 | **The merged seat** | The practitioner holding revenue-architect responsibilities *and* GTM execution. Revenue architects are GTM engineers now; not the reverse | As every GTM engineer. The seat is the smaller circle, and tooling serves the bigger one |
 | **The eight pillars** | The same eight as rung 1's functions; *pillars* names their tool form — the conceptual framework (`conceptual-framework.md`) | As a ninth thing, or as an override. Framework judgment decides *within* the guardrails, never over a hard line |
+| **Whitley's Duality** | A GTM system is **both a service and a business function** — delivered to clients *and* run by the operation on itself. Operator's name (08-21) for the operator's 08-14 claim; the ruling holds the two-arm test. Whitley supplies the eight functions, not this | As sequencing ("we serve ourselves first, clients later") rather than a standing property. Also: reading the name as Whitley's authorship — the eight are his words, the duality is not |
 
 ## Terms
 

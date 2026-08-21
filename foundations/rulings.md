@@ -79,6 +79,18 @@ thin for two businesses one person owns reaching overlapping networks, and the f
 produced this ruling came from the construction session, not from the operator's own
 reading. **Worth re-ruling on better framing.** Ledgers stay separate meanwhile.*
 
+**2026-08-21 — The service/function duality is named: Whitley's Duality.** The 08-14
+client-0 ruling's first clause carries enough weight to need a name, and every file relying
+on it was restating it. Definition and its trap: `lexicon.md` §The discipline — one home.
+*Consequence:* the **two-arm test** on any instrument entering core — read it once as
+delivered to a client, once as run by the operation on itself. An instrument surviving only
+one reading is recorded as single-arm, never generalised quietly. *Naming provenance:* the
+name is the operator's, 08-21; the claim is the operator's, 08-14. Whitley supplies the
+eight functions (`revenue-engineering.md` §The laws), **not** this duality — do not infer
+that he wrote about it. *Reverses if:* an instrument class is found where the two arms
+demand genuinely incompatible method, which would make the duality a coincidence rather
+than a property.
+
 ## Method and doctrine
 
 **2026-08-13 — The four-dimension signal split is adopted** (fit / intent / relationship /
