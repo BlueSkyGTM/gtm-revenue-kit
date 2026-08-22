@@ -16,21 +16,21 @@ frame, the build, what to measure, and **when not to run it**.
 
 | Play | Fires when |
 |---|---|
-| [Inbound-Led Outbound](motions/plays/01-inbound-led-outbound.md) | an identified company hits a high-intent page, not just the homepage |
-| [Inbound Speed-to-Lead](motions/plays/07-inbound-speed-to-lead.md) | a prospect volunteers contact: a form, a signup, a booking |
-| [News-Led Outbound](motions/plays/04-news-led-outbound.md) | a news event matching a pattern this account has found to precede purchase |
-| [Champion Job Change](motions/plays/10-champion-job-change.md) | someone who championed the product lands at a new company that fits the ICP |
-| [Renewal Window Targeting](motions/plays/11-renewal-window-targeting.md) | a competitor's customer enters an estimated renewal window |
-| [Competitor Crisis Response](motions/plays/12-competitor-crisis-response.md) | a verified negative public event at a named competitor |
-| [Social Engagement Signal](motions/plays/05-social-engagement-signal.md) | a person engages with content about the problem space |
-| [Go-To-Network](motions/plays/15-go-to-network.md) | a partner's connections hold a real fit they know well enough to introduce |
-| [One-to-One ABM](motions/plays/06-one-to-one-abm.md) | the operator names a person as worth bespoke treatment |
-| [One-to-Many ABM Gifting](motions/plays/14-one-to-many-abm-gifting.md) | a top-tier contact shows a personal affinity evidenced from public traces |
-| [ABM Content Engine](motions/plays/03-abm-content-engine.md) | a deal reaches the point where several different personas must each say yes |
-| [Executive Channel Outreach](motions/plays/13-executive-channel-outreach.md) | another play needs an executive to carry the message |
-| [Recruiting Outbound](motions/plays/08-recruiting-outbound.md) | a hard-to-fill role opens internally and a candidate's history matches it |
-| [CRM Enrichment and Reactivation](motions/plays/09-crm-enrichment-reactivation.md) | records go stale, or a closed-lost reason expires |
-| [TAM Sourcing and Tiering](motions/plays/02-tam-sourcing-and-tiering.md) | nothing. This one builds the list the others fire against |
+| [Inbound-Led Outbound](motions/plays/01-inbound-led-outbound.md) | An identified company hits a high-intent page, not just the homepage |
+| [Inbound Speed-to-Lead](motions/plays/07-inbound-speed-to-lead.md) | A prospect volunteers contact: a form, a signup, a booking |
+| [News-Led Outbound](motions/plays/04-news-led-outbound.md) | A news event matching a pattern this account has found to precede purchase |
+| [Champion Job Change](motions/plays/10-champion-job-change.md) | Someone who championed the product lands at a new company that fits the ICP |
+| [Renewal Window Targeting](motions/plays/11-renewal-window-targeting.md) | A competitor's customer enters an estimated renewal window |
+| [Competitor Crisis Response](motions/plays/12-competitor-crisis-response.md) | A verified negative public event at a named competitor |
+| [Social Engagement Signal](motions/plays/05-social-engagement-signal.md) | A person engages with content about the problem space |
+| [Go-To-Network](motions/plays/15-go-to-network.md) | A partner's connections hold a real fit they know well enough to introduce |
+| [One-to-One ABM](motions/plays/06-one-to-one-abm.md) | The operator names a person as worth bespoke treatment |
+| [One-to-Many ABM Gifting](motions/plays/14-one-to-many-abm-gifting.md) | A top-tier contact shows a personal affinity evidenced from public traces |
+| [ABM Content Engine](motions/plays/03-abm-content-engine.md) | A deal reaches the point where several different personas must each say yes |
+| [Executive Channel Outreach](motions/plays/13-executive-channel-outreach.md) | Another play needs an executive to carry the message |
+| [Recruiting Outbound](motions/plays/08-recruiting-outbound.md) | A hard-to-fill role opens internally and a candidate's history matches it |
+| [CRM Enrichment and Reactivation](motions/plays/09-crm-enrichment-reactivation.md) | Records go stale, or a closed-lost reason expires |
+| [TAM Sourcing and Tiering](motions/plays/02-tam-sourcing-and-tiering.md) | Nothing. This one builds the list the others fire against |
 
 That last row is the point rather than an oversight. Play 02 states outright that it has no
 buying-moment trigger and that pretending otherwise would be dishonest.
@@ -39,10 +39,10 @@ buying-moment trigger and that pretending otherwise would be dishonest.
 
 | [Channel guide](motions/channels/) | What it covers |
 |---|---|
-| [Cold email](motions/channels/cold-email.md) | the economics, the testing discipline, deliverability and warmup |
-| [Cold calls](motions/channels/cold-calls.md) | when calling pays, the three numbers that run the channel, dialing method |
-| [LinkedIn ABM](motions/channels/linkedin-abm.md) | when to automate, who to target, what to send |
-| [Micro-lists](motions/channels/micro-lists.md) | very small, sharply segmented lists worked by hand |
+| [Cold email](motions/channels/cold-email.md) | The economics, the testing discipline, deliverability and warmup |
+| [Cold calls](motions/channels/cold-calls.md) | When calling pays, the three numbers that run the channel, dialing method |
+| [LinkedIn ABM](motions/channels/linkedin-abm.md) | When to automate, who to target, what to send |
+| [Micro-lists](motions/channels/micro-lists.md) | Very small, sharply segmented lists worked by hand |
 
 Four [situation playbooks](motions/playbooks/) sit alongside them: competitor switch,
 deliverability and warmup, impact positioning, and new signal response.
@@ -54,12 +54,12 @@ should take.
 
 | [Skill](motions/skills/) | Job | Time |
 |---|---|---|
-| [`setup`](motions/skills/setup/) | stamp a new account from the template | 15 to 30 min |
-| [`account-research`](motions/skills/account-research/) | one account researched to a written brief | 20 to 40 min |
-| [`icp-scoring`](motions/skills/icp-scoring/) | score and tier an account, or a batch | 15 to 30 min |
-| [`signal-to-sequence`](motions/skills/signal-to-sequence/) | turn a fired signal into a built campaign | 2 to 4 hrs |
-| [`reply-handling`](motions/skills/reply-handling/) | triage a reply from any campaign | on trigger |
-| [`weekly-update`](motions/skills/weekly-update/) | the operating review | 10 to 15 min |
+| [`setup`](motions/skills/setup/) | Stamp a new account from the template | 15 To 30 min |
+| [`account-research`](motions/skills/account-research/) | One account researched to a written brief | 20 To 40 min |
+| [`icp-scoring`](motions/skills/icp-scoring/) | Score and tier an account, or a batch | 15 To 30 min |
+| [`signal-to-sequence`](motions/skills/signal-to-sequence/) | Turn a fired signal into a built campaign | 2 To 4 hrs |
+| [`reply-handling`](motions/skills/reply-handling/) | Triage a reply from any campaign | On trigger |
+| [`weekly-update`](motions/skills/weekly-update/) | The operating review | 10 To 15 min |
 
 Six [workflows](motions/workflows/) carry the connective work: campaign build, enrichment,
 signal routing, and pain-based segmentation.
@@ -95,12 +95,12 @@ systems, running systems reveal an architecture, and architecture distils into p
 
 | Rung | Layer | What lives there |
 |---|---|---|
-| 1 | The eight functions | what a revenue system must do |
-| 2 | Revenue architecture | design doctrine, plus this kit's principles |
-| 3 | Systems architecture | the design layer; models are its vocabulary |
-| 4 | Systems | the built backbone, one per business |
-| **5** | **Instruments** | **skills, plays, workflows, connectors. This kit** |
-| 6 | Operations | campaigns running; output is pipeline, then revenue |
+| 1 | The eight functions | What a revenue system must do |
+| 2 | Revenue architecture | Design doctrine, plus this kit's principles |
+| 3 | Systems architecture | The design layer; models are its vocabulary |
+| 4 | Systems | The built backbone, one per business |
+| **5** | **Instruments** | **Skills, plays, workflows, connectors. This kit** |
+| 6 | Operations | Campaigns running; output is pipeline, then revenue |
 
 **This kit is rung 5, organised to serve rung 4, executed at rung 6.** Its method files are
 instruments, its account template is a system's shape, and its motions are what operations
@@ -113,28 +113,24 @@ software company and a bookkeeping practice equally well.
 
 | Function | What it governs | Examples of what fills it |
 |---|---|---|
-| **Identify** | who is worth contacting at all, and who is ruled out | a scoring model, a target market map, intent signals, an exclusion list |
-| **Offer** | what is being sold, to whom, on what terms | positioning, pricing, packaging, the messaging house |
-| **Reach** | how a first touch actually gets made | cold email, calls, LinkedIn, events, partner referrals, ads |
-| **Capture** | what happens the moment someone raises a hand | forms, reply handling, speed to lead, routing to an owner |
-| **Move** | how interest becomes a signed customer | sequences, meetings, proposals, tier-based treatment |
-| **Retain** | how a customer stays one | the CRM record, renewal tracking, delivery, account reviews |
-| **Follow up** | everyone who has not said yes yet | nurture timing, re-approach rules, do-not-contact checks |
-| **Learn** | how results feed back and change the system | win/loss review, campaign results, rescoring, the calibration log |
+| **Identify** | Who is worth contacting at all, and who is ruled out | A scoring model, a target market map, intent signals, an exclusion list |
+| **Offer** | What is being sold, to whom, on what terms | Positioning, pricing, packaging, the messaging house |
+| **Reach** | How a first touch actually gets made | Cold email, calls, LinkedIn, events, partner referrals, ads |
+| **Capture** | What happens the moment someone raises a hand | Forms, reply handling, speed to lead, routing to an owner |
+| **Move** | How interest becomes a signed customer | Sequences, meetings, proposals, tier-based treatment |
+| **Retain** | How a customer stays one | The CRM record, renewal tracking, delivery, account reviews |
+| **Follow up** | Everyone who has not said yes yet | Nurture timing, re-approach rules, do-not-contact checks |
+| **Learn** | How results feed back and change the system | Win/loss review, campaign results, rescoring, the calibration log |
 
 **The columns are fixed and what fills them is not.** Reach is a requirement; which channel
-answers it is the account's choice. The scoring mechanism lives in core; the weights and
-thresholds live in the account. Refusing to fix the filling is what lets one frame connect
-businesses that share nothing, and it is the values-in-the-account rule one level up.
+answers it is the account's choice. That is what lets one frame connect businesses sharing
+nothing.
 
-Two things stop this being decoration. **The frame is labelled as chosen rather than
-discovered**: [`chain-of-operations.md`](foundations/chain-of-operations.md) dates the check
-and states where the strong form of the claim fails, since "fails one, fails as a revenue
-system" holds for identify, offer, reach, capture and move but is too strong for retain and
-learn, which businesses neglect for years while still making money. Those two are what
-separates a system that compounds from one that merely repeats. **And corrections stay in
-place rather than being edited away**: the same file carries a dated reversal of its own
-source on whether capture is an unbounded function.
+The frame is the operator's choice, dated and checked, rather than a discovered law.
+[`chain-of-operations.md`](foundations/chain-of-operations.md) records where the strong form
+fails: "fails one, fails as a revenue system" holds for identify, offer, reach, capture and
+move, and is too strong for retain and learn, which businesses neglect for years while still
+making money. Those two separate a system that compounds from one that repeats.
 
 [`conceptual-framework.md`](foundations/conceptual-framework.md) turns the eight into judgment
 instruments for the grey areas, which is what the kit reaches for when method is silent and
@@ -148,41 +144,33 @@ the files: a session reads the contract for the job, walks the provider order it
 writes results back into the account. No integration platform sits in the middle holding the
 logic.
 
-**Discovery and enrichment run as a waterfall, never as a menu.** Providers fire in sequence
-with failover, cheapest rung first, and a paid call has to justify why the free rung could
-not answer:
-
-| Rung | Providers | What it answers |
+| Job | Runs on | What it does |
 |---|---|---|
-| Free | company site, LinkedIn, Crunchbase and PitchBook free tiers, BuiltWith, Wappalyzer, GitHub | headcount, funding history, tech stack, hiring |
-| Orchestrated | Clay, running Clearbit then People Data Labs | firmographics, contacts, seniority |
-| Paid lookup | Apollo, Hunter, NeverBounce | email discovery, validation, verification fallback |
-| Search API | SerperDev and similar, called over plain HTTP | whole-market enumeration, far cheaper at volume than credit-per-row integrations |
+| Ops and provider access | Deepline | Routes every provider call on the operator's own keys |
+| Company data | Company site, LinkedIn, Crunchbase, PitchBook, BuiltWith, Wappalyzer, GitHub | Headcount, funding history, tech stack, hiring |
+| Contact data | Clay, running Clearbit then People Data Labs | Firmographics, contacts, seniority |
+| Email discovery and verification | Apollo, Hunter, NeverBounce | Finds an address, then proves it is deliverable |
+| Market enumeration | SerperDev, called over plain HTTP | Pulls a whole market instead of buying it a row at a time |
+| Signal detection | Crunchbase, Ashby, Otta, Common Room, Trigify, 6sense, G2, Bombora | Watches for the events plays fire on |
 
-**Signals come in the same way, from sources the account declares.** Funding rounds from
-Crunchbase or PitchBook, job postings from LinkedIn, Ashby or Otta, engagement from Common
-Room or Trigify, tech-stack movement from a BuiltWith delta, intent from 6sense, G2 or
-Bombora. Each one lands in the account's signal library with its detection method and decay
-recorded, which is what a play activates against.
+Inside each job the providers run in sequence with failover, never as a menu to shop between,
+and a paid call has to justify why a free source could not answer it. Detected signals land in
+the account's signal library with their detection method and decay recorded, which is what a
+play activates against.
 
-**A provider gateway sits under the paid rungs, and it does not get to drive.** Deepline is
-the surface the kit reaches through for provider access on the operator's own keys. Its public
-skills pack was read and triaged in
-[`decisions/`](decisions/2026-08-14-deepline-skills-triage.md): the cost gate and the
-companies-before-people discovery order were absorbed, and its meta-skill's claim to govern
-the session was refused, because the contracts route and a tool surface that claims session
-governance inverts the architecture.
+Deepline's public skills pack was triaged in
+[`decisions/`](decisions/2026-08-14-deepline-skills-triage.md). The cost gate and the
+companies-before-people discovery order were absorbed; its claim to govern the session was
+refused, since the contracts route and a tool surface that governs inverts the architecture.
 
-**Two gates sit in front of the calls, and neither substitutes for the other.** A cost gate
-runs pilot, then preview, then approve, then scale before any paid rows are bought. A consent
-gate runs before every push to a sequencer. Keys are the operator's own, per account, so the
-bill and the data both stay with whoever owns the account.
+**Two gates sit in front of the calls.** A cost gate runs pilot, preview, approve, scale
+before any paid rows are bought. A consent gate runs before every push to a sequencer.
+Neither substitutes for the other.
 
-The rule underneath is that provider choice is account configuration rather than doctrine. The
-kit names the order and the criteria; which vendors hold keys is declared per deployment, so
-a block that cannot say which criterion picked its tool has an undeclared setting rather than
-a preference. [`runtime-spec.md`](runtime-spec.md) holds the execution model and
-[`enrichment-techniques.md`](motions/workflows/enrichment-techniques.md) holds the cost model.
+Provider choice is account configuration, not doctrine. The kit names the jobs and the order;
+which vendors hold keys is declared per deployment.
+[`runtime-spec.md`](runtime-spec.md) holds the execution model and
+[`enrichment-techniques.md`](motions/workflows/enrichment-techniques.md) the cost model.
 
 ## Why File Architecture
 
@@ -240,8 +228,8 @@ the 19 inherited instruments does, and recorded it rather than back-filling it b
 **The market-mapping pipeline runs stages 1 and 2 of 6.** Folders are created as content is
 briefed rather than in advance, so the shape of the work stays visible.
 
-**The provider orchestration is specified, not yet wired.** The waterfall order, the cost
-gate, the criteria and the signal sources are all written down and routed. What is still open
+**The provider orchestration is specified, not yet wired.** The provider order, the cost
+gate, the selection criteria and the signal sources are written down and routed. What is open
 is operator input rather than design: a Deepline account and which providers get keys, where
 each deployment's database lives, and who holds send-approval authority in writing.
 [`runtime-spec.md`](runtime-spec.md) §6 names all three. Credentials do not belong in a
