@@ -99,7 +99,7 @@ systems, running systems reveal an architecture, and architecture distils into p
 | 2 | Revenue architecture | Design doctrine, plus this kit's principles |
 | 3 | Systems architecture | The design layer; models are its vocabulary |
 | 4 | Systems | The built backbone, one per business |
-| **5** | **Instruments** | **Skills, plays, workflows, connectors. This kit** |
+| 5 | Instruments | Skills, plays, workflows, connectors. This kit |
 | 6 | Operations | Campaigns running; output is pipeline, then revenue |
 
 **This kit is rung 5, organised to serve rung 4, executed at rung 6.** Its method files are
@@ -113,14 +113,14 @@ software company and a bookkeeping practice equally well.
 
 | Function | What it governs | Examples of what fills it |
 |---|---|---|
-| **Identify** | Who is worth contacting at all, and who is ruled out | A scoring model, a target market map, intent signals, an exclusion list |
-| **Offer** | What is being sold, to whom, on what terms | Positioning, pricing, packaging, the messaging house |
-| **Reach** | How a first touch actually gets made | Cold email, calls, LinkedIn, events, partner referrals, ads |
-| **Capture** | What happens the moment someone raises a hand | Forms, reply handling, speed to lead, routing to an owner |
-| **Move** | How interest becomes a signed customer | Sequences, meetings, proposals, tier-based treatment |
-| **Retain** | How a customer stays one | The CRM record, renewal tracking, delivery, account reviews |
-| **Follow up** | Everyone who has not said yes yet | Nurture timing, re-approach rules, do-not-contact checks |
-| **Learn** | How results feed back and change the system | Win/loss review, campaign results, rescoring, the calibration log |
+| Identify | Who is worth contacting at all, and who is ruled out | A scoring model, a target market map, intent signals, an exclusion list |
+| Offer | What is being sold, to whom, on what terms | Positioning, pricing, packaging, the messaging house |
+| Reach | How a first touch actually gets made | Cold email, calls, LinkedIn, events, partner referrals, ads |
+| Capture | What happens the moment someone raises a hand | Forms, reply handling, speed to lead, routing to an owner |
+| Move | How interest becomes a signed customer | Sequences, meetings, proposals, tier-based treatment |
+| Retain | How a customer stays one | The CRM record, renewal tracking, delivery, account reviews |
+| Follow up | Everyone who has not said yes yet | Nurture timing, re-approach rules, do-not-contact checks |
+| Learn | How results feed back and change the system | Win/loss review, campaign results, rescoring, the calibration log |
 
 **The columns are fixed and what fills them is not.** Reach is a requirement; which channel
 answers it is the account's choice. That is what lets one frame connect businesses sharing
