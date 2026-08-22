@@ -42,7 +42,7 @@ Core is copied identically into every deployment; an account lives in exactly on
 
 | Copy | Core | Accounts | State |
 |---|---|---|---|
-| `gtm-kit-pro` (this repo, upstream) | **authoritative** | `_template/` only | under reconstruction (this branch) |
+| `gtm-revenue-kit` (this repo, upstream — renamed from `gtm-kit-pro`, 2026-08-22) | **authoritative** | `_template/` only | reconstruction complete; **public**, MIT, `LICENSE` + `NOTICE.md` travel with it |
 | `fenton-bookkeeping-os/machinery/gtm-kit/` | vendored | `fenton` | **shelved 2026-08-13** — re-vendors core on resume |
 | `albatross-engineering-os/machinery/gtm-kit/` | vendored — re-vendored 2026-08-14 from `main` @ `ece884f` | `revenue-engineering` | active front; first operated run on record |
 

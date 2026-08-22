@@ -1,70 +1,88 @@
-# GTM Kit — build state
+# GTM Revenue Kit
 
-Machinery for revenue engineering: one shared engine, vendored into each business OS that
-runs it, holding the motions that connect signals to won work. The map is `CLAUDE.md`;
-the router is `CONTEXT.md`; where the kit sits in the estate is `estate.md`. **This file
-is the build state** — what is real, what is arriving, and in what order.
+**Revenue pipelines as file architecture.** The rules that decide who gets contacted, what they
+get sent, and what must be true before anything sends — written down as files, in version control,
+where a person can read them and disagree with them.
 
-## The reconstruction, and why
+One agent walks the folder structure, loads the one contract its task names, and stops. There is
+no framework to install and no orchestration layer to reason about: **the structure is the
+program.** Method: Interpretable Context Methodology — Van Clief & McDermott,
+arXiv:2603.16021, MIT-licensed.
 
-The kit was rebuilt on this branch (2026-08-13) around one rule
-(`foundations/principles.md` §1): **nothing enters core unless we can say why it is
-here.** Three whys are accepted — course-reasoned (Michael's), operator-proven (ran live),
-upstream-verified (read and endorsed). The prior governance layer — a rule shelf, a
-lineage system with a curated conflict register, a product shell — was retired whole to
-`_archive/2026-08-13-framework/` (its README maps where each living part went). What
-replaced it is smaller: one principles page, one experiments queue, one estate map.
+**The argument.** The failure this is built against is *unreadable state* — systems where nobody
+can look and see what the thing will do next, and where connection count gets mistaken for
+capability. Here the state **is** files. **The boundary, in the same breath:** this loses at
+real-time multi-agent collaboration, high-concurrency serving, and automated mid-pipeline
+branching, which need framework code. It suits sequential, human-reviewed, repeatable work —
+most revenue work, but not all of it.
 
-Provenance of every part: `NOTICE.md`. The pristine upstream is tagged
-(`baseline-gtm-starter-kit`), so what came from where is a diff, not an assertion.
+## Read it in five minutes
 
-## Status at a glance
+1. **[`examples/sample-company/`](examples/sample-company/)** — a produced campaign and the folder
+   it came out of. Start here; the argument is downstream of the artifact.
+2. **[`CONTEXT.md`](CONTEXT.md)** — the task router: every job, and the one file that holds it.
+3. **[`foundations/principles.md`](foundations/principles.md)** — the six rules, one page.
 
-| | Piece | State |
+## What this is
+
+| Wing | What it holds | State |
 |---|---|---|
-| 🟢 | **Foundations** (12 files) | The discipline (08-13) plus the operation's judgment layer (08-14): the six-rung ladder, the failure modes with their tells and the six-step self-check, the lexicon, and `rulings.md` — append-only, the standing channel for what the operator has settled. Audited 08-14 with retractions on the record (`decisions/2026-08-14-foundations-audit.md`). **When operation catches up, foundations get a clean-eyes review that purges stale material and assumptions — nothing grandfathered [operator, 08-14]** |
-| 🟢 | **Skills** (6) — account-gated, upstream craft | Carried over working; icp-scoring's upstream defaults restored; sequence-shape mechanism restored to signal-to-sequence |
-| 🟢 | **Plays** (15, Michael's) — the operating play library | Mechanisms faithful; backstory returns incrementally as plays are exercised |
-| 🟢 | **Channels** (4, Michael's) | Carried over |
-| 🟡 | **TAM pipeline** — the centerpiece | Stages 1 and 2 drafted and evaluated (AMEND both, applied; records beside each stage). Stage 3 waits on its brief — an owed input. Stage briefs 3–6 owed |
-| 🟡 | **Signal library** | Schema written; F/I/R/T **adopted, operator-confirmed 08-14**; shelf deliberately empty until records earn their why |
-| 🟡 | **Experiments** — 001 first-touch formula, 002 segment definition | Queued; both run in the albatross deployment's own `revenue-engineering` account. 002 upgraded 08-14: the overwrite-prediction is argued-not-evidenced (research on file) — 002 would generate some of the field's first real evidence; DQS recorded as a distinct third map type |
-| 🟢 | **Account stamp** (`accounts/_template/`) | Upstream scoring defaults restored; benchmark-free stance recorded (own campaign data seeds §8, `operator-proven`) |
-| 🟡 | **Runtime** — the kit as the GTM motion runtime over Deepline | **Spec v0 + the public-pack triage, both 08-14** (`runtime-spec.md`, `decisions/2026-08-14-deepline-skills-triage.md`): ICM-as-program, execution blocks in contracts, two mechanical gates (consent and cost). Wiring waits on the operator's runtime inputs — nothing else |
-| ⚪ | **Estate siblings** — offers/SKUs, funnel, brand voice, copywriting | Not built; their material squats here, declared in `estate.md` |
+| [`foundations/`](foundations/) | The why-layer: the discipline's definition, the eight revenue functions, the six-rung chain of operations, failure modes, lexicon, and an append-only ruling record | **Complete** — 13 files |
+| [`motions/`](motions/) | What runs: 6 account-gated skills, 15 signal plays, 4 channel playbooks, workflows, and the market-mapping pipeline | **Skills, plays, channels live.** Pipeline stages 1–2 of 6 drafted and evaluated; 3–6 unbriefed |
+| [`accounts/_template/`](accounts/) | The stamp every operating account is copied from. Mechanism in core, every number in the account | **Complete** |
+| [`signals/`](signals/) | The record schema a signal must satisfy to exist | **Schema written; library deliberately empty** — no record enters without its buying mechanism stated |
+| [`experiments/`](experiments/) | Open method conflicts, queued as tests rather than resolved by preference | **2 queued, 0 run** |
+| [`decisions/`](decisions/) | Construction-level calls with their evidence, including the ones that were wrong | **6 records** |
 
-🟢 real · 🟡 under construction, honestly labeled · ⚪ future machinery
+## What it is not
 
-## What happens next, in order
+Not a multi-agent framework. Not a SaaS product. Not a sequencer or a sending tool — **there is no
+send capability in this repository and there is not meant to be.** Suppression is checked before
+every batch, per account, append-only; the wall between method and sending is a design decision,
+not a missing feature.
 
-The order leads with operating because that is where revenue is, not because building
-was ever a violation — the construction law that said so is retired
-(`foundations/rulings.md`, 08-15). Items 2–4 wait on the operator;
-`foundations/rulings.md` §Open is the live queue.
+## Technical achievements
 
-1. **Operate — run TAM stages 1–2 for the active deployment's own account** (`estate.md`
-   names it), manually if the runtime inputs are not yet in hand. The map is the first
-   real artifact; benchmarks, signal whys, and stage evaluation in anger all feed from
-   it.
-2. **The runtime inputs** — the API account and providers, the datastore per deployment,
-   the send-approval scope named in writing (`runtime-spec.md` §6). These unblock
-   execution blocks for TAM stages 1–3.
-3. **Stage briefs 3–6** — per-stage mechanics and deltas. Folders wait; empty is visible.
-4. **The signal set, the verbatim template (licensing first), the course's location.**
-5. **Albatross runs it** — the first campaigns execute experiments 001 and 002 in its own
-   `revenue-engineering` account (two addresses warming through the pause).
-6. **Re-vendor** — deployments pull the rebuilt core when it stabilizes.
+**Inherited proven, not claimed.** The upstream kit supplied the multi-account architecture, the
+account gate carried inline by all six skills, per-account append-only suppression, and the
+send-tool wall. The plays and channel playbooks came from coursework and **their mechanisms are
+unchanged** — with no campaign run there is no evidence on which to claim an improvement, and
+saying otherwise is the kind of thing this repo exists to catch.
 
-## Deployments
+**What this repo built:** the doctrine layer — an admission test nothing enters without passing, a
+swap test that makes account contamination mechanically checkable, a conceptual framework on the
+FASB pattern so a session derives a treatment from the pillars when the method is silent rather
+than improvising or stalling, and a six-question self-check run before anything commits. Plus the
+wiring that turns a shelf of documents into an ecosystem: a play activates through the account's
+signal library, routes to a named skill, draws its numbers from that account's scoring model, and
+clears suppression before anything sends.
 
-Two, both founder-owned; the kit is internal machinery, not a retail product. Core
-travels to both; each account lives in exactly one. The map and the plan of record:
-`estate.md`.
+## Room for growth
 
-## Working in this repo
+1. **Nothing has been sent.** Zero campaigns, zero prospects contacted. `learn` is structurally
+   present and empty in practice — the flywheel exists on paper and has never turned.
+2. **Capture is half-built.** Reply handling and intake are live; the page-and-form half is
+   declared out of scope and not built ([`estate.md`](estate.md)).
+3. **The runtime is specified, not wired.** [`runtime-spec.md`](runtime-spec.md) is v0 and marked
+   SPEC ONLY; three operator inputs gate every execution block.
+4. **Pipeline stages 3–6 have no briefs**, and **no instrument yet declares which of the eight
+   functions it serves** — a rule written after the material it governs
+   ([audit](decisions/2026-08-22-inherited-material-retention-audit.md)). Folders are created as
+   content is briefed, never before, so both gaps stay visible.
+5. **Open questions belong to the operator**, listed in
+   [`foundations/rulings.md`](foundations/rulings.md) §Open. A session that needs one asks; it
+   does not decide.
 
-- Rules: `foundations/principles.md` (one page — read it before editing core).
-- Writing a skill, play, or stage: `foundations/task-craft.md`.
-- Core compliance check: the swap test grep in `foundations/principles.md` §2 — core
-  outside `NOTICE.md`/`estate.md`/`examples/` names no account and holds no tuned number.
-- Before committing anything here: `foundations/failure-modes.md` §The self-check.
+## Rules of the road
+
+Name the account before anything loads · core never names an account · every number lives in the
+account · one home per fact · suppression before every send · load the one file the task names,
+never a whole folder. Full text: [`foundations/principles.md`](foundations/principles.md).
+
+## Provenance
+
+[`NOTICE.md`](NOTICE.md) records every inherited element — what came from where, under what
+licence, what was checked and when. It also records a credential mistake this project made
+assessing a source, and its retraction. Both are kept on purpose: [`decisions/`](decisions/) is a
+record of reasoning, including reasoning that turned out to be wrong. Licence:
+[MIT](LICENSE), covering this repository's own work.

@@ -36,11 +36,30 @@ work product and carries no upstream claim.
 The signal-play library (`motions/plays/`, all 15), the channel playbooks
 (`motions/channels/`, all 4), the TAM pipeline skeleton (`motions/tam/skeleton.md`), and
 `motions/workflows/enrichment-techniques.md` derive from coursework by **Michael**,
-curated and licensed by the operator. The present files are method abstractions produced
-2026-08-08; the operator's improved TAM framework (their own work, building on the
-course) is replacing the skeleton as it is briefed in. Reasoning, examples, and
-attribution travel with future revisions rather than being stripped — that is a standing
-rule of this reconstruction.
+curated and licensed by the operator.
+
+**What changed, and what did not.** The **mechanisms are faithful and stay faithful** — how
+each play or channel actually works is the course's, unchanged. What changed is packaging:
+abstracted to method 2026-08-08, voice stripped, every number moved out to the account
+template, and each piece modularised so it can be slotted into a system rather than run as a
+course. The curated set is not used in its entirety. The operator's own TAM framework replaces
+the skeleton stage by stage as each is briefed — that is replacement, not alteration of what
+remains.
+
+**Why fidelity, stated plainly:** changing a mechanism would mean testing it, and this kit has
+run no campaigns. With no results on the record there is no basis on which to claim an
+inherited mechanism has been improved. The position is revisited when a campaign produces
+evidence, which is what `experiments/` exists to generate. **[operator ruling, 2026-08-21]**
+
+**Status, checked 2026-08-22 `[V]`.** All 25 inherited files were audited against the whole of
+`foundations/`, not just the eight functions
+(`decisions/2026-08-22-inherited-material-retention-audit.md`). Result: clean on the swap test,
+on one-home-per-fact, and on values-live-in-the-account — zero figures, in digits or words,
+across the set. One systemic gap: no instrument yet declares which of the eight functions it
+serves, a rule written after this material landed. Nothing was dropped.
+
+Reasoning, examples, and attribution travel with future revisions rather than being stripped —
+that is a standing rule of this reconstruction.
 
 ## Pain-based segmentation
 
