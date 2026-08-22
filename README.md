@@ -12,8 +12,7 @@ campaign and the folder it came out of.
 
 A play is a buying moment plus everything needed to act on it. Each one names what fires the
 signal and where the data comes from, how fast the window decays, why it works, the message
-frame, the build, what to measure, and **when not to run it**. About 120 lines each, 1,849
-across the set.
+frame, the build, what to measure, and **when not to run it**.
 
 | Play | Fires when |
 |---|---|
@@ -93,18 +92,14 @@ Every rule above sits at a level, and the levels are ordered. Composition runs d
 rung is made of the one below it. Construction runs up, because instruments cohere into
 systems, running systems reveal an architecture, and architecture distils into principles.
 
-```mermaid
-flowchart TB
-    R1["1 · The eight functions<br/>what a revenue system must do"]
-    R2["2 · Revenue architecture<br/>design doctrine, plus this kit's principles"]
-    R3["3 · Systems architecture<br/>the design layer; models are its vocabulary"]
-    R4["4 · Systems<br/>the built backbone, one per business"]
-    R5["5 · Instruments<br/>skills · plays · workflows · connectors"]
-    R6["6 · Operations<br/>campaigns running; output is pipeline, then revenue"]
-    R1 --> R2 --> R3 --> R4 --> R5 --> R6
-    R6 -. "learning rewrites the rungs above it" .-> R1
-    style R5 stroke-width:3px
-```
+| Rung | Layer | What lives there |
+|---|---|---|
+| 1 | The eight functions | what a revenue system must do |
+| 2 | Revenue architecture | design doctrine, plus this kit's principles |
+| 3 | Systems architecture | the design layer; models are its vocabulary |
+| 4 | Systems | the built backbone, one per business |
+| **5** | **Instruments** | **skills, plays, workflows, connectors. This kit** |
+| 6 | Operations | campaigns running; output is pipeline, then revenue |
 
 **This kit is rung 5, organised to serve rung 4, executed at rung 6.** Its method files are
 instruments, its account template is a system's shape, and its motions are what operations
@@ -123,13 +118,6 @@ that owns it, so the backbone is derived rather than designed:
 | Retain | Records | the account record, dated outputs, one home per fact |
 | Follow up | Follow-up | sequence timing, suppression-checked touches |
 | Learn | Feedback | result sync, the refresh pass, the calibration log |
-| *spans all eight* | **Governance** | consent, capacity, authority, deliverability, isolation |
-
-**Governance spans the eight rather than sitting among them, and that placement is a finding
-rather than a tidy-up.** The functions describe capability, and not one of them names consent,
-capacity, approval authority, or deliverability. A system can execute all eight perfectly
-while sending to opt-outs, booking past what delivery can absorb, or burning its sending
-domain.
 
 Two things stop this being decoration. **The frame is labelled as chosen rather than
 discovered**: [`chain-of-operations.md`](foundations/chain-of-operations.md) dates the check
