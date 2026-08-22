@@ -6,22 +6,28 @@ where a person can read them and disagree with them.
 
 One agent walks the folder structure, loads the one contract its task names, and stops. There is
 no framework to install and no orchestration layer to reason about: **the structure is the
-program.** Method: Interpretable Context Methodology — Van Clief & McDermott,
-arXiv:2603.16021, MIT-licensed.
+program.**
 
 **The argument.** The failure this is built against is *unreadable state* — systems where nobody
 can look and see what the thing will do next, and where connection count gets mistaken for
-capability. Here the state **is** files. **The boundary, in the same breath:** this loses at
-real-time multi-agent collaboration, high-concurrency serving, and automated mid-pipeline
-branching, which need framework code. It suits sequential, human-reviewed, repeatable work —
-most revenue work, but not all of it.
+capability. Here the state **is** files.
+
+This is where the field has landed, not a private preference. Anthropic's published engineering
+guidance on building agents reaches it from the model side: simple composable patterns over
+frameworks, and systems transparent enough that a person can see *why* the thing did what it did.
+**This kit is that principle applied to revenue work** — the reason a prospect was contacted, or
+excluded, is a file you can open and argue with.
+
+**The boundary, in the same breath:** this loses at real-time multi-agent collaboration,
+high-concurrency serving, and automated mid-pipeline branching, which need framework code. It
+suits sequential, human-reviewed, repeatable work — most revenue work, but not all of it.
 
 ## Read it in five minutes
 
-1. **[`examples/sample-company/`](examples/sample-company/)** — a produced campaign and the folder
-   it came out of. Start here; the argument is downstream of the artifact.
-2. **[`CONTEXT.md`](CONTEXT.md)** — the task router: every job, and the one file that holds it.
-3. **[`foundations/principles.md`](foundations/principles.md)** — the six rules, one page.
+[`examples/sample-company/`](examples/sample-company/) — a produced campaign and the folder it came
+out of; start here, the argument is downstream of the artifact. Then
+[`CONTEXT.md`](CONTEXT.md), the task router: every job and the one file that holds it. Then
+[`foundations/principles.md`](foundations/principles.md) — the six rules, one page.
 
 ## What this is
 
@@ -36,10 +42,10 @@ most revenue work, but not all of it.
 
 ## What it is not
 
-Not a multi-agent framework. Not a SaaS product. Not a sequencer or a sending tool — **there is no
-send capability in this repository and there is not meant to be.** Suppression is checked before
-every batch, per account, append-only; the wall between method and sending is a design decision,
-not a missing feature.
+Not a multi-agent framework, not a SaaS product, not a sequencer. **There is no send capability in
+this repository and there is not meant to be** — suppression is checked before every batch, per
+account, append-only, and the wall between method and sending is a design decision rather than a
+missing feature.
 
 ## Technical achievements
 
@@ -50,12 +56,12 @@ unchanged** — with no campaign run there is no evidence on which to claim an i
 saying otherwise is the kind of thing this repo exists to catch.
 
 **What this repo built:** the doctrine layer — an admission test nothing enters without passing, a
-swap test that makes account contamination mechanically checkable, a conceptual framework on the
-FASB pattern so a session derives a treatment from the pillars when the method is silent rather
-than improvising or stalling, and a six-question self-check run before anything commits. Plus the
-wiring that turns a shelf of documents into an ecosystem: a play activates through the account's
-signal library, routes to a named skill, draws its numbers from that account's scoring model, and
-clears suppression before anything sends.
+swap test making account contamination mechanically checkable, a conceptual framework on the FASB
+pattern so a session derives a treatment from the pillars when method is silent instead of
+improvising or stalling, and a six-question self-check before anything commits. Plus the wiring
+that turns a shelf of documents into an ecosystem: a play activates through the account's signal
+library, routes to a named skill, takes its numbers from that account's scoring model, and clears
+suppression before anything sends.
 
 ## Room for growth
 
