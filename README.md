@@ -8,7 +8,7 @@ Every rule is a document you can open, read, and disagree with. Nothing is burie
 settings screen. Start with [`examples/sample-company/`](examples/sample-company/): a produced
 campaign and the folder it came out of.
 
-## The fifteen plays
+## The Fifteen Plays
 
 A play is a buying moment plus everything needed to act on it. Each one names what fires the
 signal and where the data comes from, how fast the window decays, why it works, the message
@@ -35,7 +35,7 @@ frame, the build, what to measure, and **when not to run it**.
 That last row is the point rather than an oversight. Play 02 states outright that it has no
 buying-moment trigger and that pretending otherwise would be dishonest.
 
-## Channels and situations
+## Channels and Situations
 
 | [Channel guide](motions/channels/) | What it covers |
 |---|---|
@@ -47,7 +47,7 @@ buying-moment trigger and that pretending otherwise would be dishonest.
 Four [situation playbooks](motions/playbooks/) sit alongside them: competitor switch,
 deliverability and warmup, impact positioning, and new signal response.
 
-## The six skills
+## The Six Skills
 
 An agent runs these end to end. Each names the files it reads, its steps, and how long it
 should take.
@@ -64,14 +64,14 @@ should take.
 Six [workflows](motions/workflows/) carry the connective work: campaign build, enrichment,
 signal routing, and pain-based segmentation.
 
-## How it composes
+## How It Composes
 
 This is what makes it an engine rather than a folder of documents. A play activates through
 the account's signal library, routes to a named skill, draws its numbers from that account's
 scoring model, clears the suppression ledger, and sends through one of the four channels.
 Every connection is written down, so any sent message traces back to the signal that caused it.
 
-## The rules underneath
+## The Rules Underneath
 
 **Mechanism in core, numbers in the account.** Core states how a score composes and never what
 a dimension is worth. Two accounts can score the same company differently and both be right,
@@ -86,7 +86,7 @@ search rather than by convention.
 **Suppression before every send.** Per-account, append-only, checked before every batch. There
 is no send capability in this repository and there is not meant to be.
 
-## The chain of operations
+## The Chain of Operations
 
 Every rule above sits at a level, and the levels are ordered. Composition runs down, so each
 rung is made of the one below it. Construction runs up, because instruments cohere into
@@ -131,7 +131,7 @@ source on whether capture is an unbounded function.
 instruments for the grey areas, which is what the kit reaches for when method is silent and
 when the question is whether an output is any good.
 
-## Why this shape
+## Why This Shape
 
 **The filesystem is the shared memory.** State lives on disk rather than inside a context
 window, so the session is disposable and the work is not. An agent can stop mid-campaign, hit
