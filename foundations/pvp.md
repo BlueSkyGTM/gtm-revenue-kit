@@ -4,7 +4,7 @@
 working files) — admitted under principle 1 as upstream-verified: the operator read it and
 endorsed the test. The authors' own stated rationale, recovered 2026-08-14 from their
 launch article: "this single filter eliminates most of what makes outbound bad"
-(`_archive/upstream/ARTICLE.md`).*
+(the upstream authors' launch essay, read from git history).*
 
 **Strip the CTA. If the message still teaches the prospect something about their own
 business, it passes. If it is pointless without the ask, it is a pitch.**

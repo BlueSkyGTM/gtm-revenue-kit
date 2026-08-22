@@ -43,3 +43,6 @@ accounts/**/context/signal-performance-sync.json
 # Python
 __pycache__/
 *.pyc
+
+# Superseded material — retained in git history, not in the working tree
+_archive/

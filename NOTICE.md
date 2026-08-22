@@ -25,8 +25,8 @@ and permission notice travel with the work. Retain this file, and retain any ups
 Independently of the clone above, GTM material came by a second path: the same upstream
 kit was scaffolded into a private repo (`BlueSkyGTM/fb-gtm-kit`, archived 2026-07-27),
 then vendored into `fenton-bookkeeping-os/workspaces/practice/`, where it was extended in
-use. That extension history is recorded in
-`_archive/2026-08-13-framework/DIVERGENCE.md` and in git history.
+use. That extension history is recorded in this repo's git history — superseded material is
+retained there rather than in the working tree.
 
 Both paths trace to the same MIT-licensed origin. Account content is the operator's own
 work product and carries no upstream claim.
@@ -121,5 +121,6 @@ The four-dimension signal decomposition and per-signal field anatomy in
 Shashwat Ghosh (Helix GTM Consulting), MIT License. The schema borrows the skeleton —
 dimensions and fields — not the package's code or workflow.
 
-> The upstream launch article (marketing for the original kit) is preserved at
-> `_archive/upstream/ARTICLE.md` — provenance material, not part of the product.
+> The upstream launch article (marketing for the original kit) is preserved in this repo's
+> git history — provenance material, not part of the product, and not redistributed in the
+> working tree.

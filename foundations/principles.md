@@ -12,7 +12,7 @@ decision; nothing here is inherited governance. Contracts cite these; they never
 - **Upstream-verified** — it came from the original kit *and* the operator read it and
   endorsed the reasoning as their own.
 
-Material that fails all three is reference, not law — it may sit in `_archive/` or in an
+Material that fails all three is reference, not law — it may sit in an
 account, and it may not be cited as a standard. A signal with no backstory does not enter
 the signal library (`signals/schema.md` enforces this as a required field). The sharp
 edge of the test: a method entering core **names which waste it prevents**

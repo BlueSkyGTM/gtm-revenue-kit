@@ -27,7 +27,7 @@ campaign data seeds them, nothing else.
 
 ### The launch article recovers five whys **[V]**
 
-`_archive/upstream/ARTICLE.md` — the authors' own launch essay, in this repo since the
+the authors' own launch essay (read from git history) — in this repo since the
 clone — was re-read in full. It carries the reasoning we thought was lost:
 
 1. **Signal decay:** *"most teams don't decay their signals, which means their 'active

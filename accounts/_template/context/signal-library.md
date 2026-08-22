@@ -4,7 +4,8 @@
 
 *Provenance, recovered 2026-08-14: the decay and combination mechanisms below — with
 their stated reasons — are the upstream authors' own published doctrine
-(`_archive/upstream/ARTICLE.md`). The mechanisms travel with reasoning known; every
+(the upstream authors' launch essay, read from git history). The mechanisms travel
+with reasoning known; every
 multiplier and bonus value is a starting default the account re-earns (principle 3).*
 
 Last updated: [YYYY-MM-DD]

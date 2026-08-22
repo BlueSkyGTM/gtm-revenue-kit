@@ -39,7 +39,7 @@ gtm-kit/
 ├── accounts/      the stamp (_template/) + catalog (_index.md) — operating
 │                  accounts live in deployments, never here       → its CONTEXT.md
 ├── tools/ · sync/ · examples/   linter · result-pull · Relay (read-only)
-└── _archive/      superseded material, never load
+└── (superseded material lives in git history, never in the working tree)
 ```
 
 ## Routing
