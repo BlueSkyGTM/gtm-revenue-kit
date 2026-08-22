@@ -14,7 +14,7 @@ A play is a buying moment plus everything needed to act on it. Each one names wh
 signal and where the data comes from, how fast the window decays, why it works, the message
 frame, the build, what to measure, and **when not to run it**.
 
-| Play | Fires when |
+| [Play](motions/plays/) | Fires when |
 |---|---|
 | [Inbound-Led Outbound](motions/plays/01-inbound-led-outbound.md) | An identified company hits a high-intent page, not just the homepage |
 | [Inbound Speed-to-Lead](motions/plays/07-inbound-speed-to-lead.md) | A prospect volunteers contact: a form, a signup, a booking |
@@ -54,12 +54,12 @@ should take.
 
 | [Skill](motions/skills/) | Job | Time |
 |---|---|---|
-| [`setup`](motions/skills/setup/) | Stamp a new account from the template | 15 To 30 min |
-| [`account-research`](motions/skills/account-research/) | One account researched to a written brief | 20 To 40 min |
-| [`icp-scoring`](motions/skills/icp-scoring/) | Score and tier an account, or a batch | 15 To 30 min |
-| [`signal-to-sequence`](motions/skills/signal-to-sequence/) | Turn a fired signal into a built campaign | 2 To 4 hrs |
+| [`setup`](motions/skills/setup/) | Stamp a new account from the template | 15 to 30 min |
+| [`account-research`](motions/skills/account-research/) | One account researched to a written brief | 20 to 40 min |
+| [`icp-scoring`](motions/skills/icp-scoring/) | Score and tier an account, or a batch | 15 to 30 min |
+| [`signal-to-sequence`](motions/skills/signal-to-sequence/) | Turn a fired signal into a built campaign | 2 to 4 hrs |
 | [`reply-handling`](motions/skills/reply-handling/) | Triage a reply from any campaign | On trigger |
-| [`weekly-update`](motions/skills/weekly-update/) | The operating review | 10 To 15 min |
+| [`weekly-update`](motions/skills/weekly-update/) | The operating review | 10 to 15 min |
 
 Six [workflows](motions/workflows/) carry the connective work: campaign build, enrichment,
 signal routing, and pain-based segmentation.
