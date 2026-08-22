@@ -140,6 +140,50 @@ source on whether capture is an unbounded function.
 instruments for the grey areas, which is what the kit reaches for when method is silent and
 when the question is whether an output is any good.
 
+## Orchestrating the Providers
+
+The kit is not a data source. It is the layer that decides which provider gets called, in
+what order, and whether the call is worth paying for. Claude Code drives that directly from
+the files: a session reads the contract for the job, walks the provider order it names, and
+writes results back into the account. No integration platform sits in the middle holding the
+logic.
+
+**Discovery and enrichment run as a waterfall, never as a menu.** Providers fire in sequence
+with failover, cheapest rung first, and a paid call has to justify why the free rung could
+not answer:
+
+| Rung | Providers | What it answers |
+|---|---|---|
+| Free | company site, LinkedIn, Crunchbase and PitchBook free tiers, BuiltWith, Wappalyzer, GitHub | headcount, funding history, tech stack, hiring |
+| Orchestrated | Clay, running Clearbit then People Data Labs | firmographics, contacts, seniority |
+| Paid lookup | Apollo, Hunter, NeverBounce | email discovery, validation, verification fallback |
+| Search API | SerperDev and similar, called over plain HTTP | whole-market enumeration, far cheaper at volume than credit-per-row integrations |
+
+**Signals come in the same way, from sources the account declares.** Funding rounds from
+Crunchbase or PitchBook, job postings from LinkedIn, Ashby or Otta, engagement from Common
+Room or Trigify, tech-stack movement from a BuiltWith delta, intent from 6sense, G2 or
+Bombora. Each one lands in the account's signal library with its detection method and decay
+recorded, which is what a play activates against.
+
+**A provider gateway sits under the paid rungs, and it does not get to drive.** Deepline is
+the surface the kit reaches through for provider access on the operator's own keys. Its public
+skills pack was read and triaged in
+[`decisions/`](decisions/2026-08-14-deepline-skills-triage.md): the cost gate and the
+companies-before-people discovery order were absorbed, and its meta-skill's claim to govern
+the session was refused, because the contracts route and a tool surface that claims session
+governance inverts the architecture.
+
+**Two gates sit in front of the calls, and neither substitutes for the other.** A cost gate
+runs pilot, then preview, then approve, then scale before any paid rows are bought. A consent
+gate runs before every push to a sequencer. Keys are the operator's own, per account, so the
+bill and the data both stay with whoever owns the account.
+
+The rule underneath is that provider choice is account configuration rather than doctrine. The
+kit names the order and the criteria; which vendors hold keys is declared per deployment, so
+a block that cannot say which criterion picked its tool has an undeclared setting rather than
+a preference. [`runtime-spec.md`](runtime-spec.md) holds the execution model and
+[`enrichment-techniques.md`](motions/workflows/enrichment-techniques.md) holds the cost model.
+
 ## Why File Architecture
 
 The kit is a folder tree, not an application. That is a deliberate choice about where a
@@ -196,9 +240,12 @@ the 19 inherited instruments does, and recorded it rather than back-filling it b
 **The market-mapping pipeline runs stages 1 and 2 of 6.** Folders are created as content is
 briefed rather than in advance, so the shape of the work stays visible.
 
-**The runtime is specified, not wired.** [`runtime-spec.md`](runtime-spec.md) describes the kit
-executing motions against a live tool estate. It waits on account credentials and a datastore,
-neither of which belongs in a public repository.
+**The provider orchestration is specified, not yet wired.** The waterfall order, the cost
+gate, the criteria and the signal sources are all written down and routed. What is still open
+is operator input rather than design: a Deepline account and which providers get keys, where
+each deployment's database lives, and who holds send-approval authority in writing.
+[`runtime-spec.md`](runtime-spec.md) §6 names all three. Credentials do not belong in a
+public repository, so nothing here carries one.
 
 ## Provenance
 
