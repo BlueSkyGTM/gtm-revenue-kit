@@ -93,6 +93,21 @@ than a property.
 
 ## Method and doctrine
 
+**2026-08-22 — Inherited method was compiled, not repackaged; fidelity is a correctness
+property.** The extraction of the course-derived library is a translation of prose
+instruments into executable ones: a fixed contract per play (trigger with data source and
+decay, stated reason, message frame, build, measurement, and a *when not to run it* guard),
+numbers parameterised to the tenant, activation declared against the account's signal
+library, gates as preconditions. *Consequence:* the fidelity constraint
+(`NOTICE.md` §Michael's coursework) gains its primary rationale — a translation that changes
+semantics is a broken translation, so keeping each mechanism exactly as taught is what makes
+the compilation correct. This **supersedes nothing**: the 08-21 evidential reason (no
+campaigns run, so no basis to claim improvement) still holds and is now the second reason,
+not the only one. *Consequence for claims:* the contribution is stated as the runtime, never
+as an improvement on anyone's mechanism. *Reverses if:* a case is found where preserving a
+source mechanism exactly makes the compiled instrument incorrect in its new setting, which
+would make fidelity a default rather than a property.
+
 **2026-08-13 — The four-dimension signal split is adopted** (fit / intent / relationship /
 timing). *With:* the source's weights are reported, not verified — treat as starting
 values at most. *Resolves:* whether relationship and timing are scored dimensions or play

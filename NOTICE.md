@@ -38,18 +38,33 @@ The signal-play library (`motions/plays/`, all 15), the channel playbooks
 `motions/workflows/enrichment-techniques.md` derive from coursework by **Michael**,
 curated and licensed by the operator.
 
-**What changed, and what did not.** The **mechanisms are faithful and stay faithful** — how
-each play or channel actually works is the course's, unchanged. What changed is packaging:
-abstracted to method 2026-08-08, voice stripped, every number moved out to the account
-template, and each piece modularised so it can be slotted into a system rather than run as a
-course. The curated set is not used in its entirety. The operator's own TAM framework replaces
-the skeleton stage by stage as each is briefed — that is replacement, not alteration of what
-remains.
+**What was done: the plays were compiled into executable instruments.** The source is
+coursework, written to be read by a person who then remembers how to apply it. What ships here
+is the same method expressed as software whose runtime is the filesystem. All fifteen carry an
+identical contract: the signal, why it works, the message frame, the build, the measurement,
+and a **When NOT to run it** guard. Thirteen declare their own trigger with its data source and
+decay window; the two that do not are the two that cannot, since one builds the list the others
+fire against and the other is the send channel other plays route through. Numbers are
+parameterised out to the tenant, so the same instrument serves any account. Activation is a declared condition against the account's signal library rather than a
+human deciding it is time, and the suppression check is a precondition that runs before the
+side effect.
 
-**Why fidelity, stated plainly:** changing a mechanism would mean testing it, and this kit has
-run no campaigns. With no results on the record there is no basis on which to claim an
-inherited mechanism has been improved. The position is revisited when a campaign produces
-evidence, which is what `experiments/` exists to generate. **[operator ruling, 2026-08-21]**
+That is the contribution, and it is a translation rather than an improvement. The library was
+fifteen documents somebody had to hold the wiring for; it is now fifteen instruments that fire
+on conditions and compose with the scoring model, the channels, and the gates.
+
+**Why the mechanisms stay faithful.** A translation that changes semantics is a broken
+translation. Keeping each mechanism exactly as taught is the correctness property of the
+compilation step, not deference to the source, which is why extensive restructuring and strict
+fidelity are not in tension. A second reason holds independently: this kit has run no
+campaigns, so there is no evidence on which to claim an inherited mechanism has been improved.
+That half is revisited when a campaign produces results, which is what `experiments/` exists
+to generate. **[operator ruling, 2026-08-21; rationale extended 2026-08-22]**
+
+**What else changed, and what did not.** Voice stripped, abstracted to method 2026-08-08,
+every number moved out to the account template. The curated set is not used in its entirety.
+The operator's own TAM framework replaces the skeleton stage by stage as each is briefed,
+which is replacement rather than alteration of what remains.
 
 **Status, checked 2026-08-22 `[V]`.** All 26 inherited files were audited against the whole of
 `foundations/`, not just the eight functions

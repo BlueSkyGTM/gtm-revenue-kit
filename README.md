@@ -237,6 +237,20 @@ public repository, so nothing here carries one.
 
 ## Provenance
 
+Much of the method here is inherited, and the work was compiling it rather than writing it.
+The plays arrived as coursework, meaning prose a person reads and then remembers how to
+apply. They ship as instruments with a fixed contract: the signal, why it works,
+a message frame, a build, a measurement, and a guard saying when not to run. Thirteen of the
+fifteen declare their own trigger with its data source and decay window, and the two that do
+not are the two that cannot, since one builds the list the others fire against and the other
+is the send channel other plays route through. Numbers are parameterised to the account and
+the suppression check is a precondition rather than a habit.
+
+**Every inherited mechanism is unchanged, on purpose.** A translation that alters semantics
+is a broken translation, so fidelity is what makes the compilation correct rather than a
+courtesy to the source. Nothing here claims to improve anyone's method; the claim is the
+runtime.
+
 [`NOTICE.md`](NOTICE.md) records every inherited element: what came from where, under what
 licence, and what was checked when. [`decisions/`](decisions/) carries the reasoning behind
 construction calls, including the ones later revised. Licence: [MIT](LICENSE), covering this
