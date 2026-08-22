@@ -103,8 +103,10 @@ library, gates as preconditions. *Consequence:* the fidelity constraint
 semantics is a broken translation, so keeping each mechanism exactly as taught is what makes
 the compilation correct. This **supersedes nothing**: the 08-21 evidential reason (no
 campaigns run, so no basis to claim improvement) still holds and is now the second reason,
-not the only one. *Consequence for claims:* the contribution is stated as the runtime, never
-as an improvement on anyone's mechanism. *Reverses if:* a case is found where preserving a
+not the only one. *Consequence for claims:* for any **retained** mechanism the contribution is
+stated as the runtime, never as an improvement on it. This does not touch **replacement**,
+where the operator's own substitute is named as such and may be argued as better on its
+merits — `motions/tam/BRIEF.md` §1 is the standing example, and it stays. *Reverses if:* a case is found where preserving a
 source mechanism exactly makes the compiled instrument incorrect in its new setting, which
 would make fidelity a default rather than a property.
 

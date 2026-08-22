@@ -3,7 +3,9 @@
 Channel strategy: how each outreach medium works as a system — economics, testing order,
 stack shape, process. The catalog is `README.md`; this file is the contract.
 
-**Provenance: Michael's coursework, all four** (`NOTICE.md`), abstracted 2026-08-08.
+**Provenance: Michael's coursework, all four** (`NOTICE.md`), compiled to method
+2026-08-08 with the mechanisms kept exactly as taught (`foundations/rulings.md`,
+2026-08-22).
 
 | File | Carries | Notes |
 |---|---|---|

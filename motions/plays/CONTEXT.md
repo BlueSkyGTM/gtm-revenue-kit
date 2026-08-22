@@ -4,9 +4,12 @@ Fifteen recipes, each composing the kit's skills (`icp-scoring`, `account-resear
 `signal-to-sequence`) around one signal or buyer moment. The catalog with maturity
 ratings is `README.md`; this file is the contract.
 
-**Provenance: Michael's coursework, all fifteen** (`NOTICE.md`) — method-abstracted
-2026-08-08. The mechanisms (signals, builds, measurement) are faithful to the course; two
-things are this repo's rendering, stated so nobody mistakes them for Michael's voice:
+**Provenance: Michael's coursework, all fifteen** (`NOTICE.md`) — compiled from prose
+instruments into executable ones, 2026-08-08. Each carries a fixed contract and activates on
+a declared condition; the mechanisms (signals, builds, measurement) are faithful to the
+course, which is the correctness property of that translation rather than a courtesy
+(`foundations/rulings.md`, 2026-08-22). Two things are this repo's rendering, stated so
+nobody mistakes them for Michael's voice:
 
 1. **Message frames were written against the PVP standard** during abstraction, while the
    course leans toward the fixed-slot template. Which instrument governs a campaign is
