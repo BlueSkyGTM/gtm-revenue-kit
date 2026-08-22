@@ -81,7 +81,7 @@ reading. **Worth re-ruling on better framing.** Ledgers stay separate meanwhile.
 
 **2026-08-21 — The service/function duality is named: Whitley's Duality.** The 08-14
 client-0 ruling's first clause carries enough weight to need a name, and every file relying
-on it was restating it. Definition and its trap: `lexicon.md` §The discipline — one home.
+on it was restating it. Definition and its trap: `lexicon.md` §The discipline and the roles — one home.
 *Consequence:* the **two-arm test** on any instrument entering core — read it once as
 delivered to a client, once as run by the operation on itself. An instrument surviving only
 one reading is recorded as single-arm, never generalised quietly. *Naming provenance:* the

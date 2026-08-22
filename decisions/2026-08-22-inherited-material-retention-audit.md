@@ -5,7 +5,7 @@ inherited material against the entire foundations folder rather than the eight f
 keep what is structurally relevant, and absorb it into the kit's systems instead of leaving
 isolated silos. Scope: `motions/plays/` (15), `motions/channels/` (4), `motions/tam/skeleton.md`,
 `motions/workflows/enrichment-techniques.md`, `motions/dormant/` (5) — every file whose
-provenance is `michael-course` plus the shelved set. **Method: structural scan of all 25 files
+provenance is `michael-course` plus the shelved set. **Method: structural scan of all 26 files
 against the doctrine stack** — principle 1's admission test, principles 2–6, the rung-4 subsystem
 map and the names-its-functions rule in `chain-of-operations.md`, `task-craft.md`'s six rules, the
 `failure-modes.md` self-check, `conceptual-framework.md`'s pillar criteria and seam test, and
@@ -29,7 +29,7 @@ binds, the inherited set is in good order:
 
 | Doctrine | Result |
 |---|---|
-| **Principle 3 — values live in the account** | **Clean, all 25 files.** Zero raw figures across 15 plays, 4 channels, the skeleton and the enrichment file. Every threshold is bracketed out or delegated by name to `context/scoring-model.md` |
+| **Principle 3 — values live in the account** | **Clean, all 26 files.** Zero raw figures across 15 plays, 4 channels, the skeleton and the enrichment file. Every threshold is bracketed out or delegated by name to `context/scoring-model.md` |
 | **Principle 2 — the swap test** | **Clean.** No account, client or price named anywhere in the set |
 | **Principle 4 — one home per fact** | **Clean.** Plays delegate rather than restate; the catalog/contract split is honoured (`README.md` catalogs, `CONTEXT.md` contracts) |
 | **`task-craft.md`** — form | **Clean.** Frontmatter (`type` · `provenance` · `maturity`) on every non-index file; all 15 plays share one six-heading template — signal, why it works, message frame, build, when NOT to run it, measurement |
@@ -44,7 +44,7 @@ additive wiring — not a change to how anything works.
 
 ## Verdicts
 
-### Absorb — all 25 files, with the wiring named
+### Absorb — all 26 files, with the wiring named
 
 | What | Why it earns entry (principle 1) |
 |---|---|
@@ -108,6 +108,6 @@ changed.
   step is therefore also a second, sharper test, and it may return a cull this scan could not see.
 - **The clean principle-3 result** was checked twice — a pattern scan for digits and currency, then
   a second scan for values spelled as words ("three days", "fifty percent"). Both returned nothing
-  across all 25 files. `[V]`, 2026-08-22. It would reverse only if a threshold is carried in prose
+  across all 26 files. `[V]`, 2026-08-22. It would reverse only if a threshold is carried in prose
   loose enough to evade both — which is exactly what the swap-test grep in `principles.md` §2 is
   for, run per-commit rather than once.

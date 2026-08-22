@@ -104,7 +104,7 @@ The datable "why now" is the observable incumbency and its age, both verifiable 
 - In-window versus out-of-window performance on otherwise-matched accounts: the play's
   entire thesis is that this split is large; if it is not, the anchor data is too noisy
   for this account's market
-- Standard funnel metrics against the account's benchmarks and campaign gates (`scoring-model.md` ง8); results log to the account's `signal-library.md` performance log
+- Standard funnel metrics against the account's benchmarks and campaign gates (`scoring-model.md` ยง8); results log to the account's `signal-library.md` performance log
 - Coverage: share of the incumbent-user map with a usable anchor date
 
 ---

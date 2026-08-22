@@ -81,7 +81,7 @@ the account's `optouts.md`.
 5. **Suppress, then route.** Current customers, open opportunities, unsubscribes, and
    consent-expired records exit. Survivors enter a reactivation sequence via
    `motions/skills/signal-to-sequence/SKILL.md`, segmented by what changed — per the
-   segment-by-signal discipline (the account's `scoring-model.md` �5).
+   segment-by-signal discipline (the account's `scoring-model.md` §5).
 6. **Feed marketing automation.** The refreshed attributes power segment-matched content —
    the right use case or product per industry, role, and history — for the records not yet
    warm enough for a seller.
@@ -107,10 +107,10 @@ the CTA and the message should still brief them usefully on their own new situat
 - Reveal yield: dormant records crossing into fit per refresh cycle (a collapsing yield
   means the base is mined out; a huge one means the scoring changed, not the world)
 - Reactivation performance versus the account's cold baseline — familiarity-plus-fit should
-  visibly outperform; read against the account's benchmarks (`scoring-model.md` �8)
+  visibly outperform; read against the account's benchmarks (`scoring-model.md` §8)
 - Automation unblocked: sends and workflows previously failing on missing fields, now
   executing
-- The account's campaign gates (`scoring-model.md` �8) govern any reactivation sequence; results log to
+- The account's campaign gates (`scoring-model.md` §8) govern any reactivation sequence; results log to
   the account's `signal-library.md` performance log
 
 ---

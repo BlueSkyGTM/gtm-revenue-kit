@@ -94,7 +94,7 @@ discussion arc in the space, not the individual's click history.
   means the tracked list has drifted)
 - Threshold validation: reply rate of repeat engagers versus single-touch engagers — if
   they perform the same, the accumulation threshold is decoration
-- Reply and meeting rates versus the account's cold baseline, read against the account's benchmarks (`scoring-model.md` �8)
+- Reply and meeting rates versus the account's cold baseline, read against the account's benchmarks (`scoring-model.md` §8)
 - Pipeline attributed to the signal, logged in the account's `signal-library.md`
   performance log; the account's campaign gates (`scoring-model.md` §8) govern any sequence built on it
 

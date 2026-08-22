@@ -1,4 +1,4 @@
-# GTM Kit
+# GTM Revenue Kit
 
 Machinery for **revenue engineering**: the connective layer that turns signals into won
 work without waste. One shared engine, vendored into each business OS that runs it; every
@@ -19,7 +19,7 @@ wrong account produces confident answers from the wrong buyer's facts. If unclea
 ## Folder map
 
 ```
-gtm-kit/
+gtm-revenue-kit/
 ├── CLAUDE.md · CONTEXT.md   ← this map · the task router
 ├── README.md · NOTICE.md    ← build state · attribution
 ├── estate.md                ← what the kit owns vs reads; the deployments map

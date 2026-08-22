@@ -97,7 +97,7 @@ comes, is small and specific.
 
 ## Measurement
 
-Sample sizes here are too small for rate math — the account's campaign gates (`scoring-model.md` �8)
+Sample sizes here are too small for rate math — the account's campaign gates (`scoring-model.md` §8)
 explicitly do not apply to a motion this narrow. What is worth logging, per target, in the
 account's outputs:
 

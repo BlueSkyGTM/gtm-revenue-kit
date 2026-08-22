@@ -92,7 +92,7 @@ datable "why now."
   keyword pattern needs tightening)
 - Speed: event date to first touch, held against the recency window
 - Reply and meeting rates versus the account's cold baseline — the timing advantage should
-  show up plainly, per the account's benchmarks (`scoring-model.md` �8)
+  show up plainly, per the account's benchmarks (`scoring-model.md` §8)
 - Win rate on news-sourced deals versus other sources, logged in the account's
   `signal-library.md` performance log
 

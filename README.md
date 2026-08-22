@@ -34,8 +34,8 @@ out of; start here, the argument is downstream of the artifact. Then
 | Wing | What it holds | State |
 |---|---|---|
 | [`foundations/`](foundations/) | The why-layer: the discipline's definition, the eight revenue functions, the six-rung chain of operations, failure modes, lexicon, and an append-only ruling record | **Complete** — 13 files |
-| [`motions/`](motions/) | What runs: 6 account-gated skills, 15 signal plays, 4 channel playbooks, workflows, and the market-mapping pipeline | **Skills, plays, channels live.** Pipeline stages 1–2 of 6 drafted and evaluated; 3–6 unbriefed |
-| [`accounts/_template/`](accounts/) | The stamp every operating account is copied from. Mechanism in core, every number in the account | **Complete** |
+| [`motions/`](motions/) | What runs: 6 account-gated skills, 15 signal plays, 4 channel playbooks, 4 situation playbooks, 6 workflows, 5 shelved methods, and the market-mapping pipeline | **Skills, plays, channels live.** Pipeline stages 1–2 of 6 drafted and evaluated; 3–6 unbriefed |
+| [`accounts/_template/`](accounts/) | The stamp every operating account is copied from. Mechanism in core, every number in the account | **Context files ship; `brand/` slots empty by design** — voice, offer-map and brand-psychology wait on the branding sibling |
 | [`signals/`](signals/) | The record schema a signal must satisfy to exist | **Schema written; library deliberately empty** — no record enters without its buying mechanism stated |
 | [`experiments/`](experiments/) | Open method conflicts, queued as tests rather than resolved by preference | **2 queued, 0 run** |
 | [`decisions/`](decisions/) | Construction-level calls with their evidence, including the ones that were wrong | **6 records** |
@@ -75,7 +75,13 @@ suppression before anything sends.
    functions it serves** — a rule written after the material it governs
    ([audit](decisions/2026-08-22-inherited-material-retention-audit.md)). Folders are created as
    content is briefed, never before, so both gaps stay visible.
-5. **Open questions belong to the operator**, listed in
+5. **Known internal inconsistencies**, found by walking the kit cold before publishing and
+   recorded in full ([the walk test](decisions/2026-08-22-cold-walk-test.md)): the copy linter
+   contracts against a `brand/voice.md` no account setup produces, so that gate is currently
+   decorative; the router and the account-research skill disagree on where output lands; two of six
+   skills lack the `## Inputs` block their shelf contract requires; `playbooks/` and `dormant/` are
+   unreachable from the task router.
+6. **Open questions belong to the operator**, listed in
    [`foundations/rulings.md`](foundations/rulings.md) §Open. A session that needs one asks; it
    does not decide.
 

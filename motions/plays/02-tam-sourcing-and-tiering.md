@@ -59,7 +59,7 @@ purchase.
    similar). Err inclusive at this step; the scoring pass does the excluding.
 2. **Enrich to scoreable.** Fill the attributes the account's `scoring-model.md` actually
    scores on โ€” nothing more. Enrichment coverage below the account's enrichment gate
-   (`scoring-model.md` ง8) means the scores are fiction; fix coverage before tiering.
+   (`scoring-model.md` ยง8) means the scores are fiction; fix coverage before tiering.
 3. **Score and tier.** Run `motions/skills/icp-scoring/SKILL.md` across the map. Band boundaries
    come from the account's `scoring-model.md`. The output is every company in exactly one
    tier, including an explicit below-threshold tier that nobody works.
@@ -92,7 +92,7 @@ or run the light-touch treatment the tier's band prescribes.
   and after
 - Conversations per seller per day โ€” the number this play exists to raise
 - Map health: enrichment coverage and staleness (time since last refresh), held against the account's
-  gates (`scoring-model.md` ง8)
+  gates (`scoring-model.md` ยง8)
 - Tier honesty: win rate by tier should slope the way the model predicts. A flat slope
   means the scoring model is not discriminating and needs recalibration in the account's
   `scoring-model.md`
@@ -113,4 +113,4 @@ or run the light-touch treatment the tier's band prescribes.
   the costume of rigor.
 - **To dodge the segment-purity rule.** Tiers are budget bands, not audiences. Blending
   tiers into one campaign to hit the audience-size gate violates the segmentation discipline
-  (the account's `scoring-model.md` ง5).
+  (the account's `scoring-model.md` ยง5).

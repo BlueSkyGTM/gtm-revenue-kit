@@ -110,7 +110,7 @@ the reader supplies it themselves, which is stronger than saying it.
 - Content engagement within the targeted segment versus outside it (the air cover only
   counts where the ground game is aimed)
 - Reply, meeting, and evaluation-entry rates for the affected segment versus the
-  account's baseline competitive outreach, read against the account's benchmarks (`scoring-model.md` �8)
+  account's baseline competitive outreach, read against the account's benchmarks (`scoring-model.md` §8)
 - Deal outcomes and offer economics: what the migration-plus-bridge concession cost
   against what the displaced deals returned — reviewed per event, priced by the account
 - False-alarm rate at the verification step (a noisy monitor trains the team to ignore it)

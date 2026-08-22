@@ -107,7 +107,7 @@ per the standard.
   audience is wrong)
 - Open-profile hit rate on target lists, and direct-message versus connect-first
   conversion, to validate the routing attribute's value
-- Reply and meeting rates per profile and per motion, read against the account's benchmarks (`scoring-model.md` �8)
+- Reply and meeting rates per profile and per motion, read against the account's benchmarks (`scoring-model.md` §8)
 - Handoff integrity: share of live conversations actually carried by the named human —
   the authenticity debt, audited
 - Platform health per profile (restrictions, warnings) — a leading indicator that the

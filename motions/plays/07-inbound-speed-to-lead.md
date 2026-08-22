@@ -96,7 +96,7 @@ polite to reference directly.
   faster converts better; the buckets prove or refute it for this account
 - Scoring accuracy: sellers' post-call verdicts versus the automated tier, feeding
   corrections back into the account's `scoring-model.md`
-- Funnel diagnostics per the account's benchmarks (`scoring-model.md` ง8) for the response sequence itself
+- Funnel diagnostics per the account's benchmarks (`scoring-model.md` ยง8) for the response sequence itself
 
 ---
 

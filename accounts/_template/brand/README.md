@@ -19,7 +19,7 @@ they must contain either way.
 ## The contract with `context/`
 
 **The brand layer feeds the context files; it never duplicates them.** One home per fact
-(`foundations/principles.md` §5):
+(`foundations/principles.md` §4):
 
 - `brand/offer-map.md` holds the offer's *promise and shape*. Prices, if this account keeps
   them in the repo at all, live in one file and are pointed at, not restated.

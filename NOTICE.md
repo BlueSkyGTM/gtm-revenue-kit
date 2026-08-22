@@ -51,7 +51,7 @@ run no campaigns. With no results on the record there is no basis on which to cl
 inherited mechanism has been improved. The position is revisited when a campaign produces
 evidence, which is what `experiments/` exists to generate. **[operator ruling, 2026-08-21]**
 
-**Status, checked 2026-08-22 `[V]`.** All 25 inherited files were audited against the whole of
+**Status, checked 2026-08-22 `[V]`.** All 26 inherited files were audited against the whole of
 `foundations/`, not just the eight functions
 (`decisions/2026-08-22-inherited-material-retention-audit.md`). Result: clean on the swap test,
 on one-home-per-fact, and on values-live-in-the-account — zero figures, in digits or words,

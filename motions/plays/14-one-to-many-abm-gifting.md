@@ -113,7 +113,7 @@ the delivery event itself, plus whatever tier-one signal put the account on the 
 - Follow-up latency: delivery-to-outreach time per seller, against the window
 - Reply, meeting, and pipeline per batch, priced against fully loaded cost per package —
   the play justifies itself in return on spend, not in rate benchmarks; batch sizes sit
-  below the campaign-gate audience threshold in the account's `scoring-model.md` �8, so read rates with
+  below the campaign-gate audience threshold in the account's `scoring-model.md` §8, so read rates with
   small-sample caution and judge on pipeline economics
 - Compliance incidents: the acceptable number is zero
 
