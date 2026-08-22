@@ -106,25 +106,33 @@ systems, running systems reveal an architecture, and architecture distils into p
 instruments, its account template is a system's shape, and its motions are what operations
 run. Nothing in core belongs at rungs 1 to 3 except the files that state them.
 
-Rung 1 is the eight functions a revenue system has to perform. Naming what each one owns is
-what turns a list into a backbone:
+Rung 1 is the eight functions, and they are the load-bearing columns of any revenue system
+rather than a description of this one. **No tool appears in any of them**, which is why
+swapping the stack never takes you out of the discipline, and why the same eight describe a
+software company and a bookkeeping practice equally well.
 
-| Function | What it owns |
-|---|---|
-| Identify | the market map, the scoring model, the signal library |
-| Offer | positioning, pricing, the messaging house |
-| Reach | channel playbooks, deliverability, inbox warmup |
-| Capture | forms, reply handling, speed to lead |
-| Move | tier-based treatment, sequences, meetings |
-| Retain | the CRM record, dated outputs, one master copy of every field |
-| Follow up | sequence timing, touches checked against the do-not-contact list |
-| Learn | campaign results flowing back, the refresh pass, the calibration log |
+| Function | What it governs | Examples of what fills it |
+|---|---|---|
+| **Identify** | who is worth contacting at all, and who is ruled out | a scoring model, a target market map, intent signals, an exclusion list |
+| **Offer** | what is being sold, to whom, on what terms | positioning, pricing, packaging, the messaging house |
+| **Reach** | how a first touch actually gets made | cold email, calls, LinkedIn, events, partner referrals, ads |
+| **Capture** | what happens the moment someone raises a hand | forms, reply handling, speed to lead, routing to an owner |
+| **Move** | how interest becomes a signed customer | sequences, meetings, proposals, tier-based treatment |
+| **Retain** | how a customer stays one | the CRM record, renewal tracking, delivery, account reviews |
+| **Follow up** | everyone who has not said yes yet | nurture timing, re-approach rules, do-not-contact checks |
+| **Learn** | how results feed back and change the system | win/loss review, campaign results, rescoring, the calibration log |
+
+**The columns are fixed and what fills them is not.** Reach is a requirement; which channel
+answers it is the account's choice. The scoring mechanism lives in core; the weights and
+thresholds live in the account. Refusing to fix the filling is what lets one frame connect
+businesses that share nothing, and it is the values-in-the-account rule one level up.
 
 Two things stop this being decoration. **The frame is labelled as chosen rather than
 discovered**: [`chain-of-operations.md`](foundations/chain-of-operations.md) dates the check
 and states where the strong form of the claim fails, since "fails one, fails as a revenue
 system" holds for identify, offer, reach, capture and move but is too strong for retain and
-learn, which businesses neglect for years while still making money. **And corrections stay in
+learn, which businesses neglect for years while still making money. Those two are what
+separates a system that compounds from one that merely repeats. **And corrections stay in
 place rather than being edited away**: the same file carries a dated reversal of its own
 source on whether capture is an unbounded function.
 
@@ -132,7 +140,10 @@ source on whether capture is an unbounded function.
 instruments for the grey areas, which is what the kit reaches for when method is silent and
 when the question is whether an output is any good.
 
-## Why This Shape
+## Why File Architecture
+
+The kit is a folder tree, not an application. That is a deliberate choice about where a
+revenue system's state should live, and this is what it buys.
 
 **The filesystem is the shared memory.** State lives on disk rather than inside a context
 window, so the session is disposable and the work is not. An agent can stop mid-campaign, hit
