@@ -87,6 +87,62 @@ search rather than by convention.
 **Suppression before every send.** Per-account, append-only, checked before every batch. There
 is no send capability in this repository and there is not meant to be.
 
+## The chain of operations
+
+Every rule above sits at a level, and the levels are ordered. Composition runs down, so each
+rung is made of the one below it. Construction runs up, because instruments cohere into
+systems, running systems reveal an architecture, and architecture distils into principles.
+
+```mermaid
+flowchart TB
+    R1["1 · The eight functions<br/>what a revenue system must do"]
+    R2["2 · Revenue architecture<br/>design doctrine, plus this kit's principles"]
+    R3["3 · Systems architecture<br/>the design layer; models are its vocabulary"]
+    R4["4 · Systems<br/>the built backbone, one per business"]
+    R5["5 · Instruments<br/>skills · plays · workflows · connectors"]
+    R6["6 · Operations<br/>campaigns running; output is pipeline, then revenue"]
+    R1 --> R2 --> R3 --> R4 --> R5 --> R6
+    R6 -. "learning rewrites the rungs above it" .-> R1
+    style R5 stroke-width:3px
+```
+
+**This kit is rung 5, organised to serve rung 4, executed at rung 6.** Its method files are
+instruments, its account template is a system's shape, and its motions are what operations
+run. Nothing in core belongs at rungs 1 to 3 except the files that state them.
+
+Rung 1 is the eight functions a revenue system has to perform. Each one names the subsystem
+that owns it, so the backbone is derived rather than designed:
+
+| Function | Subsystem | Owns |
+|---|---|---|
+| Identify | Targeting | the TAM artifact, the scoring model, the signal library |
+| Offer | Offer | positioning, pricing, the messaging house |
+| Reach | Channel | channel playbooks, deliverability, warmup |
+| Capture | Intake | forms, reply handling, speed-to-lead |
+| Move | Sales process | tiers as treatment, sequences, meetings |
+| Retain | Records | the account record, dated outputs, one home per fact |
+| Follow up | Follow-up | sequence timing, suppression-checked touches |
+| Learn | Feedback | result sync, the refresh pass, the calibration log |
+| *spans all eight* | **Governance** | consent, capacity, authority, deliverability, isolation |
+
+**Governance spans the eight rather than sitting among them, and that placement is a finding
+rather than a tidy-up.** The functions describe capability, and not one of them names consent,
+capacity, approval authority, or deliverability. A system can execute all eight perfectly
+while sending to opt-outs, booking past what delivery can absorb, or burning its sending
+domain.
+
+Two things stop this being decoration. **The frame is labelled as chosen rather than
+discovered**: [`chain-of-operations.md`](foundations/chain-of-operations.md) dates the check
+and states where the strong form of the claim fails, since "fails one, fails as a revenue
+system" holds for identify, offer, reach, capture and move but is too strong for retain and
+learn, which businesses neglect for years while still making money. **And corrections stay in
+place rather than being edited away**: the same file carries a dated reversal of its own
+source on whether capture is an unbounded function.
+
+[`conceptual-framework.md`](foundations/conceptual-framework.md) turns the eight into judgment
+instruments for the grey areas, which is what the kit reaches for when method is silent and
+when the question is whether an output is any good.
+
 ## Why this shape
 
 **The filesystem is the shared memory.** State lives on disk rather than inside a context
@@ -131,6 +187,11 @@ means the feedback loop that rewrites scoring from results is designed rather th
 
 **Reach is built out; capture is partial.** The plays, channels, and reply handling all ship.
 Landing pages and forms belong to a separate machine by design and are not here.
+
+**The instruments do not declare their functions yet.** Doctrine requires every skill, play
+and workflow to name which of the eight it serves. An audit on 2026-08-22 found that none of
+the 19 inherited instruments does, and recorded it rather than back-filling it blind. Open, in
+[`decisions/`](decisions/).
 
 **The market-mapping pipeline runs stages 1 and 2 of 6.** Folders are created as content is
 briefed rather than in advance, so the shape of the work stays visible.
