@@ -1,89 +1,90 @@
 # GTM Revenue Kit
 
 **Revenue pipelines as file architecture.** The rules that decide who gets contacted, what they
-get sent, and what must be true before anything sends. Written down as files, in version control,
-where a person can read them and disagree with them.
+get sent, and what must be true before anything sends. Written as files, in version control, where
+a person can read them and disagree with them.
 
 One agent walks the folder structure, loads the one contract its task names, and stops. There is
 no framework to install and no orchestration layer to reason about. **The structure is the
 program.**
 
-**The argument.** The failure this is built against is *unreadable state*: systems where nobody
-can look and see what the thing will do next, and where connection count gets mistaken for
-capability. Here the state **is** files.
+## The argument
 
-This is where the field has landed, not a private preference. Anthropic's published engineering
-guidance on building agents reaches it from the model side: simple composable patterns over
-frameworks, and systems transparent enough that a person can see *why* the thing did what it did.
-**This kit is that principle applied to revenue work.** The reason a prospect was contacted, or
-excluded, is a file you can open and argue with.
+Most go-to-market logic lives inside SaaS configuration screens, where nobody can read it, review
+it, or say why an account was contacted. The failure that produces is *unreadable state*: systems
+where no one on the team can look and see what the thing will do next, and where connection count
+gets mistaken for capability.
 
-**The boundary, in the same breath.** This loses at real-time multi-agent collaboration,
-high-concurrency serving, and automated mid-pipeline branching, which need framework code. It
-suits sequential, human-reviewed, repeatable work. That is most revenue work, but not all of it.
+Here the state **is** files. The reason a prospect was contacted, or excluded, is a document you
+can open and argue with.
+
+This is where the field has landed rather than a private preference. Anthropic's published
+engineering guidance on building agents reaches the same conclusion from the model side: simple
+composable patterns over frameworks, and systems transparent enough that a person can see *why*
+the thing did what it did. This kit applies that to revenue work.
+
+**The boundary, stated in the same breath.** This approach loses at real-time multi-agent
+collaboration, high-concurrency serving, and automated mid-pipeline branching, all of which need
+framework code. It suits sequential, human-reviewed, repeatable work, which is most revenue work
+but not all of it.
 
 ## Read it in five minutes
 
 [`examples/sample-company/`](examples/sample-company/) holds a produced campaign and the folder it
-came out of. Start there. The argument is downstream of the artifact. Then
+came out of. Start there; the argument is downstream of the artifact. Then
 [`CONTEXT.md`](CONTEXT.md), the task router: every job and the one file that holds it. Then
 [`foundations/principles.md`](foundations/principles.md), the six rules, one page.
 
-## What this is
+## What it holds
 
-| Wing | What it holds | State |
-|---|---|---|
-| [`foundations/`](foundations/) | The why-layer: the discipline's definition, the eight revenue functions, the six-rung chain of operations, failure modes, lexicon, and an append-only ruling record | **Complete**, 13 files |
-| [`motions/`](motions/) | What runs: 6 account-gated skills, 15 signal plays, 4 channel playbooks, 4 situation playbooks, 6 workflows, 5 shelved methods, and the market-mapping pipeline | **Skills, plays, channels live.** Pipeline stages 1-2 of 6 drafted and evaluated; 3-6 unbriefed |
-| [`accounts/_template/`](accounts/) | The stamp every operating account is copied from. Mechanism in core, every number in the account | **Context files ship; `brand/` slots empty by design.** Voice, offer-map and brand-psychology wait on the branding sibling |
-| [`signals/`](signals/) | The record schema a signal must satisfy to exist | **Schema written; library deliberately empty.** No record enters without its buying mechanism stated |
-| [`experiments/`](experiments/) | Open method conflicts, queued as tests rather than resolved by preference | **2 queued, 0 run** |
-| [`decisions/`](decisions/) | Construction-level calls with their evidence, including the ones that were wrong | **6 records** |
+| Wing | What it does |
+|---|---|
+| [`motions/`](motions/) | What runs: 6 account-gated skills, 15 signal plays, 4 channel playbooks, 4 situation playbooks, 6 workflows, and a staged market-mapping pipeline |
+| [`foundations/`](foundations/) | The why-layer, 13 files: the discipline's definition, the eight revenue functions, a six-rung chain of operations, failure modes, a lexicon, and an append-only ruling record |
+| [`accounts/_template/`](accounts/) | The stamp every operating account is copied from. Mechanism lives in core, every number lives in the account |
+| [`signals/`](signals/) | The record schema a signal must satisfy to exist. No record enters without its buying mechanism stated |
+| [`experiments/`](experiments/) | Method conflicts queued as tests rather than settled by preference |
+| [`decisions/`](decisions/) | Construction-level calls with their evidence, and the condition that would reverse each one |
 
-## What it is not
+## How it is built
 
-Not a multi-agent framework, not a SaaS product, not a sequencer. **There is no send capability in
-this repository and there is not meant to be.** Suppression is checked before every batch, per
-account, append-only. The wall between method and sending is a design decision rather than a
-missing feature.
+**Mechanism separated from values.** Core states how a score composes, never what a dimension is
+worth. Two accounts can score the same company differently and both be right, which is what makes
+one engine serve many tenants without forking.
 
-## Technical achievements
+**A swap test that runs.** Every rule must read correctly for any account, or it is instance data
+filed in the wrong place. Enforced by search rather than by convention.
 
-**Inherited proven, not claimed.** The upstream kit supplied the multi-account architecture, the
-account gate carried inline by all six skills, per-account append-only suppression, and the
-send-tool wall. The plays and channel playbooks came from coursework and **their mechanisms are
-unchanged.** With no campaign run there is no evidence on which to claim an improvement, and
-saying otherwise is the kind of thing this repo exists to catch.
+**One home per fact.** A number written twice will disagree with itself within a month, so scoring
+values, thresholds, and buyer facts each live in exactly one file and everything else points at it.
 
-**What this repo built:** the doctrine layer. An admission test nothing enters without passing. A
-swap test making account contamination mechanically checkable. A conceptual framework on the FASB
-pattern, so a session derives a treatment from the pillars when method is silent instead of
-improvising or stalling. A six-question self-check before anything commits. Plus the wiring that
-turns a shelf of documents into an ecosystem: a play activates through the account's signal
-library, routes to a named skill, takes its numbers from that account's scoring model, and clears
-suppression before anything sends.
+**Admission before entry.** Nothing joins the method library without a stated, categorised
+justification. What cannot state one is reference, not standard.
 
-## Room for growth
+**Suppression as a gate.** Opt-out ledgers are per-account and append-only, checked before every
+batch. There is no send capability in this repository and there is not meant to be; the wall
+between method and sending is a design decision.
 
-1. **Nothing has been sent.** Zero campaigns, zero prospects contacted. `learn` is structurally
-   present and empty in practice. The flywheel exists on paper and has never turned.
-2. **Capture is half-built.** Reply handling and intake are live. The page-and-form half is
-   declared out of scope and not built ([`estate.md`](estate.md)).
-3. **The runtime is specified, not wired.** [`runtime-spec.md`](runtime-spec.md) is v0 and marked
-   SPEC ONLY. Three operator inputs gate every execution block.
-4. **Pipeline stages 3-6 have no briefs**, and **no instrument yet declares which of the eight
-   functions it serves**, a rule written after the material it governs
-   ([audit](decisions/2026-08-22-inherited-material-retention-audit.md)). Folders are created as
-   content is briefed, never before, so both gaps stay visible.
-5. **Known internal inconsistencies**, found by walking the kit cold before publishing and
-   recorded in full ([the walk test](decisions/2026-08-22-cold-walk-test.md)). The copy linter
-   contracts against a `brand/voice.md` no account setup produces, so that gate is currently
-   decorative. The router and the account-research skill disagree on where output lands. Two of
-   six skills lack the `## Inputs` block their shelf contract requires. `playbooks/` and
-   `dormant/` are unreachable from the task router.
-6. **Open questions belong to the operator**, listed in
-   [`foundations/rulings.md`](foundations/rulings.md) §Open. A session that needs one asks; it
-   does not decide.
+**Composable, not a shelf.** A play activates through the account's signal library, routes to a
+named skill, takes its numbers from that account's scoring model, and clears suppression before
+anything sends. The connections are written down rather than held in someone's head.
+
+## Scope
+
+**Built and documented; operating history still ahead of it.** The method library, the account
+stamp, and the doctrine layer are complete and routed. The first campaign has not run, which means
+the feedback loop that rewrites scoring from results is designed rather than exercised.
+
+**Reach is built out; capture is partial.** Four channel playbooks, fifteen signal plays, and
+reply handling all ship. Landing pages and forms belong to a separate machine by design and are
+not here.
+
+**The market-mapping pipeline runs stages 1 and 2 of 6.** Folders are created as content is
+briefed rather than in advance, so the shape of the work is always visible.
+
+**The runtime is specified, not wired.** [`runtime-spec.md`](runtime-spec.md) describes the kit
+executing motions against a live tool estate. It waits on account credentials and a datastore,
+neither of which belongs in a public repository.
 
 ## Rules of the road
 
@@ -93,8 +94,7 @@ never a whole folder. Full text: [`foundations/principles.md`](foundations/princ
 
 ## Provenance
 
-[`NOTICE.md`](NOTICE.md) records every inherited element: what came from where, under what
-licence, what was checked and when. It also records a credential mistake this project made
-assessing a source, and its retraction. Both are kept on purpose. [`decisions/`](decisions/) is a
-record of reasoning, including reasoning that turned out to be wrong. Licence:
-[MIT](LICENSE), covering this repository's own work.
+[`NOTICE.md`](NOTICE.md) records every inherited element: what came from where, under what licence,
+and what was checked when. [`decisions/`](decisions/) carries the reasoning behind construction
+calls, including the ones that were later revised. Licence: [MIT](LICENSE), covering this
+repository's own work.
