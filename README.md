@@ -146,12 +146,12 @@ logic.
 
 | Job | Runs on | What it does |
 |---|---|---|
-| Ops and provider access | Deepline | Routes every provider call on the operator's own keys |
-| Company data | Company site, LinkedIn, Crunchbase, PitchBook, BuiltWith, Wappalyzer, GitHub | Headcount, funding history, tech stack, hiring |
-| Contact data | Clay, running Clearbit then People Data Labs | Firmographics, contacts, seniority |
-| Email discovery and verification | Apollo, Hunter, NeverBounce | Finds an address, then proves it is deliverable |
-| Market enumeration | SerperDev, called over plain HTTP | Pulls a whole market instead of buying it a row at a time |
-| Signal detection | Crunchbase, Ashby, Otta, Common Room, Trigify, 6sense, G2, Bombora | Watches for the events plays fire on |
+| Ops and Provider Access | Deepline | Routes every provider call on the operator's own keys |
+| Company Data | Company site, LinkedIn, Crunchbase, PitchBook, BuiltWith, Wappalyzer, GitHub | Headcount, funding history, tech stack, hiring |
+| Contact Data | Clay, running Clearbit then People Data Labs | Firmographics, contacts, seniority |
+| Email Discovery and Verification | Apollo, Hunter, NeverBounce | Finds an address, then proves it is deliverable |
+| Market Enumeration | SerperDev, called over plain HTTP | Pulls a whole market instead of buying it a row at a time |
+| Signal Detection | Crunchbase, Ashby, Otta, Common Room, Trigify, 6sense, G2, Bombora | Watches for the events plays fire on |
 
 Inside each job the providers run in sequence with failover, never as a menu to shop between,
 and a paid call has to justify why a free source could not answer it. Detected signals land in
