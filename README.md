@@ -77,8 +77,9 @@ Every connection is written down, so any sent message traces back to the signal 
 a dimension is worth. Two accounts can score the same company differently and both be right,
 which is what lets one engine serve many clients without forking.
 
-**One home per fact.** A number written twice will disagree with itself within a month, so
-scoring values, thresholds, and buyer facts each live in exactly one file.
+**One master copy of every fact.** A number written twice will disagree with itself within a
+month, so scoring values, thresholds, and buyer facts each live in exactly one file. The
+kit's own name for this rule is one home per fact.
 
 **Core never names an account.** Every rule must read correctly for any client. Enforced by
 search rather than by convention.
@@ -105,19 +106,19 @@ systems, running systems reveal an architecture, and architecture distils into p
 instruments, its account template is a system's shape, and its motions are what operations
 run. Nothing in core belongs at rungs 1 to 3 except the files that state them.
 
-Rung 1 is the eight functions a revenue system has to perform. Each one names the subsystem
-that owns it, so the backbone is derived rather than designed:
+Rung 1 is the eight functions a revenue system has to perform. Naming what each one owns is
+what turns a list into a backbone:
 
-| Function | Subsystem | Owns |
-|---|---|---|
-| Identify | Targeting | the TAM artifact, the scoring model, the signal library |
-| Offer | Offer | positioning, pricing, the messaging house |
-| Reach | Channel | channel playbooks, deliverability, warmup |
-| Capture | Intake | forms, reply handling, speed-to-lead |
-| Move | Sales process | tiers as treatment, sequences, meetings |
-| Retain | Records | the account record, dated outputs, one home per fact |
-| Follow up | Follow-up | sequence timing, suppression-checked touches |
-| Learn | Feedback | result sync, the refresh pass, the calibration log |
+| Function | What it owns |
+|---|---|
+| Identify | the market map, the scoring model, the signal library |
+| Offer | positioning, pricing, the messaging house |
+| Reach | channel playbooks, deliverability, inbox warmup |
+| Capture | forms, reply handling, speed to lead |
+| Move | tier-based treatment, sequences, meetings |
+| Retain | the CRM record, dated outputs, one master copy of every field |
+| Follow up | sequence timing, touches checked against the do-not-contact list |
+| Learn | campaign results flowing back, the refresh pass, the calibration log |
 
 Two things stop this being decoration. **The frame is labelled as chosen rather than
 discovered**: [`chain-of-operations.md`](foundations/chain-of-operations.md) dates the check
