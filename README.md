@@ -240,10 +240,10 @@ public repository, so nothing here carries one.
 Much of the method here is inherited, and the work was compiling it rather than writing it.
 The plays arrived as coursework, meaning prose a person reads and then remembers how to
 apply. They ship as instruments with a fixed contract: the signal, why it works,
-a message frame, a build, a measurement, and a guard saying when not to run. Thirteen of the
-fifteen declare their own trigger with its data source and decay window, and the two that do
-not are the two that cannot, since one builds the list the others fire against and the other
-is the send channel other plays route through. Numbers are parameterised to the account and
+a message frame, a build, a measurement, and a guard saying when not to run. Thirteen fire on a trigger
+they declare themselves, with its data source and decay window, and the remaining two are
+activated by the library rather than by an outside event: one builds the list the others fire
+against, the other is the send channel they route through. Numbers are parameterised to the account and
 the suppression check is a precondition rather than a habit.
 
 **Every inherited mechanism is unchanged, on purpose.** A translation that alters semantics

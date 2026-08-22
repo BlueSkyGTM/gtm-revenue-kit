@@ -42,9 +42,10 @@ curated and licensed by the operator.
 coursework, written to be read by a person who then remembers how to apply it. What ships here
 is the same method expressed as software whose runtime is the filesystem. All fifteen carry an
 identical contract: the signal, why it works, the message frame, the build, the measurement,
-and a **When NOT to run it** guard. Thirteen declare their own trigger with its data source and
-decay window; the two that do not are the two that cannot, since one builds the list the others
-fire against and the other is the send channel other plays route through. Numbers are
+and a **When NOT to run it** guard. Thirteen fire on a trigger they declare themselves, with its
+data source and decay window; the remaining two are activated by the library rather than by an
+outside event, one building the list the others fire against and one being the send channel
+they route through. Numbers are
 parameterised out to the tenant, so the same instrument serves any account. Activation is a declared condition against the account's signal library rather than a
 human deciding it is time, and the suppression check is a precondition that runs before the
 side effect.
