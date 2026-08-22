@@ -46,3 +46,6 @@ __pycache__/
 
 # Superseded material — retained in git history, not in the working tree
 _archive/
+
+# Session handoffs — working artifacts, not method
+Handoff*.md
