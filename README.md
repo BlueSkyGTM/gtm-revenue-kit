@@ -87,13 +87,37 @@ search rather than by convention.
 **Suppression before every send.** Per-account, append-only, checked before every batch. There
 is no send capability in this repository and there is not meant to be.
 
-## Why files
+## Why this shape
 
-Most go-to-market logic lives inside configuration screens where nobody can read it, review
-it, or say why an account was contacted. Here the state is files, so the reason a prospect was
-contacted, or excluded, is a document you can open and argue with. The tradeoff is real: this
-suits sequential, human-reviewed, repeatable work, and it loses at high-concurrency serving
-and automated mid-pipeline branching, which genuinely need framework code.
+**The filesystem is the shared memory.** State lives on disk rather than inside a context
+window, so the session is disposable and the work is not. An agent can stop mid-campaign, hit
+its limit, or be a different model next week, and the next one resumes from files that record
+what happened and what is still owed. Nothing has to be held in memory or passed between
+agents through a protocol.
+
+**Work is split across agents deliberately, and not for speed.** The load rules are strict
+about what may share a session: one campaign workflow at a time, and never two rule systems
+that judge each other's output. Copy discipline and scoring discipline in the same session
+produce nonsense in both directions. Keeping them apart is a correctness property, which is
+what makes this a multi-agent design rather than one assistant holding a very large prompt.
+
+**Contracts are the interface.** Seventeen `CONTEXT.md` files each name what their folder
+takes in and what it hands on. An agent loads the one contract its task names and stops,
+which is what keeps a library this size usable by a model that can hold only a fraction of it
+at once. A handoff is a file at a known path, not a message.
+
+**Accounts do not contend.** Every number lives in its own account, and outputs are written
+new each run, dated, never rewritten. Agents working different accounts share no mutable
+state, and the suppression ledger, the one thing that must stay correct under concurrent
+writes, is append-only.
+
+**And a person can read all of it**, which is the part that matters when the work is
+reviewed. Most go-to-market logic lives in configuration screens where nobody can say why an
+account was contacted. Here that reason is a document you can open and disagree with.
+
+The honest boundary: handoffs are sequential and human-gated. Several agents running at once
+against the same object, with shared mutable state and automated mid-pipeline branching, is
+what framework code is for and is not what this is.
 
 The [`foundations/`](foundations/) wing holds the why-layer in 13 files, including an
 append-only record of rulings and the failure modes this kind of system falls into.
