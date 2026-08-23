@@ -18,6 +18,10 @@ named account's folder inside its deployment (`estate.md` says which deployment)
 | Build signal-led (a signal fired) | `motions/workflows/campaign-build.md` | One campaign workflow per session, never both |
 | Pick a play for a buyer moment | `motions/plays/README.md` | Michael's 15 — a play activates via the account's `signal-library.md` |
 | Choose or tune a channel | `motions/channels/README.md` | Cold email · cold calls · LinkedIn ABM · micro-lists |
+| A recurring situation, not a signal or a medium | `motions/playbooks/CONTEXT.md` | New signal response · competitor switch · deliverability and warmup · IMPACT positioning |
+| A motion needs a framework core does not run yet | `motions/dormant/CONTEXT.md` | Five shelved skeletons — read the `Activate when:` line, do not load the file |
+| See a finished account before filling a blank one | `examples/sample-company/` | The whole engine populated: context, research, a campaign, a weekly log |
+| Pull campaign results back in | `sync/CONTEXT.md` | Read-only; the account's scoring model is what results rewrite |
 | A signal needs to exist | `signals/schema.md` | No "why it matters," no entry |
 | Define segments by pain, not structure | `motions/workflows/pain-based-segmentation.md` | Competing instrument — declare which map drew the audience (`experiments/002`) |
 | First-touch copy question | `foundations/pvp.md` | Two instruments, account's choice, never blended (`experiments/001`) |

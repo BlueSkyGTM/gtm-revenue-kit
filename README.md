@@ -10,9 +10,9 @@ weekly log.
 
 ## The Fifteen Plays
 
-A play is a buying moment plus everything needed to act on it. Each one names what fires the
-signal and where the data comes from, how fast the window decays, why it works, the message
-frame, the build, what to measure, and **when not to run it**.
+A play is a buying moment plus everything needed to act on it. All fifteen carry the same six
+parts: the signal that starts it, why it works, the message frame, the build, what to measure,
+and **when not to run it**.
 
 | [Play](motions/plays/) | Fires when |
 |---|---|
@@ -239,12 +239,9 @@ public repository, so nothing here carries one.
 
 Much of the method here is inherited, and the work was compiling it rather than writing it.
 The plays arrived as coursework, meaning prose a person reads and then remembers how to
-apply. They ship as instruments with a fixed contract: the signal, why it works,
-a message frame, a build, a measurement, and a guard saying when not to run. Thirteen fire on a trigger
-they declare themselves, with its data source and decay window, and the remaining two are
-activated by the library rather than by an outside event: one builds the list the others fire
-against, the other is the send channel they route through. Numbers are parameterised to the account and
-the suppression check is a precondition rather than a habit.
+apply. They ship as instruments with a fixed contract, activating on declared
+conditions, with every number parameterised to the account and the suppression check standing
+as a precondition rather than a habit.
 
 **Every inherited mechanism is unchanged, on purpose.** A translation that alters semantics
 is a broken translation, so fidelity is what makes the compilation correct rather than a
