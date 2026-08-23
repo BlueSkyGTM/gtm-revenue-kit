@@ -1,12 +1,12 @@
 # GTM Revenue Kit
 
-**A complete outbound engine, written as files.** Fifteen plays, four channel guides, six
-skills an agent runs end to end, and the scoring and suppression rules that gate them. It
-decides who gets contacted, what they get sent, and what has to be true before anything sends.
+**The machinery that decides who gets contacted, what they get sent, and what has to be true
+before anything sends.** Fifteen plays, four channel guides, six skills an agent runs end to
+end, and the scoring and suppression rules that gate them.
 
-Every rule is a document you can open, read, and disagree with. Nothing is buried in a
-settings screen. Start with [`examples/sample-company/`](examples/sample-company/): a produced
-campaign and the folder it came out of.
+[`examples/sample-company/`](examples/sample-company/) is the whole engine filled in for one
+company: the context files, a research brief, a built campaign with its sequences, and a
+weekly log.
 
 ## The Fifteen Plays
 
