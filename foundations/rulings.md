@@ -24,6 +24,20 @@ that account's own record.
 
 ## Structure and discipline
 
+**2026-08-22 — A good component that strengthens the system beats a great one that does
+not.** A part is judged by what it does to the whole, never by its quality in isolation.
+*Consequence for construction:* connection outranks polish — an unreachable file has no value
+a better draft of it would recover, so the fix is the route, not the rewrite.
+*Consequence for review:* a component already doing its job is finished, and improving it
+further buys nothing the system can spend. *Worked example, same day:* `motions/playbooks/`
+and `motions/dormant/` held nine capable files unreachable from `CONTEXT.md` — plain contracts
+plus four router rows were worth more than any rewrite of the files could have been, while
+`CLAUDE.md` at 89 lines against the 60-line target was left alone because it already routes
+correctly and carries no content payload. *Provenance:* the operator's formulation, 08-22;
+recorded as the operator's statement of it, with no third-party source inferred.
+*Reverses if:* a component's own weakness is what breaks the system around it, which collapses
+quality and connection into the same question rather than competing ones.
+
 **2026-08-11 — The laws are laws, not principles.** The eight functions describe what any
 revenue system must do; a system failing one fails regardless of design choices.
 Principles guide design and could be chosen otherwise. *Consequence:* the derivation check
