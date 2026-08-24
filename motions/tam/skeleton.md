@@ -1,9 +1,3 @@
----
-type: workflow
-provenance: michael-course
-maturity: standard
----
-
 # Workflow: TAM Campaign
 
 *How we go from a market definition to a running outbound program — the list-construction

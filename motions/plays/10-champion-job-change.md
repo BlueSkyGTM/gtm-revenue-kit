@@ -1,9 +1,3 @@
----
-type: play
-provenance: michael-course
-maturity: standard
----
-
 # Play: Champion Job Change
 
 People who loved the product carry it with them. When a past champion — someone who used,

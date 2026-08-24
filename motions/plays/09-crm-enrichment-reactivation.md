@@ -1,9 +1,3 @@
----
-type: play
-provenance: michael-course
-maturity: standard
----
-
 # Play: CRM Enrichment and Reactivation
 
 The CRM is a signal source pointed inward: it is full of people who already raised a hand

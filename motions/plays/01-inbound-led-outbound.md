@@ -1,9 +1,3 @@
----
-type: play
-provenance: michael-course
-maturity: standard
----
-
 # Play: Inbound-Led Outbound
 
 A visitor identification service turns anonymous website traffic into named accounts, and

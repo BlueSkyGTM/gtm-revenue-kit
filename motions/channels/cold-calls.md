@@ -1,9 +1,3 @@
----
-type: channel
-provenance: michael-course
-maturity: standard
----
-
 # Playbook: Cold Calls (Channel Strategy)
 
 *When calling pays, the three numbers that run the channel, how to choose dialing

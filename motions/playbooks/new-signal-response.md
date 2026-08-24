@@ -1,9 +1,3 @@
----
-type: guide
-provenance: upstream
-maturity: standard
----
-
 # Playbook: New Signal Response
 
 *What to do when a signal fires. Step-by-step from detection to first touch.*

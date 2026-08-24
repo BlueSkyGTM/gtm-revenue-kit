@@ -1,9 +1,3 @@
----
-type: channel
-provenance: michael-course
-maturity: standard
----
-
 # Playbook: Cold Email (Channel Strategy)
 
 *How to run cold email as a channel — the economics, the testing discipline, the stack shape,

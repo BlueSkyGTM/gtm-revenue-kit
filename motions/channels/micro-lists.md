@@ -1,9 +1,3 @@
----
-type: channel
-provenance: michael-course
-maturity: standard
----
-
 # Playbook: Micro-Lists & 1:1 Outreach (Channel Strategy)
 
 *The high-touch end of outbound: very small, sharply segmented lists worked with deep

@@ -1,9 +1,3 @@
----
-type: play
-provenance: michael-course
-maturity: foundation
----
-
 # Play: TAM Sourcing and Tiering
 
 Not an event play — the foundation the event plays stand on. The whole addressable market is

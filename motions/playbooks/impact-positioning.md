@@ -1,9 +1,3 @@
----
-type: guide
-provenance: operator
-maturity: standard
----
-
 # Playbook: IMPACT Positioning — build a buyer's full positioning set
 
 *The six construction steps that take a new buyer from "we should sell to them" to a complete,

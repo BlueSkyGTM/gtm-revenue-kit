@@ -1,9 +1,3 @@
----
-type: play
-provenance: michael-course
-maturity: standard
----
-
 # Play: Competitor Crisis Response
 
 Most urgency in outbound is manufactured; this play waits for the real thing. When a direct

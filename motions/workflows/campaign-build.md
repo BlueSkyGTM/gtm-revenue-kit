@@ -1,9 +1,3 @@
----
-type: workflow
-provenance: upstream
-maturity: standard
----
-
 # Workflow: Campaign Build
 
 *How we go from a target segment to a live campaign. The end-to-end process — from list to launch.*

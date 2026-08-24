@@ -1,9 +1,3 @@
----
-type: workflow
-provenance: upstream
-maturity: standard
----
-
 # Workflow: Account Enrichment
 
 *How we enrich accounts and contacts. Run this before any scoring or outreach to ensure data quality.*

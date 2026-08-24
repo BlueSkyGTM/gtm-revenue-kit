@@ -1,9 +1,3 @@
----
-type: play
-provenance: michael-course
-maturity: standard
----
-
 # Play: Social Engagement Signal
 
 People researching a purchase educate themselves in public: they follow, like, and comment on

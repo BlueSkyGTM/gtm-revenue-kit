@@ -1,9 +1,3 @@
----
-type: workflow
-provenance: michael-course
-maturity: standard
----
-
 # Enrichment Techniques
 
 *A technique reference extending `motions/workflows/enrichment.md`. That file says what to enrich and
