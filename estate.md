@@ -37,6 +37,13 @@ one-home-per-fact. Until then they stay, and nothing new of that kind is added h
 
 ## Deployments — which copy holds what
 
+> **This copy is a published snapshot [2026-08-24].** The kit was rolled into a private
+> business OS on 2026-08-23 and is edited there; this public copy is the work sample. The
+> table below is the map **as it stood at publication**, not a live one — deployments moved
+> on afterwards, and the current map travels with the authoritative copy. Read the rows as a
+> record of how the estate was organised, which is what they are worth here. The same applies
+> to the plan of record under them and to the statuses in `accounts/_index.md`.
+
 Core is copied identically into every deployment; an account lives in exactly one
 (principle 6). This table is the map; `accounts/_index.md` is the per-account catalog.
 

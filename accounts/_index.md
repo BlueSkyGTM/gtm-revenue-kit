@@ -9,6 +9,10 @@
 > a removed account folder out of history to answer a live question). The rule this note
 > applies, and the full which-copy-holds-what map, is `estate.md`.
 
+> **Snapshot note [2026-08-24]:** the authoritative copy of this kit moved into a private
+> business OS on 2026-08-23 and is edited there. The rows below are accurate **as of
+> publication** and are not maintained here — statuses and deployments changed afterwards.
+
 The catalog: one line per account, the declared source of truth for what accounts exist,
 their tier, and where each stands. Lifecycle: `scaffolded → configured → live → paused`.
 
